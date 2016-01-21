@@ -1,7 +1,17 @@
 Title: Tsipras, go to Hell
 Date: 2015-07-10 23:30
 Tags: Austerity, Greece, SYRIZA, Alexis Tsipras, Rant
-Summary: So it's come to this. After my fierce criticism a few weeks ago, Greek prime minister Alexis Tsipras briefly managed to redeem himself somewhat in my opinion by calling a referendum on the (incredibly bad) deal which Greece had been offered and asking people to vote "no." Much to everyone's surprise, they did and "no" won by a landslide. But now he's gone and proposed a deal even worse than the one which was rejected. So, Alexis Tsipras, I have a very simple message for you.
+Summary: Once the initial disappointment was over, I was able to step back and appreciate that this was a rather infantile post. While I stand by my comments that Tsipras was naive and feel that, if they weren't going to use it to fight back against the EU, calling the referendum was ultimately harmful because of the ensuing economic turmoil, name calling such as this is not very helpful. On the other hand, I don't wish to erase history, so I have decided to leave the post up, but with this disclaimer.
+
+_Edit: Once the initial disappointment was over, I was able to step back and
+appreciate that this was a rather infantile post. While I stand by my comments
+that Tsipras was naive and feel that, if they weren't going to use it to fight
+back against the EU, calling the referendum was ultimately harmful because of
+the ensuing economic turmoil, name calling such as this is
+not very helpful. On the other hand, I don't wish to erase history, so I have
+decided to leave the post up, but with this disclaimer._
+
+_January 21, 2016_
 
 So it's come to this. After my fierce criticism a
 [few weeks ago]({filename}/Politics/syrizaSidelined.md),

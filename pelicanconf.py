@@ -3,10 +3,10 @@
 from __future__ import unicode_literals
 from datetime import date
 
-AUTHOR = u'C MacMackin'
+AUTHOR = u'C. MacMackin'
 SITENAME = u'The Political Physicist'
 SITESUBTITLE = u'&nbspThe ramblings of a left-wing grad student&hellip;'# in the city of dreaming spires&hellip;'
-SITEURL = 'http://politicalphysicist.github.io'
+SITEURL = 'https://politicalphysicist.github.io'
 PROFILE_IMAGE = '{filename}/images/subfusc.jpg'
 FAVICON = '{filename}/images/favicon.png'
 BACKDROP_IMAGE = '{filename}/images/oxford.jpg'
