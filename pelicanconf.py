@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 from datetime import date
-
+ 
 AUTHOR = u'C MacMackin'
 SITENAME = u'The Political Physicist'
 SITESUBTITLE = u'&nbspThe ramblings of a left-wing grad student&hellip;'# in the city of dreaming spires&hellip;'
