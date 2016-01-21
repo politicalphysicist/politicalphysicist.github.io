@@ -81,8 +81,8 @@ s3_upload: publish
 github: publish
 	git add .
 	git commit -m "Updated blog contents, $(NOW)"
-	ghp-import $(OUTPUTDIR)
-	git push origin gh-pages
+	ghp-import -b master $(OUTPUTDIR)
+	git push origin source
 	git push origin master
 
 .PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload github
