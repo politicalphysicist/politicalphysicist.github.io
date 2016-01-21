@@ -1,0 +1,337 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <link rel="icon" href="http://politicalphysicist.github.io/images/favicon.png" />
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="C MacMackin" />
+        <title>Blog, Rebooted</title>
+        
+<meta name="description" content="&lt;p&gt;After years of dragging my feet, I have finally designed a new theme for my blog, using the &lt;a href=&#34;http://foundation.zurb.com/&#34;&gt;Foundation&lt;/a&gt; &lt;span class=&#34;caps&#34;&gt;CSS&lt;/span&gt; package. Along with the new theme, I have updated the information on all of the static pages and moved it to GitHub pages. Perhaps most importantly, I have renamed and rebranded in order to reflect my evolving identity, both personally and politically; my blog is now called &lt;em&gt;The Political Physicist&lt;/em&gt;.&lt;/p&gt;" />
+<meta name="keywords" content=" Blogging HTML CSS Foundation Pelican  "/>
+
+        <link rel="stylesheet" href="http://politicalphysicist.github.io/theme/css/backdrop.css" />
+        <link rel="stylesheet" href="http://politicalphysicist.github.io/theme/css/pygments.css" />
+        <script src="http://politicalphysicist.github.io/theme/js/modernizr.js"></script>
+
+        <link href="http://politicalphysicist.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="The Political Physicist Full Atom Feed" />
+        <link href="http://politicalphysicist.github.io/feeds/computers.atom.xml" type="application/atom+xml" rel="alternate" title="The Political Physicist Categories Atom Feed" />
+
+        <script type="text/javascript">
+            var disqus_shortname = 'redshades'; 
+
+            (function () {
+                var s = document.createElement('script'); s.async = true;
+                s.type = 'text/javascript';
+                s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+                (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+            }());
+        </script>
+    </head>
+      
+
+    <body>
+        <div class="master-row">
+
+            <div class="content-pane">
+                <div id="content1">
+                <nav class="top-bar" data-topbar role="navigation">
+                    <ul class="title-area">
+                        <li class="name"><!-- Leave this empty --></li>
+                        <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+                    </ul>
+                    <section class="top-bar-section">
+                        <ul class="left">
+                            <li><a href="http://politicalphysicist.github.io/pages/about.html">About</a></li>
+                            <li><a href="http://politicalphysicist.github.io/pages/software.html">Software</a></li>
+                            <li><a href="http://politicalphysicist.github.io/pages/technical.html">Technical</a></li>
+                        </ul>
+                        <ul class="right">
+                            <li class="active"><a href="http://politicalphysicist.github.io/category/computers.html">Computers</a></li>
+                            <li><a href="http://politicalphysicist.github.io/category/politics.html">Politics</a></li>
+                            <li><a href="http://politicalphysicist.github.io/category/science.html">Science</a></li>
+                            <li><a href="http://politicalphysicist.github.io/category/thoughts.html">Thoughts</a></li>
+                        </ul>
+                    </section>
+                </nav>
+
+                <div class="row title-bar">
+                    <div class="small-12 columns">
+                        <h1><a href="http://politicalphysicist.github.io">The Political Physicist</a></h1><h2> <small>&nbspThe ramblings of a left-wing grad student&hellip;</small></h2>
+                        <hr>
+                    </div>
+                </div>
+            
+                <div id="contents">
+<div class="row">
+    <div class="small-12 columns article">
+        <h2>Blog,&nbsp;Rebooted</h2>
+        <div class="row info-bar" style="margin-left:0rem;margin-bottom:6px;">
+    <div class="small-12 columns">
+        <ul class="inline-list">
+            <li><span><i class="fa fa-calendar"></i>&nbsp; Sun 17 May 2015</span></li>
+            <li><span><i class="fa fa-folder-open"></i>&nbsp; <a href="http://politicalphysicist.github.io/category/computers.html">Computers</a></span></li>
+            <li><span><i class="fa fa-comments"></i>&nbsp; <a href="http://politicalphysicist.github.io/blog-rebooted.html#disqus_thread" rel="bookmark" title="Disqus Comments">Blog,&nbsp;Rebooted</a></span></li>
+            <li>
+                <span>
+                    <i class="fa fa-tags"></i>&nbsp;
+                    <a href="http://politicalphysicist.github.io/tag/blogging.html"><span class="label">Blogging</span></a>
+                    <a href="http://politicalphysicist.github.io/tag/html.html"><span class="label">HTML</span></a>
+                    <a href="http://politicalphysicist.github.io/tag/css.html"><span class="label">CSS</span></a>
+                    <a href="http://politicalphysicist.github.io/tag/foundation.html"><span class="label">Foundation</span></a>
+                    <a href="http://politicalphysicist.github.io/tag/pelican.html"><span class="label">Pelican</span></a>
+                </span>
+            </li>
+        </ul>
+    </div>
+</div>
+        <section class="article">
+            <p><img alt="The silhouette of a &quot;dreaming spire&quot; in Oxford. A larger version of my new favicon." src="http://politicalphysicist.github.io/images/spire-smaller.png" />
+For awhile now I&#8217;ve been meaning to create a new theme for my blog. Previously
+I was using a modified version of the
+<a href="https://github.com/getpelican/pelican-themes/tree/master/gum">Gum theme</a>, but
+I wanted one which was all my own. I also decided that I wanted a distinctly
+different look for my blog, using serif fonts and darker colours. Years of
+procrastination finally came to an end when I knew that I would need to design
+such a theme for a professional website (I&#8217;ll post more on that once it&#8217;s
+finished) and thought I might as well design a similar blog theme while I was
+at it. You can find the theme
+<a href="https://github.com/cmacmackin/backdrop-theme">on GitHub</a>.
+You may also notice
+that I have a new favicon (shown here at higher resolution). This is the
+silhouette of one of Oxford&#8217;s many &#8220;dreaming spires.&#8221; For those of you who
+don&#8217;t know, I&#8217;ll be starting my graduate studies at Oxford this fall. As I quite
+like Oxford&#8217;s nickname as &#8220;the city of dreaming spires,&#8221; I decided that
+this would be a nice symbol for my blog. Incidentally, that silhouette was
+traced from the image to the right (or on the bottom, depending on your screen&nbsp;size).</p>
+<p>While I was at it, I got around to updating various pages on this website. I
+have added a more detailed About page, provided an up-to-date listing of
+software that I have written, and changed the Technical page to more accurately
+represent how the blog now works. I have also reorganized the categories I give
+articles, eliminating the two which had the fewest articles. As a note, those
+articles were not deleted&#8212;simply folded into other categories. The main
+motivation for this was simply to ensure that everything fit well on the
+navigation bar. Next year I will be moving back into residence for grad school
+and thus won&#8217;t be able to run a server on which to host my blog. In preparation
+for this, I decided to move it to GitHub pages. This will likely also be (at
+least temporarily) the host of my professional website, once it is&nbsp;completed.</p>
+<p>Most importantly, I decided to change the name of my blog from <em>Red Shades of
+Green</em>. I had originally chosen that title in order to reflect that I was
+concerned about the environment, but that I was a bit of a pinko. Since then,
+I feel that I have become much more stridently left-wing and, at the same time,
+have lost a certain amount of patience with the environmental movement and the
+behaviour of ecosocialists. Not to say that I care about the environment any
+less; I simply take a different approach to the issue than I used to<sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup>.
+One which is more firmly pro-technology. And one which integrates environmental
+issues into socialism, rather than the other way around. I suppose these days
+a more accurate title would be <em>Green Shades of Red</em>.</p>
+<p>Instead I went with <em>The Political Physicist</em>. At risk of explaining the
+obvious, this is a play on political science. As a scientist (well, a student
+scientist) who cares deeply about politics, you might say that I&#8217;m a political
+scientist. However, this makes it sound like I study political science, rather
+than physics. And the rest, as they say, is&nbsp;history.</p>
+<p><img alt="Relativity is a communist conspiracy. Of course, as it happens, Einstein actually _was_ a socialist." class="img-center" src="http://politicalphysicist.github.io/images/SocialistRelativity.png" /></p>
+<p>But while the appearance, location, and name of my blog has changed, none of the
+content has really. I will still write my extremely biased political articles.
+I will still complain about petty things, like the use of the phrase &#8220;growing
+exponentially,&#8221; and I&#8217;ll still write in great detail about programming and
+software despite the fact that most of my audience can&#8217;t understand a thing I
+say about it. Even as I prepare to travel across the ocean to spend the next
+three years in grad school, studying a totally different branch of physics from
+what I have so far, I am still essentially the same person and that fact is
+reflected here. As I enter this new chapter of my life, I invite you all to
+share the adventure with me, knowing that, in all probability, at the end of it
+I will be just as neurotic, pedantic, and idealistic as I am&nbsp;today.</p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>And have come to accept that I will never quite see eye-to-eye with ecosocialists on a number of issues.&#160;<a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>    
+        </section>
+        <hr>
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = "redshades"; // required: replace example with your forum shortname
+            var disqus_identifier = "blog,-rebooted";
+            var disqus_url = "http://politicalphysicist.github.io/blog-rebooted.html";
+            var disqus_title = "Blog, Rebooted";
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+</div>
+                </div>
+                </div>
+
+                <footer id="foot" class="show-for-large-up">
+<div class="small-6 medium-3 columns">
+    <ul class="left-nav">
+        <li><a href="http://politicalphysicist.github.io">Home &nbsp;<i class="fa fa-home fa-fw"></i></a></li>
+        <li><a href="http://politicalphysicist.github.io/categories.html">Categories &nbsp;<i class="fa fa-folder-open fa-fw"></i></a></li>
+    </ul>
+</div>
+<div class="small-6 medium-3 medium-push-6 columns">
+    <ul class="right-nav">
+        <li><a href="http://politicalphysicist.github.io/feeds/all.atom.xml"><i class="fa fa-rss fa-fw"></i>&nbsp; Feed</a></li>
+        <li><a href="http://politicalphysicist.github.io/archives.html"><i class="fa fa-archive fa-fw"></i>&nbsp; Archives</a></li>
+    </ul>
+</div>
+<div class="small-12 medium-6 medium-pull-3 columns text-center">
+    <p class="tag-cloud">
+        <a href="http://politicalphysicist.github.io/tags.html"><i class="fa fa-tags"></i>&nbsp;Tags:</a>&nbsp;&nbsp;
+        <a href="http://politicalphysicist.github.io/tag/austerity.html"><span class="label">Austerity</span></a>
+        <a href="http://politicalphysicist.github.io/tag/python.html"><span class="label">Python</span></a>
+        <a href="http://politicalphysicist.github.io/tag/blogging.html"><span class="label">Blogging</span></a>
+        <a href="http://politicalphysicist.github.io/tag/software.html"><span class="label">Software</span></a>
+        <a href="http://politicalphysicist.github.io/tag/programming.html"><span class="label">Programming</span></a>
+        <a href="http://politicalphysicist.github.io/tag/pelican.html"><span class="label">Pelican</span></a>
+        <a href="http://politicalphysicist.github.io/tag/british-politics.html"><span class="label">British Politics</span></a>
+        <a href="http://politicalphysicist.github.io/tag/socialism.html"><span class="label">Socialism</span></a>
+        <a href="http://politicalphysicist.github.io/tag/personal.html"><span class="label">Personal</span></a>
+        <a href="http://politicalphysicist.github.io/tag/mathematics.html"><span class="label">Mathematics</span></a>
+        <a href="http://politicalphysicist.github.io/tag/europe.html"><span class="label">Europe</span></a>
+        <a href="http://politicalphysicist.github.io/tag/syriza.html"><span class="label">SYRIZA</span></a>
+        <a href="http://politicalphysicist.github.io/tag/fortran.html"><span class="label">Fortran</span></a>
+        <a href="http://politicalphysicist.github.io/tag/university.html"><span class="label">University</span></a>
+        <a href="http://politicalphysicist.github.io/tag/thoughts.html"><span class="label">Thoughts</span></a>
+        &nbsp;&hellip;
+    </p>
+</div>
+<div class="small-12 columns sub-footer">
+    <hr>
+    <div class="small-12 medium-6 columns">
+        <p class="small-text-center medium-text-left">
+            &copy; 2016 C MacMackin <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+            <!-- <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="cc.png" /></a>-->
+        </p>
+    </div>
+    <div class="small-12 medium-6 columns">
+        <p class="small-text-center medium-text-right">
+            Proudly powered by <a href="http://blog.getpelican.com/">Pelican</a>,
+            which takes great advantage of <a href="https://www.python.org/">Python</a>.
+        </p>
+    </div>
+</div>                </footer>
+            </div>
+            
+            <div class="image-pane" style="background: url('http://politicalphysicist.github.io/images/oxford.jpg'); background-size:cover; background-position: right;">
+                <div class="row">
+                    <div class="small-12 medium-4 large-12 columns">
+                        <h5 class='text-center'>C MacMackin</h5>
+                        <div class="about-me">
+                            <div class="hide-for-medium-only small-3 columns no-buffer">
+                                <a class="th" href="http://politicalphysicist.github.io/images/subfusc.jpg">
+                                    <img src="http://politicalphysicist.github.io/images/subfusc.jpg">
+                                </a>
+                            </div>
+                            <div class="small-9 medium-12 large-9 columns text-justify">
+                                I am a DPhil student at Oxford studying Atmospheric, Oceanic and Planetary Physics. Outside of my studies, I am interested in computer programming and left-wing politics. 
+                            </div>
+                            <div class="small-12 columns">
+                                <ul class="inline-center social-list">
+                                    <li><a href="mailto:politicalphysicist@gmail.com"><i class="fa fa-envelope"></i>&nbsp; Email</a></li>
+                                    <li><a href="https://www.facebook.com/cmacmackin"><i class="fa fa-facebook"></i>&nbsp; Facebook</a></li>
+                                    <li><a href="https://github.com/cmacmackin"><i class="fa fa-github"></i>&nbsp; GitHub</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="small-8 medium-4  large-8 small-offset-2 medium-offset-0 large-offset-2 columns link-list">
+                    <h5 class="text-center">Search</h5>
+                    <form action="http://politicalphysicist.github.io/search.html">
+                    <input type="text" name="q" id="tipue_search_input" placeholder="Search for keyword or phrase" autocomplete="off" required>
+                    </form>
+                    </div>
+
+                    <div class="small-12 medium-4  large-12 columns link-list">
+                        <h5 class='text-center'>Links</h5>
+                        <ul class="inline-center">
+                            <li><a href="http://linuxmint.com/">Linux Mint</a></li>
+                            <li><a href="http://newscientist.com">New Scientist</a></li>
+                            <li><a href="http://degenerateconic.com/">Degenerate Conic</a></li>
+                            <li><a href="http://rabble.ca/taxonomy/term/19493/0">Michael Laxer</a></li>
+                            <li><a href="http://www.socialistproject.ca">Socialist Project</a></li>
+                            <li><a href="http://leftunity.org/">Left Unity</a></li>
+                            <li><a href="http://www.smbc-comics.com/">SMBC</a></li>
+                            <li><a href="http://xkcd.com/">XKCD</a></li>
+                            <li><a href="http://www2.physics.ox.ac.uk/research/atmospheric-oceanic-and-planetary-physics">AOPP Subdepartment</a></li>
+                        </ul>
+                    </div>
+               </div>
+            </div>
+        </div>
+        
+        
+        <div class="row">
+            <footer class="hide-for-large-up">
+<div class="small-6 medium-3 columns">
+    <ul class="left-nav">
+        <li><a href="http://politicalphysicist.github.io">Home &nbsp;<i class="fa fa-home fa-fw"></i></a></li>
+        <li><a href="http://politicalphysicist.github.io/categories.html">Categories &nbsp;<i class="fa fa-folder-open fa-fw"></i></a></li>
+    </ul>
+</div>
+<div class="small-6 medium-3 medium-push-6 columns">
+    <ul class="right-nav">
+        <li><a href="http://politicalphysicist.github.io/feeds/all.atom.xml"><i class="fa fa-rss fa-fw"></i>&nbsp; Feed</a></li>
+        <li><a href="http://politicalphysicist.github.io/archives.html"><i class="fa fa-archive fa-fw"></i>&nbsp; Archives</a></li>
+    </ul>
+</div>
+<div class="small-12 medium-6 medium-pull-3 columns text-center">
+    <p class="tag-cloud">
+        <a href="http://politicalphysicist.github.io/tags.html"><i class="fa fa-tags"></i>&nbsp;Tags:</a>&nbsp;&nbsp;
+        <a href="http://politicalphysicist.github.io/tag/austerity.html"><span class="label">Austerity</span></a>
+        <a href="http://politicalphysicist.github.io/tag/python.html"><span class="label">Python</span></a>
+        <a href="http://politicalphysicist.github.io/tag/blogging.html"><span class="label">Blogging</span></a>
+        <a href="http://politicalphysicist.github.io/tag/software.html"><span class="label">Software</span></a>
+        <a href="http://politicalphysicist.github.io/tag/programming.html"><span class="label">Programming</span></a>
+        <a href="http://politicalphysicist.github.io/tag/pelican.html"><span class="label">Pelican</span></a>
+        <a href="http://politicalphysicist.github.io/tag/british-politics.html"><span class="label">British Politics</span></a>
+        <a href="http://politicalphysicist.github.io/tag/socialism.html"><span class="label">Socialism</span></a>
+        <a href="http://politicalphysicist.github.io/tag/personal.html"><span class="label">Personal</span></a>
+        <a href="http://politicalphysicist.github.io/tag/mathematics.html"><span class="label">Mathematics</span></a>
+        <a href="http://politicalphysicist.github.io/tag/europe.html"><span class="label">Europe</span></a>
+        <a href="http://politicalphysicist.github.io/tag/syriza.html"><span class="label">SYRIZA</span></a>
+        <a href="http://politicalphysicist.github.io/tag/fortran.html"><span class="label">Fortran</span></a>
+        <a href="http://politicalphysicist.github.io/tag/university.html"><span class="label">University</span></a>
+        <a href="http://politicalphysicist.github.io/tag/thoughts.html"><span class="label">Thoughts</span></a>
+        &nbsp;&hellip;
+    </p>
+</div>
+<div class="small-12 columns sub-footer">
+    <hr>
+    <div class="small-12 medium-6 columns">
+        <p class="small-text-center medium-text-left">
+            &copy; 2016 C MacMackin <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+            <!-- <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="cc.png" /></a>-->
+        </p>
+    </div>
+    <div class="small-12 medium-6 columns">
+        <p class="small-text-center medium-text-right">
+            Proudly powered by <a href="http://blog.getpelican.com/">Pelican</a>,
+            which takes great advantage of <a href="https://www.python.org/">Python</a>.
+        </p>
+    </div>
+</div>            </footer>
+        </div>
+        
+        
+        <script src="http://politicalphysicist.github.io/theme/js/jquery.min.js"></script>
+        <script src="http://politicalphysicist.github.io/theme/js/foundation.min.js"></script>
+        <script src="http://politicalphysicist.github.io/theme/js/app.js"></script>
+    </body>
+  
+  
+</html>

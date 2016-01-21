@@ -1,0 +1,272 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <link rel="icon" href="http://politicalphysicist.github.io/images/favicon.png" />
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="C MacMackin" />
+        <title>Software</title>
+        
+        <meta name="description" content="&nbspThe ramblings of a left-wing grad student&hellip;" />
+        <meta name="keywords" content="Blog Socialism Physics Mathematics Politics Environment Computers Linux Open Source Climate "/>
+
+        <link rel="stylesheet" href="http://politicalphysicist.github.io/theme/css/backdrop.css" />
+        <link rel="stylesheet" href="http://politicalphysicist.github.io/theme/css/pygments.css" />
+        <script src="http://politicalphysicist.github.io/theme/js/modernizr.js"></script>
+
+        <link href="http://politicalphysicist.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="The Political Physicist Full Atom Feed" />
+
+        <script type="text/javascript">
+            var disqus_shortname = 'redshades'; 
+
+            (function () {
+                var s = document.createElement('script'); s.async = true;
+                s.type = 'text/javascript';
+                s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+                (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+            }());
+        </script>
+    </head>
+      
+
+    <body>
+        <div class="master-row">
+
+            <div class="content-pane">
+                <div id="content1">
+                <nav class="top-bar" data-topbar role="navigation">
+                    <ul class="title-area">
+                        <li class="name"><!-- Leave this empty --></li>
+                        <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+                    </ul>
+                    <section class="top-bar-section">
+                        <ul class="left">
+                            <li><a href="http://politicalphysicist.github.io/pages/about.html">About</a></li>
+                            <li class="active"><a href="http://politicalphysicist.github.io/pages/software.html">Software</a></li>
+                            <li><a href="http://politicalphysicist.github.io/pages/technical.html">Technical</a></li>
+                        </ul>
+                        <ul class="right">
+                            <li><a href="http://politicalphysicist.github.io/category/computers.html">Computers</a></li>
+                            <li><a href="http://politicalphysicist.github.io/category/politics.html">Politics</a></li>
+                            <li><a href="http://politicalphysicist.github.io/category/science.html">Science</a></li>
+                            <li><a href="http://politicalphysicist.github.io/category/thoughts.html">Thoughts</a></li>
+                        </ul>
+                    </section>
+                </nav>
+
+                <div class="row title-bar">
+                    <div class="small-12 columns">
+                        <h1><a href="http://politicalphysicist.github.io">The Political Physicist</a></h1><h2> <small>&nbspThe ramblings of a left-wing grad student&hellip;</small></h2>
+                        <hr>
+                    </div>
+                </div>
+            
+                <div id="contents">
+<div class="row">
+    <div class="small-12 columns article">
+        <h2>Software</h2>
+        <section>
+            <p>I enjoy programming and have a variety of projects which I share on GitHub. A
+selection of some of the most notable is described below. I mostly program in
+<a href="http://fortranwiki.org/fortran/show/HomePage">Fortran</a>
+(for numerical projects) and <a href="https://www.python.org/">Python</a> (for most other
+things). I&#8217;ve also dabbled a bit with
+<a href="https://wiki.gnome.org/Projects/Vala">Vala</a>, which is quite a nice language
+designed for writing <span class="caps">GTK</span>&nbsp;applications.</p>
+<h3><a href="https://github.com/cmacmackin/futility">Futility</a></h3>
+<p>This is a collection of Fortran utilities which I have written. At the moment it
+is fairly sparse, but I hope to be adding more components to it over the
+summer. These will (hopefully) include a system of error-handling, routines
+for manipulating paths, routines for interacting with the file-system, and some
+common data&nbsp;structures.</p>
+<h3><a href="https://github.com/cmacmackin/ford"><span class="caps">FORD</span></a></h3>
+<p>An automatic documentation tool for modern Fortran programs. This software
+extracts information from comments and the structure of your code itself in
+order to generate a set of <span class="caps">HTML</span> pages describing the <span class="caps">API</span> of your program. I
+wrote it because <a href="http://www.stack.nl/~dimitri/doxygen/">Doxygen</a>, the most
+widely used automatic documentation tool, does not work well for Fortran, while
+<a href="http://rfsber.home.xs4all.nl/Robo/index.html">ROBODoc</a> can not analyze the
+source code at all, thus relying completely on comments. Furthermore, both
+of these projects use non-standard markup languages, whereas I wanted one which
+could process comments written in
+<a href="http://daringfireball.net/projects/markdown/syntax">Markdown</a>.
+Various configuration options are available for <span class="caps">FORD</span> and more will be added
+over&nbsp;time.</p>
+<h3><a href="https://github.com/cmacmackin/markdown-include">markdown-include</a></h3>
+<p>A small extension which I wrote for
+<a href="https://pythonhosted.org/Markdown/">Python-Markdown</a>. Originally this was
+prompted by a feature request on my <span class="caps">FORD</span> project. It allows the contents of
+an external Markdown file to be placed within those of the file being&nbsp;processed.</p>
+<h3><a href="https://github.com/cmacmackin/backdrop-theme">backdrop-theme</a></h3>
+<p>The Pelican static site generator theme used for this blog. You can clone
+the repository and generate it using <a href="http://gruntjs.com/">Grunt</a> and
+<a href="http://sass-lang.com/">Sass</a>, or you can clone the
+<a href="https://github.com/getpelican/pelican-themes">Pelican Themes</a> repository and
+use the pre-built version available&nbsp;there.</p>    
+        </section>
+    </div>
+</div>
+                </div>
+                </div>
+
+                <footer id="foot" class="show-for-large-up">
+<div class="small-6 medium-3 columns">
+    <ul class="left-nav">
+        <li><a href="http://politicalphysicist.github.io">Home &nbsp;<i class="fa fa-home fa-fw"></i></a></li>
+        <li><a href="http://politicalphysicist.github.io/categories.html">Categories &nbsp;<i class="fa fa-folder-open fa-fw"></i></a></li>
+    </ul>
+</div>
+<div class="small-6 medium-3 medium-push-6 columns">
+    <ul class="right-nav">
+        <li><a href="http://politicalphysicist.github.io/feeds/all.atom.xml"><i class="fa fa-rss fa-fw"></i>&nbsp; Feed</a></li>
+        <li><a href="http://politicalphysicist.github.io/archives.html"><i class="fa fa-archive fa-fw"></i>&nbsp; Archives</a></li>
+    </ul>
+</div>
+<div class="small-12 medium-6 medium-pull-3 columns text-center">
+    <p class="tag-cloud">
+        <a href="http://politicalphysicist.github.io/tags.html"><i class="fa fa-tags"></i>&nbsp;Tags:</a>&nbsp;&nbsp;
+        <a href="http://politicalphysicist.github.io/tag/austerity.html"><span class="label">Austerity</span></a>
+        <a href="http://politicalphysicist.github.io/tag/python.html"><span class="label">Python</span></a>
+        <a href="http://politicalphysicist.github.io/tag/blogging.html"><span class="label">Blogging</span></a>
+        <a href="http://politicalphysicist.github.io/tag/software.html"><span class="label">Software</span></a>
+        <a href="http://politicalphysicist.github.io/tag/programming.html"><span class="label">Programming</span></a>
+        <a href="http://politicalphysicist.github.io/tag/pelican.html"><span class="label">Pelican</span></a>
+        <a href="http://politicalphysicist.github.io/tag/british-politics.html"><span class="label">British Politics</span></a>
+        <a href="http://politicalphysicist.github.io/tag/socialism.html"><span class="label">Socialism</span></a>
+        <a href="http://politicalphysicist.github.io/tag/personal.html"><span class="label">Personal</span></a>
+        <a href="http://politicalphysicist.github.io/tag/mathematics.html"><span class="label">Mathematics</span></a>
+        <a href="http://politicalphysicist.github.io/tag/europe.html"><span class="label">Europe</span></a>
+        <a href="http://politicalphysicist.github.io/tag/syriza.html"><span class="label">SYRIZA</span></a>
+        <a href="http://politicalphysicist.github.io/tag/fortran.html"><span class="label">Fortran</span></a>
+        <a href="http://politicalphysicist.github.io/tag/university.html"><span class="label">University</span></a>
+        <a href="http://politicalphysicist.github.io/tag/thoughts.html"><span class="label">Thoughts</span></a>
+        &nbsp;&hellip;
+    </p>
+</div>
+<div class="small-12 columns sub-footer">
+    <hr>
+    <div class="small-12 medium-6 columns">
+        <p class="small-text-center medium-text-left">
+            &copy; 2016 C MacMackin <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+            <!-- <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="cc.png" /></a>-->
+        </p>
+    </div>
+    <div class="small-12 medium-6 columns">
+        <p class="small-text-center medium-text-right">
+            Proudly powered by <a href="http://blog.getpelican.com/">Pelican</a>,
+            which takes great advantage of <a href="https://www.python.org/">Python</a>.
+        </p>
+    </div>
+</div>                </footer>
+            </div>
+            
+            <div class="image-pane" style="background: url('http://politicalphysicist.github.io/images/oxford.jpg'); background-size:cover; background-position: right;">
+                <div class="row">
+                    <div class="small-12 medium-4 large-12 columns">
+                        <h5 class='text-center'>C MacMackin</h5>
+                        <div class="about-me">
+                            <div class="hide-for-medium-only small-3 columns no-buffer">
+                                <a class="th" href="http://politicalphysicist.github.io/images/subfusc.jpg">
+                                    <img src="http://politicalphysicist.github.io/images/subfusc.jpg">
+                                </a>
+                            </div>
+                            <div class="small-9 medium-12 large-9 columns text-justify">
+                                I am a DPhil student at Oxford studying Atmospheric, Oceanic and Planetary Physics. Outside of my studies, I am interested in computer programming and left-wing politics. 
+                            </div>
+                            <div class="small-12 columns">
+                                <ul class="inline-center social-list">
+                                    <li><a href="mailto:politicalphysicist@gmail.com"><i class="fa fa-envelope"></i>&nbsp; Email</a></li>
+                                    <li><a href="https://www.facebook.com/cmacmackin"><i class="fa fa-facebook"></i>&nbsp; Facebook</a></li>
+                                    <li><a href="https://github.com/cmacmackin"><i class="fa fa-github"></i>&nbsp; GitHub</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="small-8 medium-4  large-8 small-offset-2 medium-offset-0 large-offset-2 columns link-list">
+                    <h5 class="text-center">Search</h5>
+                    <form action="http://politicalphysicist.github.io/search.html">
+                    <input type="text" name="q" id="tipue_search_input" placeholder="Search for keyword or phrase" autocomplete="off" required>
+                    </form>
+                    </div>
+
+                    <div class="small-12 medium-4  large-12 columns link-list">
+                        <h5 class='text-center'>Links</h5>
+                        <ul class="inline-center">
+                            <li><a href="http://linuxmint.com/">Linux Mint</a></li>
+                            <li><a href="http://newscientist.com">New Scientist</a></li>
+                            <li><a href="http://degenerateconic.com/">Degenerate Conic</a></li>
+                            <li><a href="http://rabble.ca/taxonomy/term/19493/0">Michael Laxer</a></li>
+                            <li><a href="http://www.socialistproject.ca">Socialist Project</a></li>
+                            <li><a href="http://leftunity.org/">Left Unity</a></li>
+                            <li><a href="http://www.smbc-comics.com/">SMBC</a></li>
+                            <li><a href="http://xkcd.com/">XKCD</a></li>
+                            <li><a href="http://www2.physics.ox.ac.uk/research/atmospheric-oceanic-and-planetary-physics">AOPP Subdepartment</a></li>
+                        </ul>
+                    </div>
+               </div>
+            </div>
+        </div>
+        
+        
+        <div class="row">
+            <footer class="hide-for-large-up">
+<div class="small-6 medium-3 columns">
+    <ul class="left-nav">
+        <li><a href="http://politicalphysicist.github.io">Home &nbsp;<i class="fa fa-home fa-fw"></i></a></li>
+        <li><a href="http://politicalphysicist.github.io/categories.html">Categories &nbsp;<i class="fa fa-folder-open fa-fw"></i></a></li>
+    </ul>
+</div>
+<div class="small-6 medium-3 medium-push-6 columns">
+    <ul class="right-nav">
+        <li><a href="http://politicalphysicist.github.io/feeds/all.atom.xml"><i class="fa fa-rss fa-fw"></i>&nbsp; Feed</a></li>
+        <li><a href="http://politicalphysicist.github.io/archives.html"><i class="fa fa-archive fa-fw"></i>&nbsp; Archives</a></li>
+    </ul>
+</div>
+<div class="small-12 medium-6 medium-pull-3 columns text-center">
+    <p class="tag-cloud">
+        <a href="http://politicalphysicist.github.io/tags.html"><i class="fa fa-tags"></i>&nbsp;Tags:</a>&nbsp;&nbsp;
+        <a href="http://politicalphysicist.github.io/tag/austerity.html"><span class="label">Austerity</span></a>
+        <a href="http://politicalphysicist.github.io/tag/python.html"><span class="label">Python</span></a>
+        <a href="http://politicalphysicist.github.io/tag/blogging.html"><span class="label">Blogging</span></a>
+        <a href="http://politicalphysicist.github.io/tag/software.html"><span class="label">Software</span></a>
+        <a href="http://politicalphysicist.github.io/tag/programming.html"><span class="label">Programming</span></a>
+        <a href="http://politicalphysicist.github.io/tag/pelican.html"><span class="label">Pelican</span></a>
+        <a href="http://politicalphysicist.github.io/tag/british-politics.html"><span class="label">British Politics</span></a>
+        <a href="http://politicalphysicist.github.io/tag/socialism.html"><span class="label">Socialism</span></a>
+        <a href="http://politicalphysicist.github.io/tag/personal.html"><span class="label">Personal</span></a>
+        <a href="http://politicalphysicist.github.io/tag/mathematics.html"><span class="label">Mathematics</span></a>
+        <a href="http://politicalphysicist.github.io/tag/europe.html"><span class="label">Europe</span></a>
+        <a href="http://politicalphysicist.github.io/tag/syriza.html"><span class="label">SYRIZA</span></a>
+        <a href="http://politicalphysicist.github.io/tag/fortran.html"><span class="label">Fortran</span></a>
+        <a href="http://politicalphysicist.github.io/tag/university.html"><span class="label">University</span></a>
+        <a href="http://politicalphysicist.github.io/tag/thoughts.html"><span class="label">Thoughts</span></a>
+        &nbsp;&hellip;
+    </p>
+</div>
+<div class="small-12 columns sub-footer">
+    <hr>
+    <div class="small-12 medium-6 columns">
+        <p class="small-text-center medium-text-left">
+            &copy; 2016 C MacMackin <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+            <!-- <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="cc.png" /></a>-->
+        </p>
+    </div>
+    <div class="small-12 medium-6 columns">
+        <p class="small-text-center medium-text-right">
+            Proudly powered by <a href="http://blog.getpelican.com/">Pelican</a>,
+            which takes great advantage of <a href="https://www.python.org/">Python</a>.
+        </p>
+    </div>
+</div>            </footer>
+        </div>
+        
+        
+        <script src="http://politicalphysicist.github.io/theme/js/jquery.min.js"></script>
+        <script src="http://politicalphysicist.github.io/theme/js/foundation.min.js"></script>
+        <script src="http://politicalphysicist.github.io/theme/js/app.js"></script>
+    </body>
+  
+  
+</html>

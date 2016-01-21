@@ -1,0 +1,493 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <link rel="icon" href="http://politicalphysicist.github.io/images/favicon.png" />
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="C MacMackin" />
+        <title>Markov Chains and Gay Dating</title>
+        
+<meta name="description" content="&lt;p&gt;When you&amp;#8217;re gay and want a serious relationship, you have to deal with the fact that a lot of guys out there just want casual sex. Some days it feels like I must be the only gay guy in the city who actually wants commitment. However, it has been pointed out to me that because those who want serious relationships will tend to find each other and drop out of the dating pool, it will appear that a much greater portion of gay men want only casual sex than is actually the case. Digging out my old Linear Algebra textbook, I realized that there exists a useful tool to analyze this trend: Markov&amp;nbsp;Chains.&lt;/p&gt;" />
+<meta name="keywords" content=" Dating Markov Chains Mathematics Mathematical Models  "/>
+
+        <link rel="stylesheet" href="http://politicalphysicist.github.io/theme/css/backdrop.css" />
+        <link rel="stylesheet" href="http://politicalphysicist.github.io/theme/css/pygments.css" />
+        <script src="http://politicalphysicist.github.io/theme/js/modernizr.js"></script>
+
+        <link href="http://politicalphysicist.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="The Political Physicist Full Atom Feed" />
+        <link href="http://politicalphysicist.github.io/feeds/science.atom.xml" type="application/atom+xml" rel="alternate" title="The Political Physicist Categories Atom Feed" />
+
+        <script type="text/javascript">
+            var disqus_shortname = 'redshades'; 
+
+            (function () {
+                var s = document.createElement('script'); s.async = true;
+                s.type = 'text/javascript';
+                s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+                (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+            }());
+        </script>
+    </head>
+      
+
+    <body>
+        <div class="master-row">
+
+            <div class="content-pane">
+                <div id="content1">
+                <nav class="top-bar" data-topbar role="navigation">
+                    <ul class="title-area">
+                        <li class="name"><!-- Leave this empty --></li>
+                        <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+                    </ul>
+                    <section class="top-bar-section">
+                        <ul class="left">
+                            <li><a href="http://politicalphysicist.github.io/pages/about.html">About</a></li>
+                            <li><a href="http://politicalphysicist.github.io/pages/software.html">Software</a></li>
+                            <li><a href="http://politicalphysicist.github.io/pages/technical.html">Technical</a></li>
+                        </ul>
+                        <ul class="right">
+                            <li><a href="http://politicalphysicist.github.io/category/computers.html">Computers</a></li>
+                            <li><a href="http://politicalphysicist.github.io/category/politics.html">Politics</a></li>
+                            <li class="active"><a href="http://politicalphysicist.github.io/category/science.html">Science</a></li>
+                            <li><a href="http://politicalphysicist.github.io/category/thoughts.html">Thoughts</a></li>
+                        </ul>
+                    </section>
+                </nav>
+
+                <div class="row title-bar">
+                    <div class="small-12 columns">
+                        <h1><a href="http://politicalphysicist.github.io">The Political Physicist</a></h1><h2> <small>&nbspThe ramblings of a left-wing grad student&hellip;</small></h2>
+                        <hr>
+                    </div>
+                </div>
+            
+                <div id="contents">
+<div class="row">
+    <div class="small-12 columns article">
+        <h2>Markov Chains and Gay&nbsp;Dating</h2>
+        <div class="row info-bar" style="margin-left:0rem;margin-bottom:6px;">
+    <div class="small-12 columns">
+        <ul class="inline-list">
+            <li><span><i class="fa fa-calendar"></i>&nbsp; Tue 02 July 2013</span></li>
+            <li><span><i class="fa fa-folder-open"></i>&nbsp; <a href="http://politicalphysicist.github.io/category/science.html">Science</a></span></li>
+            <li><span><i class="fa fa-comments"></i>&nbsp; <a href="http://politicalphysicist.github.io/markov-chains-and-gay-dating.html#disqus_thread" rel="bookmark" title="Disqus Comments">Markov Chains and Gay&nbsp;Dating</a></span></li>
+            <li>
+                <span>
+                    <i class="fa fa-tags"></i>&nbsp;
+                    <a href="http://politicalphysicist.github.io/tag/dating.html"><span class="label">Dating</span></a>
+                    <a href="http://politicalphysicist.github.io/tag/markov-chains.html"><span class="label">Markov Chains</span></a>
+                    <a href="http://politicalphysicist.github.io/tag/mathematics.html"><span class="label">Mathematics</span></a>
+                    <a href="http://politicalphysicist.github.io/tag/mathematical-models.html"><span class="label">Mathematical Models</span></a>
+                </span>
+            </li>
+        </ul>
+    </div>
+</div>
+        <section class="article">
+            <p>So, in case you didn&#8217;t realize, dating when you&#8217;re gay is <em>hard</em>. Not to say 
+it&#8217;s easy for straight people, but at least you know that, when you talk to
+someone, the odds are that they at least have a compatible sexuality. Not to mention that<br />
+when you&#8217;re gay and want something serious you have to deal with the fact that
+a lot of guys out there just want casual sex. This, it seems, is especially true
+online and in gay bars. Some days it feels like I must be the only
+gay guy in the city who actually wants a committed, monogamous&nbsp;relationship.</p>
+<p>At some point, however it was pointed out to me that part of the reason it can
+feel that way is because those who want serious (read, monogamous) 
+relationships will tend to find each
+other and drop out of the dating pool&#8212;at least temporarily. Or, given my 
+science background, I prefer to think back to my high school chemistry classes
+and say that they precipitate out of the solution. (Actually, given the effect 
+that this has on the reaction&#8217;s rate and equilibrium, this might be a surprisingly
+apt analogy.) Thus it will
+seems as though there are artificially few gay men seeking what I want. Of 
+course, being someone who likes things to be quantitative, I wasn&#8217;t entirely 
+satisfied with such a qualitative explanation. I found myself wondering how
+dramatic was this affect and just how much it could bias what I&nbsp;see.</p>
+<p>Luckily, I remembered some concepts from my linear algebra classes that I thought
+would be useful in evaluating these questions. Taking out my old textbook, I
+quickly found that what I wanted are called Markov Chains. To quote the
+<a href="https://en.wikipedia.org/wiki/Markov_chain">Wikipedia article</a>, a Markov Chain&nbsp;is:</p>
+<blockquote>
+<p>&#8230; a mathematical system that undergoes transitions from one state to 
+another, between a finite or countable number of possible states. It is a 
+random process usually characterized as memoryless: the next state depends 
+only on the current state and not on the sequence of events that preceded&nbsp;it.</p>
+</blockquote>
+<p>For the purposes of this post, we will assume that there are only threes
+states for gay&nbsp;males:</p>
+<ol>
+<li>Interested in hookups&nbsp;(A)</li>
+<li>Interested in a serious relationship&nbsp;(B)</li>
+<li>In a serious relationship&nbsp;(C)</li>
+</ol>
+<p>This is obviously a gross oversimplification. In the future I may well add more
+categories. There are various other problems which will become apparent as we
+work through this simple analysis; I will point them out as we get to&nbsp;them.</p>
+<p>Now, Markov Chains can be represented by graphics such as the one below:
+<img alt="There are three circles, representing the three groups, with paths connecting them. On each path is a probability of someone following that path between time steps." src="http://politicalphysicist.github.io/images/markovDating.png" /></p>
+<p>The label <span class="math">\(P_{XY}\)</span> next to each of the arrows is the probability that a member
+of group X will move to group Y over some time-period&#8212;say, one month. These 
+probabilities can be represented by the following&nbsp;matrix: 
+</p>
+<div class="math">$$P = \begin{bmatrix} 
+P_{AA} &amp; P_{BA} &amp; P_{CA} \\\\\\\\
+P_{AB} &amp; P_{BB} &amp; P_{CB} \\\\\\\\
+P_{AC} &amp; P_{BC} &amp; P_{CC} 
+\end{bmatrix} .$$</div>
+<p>If you have some population of gay men then you can represent the number of men
+in each group as a&nbsp;vector 
+</p>
+<div class="math">$$\vec{N_0} = \left( \begin{array}{c} A_0 \\\\\\\\ B_0 \\\\\\\\ C_0 \end{array} \right).$$</div>
+<p>
+The number of people in each group after one month would then be given&nbsp;by
+</p>
+<div class="math">$$\vec{N_1} = P \vec{N_0}.$$</div>
+<p> More&nbsp;generally, </p>
+<div class="math">$$\vec{N_{n+1}} = P \vec{N_n}$$</div>
+<p> 
+implying&nbsp;that </p>
+<div class="math">$$\vec{N_k} = P^{k} \vec{N_0}.$$</div>
+<p> One of the properties of the 
+matrix representations of Markov Chains is&nbsp;that </p>
+<div class="math">$$\lim_{k \to \infty} P^{k}$$</div>
+<p> 
+converges to some matrix <span class="math">\(L\)</span> which represents the system&#8217;s equilibrium state. The
+columns of the matrix will all be the same vector, <span class="math">\(\vec{x}\)</span>, known as the
+steady-state probability vector. This represents the fraction of people
+in each group once the system has reached its steady-state. It follows that
+the system will eventually reach this configuration no matter what the
+starting&nbsp;conditions.</p>
+<p>So now we&#8217;ve set up a simple model of the gay dating scene. But, before I 
+continue, I need to highlight a weakness of this model; it doesn&#8217;t (explicitly) 
+account for age-groups. It can not  account for people&#8217;s attitudes changing as t
+hey mature or for the entrance of new, younger
+people into the dating pool. This has an impact on what values we choose when
+filling our matrix. For example, my suspicion is that many guys who are 
+initially into hookups will, after having had their fun and with some increased
+maturity, become tired of 
+them and want a more serious relationship. However, in the real world, this
+may be offset by new people entering the dating pool. None of this can be directly
+modelled here, which is a weakness of these simple
+Markov Chains. If I decide to continue this sort of analysis in future, it
+would suggest that I should abandon them in favour of a more complex model. 
+For the purposes of <em>this</em> article, let&#8217;s just assume that the
+people in the dating pool don&#8217;t mature or alter their attitudes. This is
+almost certainly wrong, but it would require a far more complicated model, in
+which the various probabilities depended not only on someone&#8217;s current 
+relationship status but also on their relationship history, to overcome this&nbsp;limitation.</p>
+<p>Given these simplifications, let&#8217;s see what assumptions we can reasonably make 
+about the value of our <span class="math">\(P\)</span>&nbsp;matrix:</p>
+<ol>
+<li>Someone who seeks hookups will not start looking for a relationship. 
+(<span class="math">\(P_{AB} = 0\)</span>)</li>
+<li>Occasionally a hookup will turn into a relationship. (<span class="math">\(P_{AC} &gt; 0\)</span>)</li>
+<li>Someone who wants a relationship will not change to wanting hookups. 
+(<span class="math">\(P_{BA} = 0\)</span>)</li>
+<li>Relationship generally last more than one iteration of the model. 
+(<span class="math">\(P_{CC} &gt; 0\)</span>)</li>
+<li>When a someone gets out of a relationship they will seek another relationship
+and not hookups. (<span class="math">\(P_{CA} = 0\)</span>)</li>
+</ol>
+<p>The last assumption is the one which strikes me as the most inaccurate, as 
+someone who entered a relationship via a hookup would probably go back to 
+hookups and someone who gets out of a long-term relationship might want to 
+partake in hookups for a little while before looking for a new relationship.
+However, to properly account for these things would require me to know the
+history of the system, which would mean I could no longer use a simple Markov&nbsp;Chain. </p>
+<p>We can now start filling in the&nbsp;matrix:
+</p>
+<div class="math">$$P = \begin{bmatrix} 
+1 - P_{AC} &amp; 0 &amp; 0 \\\\\\\\
+0 &amp; 1 - P_{BC} &amp; 1 - P_{CC} \\\\\\\\
+P_{AC} &amp; P_{BC} &amp; P_{CC} 
+\end{bmatrix} .$$</div>
+<p>Let&#8217;s say that each iteration of the model corresponds to one month. 
+Furthermore, let&#8217;s assume that someone seeking hookups has an ~1% chance of 
+ending up in a relationship over the course of a year, or a 0.1% chance of ending
+up in a relationship each month. We&#8217;ll assume that the probability of a 
+relationship lasting one year is ~50%, ie: there is a 94% chance they will last
+each month. These are numbers which I essentially made up, but they seem
+reasonable to me. Unfortunately, I have no idea what the odds are of someone 
+entering a relationship each month. I&#8217;ll just guess and say 5% (which 
+corresponds to an ~45% probability of entering a relationship over the course
+of a year).&nbsp;Thus: 
+</p>
+<div class="math">$$P = \begin{bmatrix} 
+.999 &amp; 0 &amp; 0 \\\\\\\\
+0 &amp; .95 &amp; .06 \\\\\\\\
+.001 &amp; .05 &amp; .94 
+\end{bmatrix} .$$</div>
+<p>Using the <a href="http://www.gnu.org/software/octave/"><span class="caps">GNU</span> Octave</a> software (an open
+source clone of <span class="caps">MATLAB</span>), I computed  <span class="math">\(P^{k}\)</span> using larger and larger values
+of <span class="math">\(k\)</span> until the results converged on some matrix <span class="math">\(L\)</span>, as described above. This
+didn&#8217;t happen until <span class="math">\(k \approx 13000\)</span>. That is to say, it took this system
+1083 years to reach equilibrium. I think it is safe to say that my assumption
+of people in the model not maturing as I iterate the model
+is pretty invalid! For those that are curious, the steady-state probability
+vector&nbsp;is 
+</p>
+<div class="math">$$\vec{x} = \left( \begin{array}{c}0 \\\\\\\\
+0.55 \\\\\\\\
+0.45\end{array} \right).$$</div>
+<p>A more meaningful thing to do would be to look at how the number of people in
+each group changes over time. In my current city there are probably around 
+30,000 post-secondary students during the school year. Assuming that half of
+them are male and that 5% of males are gay, that works out to 750 young gay
+men. We&#8217;ll assume that initially none of them are in a relationship, that half
+of them are interested in hookups, and that half of them want a relationship.
+The number of people in each relationship is shown in the graph below over a
+period of four&nbsp;years.</p>
+<p><img alt="Group A appears to decrease more or less linearly in size, Group B decreases rapidly at first and then levels off, and Group C increases quickly at first before levelling off." src="http://politicalphysicist.github.io/images/markovRes.png" /> At the end of the four year period, there are 357 people looking for hookups, 
+213 peoples looking for a relationship, and 180 people in a relationship. Even
+though half of the population (and increasing) is long-term-relationship 
+oriented, these people make up only 37% of the dating pool. I&#8217;d be very 
+interested to know how closely this corresponds to reality. Of course, 
+evaluating reality
+is made more complicated by things like open relationships and people who are
+seeking a relationship but will partake in hookups in the&nbsp;meantime. </p>
+<p>Finally, according to this model, it turns out that those seeking a relationship
+will, four years in, be in a minority within the dating pool so long as initially
+more than 37% of people are interested in hookups. So this
+tends to indicate what I suspected&#8212;even though it might feel like you&#8217;re alone in
+seeking a long-term gay relationship, there is a good chance that the majority
+of gay guys actually share your views. Now the only problem is finding&nbsp;them!</p>
+<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width < 768) ? "left" : align;
+        indent = (screen.width < 768) ? "0em" : indent;
+        linebreak = (screen.width < 768) ? 'true' : linebreak;
+    }
+    
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+</script>    
+        </section>
+        <hr>
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = "redshades"; // required: replace example with your forum shortname
+            var disqus_identifier = "markov-chains-and-gay-dating";
+            var disqus_url = "http://politicalphysicist.github.io/markov-chains-and-gay-dating.html";
+            var disqus_title = "Markov Chains and Gay Dating";
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+</div>
+                </div>
+                </div>
+
+                <footer id="foot" class="show-for-large-up">
+<div class="small-6 medium-3 columns">
+    <ul class="left-nav">
+        <li><a href="http://politicalphysicist.github.io">Home &nbsp;<i class="fa fa-home fa-fw"></i></a></li>
+        <li><a href="http://politicalphysicist.github.io/categories.html">Categories &nbsp;<i class="fa fa-folder-open fa-fw"></i></a></li>
+    </ul>
+</div>
+<div class="small-6 medium-3 medium-push-6 columns">
+    <ul class="right-nav">
+        <li><a href="http://politicalphysicist.github.io/feeds/all.atom.xml"><i class="fa fa-rss fa-fw"></i>&nbsp; Feed</a></li>
+        <li><a href="http://politicalphysicist.github.io/archives.html"><i class="fa fa-archive fa-fw"></i>&nbsp; Archives</a></li>
+    </ul>
+</div>
+<div class="small-12 medium-6 medium-pull-3 columns text-center">
+    <p class="tag-cloud">
+        <a href="http://politicalphysicist.github.io/tags.html"><i class="fa fa-tags"></i>&nbsp;Tags:</a>&nbsp;&nbsp;
+        <a href="http://politicalphysicist.github.io/tag/austerity.html"><span class="label">Austerity</span></a>
+        <a href="http://politicalphysicist.github.io/tag/python.html"><span class="label">Python</span></a>
+        <a href="http://politicalphysicist.github.io/tag/blogging.html"><span class="label">Blogging</span></a>
+        <a href="http://politicalphysicist.github.io/tag/software.html"><span class="label">Software</span></a>
+        <a href="http://politicalphysicist.github.io/tag/programming.html"><span class="label">Programming</span></a>
+        <a href="http://politicalphysicist.github.io/tag/pelican.html"><span class="label">Pelican</span></a>
+        <a href="http://politicalphysicist.github.io/tag/british-politics.html"><span class="label">British Politics</span></a>
+        <a href="http://politicalphysicist.github.io/tag/socialism.html"><span class="label">Socialism</span></a>
+        <a href="http://politicalphysicist.github.io/tag/personal.html"><span class="label">Personal</span></a>
+        <a href="http://politicalphysicist.github.io/tag/mathematics.html"><span class="label">Mathematics</span></a>
+        <a href="http://politicalphysicist.github.io/tag/europe.html"><span class="label">Europe</span></a>
+        <a href="http://politicalphysicist.github.io/tag/syriza.html"><span class="label">SYRIZA</span></a>
+        <a href="http://politicalphysicist.github.io/tag/fortran.html"><span class="label">Fortran</span></a>
+        <a href="http://politicalphysicist.github.io/tag/university.html"><span class="label">University</span></a>
+        <a href="http://politicalphysicist.github.io/tag/thoughts.html"><span class="label">Thoughts</span></a>
+        &nbsp;&hellip;
+    </p>
+</div>
+<div class="small-12 columns sub-footer">
+    <hr>
+    <div class="small-12 medium-6 columns">
+        <p class="small-text-center medium-text-left">
+            &copy; 2016 C MacMackin <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+            <!-- <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="cc.png" /></a>-->
+        </p>
+    </div>
+    <div class="small-12 medium-6 columns">
+        <p class="small-text-center medium-text-right">
+            Proudly powered by <a href="http://blog.getpelican.com/">Pelican</a>,
+            which takes great advantage of <a href="https://www.python.org/">Python</a>.
+        </p>
+    </div>
+</div>                </footer>
+            </div>
+            
+            <div class="image-pane" style="background: url('http://politicalphysicist.github.io/images/oxford.jpg'); background-size:cover; background-position: right;">
+                <div class="row">
+                    <div class="small-12 medium-4 large-12 columns">
+                        <h5 class='text-center'>C MacMackin</h5>
+                        <div class="about-me">
+                            <div class="hide-for-medium-only small-3 columns no-buffer">
+                                <a class="th" href="http://politicalphysicist.github.io/images/subfusc.jpg">
+                                    <img src="http://politicalphysicist.github.io/images/subfusc.jpg">
+                                </a>
+                            </div>
+                            <div class="small-9 medium-12 large-9 columns text-justify">
+                                I am a DPhil student at Oxford studying Atmospheric, Oceanic and Planetary Physics. Outside of my studies, I am interested in computer programming and left-wing politics. 
+                            </div>
+                            <div class="small-12 columns">
+                                <ul class="inline-center social-list">
+                                    <li><a href="mailto:politicalphysicist@gmail.com"><i class="fa fa-envelope"></i>&nbsp; Email</a></li>
+                                    <li><a href="https://www.facebook.com/cmacmackin"><i class="fa fa-facebook"></i>&nbsp; Facebook</a></li>
+                                    <li><a href="https://github.com/cmacmackin"><i class="fa fa-github"></i>&nbsp; GitHub</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="small-8 medium-4  large-8 small-offset-2 medium-offset-0 large-offset-2 columns link-list">
+                    <h5 class="text-center">Search</h5>
+                    <form action="http://politicalphysicist.github.io/search.html">
+                    <input type="text" name="q" id="tipue_search_input" placeholder="Search for keyword or phrase" autocomplete="off" required>
+                    </form>
+                    </div>
+
+                    <div class="small-12 medium-4  large-12 columns link-list">
+                        <h5 class='text-center'>Links</h5>
+                        <ul class="inline-center">
+                            <li><a href="http://linuxmint.com/">Linux Mint</a></li>
+                            <li><a href="http://newscientist.com">New Scientist</a></li>
+                            <li><a href="http://degenerateconic.com/">Degenerate Conic</a></li>
+                            <li><a href="http://rabble.ca/taxonomy/term/19493/0">Michael Laxer</a></li>
+                            <li><a href="http://www.socialistproject.ca">Socialist Project</a></li>
+                            <li><a href="http://leftunity.org/">Left Unity</a></li>
+                            <li><a href="http://www.smbc-comics.com/">SMBC</a></li>
+                            <li><a href="http://xkcd.com/">XKCD</a></li>
+                            <li><a href="http://www2.physics.ox.ac.uk/research/atmospheric-oceanic-and-planetary-physics">AOPP Subdepartment</a></li>
+                        </ul>
+                    </div>
+               </div>
+            </div>
+        </div>
+        
+        
+        <div class="row">
+            <footer class="hide-for-large-up">
+<div class="small-6 medium-3 columns">
+    <ul class="left-nav">
+        <li><a href="http://politicalphysicist.github.io">Home &nbsp;<i class="fa fa-home fa-fw"></i></a></li>
+        <li><a href="http://politicalphysicist.github.io/categories.html">Categories &nbsp;<i class="fa fa-folder-open fa-fw"></i></a></li>
+    </ul>
+</div>
+<div class="small-6 medium-3 medium-push-6 columns">
+    <ul class="right-nav">
+        <li><a href="http://politicalphysicist.github.io/feeds/all.atom.xml"><i class="fa fa-rss fa-fw"></i>&nbsp; Feed</a></li>
+        <li><a href="http://politicalphysicist.github.io/archives.html"><i class="fa fa-archive fa-fw"></i>&nbsp; Archives</a></li>
+    </ul>
+</div>
+<div class="small-12 medium-6 medium-pull-3 columns text-center">
+    <p class="tag-cloud">
+        <a href="http://politicalphysicist.github.io/tags.html"><i class="fa fa-tags"></i>&nbsp;Tags:</a>&nbsp;&nbsp;
+        <a href="http://politicalphysicist.github.io/tag/austerity.html"><span class="label">Austerity</span></a>
+        <a href="http://politicalphysicist.github.io/tag/python.html"><span class="label">Python</span></a>
+        <a href="http://politicalphysicist.github.io/tag/blogging.html"><span class="label">Blogging</span></a>
+        <a href="http://politicalphysicist.github.io/tag/software.html"><span class="label">Software</span></a>
+        <a href="http://politicalphysicist.github.io/tag/programming.html"><span class="label">Programming</span></a>
+        <a href="http://politicalphysicist.github.io/tag/pelican.html"><span class="label">Pelican</span></a>
+        <a href="http://politicalphysicist.github.io/tag/british-politics.html"><span class="label">British Politics</span></a>
+        <a href="http://politicalphysicist.github.io/tag/socialism.html"><span class="label">Socialism</span></a>
+        <a href="http://politicalphysicist.github.io/tag/personal.html"><span class="label">Personal</span></a>
+        <a href="http://politicalphysicist.github.io/tag/mathematics.html"><span class="label">Mathematics</span></a>
+        <a href="http://politicalphysicist.github.io/tag/europe.html"><span class="label">Europe</span></a>
+        <a href="http://politicalphysicist.github.io/tag/syriza.html"><span class="label">SYRIZA</span></a>
+        <a href="http://politicalphysicist.github.io/tag/fortran.html"><span class="label">Fortran</span></a>
+        <a href="http://politicalphysicist.github.io/tag/university.html"><span class="label">University</span></a>
+        <a href="http://politicalphysicist.github.io/tag/thoughts.html"><span class="label">Thoughts</span></a>
+        &nbsp;&hellip;
+    </p>
+</div>
+<div class="small-12 columns sub-footer">
+    <hr>
+    <div class="small-12 medium-6 columns">
+        <p class="small-text-center medium-text-left">
+            &copy; 2016 C MacMackin <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+            <!-- <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="cc.png" /></a>-->
+        </p>
+    </div>
+    <div class="small-12 medium-6 columns">
+        <p class="small-text-center medium-text-right">
+            Proudly powered by <a href="http://blog.getpelican.com/">Pelican</a>,
+            which takes great advantage of <a href="https://www.python.org/">Python</a>.
+        </p>
+    </div>
+</div>            </footer>
+        </div>
+        
+        
+        <script src="http://politicalphysicist.github.io/theme/js/jquery.min.js"></script>
+        <script src="http://politicalphysicist.github.io/theme/js/foundation.min.js"></script>
+        <script src="http://politicalphysicist.github.io/theme/js/app.js"></script>
+    </body>
+  
+  
+</html>
