@@ -1,0 +1,11 @@
+*~
+*.pyc
+cache/
+#*#
+.#*
+RedShades.tar.gz
+pelicanconf.py.old
+venv/
+*.bak
+output/
+backdrop
