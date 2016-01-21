@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>The Political Physicist</title><link href="http://politicalphysicist.github.io/" rel="alternate"></link><link href="http://politicalphysicist.github.io/feeds/science.atom.xml" rel="self"></link><id>http://politicalphysicist.github.io/</id><updated>2013-08-16T20:00:00+01:00</updated><entry><title>Science for Socialists: Introduction</title><link href="http://politicalphysicist.github.io/science-for-socialists-introduction.html" rel="alternate"></link><updated>2013-08-16T20:00:00+01:00</updated><author><name>C MacMackin</name></author><id>tag:politicalphysicist.github.io,2013-08-16:science-for-socialists-introduction.html</id><summary type="html">&lt;p&gt;As you may know, my background is in the physical sciences. Well, I&amp;#8217;m 
+<feed xmlns="http://www.w3.org/2005/Atom"><title>The Political Physicist</title><link href="https://politicalphysicist.github.io/" rel="alternate"></link><link href="https://politicalphysicist.github.io/feeds/science.atom.xml" rel="self"></link><id>https://politicalphysicist.github.io/</id><updated>2013-08-16T20:00:00+01:00</updated><entry><title>Science for Socialists: Introduction</title><link href="https://politicalphysicist.github.io/science-for-socialists-introduction.html" rel="alternate"></link><updated>2013-08-16T20:00:00+01:00</updated><author><name>C. MacMackin</name></author><id>tag:politicalphysicist.github.io,2013-08-16:science-for-socialists-introduction.html</id><summary type="html">&lt;p&gt;As you may know, my background is in the physical sciences. Well, I&amp;#8217;m 
 doing my undergrad in astrophysics, at any rate. As you may also 
 know, my politics essentially correspond to socialism. And by socialism,
 I mean the &amp;#8220;common ownership of the means of production&amp;#8221; type, not 
@@ -53,7 +53,7 @@ was not meant to be exhaustive. If I agree with what you&amp;#8217;re saying the
 I might just write an article on it at some&amp;nbsp;point.&lt;/p&gt;
 &lt;p&gt;I hope that this series of articles will prove helpful, interesting and 
 educational for you. Even if you aren&amp;#8217;t expecting much, do try to 
-approach them with an open mind; just not so open that your brain falls&amp;nbsp;out!&lt;/p&gt;</summary><category term="Science for Socialists"></category><category term="Nuclear Power"></category><category term="GMOs"></category><category term="Alternative Medicine"></category><category term="Climate Change"></category><category term="Fracking"></category></entry><entry><title>Markov Chains and Gay Dating</title><link href="http://politicalphysicist.github.io/markov-chains-and-gay-dating.html" rel="alternate"></link><updated>2013-07-02T13:30:00+01:00</updated><author><name>C MacMackin</name></author><id>tag:politicalphysicist.github.io,2013-07-02:markov-chains-and-gay-dating.html</id><summary type="html">&lt;p&gt;So, in case you didn&amp;#8217;t realize, dating when you&amp;#8217;re gay is &lt;em&gt;hard&lt;/em&gt;. Not to say 
+approach them with an open mind; just not so open that your brain falls&amp;nbsp;out!&lt;/p&gt;</summary><category term="Science for Socialists"></category><category term="Nuclear Power"></category><category term="GMOs"></category><category term="Alternative Medicine"></category><category term="Climate Change"></category><category term="Fracking"></category></entry><entry><title>Markov Chains and Gay Dating</title><link href="https://politicalphysicist.github.io/markov-chains-and-gay-dating.html" rel="alternate"></link><updated>2013-07-02T13:30:00+01:00</updated><author><name>C. MacMackin</name></author><id>tag:politicalphysicist.github.io,2013-07-02:markov-chains-and-gay-dating.html</id><summary type="html">&lt;p&gt;So, in case you didn&amp;#8217;t realize, dating when you&amp;#8217;re gay is &lt;em&gt;hard&lt;/em&gt;. Not to say 
 it&amp;#8217;s easy for straight people, but at least you know that, when you talk to
 someone, the odds are that they at least have a compatible sexuality. Not to mention that&lt;br /&gt;
 when you&amp;#8217;re gay and want something serious you have to deal with the fact that
@@ -93,7 +93,7 @@ states for gay&amp;nbsp;males:&lt;/p&gt;
 categories. There are various other problems which will become apparent as we
 work through this simple analysis; I will point them out as we get to&amp;nbsp;them.&lt;/p&gt;
 &lt;p&gt;Now, Markov Chains can be represented by graphics such as the one below:
-&lt;img alt="There are three circles, representing the three groups, with paths connecting them. On each path is a probability of someone following that path between time steps." src="http://politicalphysicist.github.io/images/markovDating.png" /&gt;&lt;/p&gt;
+&lt;img alt="There are three circles, representing the three groups, with paths connecting them. On each path is a probability of someone following that path between time steps." src="https://politicalphysicist.github.io/images/markovDating.png" /&gt;&lt;/p&gt;
 &lt;p&gt;The label &lt;span class="math"&gt;\(P_{XY}\)&lt;/span&gt; next to each of the arrows is the probability that a member
 of group X will move to group Y over some time-period&amp;#8212;say, one month. These 
 probabilities can be represented by the following&amp;nbsp;matrix: 
@@ -206,7 +206,7 @@ men. We&amp;#8217;ll assume that initially none of them are in a relationship, t
 of them are interested in hookups, and that half of them want a relationship.
 The number of people in each relationship is shown in the graph below over a
 period of four&amp;nbsp;years.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Group A appears to decrease more or less linearly in size, Group B decreases rapidly at first and then levels off, and Group C increases quickly at first before levelling off." src="http://politicalphysicist.github.io/images/markovRes.png" /&gt; At the end of the four year period, there are 357 people looking for hookups, 
+&lt;p&gt;&lt;img alt="Group A appears to decrease more or less linearly in size, Group B decreases rapidly at first and then levels off, and Group C increases quickly at first before levelling off." src="https://politicalphysicist.github.io/images/markovRes.png" /&gt; At the end of the four year period, there are 357 people looking for hookups, 
 213 peoples looking for a relationship, and 180 people in a relationship. Even
 though half of the population (and increasing) is long-term-relationship 
 oriented, these people make up only 37% of the dating pool. I&amp;#8217;d be very 
@@ -273,7 +273,7 @@ of gay guys actually share your views. Now the only problem is finding&amp;nbsp;
         "}";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</summary><category term="Dating"></category><category term="Markov Chains"></category><category term="Mathematics"></category><category term="Mathematical Models"></category></entry><entry><title>The Mathematics of Protest</title><link href="http://politicalphysicist.github.io/the-mathematics-of-protest.html" rel="alternate"></link><updated>2013-06-30T18:16:00+01:00</updated><author><name>C MacMackin</name></author><id>tag:politicalphysicist.github.io,2013-06-30:the-mathematics-of-protest.html</id><summary type="html">&lt;p&gt;I always enjoy reading about how math can be applied to predicting societal
+&lt;/script&gt;</summary><category term="Dating"></category><category term="Markov Chains"></category><category term="Mathematics"></category><category term="Mathematical Models"></category></entry><entry><title>The Mathematics of Protest</title><link href="https://politicalphysicist.github.io/the-mathematics-of-protest.html" rel="alternate"></link><updated>2013-06-30T18:16:00+01:00</updated><author><name>C. MacMackin</name></author><id>tag:politicalphysicist.github.io,2013-06-30:the-mathematics-of-protest.html</id><summary type="html">&lt;p&gt;I always enjoy reading about how math can be applied to predicting societal
 actions. I&amp;#8217;m not quite sure why. Perhaps it just makes me think of Isaac 
 Asimov&amp;#8217;s &lt;a href="http://en.wikipedia.org/wiki/Psychohistory_(fictional)"&gt;psychohistory&lt;/a&gt;. In any case, I read a very interesting &lt;a href="http://www.newscientist.com/article/mg21829234.300-brazil-uprising-points-to-rise-of-leaderless-networks.html?cmpid=RSS|NSNS|2012-GLOBAL|online-news#.UdCUB6BhLCe"&gt;article&lt;/a&gt; 
 in &lt;em&gt;New Scientist&lt;/em&gt; magazine the other day

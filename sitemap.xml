@@ -4,889 +4,889 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>http://politicalphysicist.github.io/</loc>
-<lastmod>2016-01-21T22:07:01-00:00</lastmod>
+<loc>https://politicalphysicist.github.io/</loc>
+<lastmod>2016-01-21T22:20:18-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/archives.html</loc>
-<lastmod>2016-01-21T22:07:01-00:00</lastmod>
+<loc>https://politicalphysicist.github.io/archives.html</loc>
+<lastmod>2016-01-21T22:20:18-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tags.html</loc>
-<lastmod>2016-01-21T22:07:01-00:00</lastmod>
+<loc>https://politicalphysicist.github.io/tags.html</loc>
+<lastmod>2016-01-21T22:20:18-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/categories.html</loc>
-<lastmod>2016-01-21T22:07:01-00:00</lastmod>
+<loc>https://politicalphysicist.github.io/categories.html</loc>
+<lastmod>2016-01-21T22:20:18-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/pages/about.html</loc>
-<lastmod>2016-01-21T22:07:01-00:00</lastmod>
+<loc>https://politicalphysicist.github.io/pages/about.html</loc>
+<lastmod>2016-01-21T22:20:18-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.3</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/pages/software.html</loc>
-<lastmod>2016-01-21T22:07:01-00:00</lastmod>
+<loc>https://politicalphysicist.github.io/pages/software.html</loc>
+<lastmod>2016-01-21T22:20:18-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.3</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/pages/technical.html</loc>
-<lastmod>2016-01-21T22:07:01-00:00</lastmod>
+<loc>https://politicalphysicist.github.io/pages/technical.html</loc>
+<lastmod>2016-01-21T22:20:18-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.3</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tsipras-go-to-hell.html</loc>
+<loc>https://politicalphysicist.github.io/tsipras-go-to-hell.html</loc>
 <lastmod>2015-07-10T23:30:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/greeks-bearing-debts.html</loc>
+<loc>https://politicalphysicist.github.io/greeks-bearing-debts.html</loc>
 <lastmod>2015-06-23T01:30:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/blog-rebooted.html</loc>
+<loc>https://politicalphysicist.github.io/blog-rebooted.html</loc>
 <lastmod>2015-05-17T10:30:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/lets-talk-about-bell.html</loc>
+<loc>https://politicalphysicist.github.io/lets-talk-about-bell.html</loc>
 <lastmod>2015-01-28T14:15:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/ford-fortran-documentation.html</loc>
+<loc>https://politicalphysicist.github.io/ford-fortran-documentation.html</loc>
 <lastmod>2015-01-05T00:15:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/the-rights-and-wrongs-of-remembrance.html</loc>
+<loc>https://politicalphysicist.github.io/the-rights-and-wrongs-of-remembrance.html</loc>
 <lastmod>2014-11-09T11:20:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/a-not-as-brief-as-id-hoped-fortran-tutorial.html</loc>
+<loc>https://politicalphysicist.github.io/a-not-as-brief-as-id-hoped-fortran-tutorial.html</loc>
 <lastmod>2014-10-31T23:00:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/i-designed-a-website.html</loc>
+<loc>https://politicalphysicist.github.io/i-designed-a-website.html</loc>
 <lastmod>2014-09-26T11:20:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/fixing-pharmaceuticals.html</loc>
+<loc>https://politicalphysicist.github.io/fixing-pharmaceuticals.html</loc>
 <lastmod>2014-06-28T22:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/10-reasons-i-sometimes-hate-being-a-socialist.html</loc>
+<loc>https://politicalphysicist.github.io/10-reasons-i-sometimes-hate-being-a-socialist.html</loc>
 <lastmod>2014-06-15T09:40:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/on-europe-the-left-and-the-future.html</loc>
+<loc>https://politicalphysicist.github.io/on-europe-the-left-and-the-future.html</loc>
 <lastmod>2014-05-23T23:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/gnuplotting-latexing-and-other-made-up-verbs.html</loc>
+<loc>https://politicalphysicist.github.io/gnuplotting-latexing-and-other-made-up-verbs.html</loc>
 <lastmod>2014-04-15T11:30:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/a-bit-of-news.html</loc>
+<loc>https://politicalphysicist.github.io/a-bit-of-news.html</loc>
 <lastmod>2014-01-02T14:30:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/on-socialists-and-scotsmen.html</loc>
+<loc>https://politicalphysicist.github.io/on-socialists-and-scotsmen.html</loc>
 <lastmod>2013-12-28T01:30:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/denouncing-the-dumb-diatribe-on-the-discontinuation-of-door-to-door-delivery.html</loc>
+<loc>https://politicalphysicist.github.io/denouncing-the-dumb-diatribe-on-the-discontinuation-of-door-to-door-delivery.html</loc>
 <lastmod>2013-12-23T12:00:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/what-i-did-over-christmas-break.html</loc>
+<loc>https://politicalphysicist.github.io/what-i-did-over-christmas-break.html</loc>
 <lastmod>2013-12-21T02:00:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/insomnia-sucks.html</loc>
+<loc>https://politicalphysicist.github.io/insomnia-sucks.html</loc>
 <lastmod>2013-11-14T02:00:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/on-the-abuse-of-exponentiation-in-colloquial-communication.html</loc>
+<loc>https://politicalphysicist.github.io/on-the-abuse-of-exponentiation-in-colloquial-communication.html</loc>
 <lastmod>2013-09-29T02:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/back-for-another-year-of-physics-and-phun.html</loc>
+<loc>https://politicalphysicist.github.io/back-for-another-year-of-physics-and-phun.html</loc>
 <lastmod>2013-09-03T18:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/science-for-socialists-introduction.html</loc>
+<loc>https://politicalphysicist.github.io/science-for-socialists-introduction.html</loc>
 <lastmod>2013-08-16T20:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/new-computer-new-linux-distribution.html</loc>
+<loc>https://politicalphysicist.github.io/new-computer-new-linux-distribution.html</loc>
 <lastmod>2013-07-30T15:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/why-social-democracy-was-great-and-why-it-isnt-the-answer.html</loc>
+<loc>https://politicalphysicist.github.io/why-social-democracy-was-great-and-why-it-isnt-the-answer.html</loc>
 <lastmod>2013-07-13T23:40:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/take-a-listen.html</loc>
+<loc>https://politicalphysicist.github.io/take-a-listen.html</loc>
 <lastmod>2013-07-10T13:40:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/was-there-no-alternative.html</loc>
+<loc>https://politicalphysicist.github.io/was-there-no-alternative.html</loc>
 <lastmod>2013-07-09T10:30:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/hello-facebookers.html</loc>
+<loc>https://politicalphysicist.github.io/hello-facebookers.html</loc>
 <lastmod>2013-07-05T22:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/markov-chains-and-gay-dating.html</loc>
+<loc>https://politicalphysicist.github.io/markov-chains-and-gay-dating.html</loc>
 <lastmod>2013-07-02T13:30:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/the-mathematics-of-protest.html</loc>
+<loc>https://politicalphysicist.github.io/the-mathematics-of-protest.html</loc>
 <lastmod>2013-06-30T18:16:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/hello-world.html</loc>
+<loc>https://politicalphysicist.github.io/hello-world.html</loc>
 <lastmod>2013-06-29T23:50:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/category/computers.html</loc>
+<loc>https://politicalphysicist.github.io/category/computers.html</loc>
 <lastmod>2015-05-17T10:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/category/politics.html</loc>
+<loc>https://politicalphysicist.github.io/category/politics.html</loc>
 <lastmod>2015-06-23T01:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/category/science.html</loc>
+<loc>https://politicalphysicist.github.io/category/science.html</loc>
 <lastmod>2013-08-16T20:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/category/thoughts.html</loc>
+<loc>https://politicalphysicist.github.io/category/thoughts.html</loc>
 <lastmod>2015-07-10T23:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/gdp.html</loc>
+<loc>https://politicalphysicist.github.io/tag/gdp.html</loc>
 <lastmod>2013-07-13T23:40:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/summer.html</loc>
+<loc>https://politicalphysicist.github.io/tag/summer.html</loc>
 <lastmod>2013-09-03T18:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/telecom.html</loc>
+<loc>https://politicalphysicist.github.io/tag/telecom.html</loc>
 <lastmod>2015-01-28T14:15:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/laptop.html</loc>
+<loc>https://politicalphysicist.github.io/tag/laptop.html</loc>
 <lastmod>2013-07-30T15:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/protest.html</loc>
+<loc>https://politicalphysicist.github.io/tag/protest.html</loc>
 <lastmod>2013-06-30T18:16:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/mathematical-models.html</loc>
+<loc>https://politicalphysicist.github.io/tag/mathematical-models.html</loc>
 <lastmod>2013-07-02T13:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/austerity.html</loc>
+<loc>https://politicalphysicist.github.io/tag/austerity.html</loc>
 <lastmod>2015-07-10T23:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/personal.html</loc>
+<loc>https://politicalphysicist.github.io/tag/personal.html</loc>
 <lastmod>2014-11-09T11:20:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/gtk.html</loc>
+<loc>https://politicalphysicist.github.io/tag/gtk.html</loc>
 <lastmod>2013-12-21T02:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/fortran.html</loc>
+<loc>https://politicalphysicist.github.io/tag/fortran.html</loc>
 <lastmod>2015-01-05T00:15:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/charity.html</loc>
+<loc>https://politicalphysicist.github.io/tag/charity.html</loc>
 <lastmod>2015-01-28T14:15:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/alternative-medicine.html</loc>
+<loc>https://politicalphysicist.github.io/tag/alternative-medicine.html</loc>
 <lastmod>2013-08-16T20:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/gmos.html</loc>
+<loc>https://politicalphysicist.github.io/tag/gmos.html</loc>
 <lastmod>2013-08-16T20:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/python.html</loc>
+<loc>https://politicalphysicist.github.io/tag/python.html</loc>
 <lastmod>2015-01-05T00:15:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/vlc.html</loc>
+<loc>https://politicalphysicist.github.io/tag/vlc.html</loc>
 <lastmod>2013-12-21T02:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/insomnia.html</loc>
+<loc>https://politicalphysicist.github.io/tag/insomnia.html</loc>
 <lastmod>2013-11-14T02:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/facebook.html</loc>
+<loc>https://politicalphysicist.github.io/tag/facebook.html</loc>
 <lastmod>2013-07-05T22:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/gfortran.html</loc>
+<loc>https://politicalphysicist.github.io/tag/gfortran.html</loc>
 <lastmod>2014-10-31T23:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/tony-benn.html</loc>
+<loc>https://politicalphysicist.github.io/tag/tony-benn.html</loc>
 <lastmod>2013-07-09T10:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/blogging.html</loc>
+<loc>https://politicalphysicist.github.io/tag/blogging.html</loc>
 <lastmod>2015-05-17T10:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/university.html</loc>
+<loc>https://politicalphysicist.github.io/tag/university.html</loc>
 <lastmod>2014-09-26T11:20:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/british-politics.html</loc>
+<loc>https://politicalphysicist.github.io/tag/british-politics.html</loc>
 <lastmod>2013-07-13T23:40:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/mate-desktop.html</loc>
+<loc>https://politicalphysicist.github.io/tag/mate-desktop.html</loc>
 <lastmod>2013-07-30T15:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/syriza.html</loc>
+<loc>https://politicalphysicist.github.io/tag/syriza.html</loc>
 <lastmod>2015-07-10T23:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/pacifism.html</loc>
+<loc>https://politicalphysicist.github.io/tag/pacifism.html</loc>
 <lastmod>2014-11-09T11:20:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/radio-play.html</loc>
+<loc>https://politicalphysicist.github.io/tag/radio-play.html</loc>
 <lastmod>2013-07-10T13:40:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/climate-change.html</loc>
+<loc>https://politicalphysicist.github.io/tag/climate-change.html</loc>
 <lastmod>2013-08-16T20:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/foundation.html</loc>
+<loc>https://politicalphysicist.github.io/tag/foundation.html</loc>
 <lastmod>2015-05-17T10:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/greece.html</loc>
+<loc>https://politicalphysicist.github.io/tag/greece.html</loc>
 <lastmod>2015-07-10T23:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/canada-post.html</loc>
+<loc>https://politicalphysicist.github.io/tag/canada-post.html</loc>
 <lastmod>2013-12-23T12:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/brazil.html</loc>
+<loc>https://politicalphysicist.github.io/tag/brazil.html</loc>
 <lastmod>2013-06-30T18:16:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/smu.html</loc>
+<loc>https://politicalphysicist.github.io/tag/smu.html</loc>
 <lastmod>2014-09-26T11:20:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/pet-peeve.html</loc>
+<loc>https://politicalphysicist.github.io/tag/pet-peeve.html</loc>
 <lastmod>2013-09-29T02:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/dating.html</loc>
+<loc>https://politicalphysicist.github.io/tag/dating.html</loc>
 <lastmod>2013-07-02T13:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/plotting.html</loc>
+<loc>https://politicalphysicist.github.io/tag/plotting.html</loc>
 <lastmod>2014-04-15T11:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/europe.html</loc>
+<loc>https://politicalphysicist.github.io/tag/europe.html</loc>
 <lastmod>2015-06-23T01:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/science-for-socialists.html</loc>
+<loc>https://politicalphysicist.github.io/tag/science-for-socialists.html</loc>
 <lastmod>2013-08-16T20:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/remembrance-day.html</loc>
+<loc>https://politicalphysicist.github.io/tag/remembrance-day.html</loc>
 <lastmod>2014-11-09T11:20:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/poppies.html</loc>
+<loc>https://politicalphysicist.github.io/tag/poppies.html</loc>
 <lastmod>2014-11-09T11:20:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/programming.html</loc>
+<loc>https://politicalphysicist.github.io/tag/programming.html</loc>
 <lastmod>2015-01-05T00:15:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/door-to-door-mail.html</loc>
+<loc>https://politicalphysicist.github.io/tag/door-to-door-mail.html</loc>
 <lastmod>2013-12-23T12:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/advertising.html</loc>
+<loc>https://politicalphysicist.github.io/tag/advertising.html</loc>
 <lastmod>2015-01-28T14:15:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/neoliberalism.html</loc>
+<loc>https://politicalphysicist.github.io/tag/neoliberalism.html</loc>
 <lastmod>2013-07-13T23:40:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/pelican.html</loc>
+<loc>https://politicalphysicist.github.io/tag/pelican.html</loc>
 <lastmod>2015-05-17T10:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/conetroller.html</loc>
+<loc>https://politicalphysicist.github.io/tag/conetroller.html</loc>
 <lastmod>2013-12-21T02:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/rant.html</loc>
+<loc>https://politicalphysicist.github.io/tag/rant.html</loc>
 <lastmod>2015-07-10T23:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/linux.html</loc>
+<loc>https://politicalphysicist.github.io/tag/linux.html</loc>
 <lastmod>2013-07-30T15:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/nuclear-power.html</loc>
+<loc>https://politicalphysicist.github.io/tag/nuclear-power.html</loc>
 <lastmod>2013-08-16T20:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/bbc.html</loc>
+<loc>https://politicalphysicist.github.io/tag/bbc.html</loc>
 <lastmod>2013-07-10T13:40:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/accountability.html</loc>
+<loc>https://politicalphysicist.github.io/tag/accountability.html</loc>
 <lastmod>2015-01-28T14:15:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/pharmaceuticals.html</loc>
+<loc>https://politicalphysicist.github.io/tag/pharmaceuticals.html</loc>
 <lastmod>2014-06-28T22:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/thoughts.html</loc>
+<loc>https://politicalphysicist.github.io/tag/thoughts.html</loc>
 <lastmod>2014-01-02T14:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/tina.html</loc>
+<loc>https://politicalphysicist.github.io/tag/tina.html</loc>
 <lastmod>2013-07-09T10:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/astrophysics.html</loc>
+<loc>https://politicalphysicist.github.io/tag/astrophysics.html</loc>
 <lastmod>2013-09-03T18:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/website.html</loc>
+<loc>https://politicalphysicist.github.io/tag/website.html</loc>
 <lastmod>2014-09-26T11:20:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/crown-corporations.html</loc>
+<loc>https://politicalphysicist.github.io/tag/crown-corporations.html</loc>
 <lastmod>2014-06-28T22:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/antibiotics.html</loc>
+<loc>https://politicalphysicist.github.io/tag/antibiotics.html</loc>
 <lastmod>2014-06-28T22:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/terry-pratchett.html</loc>
+<loc>https://politicalphysicist.github.io/tag/terry-pratchett.html</loc>
 <lastmod>2013-07-10T13:40:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/sam-gindin.html</loc>
+<loc>https://politicalphysicist.github.io/tag/sam-gindin.html</loc>
 <lastmod>2013-07-13T23:40:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/leo-panitch.html</loc>
+<loc>https://politicalphysicist.github.io/tag/leo-panitch.html</loc>
 <lastmod>2013-07-13T23:40:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/elections.html</loc>
+<loc>https://politicalphysicist.github.io/tag/elections.html</loc>
 <lastmod>2015-06-23T01:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/socialism.html</loc>
+<loc>https://politicalphysicist.github.io/tag/socialism.html</loc>
 <lastmod>2015-06-23T01:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/uk.html</loc>
+<loc>https://politicalphysicist.github.io/tag/uk.html</loc>
 <lastmod>2013-07-09T10:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/guards-guards.html</loc>
+<loc>https://politicalphysicist.github.io/tag/guards-guards.html</loc>
 <lastmod>2013-07-10T13:40:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/party-of-the-european-left.html</loc>
+<loc>https://politicalphysicist.github.io/tag/party-of-the-european-left.html</loc>
 <lastmod>2014-05-23T23:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/politics.html</loc>
+<loc>https://politicalphysicist.github.io/tag/politics.html</loc>
 <lastmod>2014-06-15T09:40:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/john-finnemore.html</loc>
+<loc>https://politicalphysicist.github.io/tag/john-finnemore.html</loc>
 <lastmod>2013-11-14T02:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/democracy.html</loc>
+<loc>https://politicalphysicist.github.io/tag/democracy.html</loc>
 <lastmod>2015-01-28T14:15:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/left-unity.html</loc>
+<loc>https://politicalphysicist.github.io/tag/left-unity.html</loc>
 <lastmod>2014-05-23T23:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/fracking.html</loc>
+<loc>https://politicalphysicist.github.io/tag/fracking.html</loc>
 <lastmod>2013-08-16T20:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/high-performance-computing.html</loc>
+<loc>https://politicalphysicist.github.io/tag/high-performance-computing.html</loc>
 <lastmod>2014-10-31T23:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/social-democracy.html</loc>
+<loc>https://politicalphysicist.github.io/tag/social-democracy.html</loc>
 <lastmod>2013-07-13T23:40:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/html.html</loc>
+<loc>https://politicalphysicist.github.io/tag/html.html</loc>
 <lastmod>2015-05-17T10:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/mathematics.html</loc>
+<loc>https://politicalphysicist.github.io/tag/mathematics.html</loc>
 <lastmod>2013-09-29T02:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/css.html</loc>
+<loc>https://politicalphysicist.github.io/tag/css.html</loc>
 <lastmod>2015-05-17T10:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/templates.html</loc>
+<loc>https://politicalphysicist.github.io/tag/templates.html</loc>
 <lastmod>2014-04-15T11:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/alexis-tsipras.html</loc>
+<loc>https://politicalphysicist.github.io/tag/alexis-tsipras.html</loc>
 <lastmod>2015-07-10T23:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/noam-chomsky.html</loc>
+<loc>https://politicalphysicist.github.io/tag/noam-chomsky.html</loc>
 <lastmod>2013-12-28T01:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/margaret-thatcher.html</loc>
+<loc>https://politicalphysicist.github.io/tag/margaret-thatcher.html</loc>
 <lastmod>2013-07-09T10:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/markov-chains.html</loc>
+<loc>https://politicalphysicist.github.io/tag/markov-chains.html</loc>
 <lastmod>2013-07-02T13:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/latex.html</loc>
+<loc>https://politicalphysicist.github.io/tag/latex.html</loc>
 <lastmod>2014-04-15T11:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/gnuplot.html</loc>
+<loc>https://politicalphysicist.github.io/tag/gnuplot.html</loc>
 <lastmod>2014-04-15T11:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/no-true-scotsmen-fallacy.html</loc>
+<loc>https://politicalphysicist.github.io/tag/no-true-scotsmen-fallacy.html</loc>
 <lastmod>2013-12-28T01:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/arch-linux.html</loc>
+<loc>https://politicalphysicist.github.io/tag/arch-linux.html</loc>
 <lastmod>2013-07-30T15:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/software.html</loc>
+<loc>https://politicalphysicist.github.io/tag/software.html</loc>
 <lastmod>2015-01-05T00:15:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/physics.html</loc>
+<loc>https://politicalphysicist.github.io/tag/physics.html</loc>
 <lastmod>2013-09-03T18:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/tag/activism.html</loc>
+<loc>https://politicalphysicist.github.io/tag/activism.html</loc>
 <lastmod>2013-06-30T18:16:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://politicalphysicist.github.io/author/c-macmackin.html</loc>
+<loc>https://politicalphysicist.github.io/author/c-macmackin.html</loc>
 <lastmod>2015-07-10T23:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>

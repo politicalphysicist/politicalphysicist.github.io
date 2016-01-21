@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>The Political Physicist</title><link href="http://politicalphysicist.github.io/" rel="alternate"></link><link href="http://politicalphysicist.github.io/feeds/computers.atom.xml" rel="self"></link><id>http://politicalphysicist.github.io/</id><updated>2015-05-17T10:30:00+01:00</updated><entry><title>Blog, Rebooted</title><link href="http://politicalphysicist.github.io/blog-rebooted.html" rel="alternate"></link><updated>2015-05-17T10:30:00+01:00</updated><author><name>C MacMackin</name></author><id>tag:politicalphysicist.github.io,2015-05-17:blog-rebooted.html</id><summary type="html">&lt;p&gt;&lt;img alt="The silhouette of a &amp;quot;dreaming spire&amp;quot; in Oxford. A larger version of my new favicon." src="http://politicalphysicist.github.io/images/spire-smaller.png" /&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>The Political Physicist</title><link href="https://politicalphysicist.github.io/" rel="alternate"></link><link href="https://politicalphysicist.github.io/feeds/computers.atom.xml" rel="self"></link><id>https://politicalphysicist.github.io/</id><updated>2015-05-17T10:30:00+01:00</updated><entry><title>Blog, Rebooted</title><link href="https://politicalphysicist.github.io/blog-rebooted.html" rel="alternate"></link><updated>2015-05-17T10:30:00+01:00</updated><author><name>C. MacMackin</name></author><id>tag:politicalphysicist.github.io,2015-05-17:blog-rebooted.html</id><summary type="html">&lt;p&gt;&lt;img alt="The silhouette of a &amp;quot;dreaming spire&amp;quot; in Oxford. A larger version of my new favicon." src="https://politicalphysicist.github.io/images/spire-smaller.png" /&gt;
 For awhile now I&amp;#8217;ve been meaning to create a new theme for my blog. Previously
 I was using a modified version of the
 &lt;a href="https://github.com/getpelican/pelican-themes/tree/master/gum"&gt;Gum theme&lt;/a&gt;, but
@@ -43,7 +43,7 @@ obvious, this is a play on political science. As a scientist (well, a student
 scientist) who cares deeply about politics, you might say that I&amp;#8217;m a political
 scientist. However, this makes it sound like I study political science, rather
 than physics. And the rest, as they say, is&amp;nbsp;history.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Relativity is a communist conspiracy. Of course, as it happens, Einstein actually _was_ a socialist." class="img-center" src="http://politicalphysicist.github.io/images/SocialistRelativity.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Relativity is a communist conspiracy. Of course, as it happens, Einstein actually _was_ a socialist." class="img-center" src="https://politicalphysicist.github.io/images/SocialistRelativity.png" /&gt;&lt;/p&gt;
 &lt;p&gt;But while the appearance, location, and name of my blog has changed, none of the
 content has really. I will still write my extremely biased political articles.
 I will still complain about petty things, like the use of the phrase &amp;#8220;growing
@@ -62,7 +62,7 @@ I will be just as neurotic, pedantic, and idealistic as I am&amp;nbsp;today.&lt;
 &lt;p&gt;And have come to accept that I will never quite see eye-to-eye with ecosocialists on a number of issues.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</summary><category term="Blogging"></category><category term="HTML"></category><category term="CSS"></category><category term="Foundation"></category><category term="Pelican"></category></entry><entry><title>FORD: FORtran Documentation</title><link href="http://politicalphysicist.github.io/ford-fortran-documentation.html" rel="alternate"></link><updated>2015-01-05T00:15:00+00:00</updated><author><name>C MacMackin</name></author><id>tag:politicalphysicist.github.io,2015-01-05:ford-fortran-documentation.html</id><summary type="html">&lt;p&gt;Over Christmas break I&amp;#8217;ve been working on this project to produce documentation
+&lt;/div&gt;</summary><category term="Blogging"></category><category term="HTML"></category><category term="CSS"></category><category term="Foundation"></category><category term="Pelican"></category></entry><entry><title>FORD: FORtran Documentation</title><link href="https://politicalphysicist.github.io/ford-fortran-documentation.html" rel="alternate"></link><updated>2015-01-05T00:15:00+00:00</updated><author><name>C. MacMackin</name></author><id>tag:politicalphysicist.github.io,2015-01-05:ford-fortran-documentation.html</id><summary type="html">&lt;p&gt;Over Christmas break I&amp;#8217;ve been working on this project to produce documentation
 for Fortran programs. I&amp;#8217;ve (just) managed to finish it before school starts
 again! Here is the &lt;span class="caps"&gt;README&lt;/span&gt; for it, containing the documentation which I wrote.
 You can find the code &lt;a href="https://github.com/cmacmackin/ford"&gt;on Github&lt;/a&gt;.&lt;/p&gt;
@@ -213,7 +213,7 @@ output can be placed and viewed anywhere. The
 &lt;a href="http://getbootstrap.com/"&gt;Bootstrap&lt;/a&gt; framework was used to make it easy to
 quickly design professional looking pages. An example of some output from
 my project &lt;a href="https://github.com/cmacmackin/futility"&gt;Futility&lt;/a&gt; is shown&amp;nbsp;below.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Some example output." src="http://politicalphysicist.github.io/images/ford.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Some example output." src="https://politicalphysicist.github.io/images/ford.png" /&gt;&lt;/p&gt;
 &lt;h3&gt;Options&lt;/h3&gt;
 &lt;p&gt;While not nearly as configurable as the likes of
 &lt;a href="http://www.stack.nl/~dimitri/doxygen/"&gt;Doxygen&lt;/a&gt;, &lt;span class="caps"&gt;FORD&lt;/span&gt;&amp;#8217;s output can still be
@@ -420,7 +420,7 @@ things which I&amp;#8217;d like to do at some point&amp;nbsp;include:&lt;/p&gt;
 &lt;li&gt;Convert comments into &lt;span class="caps"&gt;HTML&lt;/span&gt;. Assume that they have been written in Markdown.
   Also make sure to process LaTeX (not yet&amp;nbsp;implemented).&lt;/li&gt;
 &lt;li&gt;Produce the documentation. This will be done using Jinja2&amp;nbsp;templates.&lt;/li&gt;
-&lt;/ul&gt;</summary><category term="Python"></category><category term="Fortran"></category><category term="Programming"></category><category term="Software"></category></entry><entry><title>A (Not as Brief as I’d Hoped) Fortran Tutorial</title><link href="http://politicalphysicist.github.io/a-not-as-brief-as-id-hoped-fortran-tutorial.html" rel="alternate"></link><updated>2014-10-31T23:00:00+00:00</updated><author><name>C MacMackin</name></author><id>tag:politicalphysicist.github.io,2014-10-31:a-not-as-brief-as-id-hoped-fortran-tutorial.html</id><summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Note:&lt;/strong&gt; I wrote this guide for the Saint Mary&amp;#8217;s University Astronomy and
+&lt;/ul&gt;</summary><category term="Python"></category><category term="Fortran"></category><category term="Programming"></category><category term="Software"></category></entry><entry><title>A (Not as Brief as I’d Hoped) Fortran Tutorial</title><link href="https://politicalphysicist.github.io/a-not-as-brief-as-id-hoped-fortran-tutorial.html" rel="alternate"></link><updated>2014-10-31T23:00:00+00:00</updated><author><name>C. MacMackin</name></author><id>tag:politicalphysicist.github.io,2014-10-31:a-not-as-brief-as-id-hoped-fortran-tutorial.html</id><summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Note:&lt;/strong&gt; I wrote this guide for the Saint Mary&amp;#8217;s University Astronomy and
 Physics Society to go along with a tutorial that I will present on the Fortran
 programming language. I thought I&amp;#8217;d post it here in addition to the
 &lt;a href="http://ap.smu.ca/~smuaps/an-introduction-to-modern-fortran-programming.html"&gt;&lt;span class="caps"&gt;SMUAPS&lt;/span&gt; website&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
@@ -432,7 +432,7 @@ typically used in &lt;span class="caps"&gt;SMU&lt;/span&gt;&amp;#8217;s Computat
 introduction will show you how to use various useful features of the language
 in its modern form.&lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2" rel="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt; It will do this by defining a problem which we wish a
 program to solve and then showing how to write such a program. The program
-can be &lt;a href="http://politicalphysicist.github.io/attachments/fortran/potential_field.f90"&gt;downloaded here&lt;/a&gt;
+can be &lt;a href="https://politicalphysicist.github.io/attachments/fortran/potential_field.f90"&gt;downloaded here&lt;/a&gt;
 if you want to follow along (which I&amp;#8217;d recommend
 doing). I assume that you already know how the basics of computer programming
 but have not previously done scientific computing or worked with Fotran. Of
@@ -1146,7 +1146,7 @@ shows only some of their&amp;nbsp;power.&lt;/p&gt;
 &lt;p&gt;&lt;a name="compiling"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;Compiling and Running Your&amp;nbsp;Program&lt;/h3&gt;
 &lt;p&gt;We now have a working program. As a reminder, you can
-&lt;a href="http://politicalphysicist.github.io/attachments/fortran/potential_field.f90"&gt;download it here&lt;/a&gt;.
+&lt;a href="https://politicalphysicist.github.io/attachments/fortran/potential_field.f90"&gt;download it here&lt;/a&gt;.
 It&amp;#8217;s time to compile it and see if it works! The Fortran compiler which you
 will use most often is &lt;code&gt;gfortran&lt;/code&gt;. This is a decent compiler&lt;sup id="fnref:4"&gt;&lt;a class="footnote-ref" href="#fn:4" rel="footnote"&gt;4&lt;/a&gt;&lt;/sup&gt; and has the
 advantage of being free software.&lt;sup id="fnref:5"&gt;&lt;a class="footnote-ref" href="#fn:5" rel="footnote"&gt;5&lt;/a&gt;&lt;/sup&gt; If you are running Linux then you can
@@ -1159,10 +1159,10 @@ distro&amp;#8217;s package managers). Otherwise you can
 you&amp;#8217;ve kept your source code. This will produce the executable file called
 &lt;code&gt;a.out&lt;/code&gt;. To run the program, type &lt;code&gt;./a.out&lt;/code&gt;. Before running it, make
 sure that you have a file containing your data on the electrical potential
-called &amp;#8220;in.dat&amp;#8221;. If you use the &lt;a href="http://politicalphysicist.github.io/attachments/fortran/in.dat"&gt;in.dat&lt;/a&gt;
+called &amp;#8220;in.dat&amp;#8221;. If you use the &lt;a href="https://politicalphysicist.github.io/attachments/fortran/in.dat"&gt;in.dat&lt;/a&gt;
 file provided here then you should get the following&amp;nbsp;output:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="What you should see in your terminal when you run with the input data provided here." src="http://politicalphysicist.github.io/images/fortran/output.png" style="float:none;display:block;margin-left:auto;margin-right:auto" /&gt;&lt;/p&gt;
-&lt;p&gt;The output file &lt;code&gt;out.dat&lt;/code&gt; should match &lt;a href="http://politicalphysicist.github.io/attachments/fortran/out.dat"&gt;this one&lt;/a&gt;.
+&lt;p&gt;&lt;img alt="What you should see in your terminal when you run with the input data provided here." src="https://politicalphysicist.github.io/images/fortran/output.png" style="float:none;display:block;margin-left:auto;margin-right:auto" /&gt;&lt;/p&gt;
+&lt;p&gt;The output file &lt;code&gt;out.dat&lt;/code&gt; should match &lt;a href="https://politicalphysicist.github.io/attachments/fortran/out.dat"&gt;this one&lt;/a&gt;.
 You should see an
 electric field that rounds to 20 &lt;span class="caps"&gt;NC&lt;/span&gt;&lt;sup&gt;-1&lt;/sup&gt; everywhere. Don&amp;#8217;t worry if
 your numbers vary from mine in the last few decimal places.
@@ -1225,8 +1225,8 @@ program&amp;#8212;before even the
 
 &lt;p&gt;If you need to load multiple modules then you place additional &lt;code&gt;USE&lt;/code&gt;
 statements at the start of the program, each on its own line. Take a look at
-the &lt;a href="http://politicalphysicist.github.io/attachments/fortran/tools_mod.f90"&gt;module&lt;/a&gt; and
-&lt;a href="http://politicalphysicist.github.io/attachments/fortran/potential_field2.f90"&gt;modified program&lt;/a&gt; to
+the &lt;a href="https://politicalphysicist.github.io/attachments/fortran/tools_mod.f90"&gt;module&lt;/a&gt; and
+&lt;a href="https://politicalphysicist.github.io/attachments/fortran/potential_field2.f90"&gt;modified program&lt;/a&gt; to
 see what changes were&amp;nbsp;made.&lt;/p&gt;
 &lt;p&gt;The main disadvantage of using modules (although it&amp;#8217;s one that can be
 overcome with sufficient
@@ -1248,7 +1248,7 @@ gfortran -o potential_field2 tools_mod.o potential_field2.o
 
 &lt;p&gt;Aside from the change in the name of the executable, the program can be run
 just as&amp;nbsp;before.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="What you should see in your terminal when you compile and run our rewritten version of the program." src="http://politicalphysicist.github.io/images/fortran/output2.png" style="float:none;display:block;margin-left:auto;margin-right:auto" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="What you should see in your terminal when you compile and run our rewritten version of the program." src="https://politicalphysicist.github.io/images/fortran/output2.png" style="float:none;display:block;margin-left:auto;margin-right:auto" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a name="summing"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;Summing&amp;nbsp;Up&lt;/h3&gt;
 &lt;p&gt;There you have it. You&amp;#8217;ve now seen how various features in Fortran work and
@@ -1362,7 +1362,7 @@ Note that not all features are yet supported by all&amp;nbsp;compilers.&lt;/li&g
         "}";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</summary><category term="Programming"></category><category term="Fortran"></category><category term="High Performance Computing"></category><category term="gfortran"></category></entry><entry><title>I Designed a Website</title><link href="http://politicalphysicist.github.io/i-designed-a-website.html" rel="alternate"></link><updated>2014-09-26T11:20:00+01:00</updated><author><name>C MacMackin</name></author><id>tag:politicalphysicist.github.io,2014-09-26:i-designed-a-website.html</id><summary type="html">&lt;p&gt;I have recently finished designing a new website for the Saint Mary&amp;#8217;s University
+&lt;/script&gt;</summary><category term="Programming"></category><category term="Fortran"></category><category term="High Performance Computing"></category><category term="gfortran"></category></entry><entry><title>I Designed a Website</title><link href="https://politicalphysicist.github.io/i-designed-a-website.html" rel="alternate"></link><updated>2014-09-26T11:20:00+01:00</updated><author><name>C. MacMackin</name></author><id>tag:politicalphysicist.github.io,2014-09-26:i-designed-a-website.html</id><summary type="html">&lt;p&gt;I have recently finished designing a new website for the Saint Mary&amp;#8217;s University
 Astronomy and Physics Society (&lt;span class="caps"&gt;SMUAPS&lt;/span&gt;). I decided to build this website using
 Pelican (the same software that I use for this blog) because of my familiarity
 with it and because of the versatility of the software. The website can be found
@@ -1371,12 +1371,12 @@ out about the technical details of how the site is designed, see these two
 posts:
 &lt;a href="http://ap.smu.ca/~smuaps/readme-website-documentation.html"&gt;&lt;span class="caps"&gt;README&lt;/span&gt; (Website Documentation)&lt;/a&gt; and
 &lt;a href="http://ap.smu.ca/~smuaps/new-website-design.html"&gt;New Website Design&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Screenshot of the new website's home page." src="http://politicalphysicist.github.io/images/smuapsWeb.png" /&gt;&lt;/p&gt;</summary><category term="Pelican"></category><category term="Website"></category><category term="SMU"></category><category term="University"></category></entry><entry><title>Gnuplotting, LaTeXing, and Other Made Up Verbs</title><link href="http://politicalphysicist.github.io/gnuplotting-latexing-and-other-made-up-verbs.html" rel="alternate"></link><updated>2014-04-15T11:30:00+01:00</updated><author><name>C MacMackin</name></author><id>tag:politicalphysicist.github.io,2014-04-15:gnuplotting-latexing-and-other-made-up-verbs.html</id><summary type="html">&lt;p&gt;Anyone who knows me in person and has seen me do any amount of work in
+&lt;p&gt;&lt;img alt="Screenshot of the new website's home page." src="https://politicalphysicist.github.io/images/smuapsWeb.png" /&gt;&lt;/p&gt;</summary><category term="Pelican"></category><category term="Website"></category><category term="SMU"></category><category term="University"></category></entry><entry><title>Gnuplotting, LaTeXing, and Other Made Up Verbs</title><link href="https://politicalphysicist.github.io/gnuplotting-latexing-and-other-made-up-verbs.html" rel="alternate"></link><updated>2014-04-15T11:30:00+01:00</updated><author><name>C. MacMackin</name></author><id>tag:politicalphysicist.github.io,2014-04-15:gnuplotting-latexing-and-other-made-up-verbs.html</id><summary type="html">&lt;p&gt;Anyone who knows me in person and has seen me do any amount of work in
 physics knows that my preferred graphing software is Gnuplot.&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt; 
 This is a piece
 of command-line plotting software capable of producing nearly every sort of graph
 imaginable. In fact, it&amp;#8217;s results have appeared on this blog before, and can 
-be found in my &lt;a href="http://politicalphysicist.github.io/on-the-abuse-of-exponentiation-in-colloquial-communication.html"&gt;perfectly reasonable and not at all neurotic rant about exponential growth.&lt;/a&gt; 
+be found in my &lt;a href="https://politicalphysicist.github.io/on-the-abuse-of-exponentiation-in-colloquial-communication.html"&gt;perfectly reasonable and not at all neurotic rant about exponential growth.&lt;/a&gt; 
 It is capable of plotting data and
 functions in any number of ways. Most importantly, in my mind, Gnuplot scripts can
 be written which make it easy to produce many similar plots (batch&amp;nbsp;processing).&lt;/p&gt;
@@ -1393,7 +1393,7 @@ as &lt;code&gt;4\pi r^{2}~[M_{\odot}]&lt;/code&gt;. While one of the formats tha
 is LaTeX, the quality of the resulting plot is terrible. Just look at the
 figure below (a plot of some data and curves fit to that data from a recent
 lab&amp;nbsp;report).&lt;/p&gt;
-&lt;p&gt;&lt;img alt="LaTeX Gnuplot terminal in all of its ugly glory." src="http://politicalphysicist.github.io/images/gnuplotLatexBad.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="LaTeX Gnuplot terminal in all of its ugly glory." src="https://politicalphysicist.github.io/images/gnuplotLatexBad.png" /&gt;&lt;/p&gt;
 &lt;p&gt;However, there is another choice of output: the cairolatex terminal. This 
 terminal, which is related to the pdfcairo terminal, actually produces two files.
 One of these is a &lt;span class="caps"&gt;PDF&lt;/span&gt; or &lt;span class="caps"&gt;EPS&lt;/span&gt; file with the axes, data, and functions of the plot.
@@ -1402,12 +1402,12 @@ file which contains the information necessary to place labels on said plot.
 The actual plot in this case is of far better quality, while labels are still
 in LaTeX and can thus contain math, special characters, etc. Producing the
 same plot as above using this terminal, we get a much better&amp;nbsp;result.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="cairolatex Gnuplot terminal." src="http://politicalphysicist.github.io/images/gnuplotLatex.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="cairolatex Gnuplot terminal." src="https://politicalphysicist.github.io/images/gnuplotLatex.png" /&gt;&lt;/p&gt;
 &lt;p&gt;The main disadvantage of this approach is that the LaTeX file must be compiled
 before you can see the actual result. However, with the right settings and
 a call to a LaTeX compiler at the end of your script, this problem is easily
 surmountable. In order to make this easy, I&amp;#8217;ve written myself a 
-&lt;a href="http://politicalphysicist.github.io/attachments/Plot.gp"&gt;little template&lt;/a&gt;
+&lt;a href="https://politicalphysicist.github.io/attachments/Plot.gp"&gt;little template&lt;/a&gt;
 Gnuplot script, with these features built in. Simply change the name of the output
 file (without including any extension) on line nine and add the various setting
 and plot commands that you&amp;nbsp;need.&lt;/p&gt;
@@ -1472,11 +1472,11 @@ and plot commands that you&amp;nbsp;need.&lt;/p&gt;
         "}";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</summary><category term="Gnuplot"></category><category term="LaTeX"></category><category term="Templates"></category><category term="Plotting"></category><category term="Software"></category></entry><entry><title>What I Did Over Christmas Break</title><link href="http://politicalphysicist.github.io/what-i-did-over-christmas-break.html" rel="alternate"></link><updated>2013-12-21T02:00:00+00:00</updated><author><name>C MacMackin</name></author><id>tag:politicalphysicist.github.io,2013-12-21:what-i-did-over-christmas-break.html</id><summary type="html">&lt;p&gt;&lt;em&gt;If you are impatient and don&amp;#8217;t want to read my no doubt fascinating
+&lt;/script&gt;</summary><category term="Gnuplot"></category><category term="LaTeX"></category><category term="Templates"></category><category term="Plotting"></category><category term="Software"></category></entry><entry><title>What I Did Over Christmas Break</title><link href="https://politicalphysicist.github.io/what-i-did-over-christmas-break.html" rel="alternate"></link><updated>2013-12-21T02:00:00+00:00</updated><author><name>C. MacMackin</name></author><id>tag:politicalphysicist.github.io,2013-12-21:what-i-did-over-christmas-break.html</id><summary type="html">&lt;p&gt;&lt;em&gt;If you are impatient and don&amp;#8217;t want to read my no doubt fascinating
 account of the inspiration for and development process of the 
 software I&amp;#8217;ve designed, you can skip down to &lt;a href="#software"&gt;here&lt;/a&gt; to read what
 it does and how to install&amp;nbsp;it.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Conetroller icon" src="http://politicalphysicist.github.io/images/conetroller-icon.svg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Conetroller icon" src="https://politicalphysicist.github.io/images/conetroller-icon.svg" /&gt;&lt;/p&gt;
 &lt;p&gt;One of the many great things about Christmas time is the lack of homework.
 It means that I finally have the chance to work on some of the little
 personal projects that I&amp;#8217;ve been wanting to do. One such project, of course,
@@ -1525,13 +1525,13 @@ then import them into your code (rather than have to create the whole
 interface using code only). It&amp;#8217;s a bit rough around the edges, but 
 certainly better than having to create the interface&amp;nbsp;manually.&lt;/p&gt;
 &lt;p&gt;&lt;a name="software"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Conetroller interface" src="http://politicalphysicist.github.io/images/ConetrollerInterface.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Conetroller interface" src="https://politicalphysicist.github.io/images/ConetrollerInterface.png" /&gt;&lt;/p&gt;
 &lt;p&gt;And so, I now have a working piece of software that will allow you to
 control a remote instance of &lt;span class="caps"&gt;VLC&lt;/span&gt;. So far I have only been able to test
 it on an instance running on my own computer, but I see no reason why it
 would work any differently if &lt;span class="caps"&gt;VLC&lt;/span&gt; is on a different machine. And thus,
 I present to you: Conetroller&amp;nbsp;v0.2.*&lt;/p&gt;
-&lt;p&gt;I am posting the code &lt;a href="http://politicalphysicist.github.io/attachments/conetroller-0-2.tar.gz"&gt;for download here&lt;/a&gt;
+&lt;p&gt;I am posting the code &lt;a href="https://politicalphysicist.github.io/attachments/conetroller-0-2.tar.gz"&gt;for download here&lt;/a&gt;
 , if anyone is interested. 
 Currently it is only able to run on Linux (there&amp;#8217;s a good chance it
 would work on Mac &lt;span class="caps"&gt;OSX&lt;/span&gt; too), although it shouldn&amp;#8217;t be too difficult to 
@@ -1581,7 +1581,7 @@ I blame some of the peculiarities of Glade for&amp;nbsp;this&lt;/li&gt;
 &lt;p&gt;Flaws aside, I am confident that Conetroller will prove useful to me,
 and hope it can be useful to others as&amp;nbsp;well.&lt;/p&gt;
 &lt;p&gt;*For those that are unaware, the logo for &lt;span class="caps"&gt;VLC&lt;/span&gt; is a traffic cone. Since my
-program controls &lt;span class="caps"&gt;VLC&lt;/span&gt;, Conetroller seemed like the only reasonable name for&amp;nbsp;it.&lt;/p&gt;</summary><category term="Programming"></category><category term="VLC"></category><category term="Python"></category><category term="GTK+"></category><category term="Conetroller"></category></entry><entry><title>New Computer, New Linux Distribution</title><link href="http://politicalphysicist.github.io/new-computer-new-linux-distribution.html" rel="alternate"></link><updated>2013-07-30T15:00:00+01:00</updated><author><name>C MacMackin</name></author><id>tag:politicalphysicist.github.io,2013-07-30:new-computer-new-linux-distribution.html</id><summary type="html">&lt;p&gt;Well, my old laptop was dying. At least I think it was. In any case,
+program controls &lt;span class="caps"&gt;VLC&lt;/span&gt;, Conetroller seemed like the only reasonable name for&amp;nbsp;it.&lt;/p&gt;</summary><category term="Programming"></category><category term="VLC"></category><category term="Python"></category><category term="GTK+"></category><category term="Conetroller"></category></entry><entry><title>New Computer, New Linux Distribution</title><link href="https://politicalphysicist.github.io/new-computer-new-linux-distribution.html" rel="alternate"></link><updated>2013-07-30T15:00:00+01:00</updated><author><name>C. MacMackin</name></author><id>tag:politicalphysicist.github.io,2013-07-30:new-computer-new-linux-distribution.html</id><summary type="html">&lt;p&gt;Well, my old laptop was dying. At least I think it was. In any case,
 I wasn&amp;#8217;t waiting around until the semester started to find out&amp;#8212;better
 to get a new computer now when I had time to get it configured properly.
 And so, a week and a half ago I found myself with a brand new &lt;span class="caps"&gt;ASUS&lt;/span&gt; laptop.
@@ -1627,7 +1627,7 @@ the &lt;span class="caps"&gt;UEFI&lt;/span&gt; boot-loader was convinced that th
 present. To be fair, I tried installing Linux Mint and encountered the
 same problem. Several attempts later, I finally found a work-around that
 got the boot-loader to see the operating&amp;nbsp;systems.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Bow to me, for I am root" src="http://politicalphysicist.github.io/images/iamroot.jpg" /&gt; At this point I 
+&lt;p&gt;&lt;img alt="Bow to me, for I am root" src="https://politicalphysicist.github.io/images/iamroot.jpg" /&gt; At this point I 
 was past the worst. The next step was to create a new
 account for myself. Initially when you install Linux (well, in more
 traditional setups like Arch, anyway) there will only be one user, called
@@ -1682,7 +1682,7 @@ this&amp;nbsp;blog. &lt;/p&gt;
 &lt;p&gt;&lt;img style="float:none;display:block;margin-left:auto;margin-right:auto" alt="A screenshot of my desktop." src="http://redshadesofgreen.raspctl.com/static/images/ArchScreenshot.png" /&gt;&lt;/p&gt;
 &lt;p&gt;And this brings me more-or-less to where I am now. While there are still
 a few things I have left to do, at this point I have a fully functional
-computer running Arch&amp;nbsp;Linux.&lt;/p&gt;</summary><category term="Linux"></category><category term="Arch Linux"></category><category term="Laptop"></category><category term="MATE Desktop"></category></entry><entry><title>Hello World!</title><link href="http://politicalphysicist.github.io/hello-world.html" rel="alternate"></link><updated>2013-06-29T23:50:00+01:00</updated><author><name>C MacMackin</name></author><id>tag:politicalphysicist.github.io,2013-06-29:hello-world.html</id><summary type="html">&lt;p&gt;Well, I&amp;#8217;ve decided to start a blog. Having set up a 
+computer running Arch&amp;nbsp;Linux.&lt;/p&gt;</summary><category term="Linux"></category><category term="Arch Linux"></category><category term="Laptop"></category><category term="MATE Desktop"></category></entry><entry><title>Hello World!</title><link href="https://politicalphysicist.github.io/hello-world.html" rel="alternate"></link><updated>2013-06-29T23:50:00+01:00</updated><author><name>C. MacMackin</name></author><id>tag:politicalphysicist.github.io,2013-06-29:hello-world.html</id><summary type="html">&lt;p&gt;Well, I&amp;#8217;ve decided to start a blog. Having set up a 
 &lt;a href="http://www.raspberrypi.org/"&gt;Raspberry Pi&lt;/a&gt; as a webserver, I thought I&amp;#8217;d try
 setting up a blog on it. We&amp;#8217;ll see how good I am at keeping it up to&amp;nbsp;date.&lt;/p&gt;
 &lt;p&gt;Originally I intended to write primarily about politics (the name of the 
