@@ -4,7 +4,7 @@ Tags: Austerity, Europe, SYRIZA, Socialism, Elections
 Image: {filename}/images/greeceEuropeCage.jpg
 Summary: Just over five months ago, Greece elected a new government lead by left-wing party SYRIZA. SYRIZA comes out of a radical tradition rejecting both reformist social democracy and authoritarian communism and was swept to power on a wave of anti-austerity sentiment. Austerity refers to the massive cuts to public spending (tending to hurt particularly those on lower incomes) which Greece has endured over the past five years, along with the associated policies of deregulation, cuts to the minimum wage, an end to collective bargaining, and the privatization of anything which actually makes a profit for the government.
 
-![SYRIZA supporters celebrating their election victory in January](http://cmacmackin.github.io/blog/images/syrizaVictory.jpg)
+![SYRIZA supporters celebrating their election victory in January]({filename}/images/syrizaVictory.jpg)
 Just over five months ago, Greece elected a new government lead by left-wing
 party SYRIZA. SYRIZA comes out of a radical tradition rejecting both
 reformist social democracy and authoritarian communism and was swept to power
@@ -163,7 +163,7 @@ even imagine being able to form a government in our home countries. But the fact
 remains, if we are to be at all consistent then we must not endorse anyone who
 implements austerity, whether they come from a left-wing background or not.
 
-![Free Greece from the European Prison](http://cmacmackin.github.io/blog/images/greeceEuropeCage.jpg){: .img-center }
+![Free Greece from the European Prison]({filename}/images/greeceEuropeCage.jpg){: .img-center }
 
 So what should SYRIZA do? From the comfort of my armchair in a country which
 has not been ravaged by austerity and is safely on its own currency and who
