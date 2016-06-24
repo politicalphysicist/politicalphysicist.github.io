@@ -1,5 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>The Political Physicist</title><link href="https://politicalphysicist.github.io/" rel="alternate"></link><link href="https://politicalphysicist.github.io/feeds/all.atom.xml" rel="self"></link><id>https://politicalphysicist.github.io/</id><updated>2015-07-10T23:30:00+01:00</updated><entry><title>Tsipras, go to Hell</title><link href="https://politicalphysicist.github.io/tsipras-go-to-hell.html" rel="alternate"></link><updated>2015-07-10T23:30:00+01:00</updated><author><name>C. MacMackin</name></author><id>tag:politicalphysicist.github.io,2015-07-10:tsipras-go-to-hell.html</id><summary type="html">&lt;p&gt;&lt;em&gt;Edit: Once the initial disappointment was over, I was able to step back and
+<feed xmlns="http://www.w3.org/2005/Atom"><title>The Political Physicist</title><link href="https://politicalphysicist.github.io/" rel="alternate"></link><link href="https://politicalphysicist.github.io/feeds/all.atom.xml" rel="self"></link><id>https://politicalphysicist.github.io/</id><updated>2016-06-25T00:30:00+01:00</updated><entry><title>You Don’t Have to Like Brexit, But You do Have to Live With it</title><link href="https://politicalphysicist.github.io/you-dont-have-to-like-brexit-but-you-do-have-to-live-with-it.html" rel="alternate"></link><updated>2016-06-25T00:30:00+01:00</updated><author><name>C. MacMackin</name></author><id>tag:politicalphysicist.github.io,2016-06-25:you-dont-have-to-like-brexit-but-you-do-have-to-live-with-it.html</id><summary type="html">&lt;p&gt;Well, the vote was for Brexit. I am stating this as a fact, not meaning to
+place any particular mourning or celebration in it. I can&amp;#8217;t say I&amp;#8217;m a fan of
+the &lt;span class="caps"&gt;EU&lt;/span&gt;. I think it is neoliberal and unaccountable, probably
+irredeemably so in both cases. But I take no joy in the outcome of
+this vote. The narrative leading to Brexit was not one of building a
+better future based on cooperation, without the constant calls for
+greater &amp;#8220;competitiveness&amp;#8221;. Instead, it was a narrative of
+out-of-control immigration, the interfering outsiders, Britain no
+longer being Great thanks to the burdens of the &lt;span class="caps"&gt;EU&lt;/span&gt;. It was not a
+pleasant campaign for those of us on the&amp;nbsp;Left.&lt;/p&gt;
+&lt;p&gt;Let me be clear: I am a believer in democratic
+European federalism. However, I have serious doubts that the &lt;span class="caps"&gt;EU&lt;/span&gt; can
+ever become such a system, given its extreme democratic deficit. At
+best, I think that a set of countries, which would like need to be
+lead by Leftist governments, would essentially secede from the &lt;span class="caps"&gt;EU&lt;/span&gt; at
+once to form some other institution.  More likely,
+any such government would be forced out of the &lt;span class="caps"&gt;EU&lt;/span&gt; if it tried to
+implement a serious Leftist program, long before a coordinated
+secession could be achieved. I don&amp;#8217;t think the &lt;span class="caps"&gt;EU&lt;/span&gt; will ever be
+a conducive battleground for Leftist&amp;nbsp;ideas.&lt;/p&gt;
+&lt;p&gt;So, this leaves us in a depressing state. The exit vote was driven by
+right-wing narratives, while staying would have locked us into a neoliberal
+framework. I knew this was the choice ahead of us long before the vote
+occurred. We were faced only with bad outcomes. Given that, I
+won&amp;#8217;t condemn anyone on the Left for their choices, whether they voted
+to leave, remain, spoiled their ballot, or abstained. I knew that,
+however they voted, Leftists were not motivated by racism or
+nationalism but by a genuine concern for building a better world. I knew that,
+regardless of the result of the vote, we were going to need to fight
+harder than ever to build international solidarity, to develop
+coherent policies for a socialist program, to bring the hundreds of
+thousands, if not millions, of dispossessed Britons and Europeans into
+the struggle for a better&amp;nbsp;future.&lt;/p&gt;
+&lt;p&gt;Well, the vote was for Brexit. We have to accept that. We don&amp;#8217;t have
+to like it or agree with it, but we have to accept it. Calling the
+people who voted for it stupid, or racists, or saying that you&amp;#8217;re
+ashamed to be British isn&amp;#8217;t going to do any good. In fact, it will
+only alienate the Brexit voters&amp;#8212;who we&amp;#8217;ll need if the Left is ever to
+get elected&amp;#8212;even more. Perhaps today was a defeat for
+the Left. Well, the Left has had almost nothing but defeats in this
+country (or anywhere else) since 1979, and we know how to keep on going. 
+This result will make many things more difficult, but it will make
+some things&amp;nbsp;easier.&lt;/p&gt;
+&lt;p&gt;The Brexit vote happened. We don&amp;#8217;t yet know what the final resolution to
+this story will be, but we have to do everything in our power to ensure
+that our future outside of the European Union is as just and humane as&amp;nbsp;possible.&lt;/p&gt;</summary><category term="UK"></category><category term="EU"></category><category term="British Politics"></category><category term="Europe"></category><category term="Brexit"></category></entry><entry><title>Tsipras, go to Hell</title><link href="https://politicalphysicist.github.io/tsipras-go-to-hell.html" rel="alternate"></link><updated>2015-07-10T23:30:00+01:00</updated><author><name>C. MacMackin</name></author><id>tag:politicalphysicist.github.io,2015-07-10:tsipras-go-to-hell.html</id><summary type="html">&lt;p&gt;&lt;em&gt;Edit: Once the initial disappointment was over, I was able to step back and
 appreciate that this was a rather infantile post. While I stand by my comments
 that Tsipras was naive and feel that, if they weren&amp;#8217;t going to use it to fight
 back against the &lt;span class="caps"&gt;EU&lt;/span&gt;, calling the referendum was ultimately harmful because of
@@ -1741,11 +1786,13 @@ Note that not all features are yet supported by all&amp;nbsp;compilers.&lt;/li&g
         indent = (screen.width &lt; 768) ? "0em" : indent;
         linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
     }
-    
+
     var mathjaxscript = document.createElement('script');
+    var location_protocol = (false) ? 'https' : document.location.protocol;
+    if (location_protocol !== 'http' &amp;&amp; location_protocol !== 'https') location_protocol = 'https:';
     mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
     mathjaxscript.type = 'text/javascript';
-    mathjaxscript.src = '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript.src = location_protocol + '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
     mathjaxscript[(window.opera ? "innerHTML" : "text")] =
         "MathJax.Hub.Config({" +
         "    config: ['MMLorHTML.js']," +
@@ -1755,6 +1802,7 @@ Note that not all features are yet supported by all&amp;nbsp;compilers.&lt;/li&g
         "    displayAlign: '"+ align +"'," +
         "    displayIndent: '"+ indent +"'," +
         "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
         "    tex2jax: { " +
         "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
         "        displayMath: [ ['$$','$$'] ]," +
@@ -2364,11 +2412,13 @@ and plot commands that you&amp;nbsp;need.&lt;/p&gt;
         indent = (screen.width &lt; 768) ? "0em" : indent;
         linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
     }
-    
+
     var mathjaxscript = document.createElement('script');
+    var location_protocol = (false) ? 'https' : document.location.protocol;
+    if (location_protocol !== 'http' &amp;&amp; location_protocol !== 'https') location_protocol = 'https:';
     mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
     mathjaxscript.type = 'text/javascript';
-    mathjaxscript.src = '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript.src = location_protocol + '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
     mathjaxscript[(window.opera ? "innerHTML" : "text")] =
         "MathJax.Hub.Config({" +
         "    config: ['MMLorHTML.js']," +
@@ -2378,6 +2428,7 @@ and plot commands that you&amp;nbsp;need.&lt;/p&gt;
         "    displayAlign: '"+ align +"'," +
         "    displayIndent: '"+ indent +"'," +
         "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
         "    tex2jax: { " +
         "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
         "        displayMath: [ ['$$','$$'] ]," +
@@ -3309,11 +3360,13 @@ of gay guys actually share your views. Now the only problem is finding&amp;nbsp;
         indent = (screen.width &lt; 768) ? "0em" : indent;
         linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
     }
-    
+
     var mathjaxscript = document.createElement('script');
+    var location_protocol = (false) ? 'https' : document.location.protocol;
+    if (location_protocol !== 'http' &amp;&amp; location_protocol !== 'https') location_protocol = 'https:';
     mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
     mathjaxscript.type = 'text/javascript';
-    mathjaxscript.src = '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript.src = location_protocol + '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
     mathjaxscript[(window.opera ? "innerHTML" : "text")] =
         "MathJax.Hub.Config({" +
         "    config: ['MMLorHTML.js']," +
@@ -3323,6 +3376,7 @@ of gay guys actually share your views. Now the only problem is finding&amp;nbsp;
         "    displayAlign: '"+ align +"'," +
         "    displayIndent: '"+ indent +"'," +
         "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
         "    tex2jax: { " +
         "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
         "        displayMath: [ ['$$','$$'] ]," +

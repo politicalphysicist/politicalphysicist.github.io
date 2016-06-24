@@ -5,51 +5,58 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://politicalphysicist.github.io/</loc>
-<lastmod>2016-01-21T23:19:43-00:00</lastmod>
+<lastmod>2016-06-25T00:38:56-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://politicalphysicist.github.io/archives.html</loc>
-<lastmod>2016-01-21T23:19:43-00:00</lastmod>
+<lastmod>2016-06-25T00:38:56-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://politicalphysicist.github.io/tags.html</loc>
-<lastmod>2016-01-21T23:19:43-00:00</lastmod>
+<lastmod>2016-06-25T00:38:56-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://politicalphysicist.github.io/categories.html</loc>
-<lastmod>2016-01-21T23:19:43-00:00</lastmod>
+<lastmod>2016-06-25T00:38:56-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://politicalphysicist.github.io/pages/about.html</loc>
-<lastmod>2016-01-21T23:19:43-00:00</lastmod>
+<lastmod>2016-06-25T00:38:56-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.3</priority>
 </url>
 
 <url>
 <loc>https://politicalphysicist.github.io/pages/software.html</loc>
-<lastmod>2016-01-21T23:19:43-00:00</lastmod>
+<lastmod>2016-06-25T00:38:56-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.3</priority>
 </url>
 
 <url>
 <loc>https://politicalphysicist.github.io/pages/technical.html</loc>
-<lastmod>2016-01-21T23:19:43-00:00</lastmod>
+<lastmod>2016-06-25T00:38:56-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.3</priority>
+</url>
+
+<url>
+<loc>https://politicalphysicist.github.io/you-dont-have-to-like-brexit-but-you-do-have-to-live-with-it.html</loc>
+<lastmod>2016-06-25T00:30:00+01:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
 </url>
 
 <url>
@@ -257,7 +264,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://politicalphysicist.github.io/category/politics.html</loc>
-<lastmod>2015-06-23T01:30:00-00:01</lastmod>
+<lastmod>2016-06-25T00:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -305,8 +312,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://politicalphysicist.github.io/tag/protest.html</loc>
-<lastmod>2013-06-30T18:16:00-00:01</lastmod>
+<loc>https://politicalphysicist.github.io/tag/syriza.html</loc>
+<lastmod>2015-07-10T23:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -425,7 +432,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://politicalphysicist.github.io/tag/british-politics.html</loc>
-<lastmod>2013-07-13T23:40:00-00:01</lastmod>
+<lastmod>2016-06-25T00:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -438,8 +445,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://politicalphysicist.github.io/tag/syriza.html</loc>
-<lastmod>2015-07-10T23:30:00-00:01</lastmod>
+<loc>https://politicalphysicist.github.io/tag/protest.html</loc>
+<lastmod>2013-06-30T18:16:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -480,6 +487,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://politicalphysicist.github.io/tag/eu.html</loc>
+<lastmod>2016-06-25T00:30:00-00:01</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>https://politicalphysicist.github.io/tag/canada-post.html</loc>
 <lastmod>2013-12-23T12:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
@@ -489,6 +503,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://politicalphysicist.github.io/tag/brazil.html</loc>
 <lastmod>2013-06-30T18:16:00-00:01</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://politicalphysicist.github.io/tag/brexit.html</loc>
+<lastmod>2016-06-25T00:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -523,7 +544,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://politicalphysicist.github.io/tag/europe.html</loc>
-<lastmod>2015-06-23T01:30:00-00:01</lastmod>
+<lastmod>2016-06-25T00:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -712,7 +733,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://politicalphysicist.github.io/tag/uk.html</loc>
-<lastmod>2013-07-09T10:30:00-00:01</lastmod>
+<lastmod>2016-06-25T00:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -887,7 +908,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://politicalphysicist.github.io/author/c-macmackin.html</loc>
-<lastmod>2015-07-10T23:30:00-00:01</lastmod>
+<lastmod>2016-06-25T00:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
