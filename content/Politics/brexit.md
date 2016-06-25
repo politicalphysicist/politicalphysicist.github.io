@@ -1,7 +1,7 @@
 Title: You Don't Have to Like Brexit, But You do Have to Live With it
 Date: 2016-06-25 00:30
 Tags: UK, EU, British Politics, Europe, Brexit
-Summary: 
+Summary: Well, the vote was for Brexit. I can't say I'm a fan of the EU, but I take no join in this outcome. With its narrative of out-of-control immigration, the interfering outsiders, and Britain no longer being Great thanks to the burdens of the EU. It was not a pleasant campaign for those of us on the Left. However, the vote happened. We don't have to like it or agree with it, but we have to accept it.
 
 Well, the vote was for Brexit. I am stating this as a fact, not meaning to
 place any particular mourning or celebration in it. I can't say I'm a fan of
@@ -44,14 +44,19 @@ to like it or agree with it, but we have to accept it. Calling the
 people who voted for it stupid, or racists, or saying that you're
 ashamed to be British isn't going to do any good. In fact, it will
 only alienate the Brexit voters--who we'll need if the Left is ever to
-get elected--even more. Perhaps today was a defeat for
-the Left. Well, the Left has had almost nothing but defeats in this
-country (or anywhere else) since 1979, and we know how to keep on going. 
-This result will make many things more difficult, but it will make
-some things easier.
+get elected--even more. Today may well have been a defeat for
+the Left, but the Left has had almost nothing but defeats in this
+country (or anywhere else) since 1979. We know how to keep on
+going. Raging against the outcome won't help us do that. 
 
 The Brexit vote happened. We don't yet know what the final resolution to
 this story will be, but we have to do everything in our power to ensure
 that our future outside of the European Union is as just and humane as
 possible.
 
+_Note: My reaction to the vote on leaving the EU was confusing and
+complex. This was an attempt to put it into words. I'm not entirely
+satisfied with what I've written; I feel like I could have been more
+eloquent and have perhaps missed a few points. Nonetheless, I've
+managed to clarify and codify at least some of my thoughts on this
+confusing issue._
