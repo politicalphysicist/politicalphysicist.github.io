@@ -215,7 +215,7 @@ exclamation mark isn&#8217;t inside a string) will be ignored by the
 compiler. Comments should be used to document your code. I&#8217;d recommend
 having a standard template that you use at the top of each program
 explaining what it does. An example of the format I use is provided&nbsp;below.</p>
-<div class="highlight"><pre><span class="c">!==============================================================================!</span>
+<div class="highlight"><pre><span></span><span class="c">!==============================================================================!</span>
 <span class="c">!                         B E G I N    P R O G R A M :                         !</span>
 <span class="c">!                        P O T E N T I A L _ F I E L D                         !</span>
 <span class="c">!==============================================================================!</span>
@@ -261,7 +261,7 @@ how they are applied in&nbsp;Fortran.</p>
 <p>The great advantage of Fortran is the fairly obvious meaning of all of its
 syntax&#8212;something which can emphatically <em>not</em> be said for C. The
 basic structure of our program will&nbsp;be:</p>
-<div class="highlight"><pre><span class="k">PROGRAM </span><span class="n">potential_field</span>
+<div class="highlight"><pre><span></span><span class="k">PROGRAM </span><span class="n">potential_field</span>
     <span class="k">IMPLICIT NONE</span>
 
     <span class="c">! Variable declarations</span>
@@ -308,7 +308,7 @@ C or objects/classes in other languages. These are only really needed in
 larger programs, where they can provide a useful way of organizing
 data and&nbsp;code.</p>
 <p>A sample of the variable declarions in our code are given&nbsp;below.</p>
-<div class="highlight"><pre><span class="kt">CHARACTER</span><span class="p">(</span><span class="nb">LEN</span><span class="o">=</span><span class="mi">32</span><span class="p">)</span>               <span class="kd">::</span>  <span class="n">infile</span>  <span class="o">=</span> <span class="s1">&#39;in.dat&#39;</span><span class="p">,</span>                    <span class="p">&amp;</span>
+<div class="highlight"><pre><span></span><span class="kt">CHARACTER</span><span class="p">(</span><span class="nb">LEN</span><span class="o">=</span><span class="mi">32</span><span class="p">)</span>               <span class="kd">::</span>  <span class="n">infile</span>  <span class="o">=</span> <span class="s1">&#39;in.dat&#39;</span><span class="p">,</span>                    <span class="p">&amp;</span>
                                     <span class="n">outfile</span> <span class="o">=</span> <span class="s1">&#39;out.dat&#39;</span>
 <span class="kt">INTEGER</span><span class="p">,</span> <span class="k">PARAMETER</span>              <span class="kd">::</span>  <span class="n">data_max</span> <span class="o">=</span> <span class="mi">1012</span>
 <span class="kt">INTEGER</span>                         <span class="kd">::</span>  <span class="n">i</span><span class="p">,</span>                                     <span class="p">&amp;</span>
@@ -340,12 +340,12 @@ they are stored in column major order rather than the more typical
 <h4>Conditional&nbsp;Statements</h4>
 <p>If you want a single line to be executed only if <code>&lt;condition&gt;</code> is true, you
 would use the following&nbsp;syntax:</p>
-<div class="highlight"><pre><span class="k">IF</span> <span class="p">(</span> <span class="o">&lt;</span><span class="n">condition</span><span class="o">&gt;</span> <span class="p">)</span> <span class="o">&lt;</span><span class="n">statements</span><span class="o">&gt;</span>
+<div class="highlight"><pre><span></span><span class="k">IF</span> <span class="p">(</span> <span class="o">&lt;</span><span class="n">condition</span><span class="o">&gt;</span> <span class="p">)</span> <span class="o">&lt;</span><span class="n">statements</span><span class="o">&gt;</span>
 </pre></div>
 
 
 <p>The general form for an if-statement&nbsp;is</p>
-<div class="highlight"><pre><span class="k">IF</span> <span class="p">(</span> <span class="o">&lt;</span><span class="n">condition</span><span class="o">&gt;</span> <span class="p">)</span> <span class="k">THEN</span>
+<div class="highlight"><pre><span></span><span class="k">IF</span> <span class="p">(</span> <span class="o">&lt;</span><span class="n">condition</span><span class="o">&gt;</span> <span class="p">)</span> <span class="k">THEN</span>
     <span class="o">&lt;</span><span class="n">statemtents</span><span class="o">&gt;</span>
 <span class="k">ELSE IF</span> <span class="p">(</span> <span class="o">&lt;</span><span class="n">condition2</span><span class="o">&gt;</span> <span class="p">)</span> <span class="k">THEN</span>
     <span class="o">&lt;</span><span class="n">statemtents</span><span class="o">&gt;</span>
@@ -370,7 +370,7 @@ a&nbsp;comment.</p>
 <h4>Loops</h4>
 <p>The main type of loop which you&#8217;ll use in Fortran is a &#8220;do-loop,&#8221; the equivalent
 of a for-loop. This takes the&nbsp;form</p>
-<div class="highlight"><pre><span class="k">DO </span><span class="nb">index</span> <span class="o">=</span> <span class="n">lower</span><span class="p">,</span> <span class="n">upper</span><span class="p">[,</span> <span class="n">step_size</span><span class="p">]</span>
+<div class="highlight"><pre><span></span><span class="k">DO </span><span class="nb">index</span> <span class="o">=</span> <span class="n">lower</span><span class="p">,</span> <span class="n">upper</span><span class="p">[,</span> <span class="n">step_size</span><span class="p">]</span>
     <span class="o">&lt;</span><span class="n">statements</span><span class="o">&gt;</span>
 <span class="k">END DO</span>
 </pre></div>
@@ -380,7 +380,7 @@ of a for-loop. This takes the&nbsp;form</p>
 lower bound, <code>upper</code> is the upper bound, and <code>step_size</code> is the increment
 by which to increase the index. The upper and lower bounds are&nbsp;inclusive.</p>
 <p>There are also while loops, which have the&nbsp;syntax</p>
-<div class="highlight"><pre><span class="k">DO WHILE</span><span class="p">(</span> <span class="o">&lt;</span><span class="n">condition</span><span class="o">&gt;</span> <span class="p">)</span>
+<div class="highlight"><pre><span></span><span class="k">DO WHILE</span><span class="p">(</span> <span class="o">&lt;</span><span class="n">condition</span><span class="o">&gt;</span> <span class="p">)</span>
     <span class="o">&lt;</span><span class="n">statements</span><span class="o">&gt;</span>
 <span class="k">END DO</span>
 </pre></div>
@@ -388,7 +388,7 @@ by which to increase the index. The upper and lower bounds are&nbsp;inclusive.</
 
 <p>You can exit a loop with the command <code>EXIT</code>, or skip to the next iteration
 with the command <code>CYCLE</code>. The <code>EXIT</code> command allows us to use the loop&nbsp;structure</p>
-<div class="highlight"><pre><span class="k">DO</span>
+<div class="highlight"><pre><span></span><span class="k">DO</span>
     <span class="o">&lt;</span><span class="n">statements</span><span class="o">&gt;</span>
 <span class="k">END DO</span>
 </pre></div>
@@ -406,7 +406,7 @@ We could simply ask the user for the file names when the program is running,
 but this is rather ungainly. A far nicer solution is for the user to, if they
 desire, specify the file names as command-line arguments. To accomplish this
 we use the following bit of&nbsp;code:</p>
-<div class="highlight"><pre><span class="n">num_args</span> <span class="o">=</span> <span class="nb">COMMAND_ARGUMENT_COUNT</span><span class="p">()</span>
+<div class="highlight"><pre><span></span><span class="n">num_args</span> <span class="o">=</span> <span class="nb">COMMAND_ARGUMENT_COUNT</span><span class="p">()</span>
 <span class="k">IF</span> <span class="p">(</span> <span class="n">num_args</span> <span class="o">&gt;=</span> <span class="mi">1</span> <span class="p">)</span> <span class="k">CALL </span><span class="nb">GET_COMMAND_ARGUMENT</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="n">infile</span><span class="p">)</span>
 <span class="k">IF</span> <span class="p">(</span> <span class="n">num_args</span> <span class="o">&gt;=</span> <span class="mi">2</span> <span class="p">)</span> <span class="k">CALL </span><span class="nb">GET_COMMAND_ARGUMENT</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="n">outfile</span><span class="p">)</span>
 </pre></div>
@@ -453,7 +453,7 @@ integer. If, after the operation has been completed, <code>variable</code> is eq
 zero, then it was successful. Otherwise, it indicates that there was an error
 of some sort. Without specifying an <code>IOSTAT</code> the program would crash on&nbsp;you.</p>
 <p>To open our input file, we use the&nbsp;code</p>
-<div class="highlight"><pre><span class="c">! Read in data from the input file</span>
+<div class="highlight"><pre><span></span><span class="c">! Read in data from the input file</span>
 <span class="k">OPEN</span><span class="p">(</span><span class="n">UNIT</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="k">FILE</span><span class="o">=</span><span class="n">infile</span><span class="p">,</span> <span class="n">IOSTAT</span><span class="o">=</span><span class="n">ioval</span><span class="p">,</span> <span class="n">STATUS</span><span class="o">=</span><span class="s1">&#39;old&#39;</span><span class="p">)</span>
 <span class="k">IF</span> <span class="p">(</span> <span class="n">ioval</span> <span class="o">/=</span> <span class="mi">0</span> <span class="p">)</span> <span class="k">THEN</span> <span class="c">! Make sure file exists</span>
     <span class="k">WRITE</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">filedne</span><span class="p">)</span> <span class="nb">TRIM</span><span class="p">(</span><span class="n">infile</span><span class="p">)</span>
@@ -487,7 +487,7 @@ instead of a format string. An additional argument which can be provided for
 <code>READ</code> statements is an <code>IOSTAT</code>. This works in exactly the same way as
 in the <code>OPEN</code> statement and can be useful to know when you&#8217;ve read to the
 end of a&nbsp;file.</p>
-<div class="highlight"><pre><span class="k">DO </span><span class="n">i</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span><span class="n">data_max</span> <span class="c">! Read until end of file or reach maximum amount of data</span>
+<div class="highlight"><pre><span></span><span class="k">DO </span><span class="n">i</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span><span class="n">data_max</span> <span class="c">! Read until end of file or reach maximum amount of data</span>
     <span class="k">READ</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="o">*</span><span class="p">,</span><span class="n">IOSTAT</span><span class="o">=</span><span class="n">ioval</span><span class="p">)</span> <span class="n">postn</span><span class="p">(</span><span class="n">i</span><span class="p">),</span> <span class="n">potntl</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
     <span class="k">IF</span> <span class="p">(</span> <span class="n">ioval</span> <span class="o">/=</span> <span class="mi">0</span> <span class="p">)</span> <span class="k">THEN</span>
 <span class="k">        </span><span class="n">data_size</span> <span class="o">=</span> <span class="n">i</span> <span class="o">-</span> <span class="mi">1</span>
@@ -510,7 +510,7 @@ that you see in the <code>WRITE</code> statement are the concatenation&nbsp;oper
 <p>After all of this, outputting our results will seem easy. This is done
 with the following code fragment which will go after the actual calculations
 in our&nbsp;program</p>
-<div class="highlight"><pre><span class="c">! Send the data to the output file</span>
+<div class="highlight"><pre><span></span><span class="c">! Send the data to the output file</span>
 <span class="k">OPEN</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="k">FILE</span><span class="o">=</span><span class="n">outfile</span><span class="p">,</span> <span class="n">STATUS</span><span class="o">=</span><span class="s1">&#39;unknown&#39;</span><span class="p">)</span>
 <span class="k">WRITE</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="o">*</span><span class="p">)</span> <span class="s1">&#39;#Position                   Field Strength&#39;</span>
 <span class="k">DO </span><span class="n">i</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">data_size</span>
@@ -522,7 +522,7 @@ in our&nbsp;program</p>
 
 <p>There is little to remark upon here, except to note that the first line
 we write to the file&nbsp;is</p>
-<div class="highlight"><pre>#Position                   Field Strength
+<div class="highlight"><pre><span></span>#Position                   Field Strength
 </pre></div>
 
 
@@ -549,7 +549,7 @@ methods in other&nbsp;languages.</p>
 where your program ends (after the <code>STOP</code> command) type a line containing only
 the word <code>CONTAINS</code>. Place your procedures below that and before the end of
 the&nbsp;program.</p>
-<div class="highlight"><pre><span class="k">PROGRAM </span><span class="n">potential_field</span>
+<div class="highlight"><pre><span></span><span class="k">PROGRAM </span><span class="n">potential_field</span>
     <span class="k">IMPLICIT NONE</span>
 
     <span class="c">! Variable declarations</span>
@@ -602,7 +602,7 @@ variables. You will see an example of each in the program we are writing&nbsp;to
 <h4>Functions</h4>
 <p>I wrote a function to calculate derivatives. The basic syntax
 for such a function&nbsp;is</p>
-<div class="highlight"><pre><span class="k">FUNCTION </span><span class="n">differentiate</span> <span class="p">(</span> <span class="n">independent</span><span class="p">,</span> <span class="n">dependent</span> <span class="p">)</span>
+<div class="highlight"><pre><span></span><span class="k">FUNCTION </span><span class="n">differentiate</span> <span class="p">(</span> <span class="n">independent</span><span class="p">,</span> <span class="n">dependent</span> <span class="p">)</span>
     <span class="k">IMPLICIT NONE</span>
     <span class="c">! Argument declarations</span>
     <span class="kt">REAL</span><span class="p">(</span><span class="mi">8</span><span class="p">),</span> <span class="k">DIMENSION</span><span class="p">(:),</span> <span class="k">INTENT</span><span class="p">(</span><span class="n">IN</span><span class="p">)</span>   <span class="kd">::</span>  <span class="n">dependent</span><span class="p">,</span>                     <span class="p">&amp;</span>
@@ -622,7 +622,7 @@ for such a function&nbsp;is</p>
 <code>independent</code> and <code>dependent</code>. While programs are ended with the keyword
 <code>STOP</code>, functions (and subroutines) are ended with the keyword <code>RETURN</code>.
 We call the function&nbsp;with</p>
-<div class="highlight"><pre><span class="n">field</span><span class="p">(</span><span class="mi">1</span><span class="p">:</span><span class="n">data_size</span><span class="p">)</span> <span class="o">=</span> <span class="n">differentiate</span><span class="p">(</span><span class="n">postn</span><span class="p">(</span><span class="mi">1</span><span class="p">:</span><span class="n">data_size</span><span class="p">),</span> <span class="n">potntl</span><span class="p">(</span><span class="mi">1</span><span class="p">:</span><span class="n">data_size</span><span class="p">))</span>
+<div class="highlight"><pre><span></span><span class="n">field</span><span class="p">(</span><span class="mi">1</span><span class="p">:</span><span class="n">data_size</span><span class="p">)</span> <span class="o">=</span> <span class="n">differentiate</span><span class="p">(</span><span class="n">postn</span><span class="p">(</span><span class="mi">1</span><span class="p">:</span><span class="n">data_size</span><span class="p">),</span> <span class="n">potntl</span><span class="p">(</span><span class="mi">1</span><span class="p">:</span><span class="n">data_size</span><span class="p">))</span>
 </pre></div>
 
 
@@ -649,7 +649,7 @@ set to be however large the array passed to the procedure is. A similar
 notation is used for our return value, but that&#8217;s because it is an
 <code>ALLOCATABLE</code> array. More on that in the sidebar&nbsp;below.</p>
 <p>The full code for this function is provided&nbsp;below.</p>
-<div class="highlight"><pre><span class="k">FUNCTION </span><span class="n">differentiate</span> <span class="p">(</span> <span class="n">independent</span><span class="p">,</span> <span class="n">dependent</span> <span class="p">)</span>
+<div class="highlight"><pre><span></span><span class="k">FUNCTION </span><span class="n">differentiate</span> <span class="p">(</span> <span class="n">independent</span><span class="p">,</span> <span class="n">dependent</span> <span class="p">)</span>
     <span class="k">IMPLICIT NONE</span>
 
     <span class="c">! Input and output variables</span>
@@ -699,7 +699,7 @@ an allocatable array. When first declared, these arrays have no determined size,
 although you do have to specify their rank by using colons in the <code>DIMENSION</code>
 attribute. For example, a 3D array would be declared with <code>DIMENSION(:,:,:)</code>.
 Once you know they size you want, you allocate them as&nbsp;follows</p>
-<div class="highlight"><pre><span class="k">ALLOCATE</span><span class="p">(</span><span class="k">array</span><span class="p">(</span><span class="n">lower</span><span class="p">:</span><span class="n">upper</span><span class="p">))</span>
+<div class="highlight"><pre><span></span><span class="k">ALLOCATE</span><span class="p">(</span><span class="k">array</span><span class="p">(</span><span class="n">lower</span><span class="p">:</span><span class="n">upper</span><span class="p">))</span>
 </pre></div>
 
 
@@ -723,7 +723,7 @@ expressions. You can learn more <a href="http://en.wikipedia.org/wiki/Fortran_95
 <h4>Subroutines</h4>
 <p>In our programming exercise, I used a subroutine to calculate
 some statistical information. The basic syntax for such a subroutine is given&nbsp;below.</p>
-<div class="highlight"><pre><span class="k">SUBROUTINE </span><span class="n">stats</span> <span class="p">(</span> <span class="k">array</span><span class="p">,</span> <span class="n">mean</span><span class="p">,</span> <span class="n">stdev</span> <span class="p">)</span>
+<div class="highlight"><pre><span></span><span class="k">SUBROUTINE </span><span class="n">stats</span> <span class="p">(</span> <span class="k">array</span><span class="p">,</span> <span class="n">mean</span><span class="p">,</span> <span class="n">stdev</span> <span class="p">)</span>
     <span class="k">IMPLICIT NONE</span>
     <span class="c">! Argument declarations</span>
     <span class="kt">REAL</span><span class="p">(</span><span class="mi">8</span><span class="p">),</span> <span class="k">DIMENSION</span><span class="p">(:),</span> <span class="k">INTENT</span><span class="p">(</span><span class="n">IN</span><span class="p">)</span>   <span class="kd">::</span>  <span class="k">array</span>
@@ -742,7 +742,7 @@ some statistical information. The basic syntax for such a subroutine is given&nb
 <p>Other than the fact that you don&#8217;t need to declare a return value, there isn&#8217;t
 much to say about subroutines which wasn&#8217;t covered in the discussion about
 functions.  The full code for the subroutine&nbsp;is</p>
-<div class="highlight"><pre><span class="k">SUBROUTINE </span><span class="n">stats</span> <span class="p">(</span> <span class="k">array</span><span class="p">,</span> <span class="n">mean</span><span class="p">,</span> <span class="n">stdev</span> <span class="p">)</span>
+<div class="highlight"><pre><span></span><span class="k">SUBROUTINE </span><span class="n">stats</span> <span class="p">(</span> <span class="k">array</span><span class="p">,</span> <span class="n">mean</span><span class="p">,</span> <span class="n">stdev</span> <span class="p">)</span>
     <span class="k">IMPLICIT NONE</span>
 
     <span class="c">! Input and output variables</span>
@@ -799,7 +799,7 @@ dimension we could specify <code>array3d(:,1:25,50)</code> would give you the a 
 with dimensions 100 by&nbsp;25.</p>
 <p>I used array slices a few times in our program. One example is when the program
 calculates the electric&nbsp;field:</p>
-<div class="highlight"><pre><span class="n">field</span><span class="p">(</span><span class="mi">1</span><span class="p">:</span><span class="n">data_size</span><span class="p">)</span> <span class="o">=</span> <span class="n">differentiate</span><span class="p">(</span><span class="n">postn</span><span class="p">(</span><span class="mi">1</span><span class="p">:</span><span class="n">data_size</span><span class="p">),</span> <span class="n">potntl</span><span class="p">(</span><span class="mi">1</span><span class="p">:</span><span class="n">data_size</span><span class="p">))</span>
+<div class="highlight"><pre><span></span><span class="n">field</span><span class="p">(</span><span class="mi">1</span><span class="p">:</span><span class="n">data_size</span><span class="p">)</span> <span class="o">=</span> <span class="n">differentiate</span><span class="p">(</span><span class="n">postn</span><span class="p">(</span><span class="mi">1</span><span class="p">:</span><span class="n">data_size</span><span class="p">),</span> <span class="n">potntl</span><span class="p">(</span><span class="mi">1</span><span class="p">:</span><span class="n">data_size</span><span class="p">))</span>
 <span class="n">field</span><span class="p">(</span><span class="mi">1</span><span class="p">:</span><span class="n">data_size</span><span class="p">)</span> <span class="o">=</span> <span class="o">-</span><span class="mf">1.0</span> <span class="o">*</span> <span class="n">field</span><span class="p">(</span><span class="mi">1</span><span class="p">:</span><span class="n">data_size</span><span class="p">)</span>
 </pre></div>
 
@@ -862,7 +862,7 @@ Modules are a bit like programs, containing both variables and
 procedures (also &#8220;derived types,&#8221; in case you ever want to use them). However,
 unlike programs, they can not be run on their own; they just contain code to
 be used by other modules and programs. The basic syntax for our module&nbsp;is</p>
-<div class="highlight"><pre><span class="k">MODULE </span><span class="n">tools</span>
+<div class="highlight"><pre><span></span><span class="k">MODULE </span><span class="n">tools</span>
     <span class="k">IMPLICIT NONE</span>
 
     <span class="c">!Variable declarations</span>
@@ -882,7 +882,7 @@ statement.</p>
 place a <code>USE</code> statement followed by the module name at the very start of your
 program&#8212;before even the
 <code>IMPLICIT NONE</code> statement. In our case this means that our program starts&nbsp;with</p>
-<div class="highlight"><pre><span class="k">PROGRAM </span><span class="n">potential_field</span>
+<div class="highlight"><pre><span></span><span class="k">PROGRAM </span><span class="n">potential_field</span>
     <span class="k">USE </span><span class="n">tools</span>
     <span class="k">IMPLICIT NONE</span>
     <span class="c">! ...</span>
@@ -906,7 +906,7 @@ the module and which will need to read as it compiles anything that
 uses the module. Needless to say, if you have modules using other modules then
 things can get&nbsp;complicated.</p>
 <p>In this case we can compile like&nbsp;so:</p>
-<div class="highlight"><pre>gfortran -c tools_mod.f90
+<div class="highlight"><pre><span></span>gfortran -c tools_mod.f90
 gfortran -c potential_field2.f90
 gfortran -o potential_field2 tools_mod.o potential_field2.o
 </pre></div>
@@ -1072,21 +1072,21 @@ Note that not all features are yet supported by all&nbsp;compilers.</li>
 <div class="small-12 medium-6 medium-pull-3 columns text-center">
     <p class="tag-cloud">
         <a href="https://politicalphysicist.github.io/tags.html"><i class="fa fa-tags"></i>&nbsp;Tags:</a>&nbsp;&nbsp;
-        <a href="https://politicalphysicist.github.io/tag/socialism.html"><span class="label">Socialism</span></a>
-        <a href="https://politicalphysicist.github.io/tag/software.html"><span class="label">Software</span></a>
-        <a href="https://politicalphysicist.github.io/tag/personal.html"><span class="label">Personal</span></a>
-        <a href="https://politicalphysicist.github.io/tag/blogging.html"><span class="label">Blogging</span></a>
-        <a href="https://politicalphysicist.github.io/tag/fortran.html"><span class="label">Fortran</span></a>
-        <a href="https://politicalphysicist.github.io/tag/austerity.html"><span class="label">Austerity</span></a>
-        <a href="https://politicalphysicist.github.io/tag/university.html"><span class="label">University</span></a>
         <a href="https://politicalphysicist.github.io/tag/programming.html"><span class="label">Programming</span></a>
-        <a href="https://politicalphysicist.github.io/tag/british-politics.html"><span class="label">British Politics</span></a>
-        <a href="https://politicalphysicist.github.io/tag/python.html"><span class="label">Python</span></a>
-        <a href="https://politicalphysicist.github.io/tag/thoughts.html"><span class="label">Thoughts</span></a>
-        <a href="https://politicalphysicist.github.io/tag/pelican.html"><span class="label">Pelican</span></a>
+        <a href="https://politicalphysicist.github.io/tag/socialism.html"><span class="label">Socialism</span></a>
         <a href="https://politicalphysicist.github.io/tag/syriza.html"><span class="label">SYRIZA</span></a>
-        <a href="https://politicalphysicist.github.io/tag/europe.html"><span class="label">Europe</span></a>
+        <a href="https://politicalphysicist.github.io/tag/british-politics.html"><span class="label">British Politics</span></a>
+        <a href="https://politicalphysicist.github.io/tag/pelican.html"><span class="label">Pelican</span></a>
+        <a href="https://politicalphysicist.github.io/tag/uk.html"><span class="label">UK</span></a>
+        <a href="https://politicalphysicist.github.io/tag/personal.html"><span class="label">Personal</span></a>
+        <a href="https://politicalphysicist.github.io/tag/university.html"><span class="label">University</span></a>
+        <a href="https://politicalphysicist.github.io/tag/software.html"><span class="label">Software</span></a>
+        <a href="https://politicalphysicist.github.io/tag/python.html"><span class="label">Python</span></a>
         <a href="https://politicalphysicist.github.io/tag/mathematics.html"><span class="label">Mathematics</span></a>
+        <a href="https://politicalphysicist.github.io/tag/blogging.html"><span class="label">Blogging</span></a>
+        <a href="https://politicalphysicist.github.io/tag/europe.html"><span class="label">Europe</span></a>
+        <a href="https://politicalphysicist.github.io/tag/austerity.html"><span class="label">Austerity</span></a>
+        <a href="https://politicalphysicist.github.io/tag/fortran.html"><span class="label">Fortran</span></a>
         &nbsp;&hellip;
     </p>
 </div>
@@ -1173,21 +1173,21 @@ Note that not all features are yet supported by all&nbsp;compilers.</li>
 <div class="small-12 medium-6 medium-pull-3 columns text-center">
     <p class="tag-cloud">
         <a href="https://politicalphysicist.github.io/tags.html"><i class="fa fa-tags"></i>&nbsp;Tags:</a>&nbsp;&nbsp;
-        <a href="https://politicalphysicist.github.io/tag/socialism.html"><span class="label">Socialism</span></a>
-        <a href="https://politicalphysicist.github.io/tag/software.html"><span class="label">Software</span></a>
-        <a href="https://politicalphysicist.github.io/tag/personal.html"><span class="label">Personal</span></a>
-        <a href="https://politicalphysicist.github.io/tag/blogging.html"><span class="label">Blogging</span></a>
-        <a href="https://politicalphysicist.github.io/tag/fortran.html"><span class="label">Fortran</span></a>
-        <a href="https://politicalphysicist.github.io/tag/austerity.html"><span class="label">Austerity</span></a>
-        <a href="https://politicalphysicist.github.io/tag/university.html"><span class="label">University</span></a>
         <a href="https://politicalphysicist.github.io/tag/programming.html"><span class="label">Programming</span></a>
-        <a href="https://politicalphysicist.github.io/tag/british-politics.html"><span class="label">British Politics</span></a>
-        <a href="https://politicalphysicist.github.io/tag/python.html"><span class="label">Python</span></a>
-        <a href="https://politicalphysicist.github.io/tag/thoughts.html"><span class="label">Thoughts</span></a>
-        <a href="https://politicalphysicist.github.io/tag/pelican.html"><span class="label">Pelican</span></a>
+        <a href="https://politicalphysicist.github.io/tag/socialism.html"><span class="label">Socialism</span></a>
         <a href="https://politicalphysicist.github.io/tag/syriza.html"><span class="label">SYRIZA</span></a>
-        <a href="https://politicalphysicist.github.io/tag/europe.html"><span class="label">Europe</span></a>
+        <a href="https://politicalphysicist.github.io/tag/british-politics.html"><span class="label">British Politics</span></a>
+        <a href="https://politicalphysicist.github.io/tag/pelican.html"><span class="label">Pelican</span></a>
+        <a href="https://politicalphysicist.github.io/tag/uk.html"><span class="label">UK</span></a>
+        <a href="https://politicalphysicist.github.io/tag/personal.html"><span class="label">Personal</span></a>
+        <a href="https://politicalphysicist.github.io/tag/university.html"><span class="label">University</span></a>
+        <a href="https://politicalphysicist.github.io/tag/software.html"><span class="label">Software</span></a>
+        <a href="https://politicalphysicist.github.io/tag/python.html"><span class="label">Python</span></a>
         <a href="https://politicalphysicist.github.io/tag/mathematics.html"><span class="label">Mathematics</span></a>
+        <a href="https://politicalphysicist.github.io/tag/blogging.html"><span class="label">Blogging</span></a>
+        <a href="https://politicalphysicist.github.io/tag/europe.html"><span class="label">Europe</span></a>
+        <a href="https://politicalphysicist.github.io/tag/austerity.html"><span class="label">Austerity</span></a>
+        <a href="https://politicalphysicist.github.io/tag/fortran.html"><span class="label">Fortran</span></a>
         &nbsp;&hellip;
     </p>
 </div>

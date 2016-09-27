@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>The Political Physicist</title><link href="https://politicalphysicist.github.io/" rel="alternate"></link><link href="https://politicalphysicist.github.io/feeds/computers.atom.xml" rel="self"></link><id>https://politicalphysicist.github.io/</id><updated>2015-05-17T10:30:00+01:00</updated><entry><title>Blog, Rebooted</title><link href="https://politicalphysicist.github.io/blog-rebooted.html" rel="alternate"></link><updated>2015-05-17T10:30:00+01:00</updated><author><name>C. MacMackin</name></author><id>tag:politicalphysicist.github.io,2015-05-17:blog-rebooted.html</id><summary type="html">&lt;p&gt;&lt;img alt="The silhouette of a &amp;quot;dreaming spire&amp;quot; in Oxford. A larger version of my new favicon." src="https://politicalphysicist.github.io/images/spire-smaller.png" /&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>The Political Physicist</title><link href="https://politicalphysicist.github.io/" rel="alternate"></link><link href="https://politicalphysicist.github.io/feeds/computers.atom.xml" rel="self"></link><id>https://politicalphysicist.github.io/</id><updated>2015-05-17T10:30:00+01:00</updated><entry><title>Blog, Rebooted</title><link href="https://politicalphysicist.github.io/blog-rebooted.html" rel="alternate"></link><published>2015-05-17T10:30:00+01:00</published><updated>2015-05-17T10:30:00+01:00</updated><author><name>C. MacMackin</name></author><id>tag:politicalphysicist.github.io,2015-05-17:blog-rebooted.html</id><summary type="html">&lt;p&gt;&lt;img alt="The silhouette of a &amp;quot;dreaming spire&amp;quot; in Oxford. A larger version of my new favicon." src="https://politicalphysicist.github.io/images/spire-smaller.png" /&gt;
 For awhile now I&amp;#8217;ve been meaning to create a new theme for my blog. Previously
 I was using a modified version of the
 &lt;a href="https://github.com/getpelican/pelican-themes/tree/master/gum"&gt;Gum theme&lt;/a&gt;, but
@@ -62,7 +62,7 @@ I will be just as neurotic, pedantic, and idealistic as I am&amp;nbsp;today.&lt;
 &lt;p&gt;And have come to accept that I will never quite see eye-to-eye with ecosocialists on a number of issues.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</summary><category term="Blogging"></category><category term="HTML"></category><category term="CSS"></category><category term="Foundation"></category><category term="Pelican"></category></entry><entry><title>FORD: FORtran Documentation</title><link href="https://politicalphysicist.github.io/ford-fortran-documentation.html" rel="alternate"></link><updated>2015-01-05T00:15:00+00:00</updated><author><name>C. MacMackin</name></author><id>tag:politicalphysicist.github.io,2015-01-05:ford-fortran-documentation.html</id><summary type="html">&lt;p&gt;Over Christmas break I&amp;#8217;ve been working on this project to produce documentation
+&lt;/div&gt;</summary><category term="Blogging"></category><category term="HTML"></category><category term="CSS"></category><category term="Foundation"></category><category term="Pelican"></category></entry><entry><title>FORD: FORtran Documentation</title><link href="https://politicalphysicist.github.io/ford-fortran-documentation.html" rel="alternate"></link><published>2015-01-05T00:15:00+00:00</published><updated>2015-01-05T00:15:00+00:00</updated><author><name>C. MacMackin</name></author><id>tag:politicalphysicist.github.io,2015-01-05:ford-fortran-documentation.html</id><summary type="html">&lt;p&gt;Over Christmas break I&amp;#8217;ve been working on this project to produce documentation
 for Fortran programs. I&amp;#8217;ve (just) managed to finish it before school starts
 again! Here is the &lt;span class="caps"&gt;README&lt;/span&gt; for it, containing the documentation which I wrote.
 You can find the code &lt;a href="https://github.com/cmacmackin/ford"&gt;on Github&lt;/a&gt;.&lt;/p&gt;
@@ -128,7 +128,7 @@ the&amp;nbsp;author.&lt;/p&gt;
 &lt;p&gt;Once you have written a project file which you&amp;#8217;re satisfied with, it is time to
 run &lt;span class="caps"&gt;FORD&lt;/span&gt;. Make sure that it is in the path/Python-path. The most basic syntax
 for running ford is&amp;nbsp;just&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;ford project-file.md
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;ford project-file.md
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -155,7 +155,7 @@ for inclusion in the output. &lt;span class="caps"&gt;FORD&lt;/span&gt; document
 is that you are documenting, either at the end of the line or on a subsequent
 line. This was chosen because it was felt it is easier to make your
 documentation readable from within the source-code this way.&amp;nbsp;This&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;subroutine &lt;/span&gt;&lt;span class="n"&gt;feed_pets&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;cats&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;dogs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;food&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;angry&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;subroutine &lt;/span&gt;&lt;span class="n"&gt;feed_pets&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;cats&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;dogs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;food&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;angry&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
     &lt;span class="c"&gt;!! Feeds your cats and dogs, if enough food is available. If not enough&lt;/span&gt;
     &lt;span class="c"&gt;!! food is available, some of your pets will get angry.&lt;/span&gt;
 
@@ -176,7 +176,7 @@ documentation readable from within the source-code this way.&amp;nbsp;This&lt;/p
 
 
 &lt;p&gt;looks better/more readable&amp;nbsp;than&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c"&gt;!! Feeds your cats and dogs, if enough food is available. If not enough&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c"&gt;!! Feeds your cats and dogs, if enough food is available. If not enough&lt;/span&gt;
 &lt;span class="c"&gt;!! food is available, some of your pets will get angry.&lt;/span&gt;
 &lt;span class="k"&gt;subroutine &lt;/span&gt;&lt;span class="n"&gt;feed_pets&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;cats&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;dogs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;food&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;angry&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 
@@ -220,7 +220,7 @@ my project &lt;a href="https://github.com/cmacmackin/futility"&gt;Futility&lt;/a
 customized to some extent by&amp;nbsp;users.&lt;/p&gt;
 &lt;h4&gt;Command-Line&amp;nbsp;Options&lt;/h4&gt;
 &lt;p&gt;The command-line interface is given&amp;nbsp;below:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;ford.py [-h] [-d PROJECT_DIRECTORY] [-o OUTPUT_DIR] [-s CSS]
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;ford.py [-h] [-d PROJECT_DIRECTORY] [-o OUTPUT_DIR] [-s CSS]
              [--exclude EXCLUDE] [-e [EXTENSIONS [EXTENSIONS ...]]]
              project_file
 &lt;/pre&gt;&lt;/div&gt;
@@ -317,7 +317,7 @@ left blank then relative URLs will be used for links. (&lt;em&gt;default:&lt;/em
 &lt;p&gt;When documenting your source files you can provide meta-data at the top of an
 item&amp;#8217;s documentation. There can not be any other documentation before it; not
 even a blank line of documentation. This will&amp;nbsp;work&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c"&gt;! Good&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c"&gt;! Good&lt;/span&gt;
 &lt;span class="k"&gt;type&lt;/span&gt; &lt;span class="kd"&gt;::&lt;/span&gt; &lt;span class="n"&gt;cat&lt;/span&gt;
   &lt;span class="c"&gt;!! author: A Fortran Programmer&lt;/span&gt;
   &lt;span class="c"&gt;!! version: v0.2&lt;/span&gt;
@@ -327,7 +327,7 @@ even a blank line of documentation. This will&amp;nbsp;work&lt;/p&gt;
 
 
 &lt;p&gt;but this&amp;nbsp;won&amp;#8217;t&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c"&gt;! Bad&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c"&gt;! Bad&lt;/span&gt;
 &lt;span class="k"&gt;type&lt;/span&gt; &lt;span class="kd"&gt;::&lt;/span&gt; &lt;span class="n"&gt;cat&lt;/span&gt;
   &lt;span class="c"&gt;!!&lt;/span&gt;
   &lt;span class="c"&gt;!! author: A Fortran programmer&lt;/span&gt;
@@ -420,7 +420,7 @@ things which I&amp;#8217;d like to do at some point&amp;nbsp;include:&lt;/p&gt;
 &lt;li&gt;Convert comments into &lt;span class="caps"&gt;HTML&lt;/span&gt;. Assume that they have been written in Markdown.
   Also make sure to process LaTeX (not yet&amp;nbsp;implemented).&lt;/li&gt;
 &lt;li&gt;Produce the documentation. This will be done using Jinja2&amp;nbsp;templates.&lt;/li&gt;
-&lt;/ul&gt;</summary><category term="Python"></category><category term="Fortran"></category><category term="Programming"></category><category term="Software"></category></entry><entry><title>A (Not as Brief as I’d Hoped) Fortran Tutorial</title><link href="https://politicalphysicist.github.io/a-not-as-brief-as-id-hoped-fortran-tutorial.html" rel="alternate"></link><updated>2014-10-31T23:00:00+00:00</updated><author><name>C. MacMackin</name></author><id>tag:politicalphysicist.github.io,2014-10-31:a-not-as-brief-as-id-hoped-fortran-tutorial.html</id><summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Note:&lt;/strong&gt; I wrote this guide for the Saint Mary&amp;#8217;s University Astronomy and
+&lt;/ul&gt;</summary><category term="Python"></category><category term="Fortran"></category><category term="Programming"></category><category term="Software"></category></entry><entry><title>A (Not as Brief as I’d Hoped) Fortran Tutorial</title><link href="https://politicalphysicist.github.io/a-not-as-brief-as-id-hoped-fortran-tutorial.html" rel="alternate"></link><published>2014-10-31T23:00:00+00:00</published><updated>2014-10-31T23:00:00+00:00</updated><author><name>C. MacMackin</name></author><id>tag:politicalphysicist.github.io,2014-10-31:a-not-as-brief-as-id-hoped-fortran-tutorial.html</id><summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Note:&lt;/strong&gt; I wrote this guide for the Saint Mary&amp;#8217;s University Astronomy and
 Physics Society to go along with a tutorial that I will present on the Fortran
 programming language. I thought I&amp;#8217;d post it here in addition to the
 &lt;a href="http://ap.smu.ca/~smuaps/an-introduction-to-modern-fortran-programming.html"&gt;&lt;span class="caps"&gt;SMUAPS&lt;/span&gt; website&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
@@ -549,7 +549,7 @@ exclamation mark isn&amp;#8217;t inside a string) will be ignored by the
 compiler. Comments should be used to document your code. I&amp;#8217;d recommend
 having a standard template that you use at the top of each program
 explaining what it does. An example of the format I use is provided&amp;nbsp;below.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c"&gt;!==============================================================================!&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c"&gt;!==============================================================================!&lt;/span&gt;
 &lt;span class="c"&gt;!                         B E G I N    P R O G R A M :                         !&lt;/span&gt;
 &lt;span class="c"&gt;!                        P O T E N T I A L _ F I E L D                         !&lt;/span&gt;
 &lt;span class="c"&gt;!==============================================================================!&lt;/span&gt;
@@ -595,7 +595,7 @@ how they are applied in&amp;nbsp;Fortran.&lt;/p&gt;
 &lt;p&gt;The great advantage of Fortran is the fairly obvious meaning of all of its
 syntax&amp;#8212;something which can emphatically &lt;em&gt;not&lt;/em&gt; be said for C. The
 basic structure of our program will&amp;nbsp;be:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;PROGRAM &lt;/span&gt;&lt;span class="n"&gt;potential_field&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;PROGRAM &lt;/span&gt;&lt;span class="n"&gt;potential_field&lt;/span&gt;
     &lt;span class="k"&gt;IMPLICIT NONE&lt;/span&gt;
 
     &lt;span class="c"&gt;! Variable declarations&lt;/span&gt;
@@ -642,7 +642,7 @@ C or objects/classes in other languages. These are only really needed in
 larger programs, where they can provide a useful way of organizing
 data and&amp;nbsp;code.&lt;/p&gt;
 &lt;p&gt;A sample of the variable declarions in our code are given&amp;nbsp;below.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="kt"&gt;CHARACTER&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;LEN&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;32&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;               &lt;span class="kd"&gt;::&lt;/span&gt;  &lt;span class="n"&gt;infile&lt;/span&gt;  &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;in.dat&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;                    &lt;span class="p"&gt;&amp;amp;&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kt"&gt;CHARACTER&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;LEN&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;32&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;               &lt;span class="kd"&gt;::&lt;/span&gt;  &lt;span class="n"&gt;infile&lt;/span&gt;  &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;in.dat&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;                    &lt;span class="p"&gt;&amp;amp;&lt;/span&gt;
                                     &lt;span class="n"&gt;outfile&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;out.dat&amp;#39;&lt;/span&gt;
 &lt;span class="kt"&gt;INTEGER&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="k"&gt;PARAMETER&lt;/span&gt;              &lt;span class="kd"&gt;::&lt;/span&gt;  &lt;span class="n"&gt;data_max&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1012&lt;/span&gt;
 &lt;span class="kt"&gt;INTEGER&lt;/span&gt;                         &lt;span class="kd"&gt;::&lt;/span&gt;  &lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;                                     &lt;span class="p"&gt;&amp;amp;&lt;/span&gt;
@@ -674,12 +674,12 @@ they are stored in column major order rather than the more typical
 &lt;h4&gt;Conditional&amp;nbsp;Statements&lt;/h4&gt;
 &lt;p&gt;If you want a single line to be executed only if &lt;code&gt;&amp;lt;condition&amp;gt;&lt;/code&gt; is true, you
 would use the following&amp;nbsp;syntax:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;IF&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;condition&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;statements&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;IF&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;condition&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;statements&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;The general form for an if-statement&amp;nbsp;is&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;IF&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;condition&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;THEN&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;IF&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;condition&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;THEN&lt;/span&gt;
     &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;statemtents&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
 &lt;span class="k"&gt;ELSE IF&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;condition2&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;THEN&lt;/span&gt;
     &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;statemtents&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
@@ -704,7 +704,7 @@ a&amp;nbsp;comment.&lt;/p&gt;
 &lt;h4&gt;Loops&lt;/h4&gt;
 &lt;p&gt;The main type of loop which you&amp;#8217;ll use in Fortran is a &amp;#8220;do-loop,&amp;#8221; the equivalent
 of a for-loop. This takes the&amp;nbsp;form&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;DO &lt;/span&gt;&lt;span class="nb"&gt;index&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;lower&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;upper&lt;/span&gt;&lt;span class="p"&gt;[,&lt;/span&gt; &lt;span class="n"&gt;step_size&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;DO &lt;/span&gt;&lt;span class="nb"&gt;index&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;lower&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;upper&lt;/span&gt;&lt;span class="p"&gt;[,&lt;/span&gt; &lt;span class="n"&gt;step_size&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
     &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;statements&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
 &lt;span class="k"&gt;END DO&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
@@ -714,7 +714,7 @@ of a for-loop. This takes the&amp;nbsp;form&lt;/p&gt;
 lower bound, &lt;code&gt;upper&lt;/code&gt; is the upper bound, and &lt;code&gt;step_size&lt;/code&gt; is the increment
 by which to increase the index. The upper and lower bounds are&amp;nbsp;inclusive.&lt;/p&gt;
 &lt;p&gt;There are also while loops, which have the&amp;nbsp;syntax&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;DO WHILE&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;condition&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;DO WHILE&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;condition&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt;
     &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;statements&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
 &lt;span class="k"&gt;END DO&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
@@ -722,7 +722,7 @@ by which to increase the index. The upper and lower bounds are&amp;nbsp;inclusiv
 
 &lt;p&gt;You can exit a loop with the command &lt;code&gt;EXIT&lt;/code&gt;, or skip to the next iteration
 with the command &lt;code&gt;CYCLE&lt;/code&gt;. The &lt;code&gt;EXIT&lt;/code&gt; command allows us to use the loop&amp;nbsp;structure&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;DO&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;DO&lt;/span&gt;
     &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;statements&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
 &lt;span class="k"&gt;END DO&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
@@ -740,7 +740,7 @@ We could simply ask the user for the file names when the program is running,
 but this is rather ungainly. A far nicer solution is for the user to, if they
 desire, specify the file names as command-line arguments. To accomplish this
 we use the following bit of&amp;nbsp;code:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;num_args&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;COMMAND_ARGUMENT_COUNT&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;num_args&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;COMMAND_ARGUMENT_COUNT&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
 &lt;span class="k"&gt;IF&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="n"&gt;num_args&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;CALL &lt;/span&gt;&lt;span class="nb"&gt;GET_COMMAND_ARGUMENT&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;infile&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="k"&gt;IF&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="n"&gt;num_args&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;=&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;CALL &lt;/span&gt;&lt;span class="nb"&gt;GET_COMMAND_ARGUMENT&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;outfile&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
@@ -787,7 +787,7 @@ integer. If, after the operation has been completed, &lt;code&gt;variable&lt;/co
 zero, then it was successful. Otherwise, it indicates that there was an error
 of some sort. Without specifying an &lt;code&gt;IOSTAT&lt;/code&gt; the program would crash on&amp;nbsp;you.&lt;/p&gt;
 &lt;p&gt;To open our input file, we use the&amp;nbsp;code&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c"&gt;! Read in data from the input file&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c"&gt;! Read in data from the input file&lt;/span&gt;
 &lt;span class="k"&gt;OPEN&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;UNIT&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="k"&gt;FILE&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;infile&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;IOSTAT&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;ioval&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;STATUS&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;old&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="k"&gt;IF&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="n"&gt;ioval&lt;/span&gt; &lt;span class="o"&gt;/=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;THEN&lt;/span&gt; &lt;span class="c"&gt;! Make sure file exists&lt;/span&gt;
     &lt;span class="k"&gt;WRITE&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;filedne&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="nb"&gt;TRIM&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;infile&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
@@ -821,7 +821,7 @@ instead of a format string. An additional argument which can be provided for
 &lt;code&gt;READ&lt;/code&gt; statements is an &lt;code&gt;IOSTAT&lt;/code&gt;. This works in exactly the same way as
 in the &lt;code&gt;OPEN&lt;/code&gt; statement and can be useful to know when you&amp;#8217;ve read to the
 end of a&amp;nbsp;file.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;DO &lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;data_max&lt;/span&gt; &lt;span class="c"&gt;! Read until end of file or reach maximum amount of data&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;DO &lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;data_max&lt;/span&gt; &lt;span class="c"&gt;! Read until end of file or reach maximum amount of data&lt;/span&gt;
     &lt;span class="k"&gt;READ&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;IOSTAT&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;ioval&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="n"&gt;postn&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="n"&gt;potntl&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
     &lt;span class="k"&gt;IF&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="n"&gt;ioval&lt;/span&gt; &lt;span class="o"&gt;/=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;THEN&lt;/span&gt;
 &lt;span class="k"&gt;        &lt;/span&gt;&lt;span class="n"&gt;data_size&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
@@ -844,7 +844,7 @@ that you see in the &lt;code&gt;WRITE&lt;/code&gt; statement are the concatenati
 &lt;p&gt;After all of this, outputting our results will seem easy. This is done
 with the following code fragment which will go after the actual calculations
 in our&amp;nbsp;program&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c"&gt;! Send the data to the output file&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c"&gt;! Send the data to the output file&lt;/span&gt;
 &lt;span class="k"&gt;OPEN&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="k"&gt;FILE&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;outfile&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;STATUS&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;unknown&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="k"&gt;WRITE&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;#Position                   Field Strength&amp;#39;&lt;/span&gt;
 &lt;span class="k"&gt;DO &lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;data_size&lt;/span&gt;
@@ -856,7 +856,7 @@ in our&amp;nbsp;program&lt;/p&gt;
 
 &lt;p&gt;There is little to remark upon here, except to note that the first line
 we write to the file&amp;nbsp;is&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;#Position                   Field Strength
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;#Position                   Field Strength
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -883,7 +883,7 @@ methods in other&amp;nbsp;languages.&lt;/p&gt;
 where your program ends (after the &lt;code&gt;STOP&lt;/code&gt; command) type a line containing only
 the word &lt;code&gt;CONTAINS&lt;/code&gt;. Place your procedures below that and before the end of
 the&amp;nbsp;program.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;PROGRAM &lt;/span&gt;&lt;span class="n"&gt;potential_field&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;PROGRAM &lt;/span&gt;&lt;span class="n"&gt;potential_field&lt;/span&gt;
     &lt;span class="k"&gt;IMPLICIT NONE&lt;/span&gt;
 
     &lt;span class="c"&gt;! Variable declarations&lt;/span&gt;
@@ -936,7 +936,7 @@ variables. You will see an example of each in the program we are writing&amp;nbs
 &lt;h4&gt;Functions&lt;/h4&gt;
 &lt;p&gt;I wrote a function to calculate derivatives. The basic syntax
 for such a function&amp;nbsp;is&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;FUNCTION &lt;/span&gt;&lt;span class="n"&gt;differentiate&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="n"&gt;independent&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;dependent&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;FUNCTION &lt;/span&gt;&lt;span class="n"&gt;differentiate&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="n"&gt;independent&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;dependent&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt;
     &lt;span class="k"&gt;IMPLICIT NONE&lt;/span&gt;
     &lt;span class="c"&gt;! Argument declarations&lt;/span&gt;
     &lt;span class="kt"&gt;REAL&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="k"&gt;DIMENSION&lt;/span&gt;&lt;span class="p"&gt;(:),&lt;/span&gt; &lt;span class="k"&gt;INTENT&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;IN&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;   &lt;span class="kd"&gt;::&lt;/span&gt;  &lt;span class="n"&gt;dependent&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;                     &lt;span class="p"&gt;&amp;amp;&lt;/span&gt;
@@ -956,7 +956,7 @@ for such a function&amp;nbsp;is&lt;/p&gt;
 &lt;code&gt;independent&lt;/code&gt; and &lt;code&gt;dependent&lt;/code&gt;. While programs are ended with the keyword
 &lt;code&gt;STOP&lt;/code&gt;, functions (and subroutines) are ended with the keyword &lt;code&gt;RETURN&lt;/code&gt;.
 We call the function&amp;nbsp;with&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;field&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="n"&gt;data_size&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;differentiate&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;postn&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="n"&gt;data_size&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="n"&gt;potntl&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="n"&gt;data_size&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;field&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="n"&gt;data_size&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;differentiate&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;postn&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="n"&gt;data_size&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="n"&gt;potntl&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="n"&gt;data_size&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -983,7 +983,7 @@ set to be however large the array passed to the procedure is. A similar
 notation is used for our return value, but that&amp;#8217;s because it is an
 &lt;code&gt;ALLOCATABLE&lt;/code&gt; array. More on that in the sidebar&amp;nbsp;below.&lt;/p&gt;
 &lt;p&gt;The full code for this function is provided&amp;nbsp;below.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;FUNCTION &lt;/span&gt;&lt;span class="n"&gt;differentiate&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="n"&gt;independent&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;dependent&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;FUNCTION &lt;/span&gt;&lt;span class="n"&gt;differentiate&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="n"&gt;independent&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;dependent&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt;
     &lt;span class="k"&gt;IMPLICIT NONE&lt;/span&gt;
 
     &lt;span class="c"&gt;! Input and output variables&lt;/span&gt;
@@ -1033,7 +1033,7 @@ an allocatable array. When first declared, these arrays have no determined size,
 although you do have to specify their rank by using colons in the &lt;code&gt;DIMENSION&lt;/code&gt;
 attribute. For example, a 3D array would be declared with &lt;code&gt;DIMENSION(:,:,:)&lt;/code&gt;.
 Once you know they size you want, you allocate them as&amp;nbsp;follows&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;ALLOCATE&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;array&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;lower&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="n"&gt;upper&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;ALLOCATE&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;array&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;lower&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="n"&gt;upper&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -1057,7 +1057,7 @@ expressions. You can learn more &lt;a href="http://en.wikipedia.org/wiki/Fortran
 &lt;h4&gt;Subroutines&lt;/h4&gt;
 &lt;p&gt;In our programming exercise, I used a subroutine to calculate
 some statistical information. The basic syntax for such a subroutine is given&amp;nbsp;below.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;SUBROUTINE &lt;/span&gt;&lt;span class="n"&gt;stats&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="k"&gt;array&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;mean&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;stdev&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;SUBROUTINE &lt;/span&gt;&lt;span class="n"&gt;stats&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="k"&gt;array&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;mean&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;stdev&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt;
     &lt;span class="k"&gt;IMPLICIT NONE&lt;/span&gt;
     &lt;span class="c"&gt;! Argument declarations&lt;/span&gt;
     &lt;span class="kt"&gt;REAL&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="k"&gt;DIMENSION&lt;/span&gt;&lt;span class="p"&gt;(:),&lt;/span&gt; &lt;span class="k"&gt;INTENT&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;IN&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;   &lt;span class="kd"&gt;::&lt;/span&gt;  &lt;span class="k"&gt;array&lt;/span&gt;
@@ -1076,7 +1076,7 @@ some statistical information. The basic syntax for such a subroutine is given&am
 &lt;p&gt;Other than the fact that you don&amp;#8217;t need to declare a return value, there isn&amp;#8217;t
 much to say about subroutines which wasn&amp;#8217;t covered in the discussion about
 functions.  The full code for the subroutine&amp;nbsp;is&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;SUBROUTINE &lt;/span&gt;&lt;span class="n"&gt;stats&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="k"&gt;array&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;mean&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;stdev&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;SUBROUTINE &lt;/span&gt;&lt;span class="n"&gt;stats&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="k"&gt;array&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;mean&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;stdev&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt;
     &lt;span class="k"&gt;IMPLICIT NONE&lt;/span&gt;
 
     &lt;span class="c"&gt;! Input and output variables&lt;/span&gt;
@@ -1133,7 +1133,7 @@ dimension we could specify &lt;code&gt;array3d(:,1:25,50)&lt;/code&gt; would giv
 with dimensions 100 by&amp;nbsp;25.&lt;/p&gt;
 &lt;p&gt;I used array slices a few times in our program. One example is when the program
 calculates the electric&amp;nbsp;field:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;field&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="n"&gt;data_size&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;differentiate&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;postn&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="n"&gt;data_size&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="n"&gt;potntl&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="n"&gt;data_size&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;field&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="n"&gt;data_size&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;differentiate&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;postn&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="n"&gt;data_size&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="n"&gt;potntl&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="n"&gt;data_size&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
 &lt;span class="n"&gt;field&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="n"&gt;data_size&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;1.0&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="n"&gt;field&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="n"&gt;data_size&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
@@ -1196,7 +1196,7 @@ Modules are a bit like programs, containing both variables and
 procedures (also &amp;#8220;derived types,&amp;#8221; in case you ever want to use them). However,
 unlike programs, they can not be run on their own; they just contain code to
 be used by other modules and programs. The basic syntax for our module&amp;nbsp;is&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;MODULE &lt;/span&gt;&lt;span class="n"&gt;tools&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;MODULE &lt;/span&gt;&lt;span class="n"&gt;tools&lt;/span&gt;
     &lt;span class="k"&gt;IMPLICIT NONE&lt;/span&gt;
 
     &lt;span class="c"&gt;!Variable declarations&lt;/span&gt;
@@ -1216,7 +1216,7 @@ statement.&lt;/p&gt;
 place a &lt;code&gt;USE&lt;/code&gt; statement followed by the module name at the very start of your
 program&amp;#8212;before even the
 &lt;code&gt;IMPLICIT NONE&lt;/code&gt; statement. In our case this means that our program starts&amp;nbsp;with&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;PROGRAM &lt;/span&gt;&lt;span class="n"&gt;potential_field&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;PROGRAM &lt;/span&gt;&lt;span class="n"&gt;potential_field&lt;/span&gt;
     &lt;span class="k"&gt;USE &lt;/span&gt;&lt;span class="n"&gt;tools&lt;/span&gt;
     &lt;span class="k"&gt;IMPLICIT NONE&lt;/span&gt;
     &lt;span class="c"&gt;! ...&lt;/span&gt;
@@ -1240,7 +1240,7 @@ the module and which will need to read as it compiles anything that
 uses the module. Needless to say, if you have modules using other modules then
 things can get&amp;nbsp;complicated.&lt;/p&gt;
 &lt;p&gt;In this case we can compile like&amp;nbsp;so:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;gfortran -c tools_mod.f90
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;gfortran -c tools_mod.f90
 gfortran -c potential_field2.f90
 gfortran -o potential_field2 tools_mod.o potential_field2.o
 &lt;/pre&gt;&lt;/div&gt;
@@ -1365,7 +1365,7 @@ Note that not all features are yet supported by all&amp;nbsp;compilers.&lt;/li&g
         "}";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</summary><category term="Programming"></category><category term="Fortran"></category><category term="High Performance Computing"></category><category term="gfortran"></category></entry><entry><title>I Designed a Website</title><link href="https://politicalphysicist.github.io/i-designed-a-website.html" rel="alternate"></link><updated>2014-09-26T11:20:00+01:00</updated><author><name>C. MacMackin</name></author><id>tag:politicalphysicist.github.io,2014-09-26:i-designed-a-website.html</id><summary type="html">&lt;p&gt;I have recently finished designing a new website for the Saint Mary&amp;#8217;s University
+&lt;/script&gt;</summary><category term="Programming"></category><category term="Fortran"></category><category term="High Performance Computing"></category><category term="gfortran"></category></entry><entry><title>I Designed a Website</title><link href="https://politicalphysicist.github.io/i-designed-a-website.html" rel="alternate"></link><published>2014-09-26T11:20:00+01:00</published><updated>2014-09-26T11:20:00+01:00</updated><author><name>C. MacMackin</name></author><id>tag:politicalphysicist.github.io,2014-09-26:i-designed-a-website.html</id><summary type="html">&lt;p&gt;I have recently finished designing a new website for the Saint Mary&amp;#8217;s University
 Astronomy and Physics Society (&lt;span class="caps"&gt;SMUAPS&lt;/span&gt;). I decided to build this website using
 Pelican (the same software that I use for this blog) because of my familiarity
 with it and because of the versatility of the software. The website can be found
@@ -1374,7 +1374,7 @@ out about the technical details of how the site is designed, see these two
 posts:
 &lt;a href="http://ap.smu.ca/~smuaps/readme-website-documentation.html"&gt;&lt;span class="caps"&gt;README&lt;/span&gt; (Website Documentation)&lt;/a&gt; and
 &lt;a href="http://ap.smu.ca/~smuaps/new-website-design.html"&gt;New Website Design&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Screenshot of the new website's home page." src="https://politicalphysicist.github.io/images/smuapsWeb.png" /&gt;&lt;/p&gt;</summary><category term="Pelican"></category><category term="Website"></category><category term="SMU"></category><category term="University"></category></entry><entry><title>Gnuplotting, LaTeXing, and Other Made Up Verbs</title><link href="https://politicalphysicist.github.io/gnuplotting-latexing-and-other-made-up-verbs.html" rel="alternate"></link><updated>2014-04-15T11:30:00+01:00</updated><author><name>C. MacMackin</name></author><id>tag:politicalphysicist.github.io,2014-04-15:gnuplotting-latexing-and-other-made-up-verbs.html</id><summary type="html">&lt;p&gt;Anyone who knows me in person and has seen me do any amount of work in
+&lt;p&gt;&lt;img alt="Screenshot of the new website's home page." src="https://politicalphysicist.github.io/images/smuapsWeb.png" /&gt;&lt;/p&gt;</summary><category term="Pelican"></category><category term="Website"></category><category term="SMU"></category><category term="University"></category></entry><entry><title>Gnuplotting, LaTeXing, and Other Made Up Verbs</title><link href="https://politicalphysicist.github.io/gnuplotting-latexing-and-other-made-up-verbs.html" rel="alternate"></link><published>2014-04-15T11:30:00+01:00</published><updated>2014-04-15T11:30:00+01:00</updated><author><name>C. MacMackin</name></author><id>tag:politicalphysicist.github.io,2014-04-15:gnuplotting-latexing-and-other-made-up-verbs.html</id><summary type="html">&lt;p&gt;Anyone who knows me in person and has seen me do any amount of work in
 physics knows that my preferred graphing software is Gnuplot.&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt; 
 This is a piece
 of command-line plotting software capable of producing nearly every sort of graph
@@ -1478,7 +1478,7 @@ and plot commands that you&amp;nbsp;need.&lt;/p&gt;
         "}";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</summary><category term="Gnuplot"></category><category term="LaTeX"></category><category term="Templates"></category><category term="Plotting"></category><category term="Software"></category></entry><entry><title>What I Did Over Christmas Break</title><link href="https://politicalphysicist.github.io/what-i-did-over-christmas-break.html" rel="alternate"></link><updated>2013-12-21T02:00:00+00:00</updated><author><name>C. MacMackin</name></author><id>tag:politicalphysicist.github.io,2013-12-21:what-i-did-over-christmas-break.html</id><summary type="html">&lt;p&gt;&lt;em&gt;If you are impatient and don&amp;#8217;t want to read my no doubt fascinating
+&lt;/script&gt;</summary><category term="Gnuplot"></category><category term="LaTeX"></category><category term="Templates"></category><category term="Plotting"></category><category term="Software"></category></entry><entry><title>What I Did Over Christmas Break</title><link href="https://politicalphysicist.github.io/what-i-did-over-christmas-break.html" rel="alternate"></link><published>2013-12-21T02:00:00+00:00</published><updated>2013-12-21T02:00:00+00:00</updated><author><name>C. MacMackin</name></author><id>tag:politicalphysicist.github.io,2013-12-21:what-i-did-over-christmas-break.html</id><summary type="html">&lt;p&gt;&lt;em&gt;If you are impatient and don&amp;#8217;t want to read my no doubt fascinating
 account of the inspiration for and development process of the 
 software I&amp;#8217;ve designed, you can skip down to &lt;a href="#software"&gt;here&lt;/a&gt; to read what
 it does and how to install&amp;nbsp;it.&lt;/em&gt;&lt;/p&gt;
@@ -1543,7 +1543,7 @@ Currently it is only able to run on Linux (there&amp;#8217;s a good chance it
 would work on Mac &lt;span class="caps"&gt;OSX&lt;/span&gt; too), although it shouldn&amp;#8217;t be too difficult to 
 port it to Windows, if you want to. It can be installed by executing
 the following in a&amp;nbsp;terminal:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="go"&gt;wget redshadesofgreen.raspctl.com/attachments/conetroller-0-2.tar.gz&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="go"&gt;wget redshadesofgreen.raspctl.com/attachments/conetroller-0-2.tar.gz&lt;/span&gt;
 &lt;span class="go"&gt;tar -zxvf conetroller-0-2.tar.gz&lt;/span&gt;
 &lt;span class="go"&gt;cd v0.2/&lt;/span&gt;
 &lt;span class="go"&gt;sudo ./install.sh&lt;/span&gt;
@@ -1587,7 +1587,7 @@ I blame some of the peculiarities of Glade for&amp;nbsp;this&lt;/li&gt;
 &lt;p&gt;Flaws aside, I am confident that Conetroller will prove useful to me,
 and hope it can be useful to others as&amp;nbsp;well.&lt;/p&gt;
 &lt;p&gt;*For those that are unaware, the logo for &lt;span class="caps"&gt;VLC&lt;/span&gt; is a traffic cone. Since my
-program controls &lt;span class="caps"&gt;VLC&lt;/span&gt;, Conetroller seemed like the only reasonable name for&amp;nbsp;it.&lt;/p&gt;</summary><category term="Programming"></category><category term="VLC"></category><category term="Python"></category><category term="GTK+"></category><category term="Conetroller"></category></entry><entry><title>New Computer, New Linux Distribution</title><link href="https://politicalphysicist.github.io/new-computer-new-linux-distribution.html" rel="alternate"></link><updated>2013-07-30T15:00:00+01:00</updated><author><name>C. MacMackin</name></author><id>tag:politicalphysicist.github.io,2013-07-30:new-computer-new-linux-distribution.html</id><summary type="html">&lt;p&gt;Well, my old laptop was dying. At least I think it was. In any case,
+program controls &lt;span class="caps"&gt;VLC&lt;/span&gt;, Conetroller seemed like the only reasonable name for&amp;nbsp;it.&lt;/p&gt;</summary><category term="Programming"></category><category term="VLC"></category><category term="Python"></category><category term="GTK+"></category><category term="Conetroller"></category></entry><entry><title>New Computer, New Linux Distribution</title><link href="https://politicalphysicist.github.io/new-computer-new-linux-distribution.html" rel="alternate"></link><published>2013-07-30T15:00:00+01:00</published><updated>2013-07-30T15:00:00+01:00</updated><author><name>C. MacMackin</name></author><id>tag:politicalphysicist.github.io,2013-07-30:new-computer-new-linux-distribution.html</id><summary type="html">&lt;p&gt;Well, my old laptop was dying. At least I think it was. In any case,
 I wasn&amp;#8217;t waiting around until the semester started to find out&amp;#8212;better
 to get a new computer now when I had time to get it configured properly.
 And so, a week and a half ago I found myself with a brand new &lt;span class="caps"&gt;ASUS&lt;/span&gt; laptop.
@@ -1688,7 +1688,7 @@ this&amp;nbsp;blog. &lt;/p&gt;
 &lt;p&gt;&lt;img style="float:none;display:block;margin-left:auto;margin-right:auto" alt="A screenshot of my desktop." src="http://redshadesofgreen.raspctl.com/static/images/ArchScreenshot.png" /&gt;&lt;/p&gt;
 &lt;p&gt;And this brings me more-or-less to where I am now. While there are still
 a few things I have left to do, at this point I have a fully functional
-computer running Arch&amp;nbsp;Linux.&lt;/p&gt;</summary><category term="Linux"></category><category term="Arch Linux"></category><category term="Laptop"></category><category term="MATE Desktop"></category></entry><entry><title>Hello World!</title><link href="https://politicalphysicist.github.io/hello-world.html" rel="alternate"></link><updated>2013-06-29T23:50:00+01:00</updated><author><name>C. MacMackin</name></author><id>tag:politicalphysicist.github.io,2013-06-29:hello-world.html</id><summary type="html">&lt;p&gt;Well, I&amp;#8217;ve decided to start a blog. Having set up a 
+computer running Arch&amp;nbsp;Linux.&lt;/p&gt;</summary><category term="Linux"></category><category term="Arch Linux"></category><category term="Laptop"></category><category term="MATE Desktop"></category></entry><entry><title>Hello World!</title><link href="https://politicalphysicist.github.io/hello-world.html" rel="alternate"></link><published>2013-06-29T23:50:00+01:00</published><updated>2013-06-29T23:50:00+01:00</updated><author><name>C. MacMackin</name></author><id>tag:politicalphysicist.github.io,2013-06-29:hello-world.html</id><summary type="html">&lt;p&gt;Well, I&amp;#8217;ve decided to start a blog. Having set up a 
 &lt;a href="http://www.raspberrypi.org/"&gt;Raspberry Pi&lt;/a&gt; as a webserver, I thought I&amp;#8217;d try
 setting up a blog on it. We&amp;#8217;ll see how good I am at keeping it up to&amp;nbsp;date.&lt;/p&gt;
 &lt;p&gt;Originally I intended to write primarily about politics (the name of the 
