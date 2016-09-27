@@ -20,10 +20,10 @@ Corbyn has been saying and is being intellectually honest will have to
 admit that his politics aren't _that_ radical. He's promised
 significant public investment, a move away from fossil fuels, faster
 Internet connections, stronger collective bargaining, and a number of
-other extremely welcome measures which nonetheless would keep Britain
+other extremely welcome measures under which Britain nonetheless remain
 a firmly capitalism society. The only industry which he's promised to
-nationalise is rail, which is so obviously sensible that even a
-majority of Tory voters support it, and possibly portions of the bus
+nationalise is rail (which is so obviously sensible that even a
+majority of Tory voters support it) and possibly portions of the bus
 network. This barely scratches the surface of the nationalisations
 overseen by
 [Clem Attlee's](https://en.wikipedia.org/wiki/Clement_Attlee) postwar
@@ -82,14 +82,16 @@ or [Plaid Cymru](https://en.wikipedia.org/wiki/Plaid_Cymru) or
 [SNP](https://en.wikipedia.org/wiki/Scottish_National_Party) or even
 [Lib-Dem](https://en.wikipedia.org/wiki/Liberal_Democrats) in previous
 elections and are not familiar with the detailed socialist
-analysis[^2]. I don't mean to be condescending to these people, as
-socialists must be able to reach out to them and convince them, but my
-point is that quite a bit of work is required before much of the
-membership is likely to be able to act as a significant counterweight
-to right-wing pressure on the leadership. The fact that much of the
-politics of these new members seems to be based around supporting
-Corbyn will also make it more difficult for them to apply pressure on
-him when necessary.
+analysis[^2] and why social democracy
+[is not a long-term solution](|filename|/Politics/socDemDecline.md). I
+don't mean to be condescending to these people, as socialists must be
+able to reach out to them and convince them, but my point is that
+quite a bit of work is required before much of the membership is
+likely to be able to act as a significant counterweight to right-wing
+pressure on the leadership. The fact that much of the politics of
+these new members seems to be based around supporting Corbyn will also
+make it more difficult for them to apply pressure on him when
+necessary.
 
 Many of the left-wing currents within labour are not helping with
 this. While they could be staking out a space to develop the left
