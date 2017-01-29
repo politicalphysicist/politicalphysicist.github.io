@@ -40,7 +40,7 @@ of the matter is that the extra radiation experienced by people living
 near a nuclear power plant is insignificant in comparison to
 background radiation, as can be seen in the chart below.
 
-![Radiation doses experienced from every-day activity, compared to those from nuclear accident and doses which are actually dangerous. Source: Randall Munroe, [XKCD](https://xkcd.com/radiation/) (click for larger image).]({filename}/images/energyPolicy/radiation.png)]
+![Radiation doses experienced from every-day activity, compared to those from nuclear accident and doses which are actually dangerous. Source: Randall Munroe, [XKCD](https://xkcd.com/radiation/) (click for larger image).]({filename}/images/energyPolicy/radiation.png)
 
 The threat of accidents has also been greatly overblown. The major
 accidents which are cited are Three Mile Island, Chernobyl, and
@@ -140,4 +140,4 @@ equitable distribution of misery, our socialism must be nuclear
 powered.
 
 
-[^1]: Carbon capture and storage (CCS) technology is sometimes invoked as a way for us to continue using fossil fuels. The issue with it is how we go about ensuring that the captured CO<sub>2<sub> *stays where we put it*. Usually it is suggested that it be stored underground, but were it to leak then it would undo all of our work capturing it in the first place. In many ways this is a more concerning problem even than nuclear waste, since the latter is solid and much easier to contain than a gas.
+[^1]: Carbon capture and storage (CCS) technology is sometimes invoked as a way for us to continue using fossil fuels. The issue with it is how we go about ensuring that the captured CO<sub>2</sub> *stays where we put it*. Usually it is suggested that it be stored underground, but were it to leak then it would undo all of our work capturing it in the first place. In many ways this is a more concerning problem even than nuclear waste, since the latter is solid and much easier to contain than a gas.

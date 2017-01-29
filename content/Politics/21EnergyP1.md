@@ -37,7 +37,7 @@ coming from progressives since the financial crisis of
 2008.
 
 
-![The Scroby Sands Wind Farm which produces, on average, [less than 20MW](http://www.ref.org.uk/images/PDFs/REDs10/Wind%202010%20v1.pdf) of power. Source: Miss.hyper at the English language Wikipedia, [GFDL](http://www.gnu.org/copyleft/fdl.html) or [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/), via Wikimedia Commons]({filename}/images/energyPolicy/scroby_windfarm.jpg)
+![The Scroby Sands Wind Farm which produces, on average, less than 20MW of power. Source: Miss.hyper at the English language Wikipedia, [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/), via Wikimedia Commons.]({filename}/images/energyPolicy/scroby_windfarm.jpg)
 
 
 But there are two problems. First, it’s not enough. Given that there are
