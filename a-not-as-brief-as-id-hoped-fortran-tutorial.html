@@ -86,119 +86,119 @@
     </div>
 </div>
         <section class="article">
-            <p><em><strong>Note:</strong> I wrote this guide for the Saint Mary&#8217;s University Astronomy and
+            <p><em><strong>Note:</strong> I wrote this guide for the Saint Mary’s University Astronomy and
 Physics Society to go along with a tutorial that I will present on the Fortran
-programming language. I thought I&#8217;d post it here in addition to the
+programming language. I thought I’d post it here in addition to the
 <a href="http://ap.smu.ca/~smuaps/an-introduction-to-modern-fortran-programming.html"><span class="caps">SMUAPS</span> website</a>.</em></p>
 <p>Fortran, which stands for FORmula TRANslator, is the oldest high level
 programming language and remains, albeit with significant improvements,
 one of the main languages used by physicists.<sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup>
 Most computational physics is done using Fortran and this is the language
-typically used in <span class="caps">SMU</span>&#8217;s Computational Methods for Physicists class. This
+typically used in <span class="caps">SMU</span>’s Computational Methods for Physicists class. This
 introduction will show you how to use various useful features of the language
 in its modern form.<sup id="fnref:2"><a class="footnote-ref" href="#fn:2" rel="footnote">2</a></sup> It will do this by defining a problem which we wish a
 program to solve and then showing how to write such a program. The program
 can be <a href="https://politicalphysicist.github.io/attachments/fortran/potential_field.f90">downloaded here</a>
-if you want to follow along (which I&#8217;d recommend
+if you want to follow along (which I’d recommend
 doing). I assume that you already know how the basics of computer programming
 but have not previously done scientific computing or worked with Fotran. Of
-course, this will only be a taste of Fortran&#8217;s abilities and there will be
+course, this will only be a taste of Fortran’s abilities and there will be
 many features, both simple and complex, which I will not be able to mention.
 For a good overview of them, see
 <a href="http://en.wikipedia.org/wiki/Fortran_95_language_features">this Wikipedia article</a>.</p>
-<h3>Table of&nbsp;Contents</h3>
+<h3>Table of Contents</h3>
 <ul>
 <li><a href="#problem">The Problem</a><ul>
-<li><a href="#method">The Numerical&nbsp;Method</a></li>
+<li><a href="#method">The Numerical Method</a></li>
 <li><a href="#stats">Statistics</a></li>
 </ul>
 </li>
-<li><a href="#algorithm">The&nbsp;Algorithm</a></li>
-<li><a href="#style">A Note on&nbsp;Style</a></li>
-<li><a href="#space">Comments and White&nbsp;Space</a></li>
+<li><a href="#algorithm">The Algorithm</a></li>
+<li><a href="#style">A Note on Style</a></li>
+<li><a href="#space">Comments and White Space</a></li>
 <li><a href="#basics">Fortran Basics</a><ul>
-<li><a href="#structure">Basic Program&nbsp;Structure</a></li>
+<li><a href="#structure">Basic Program Structure</a></li>
 <li><a href="#variables">Variables</a></li>
-<li><a href="#conditional">Conditional&nbsp;Statements</a></li>
+<li><a href="#conditional">Conditional Statements</a></li>
 <li><a href="#loops">Loops</a></li>
 </ul>
 </li>
-<li><a href="#instructions">Getting Instructions from the&nbsp;User</a></li>
-<li><a href="#reading">Reading and Writing&nbsp;Data</a></li>
+<li><a href="#instructions">Getting Instructions from the User</a></li>
+<li><a href="#reading">Reading and Writing Data</a></li>
 <li><a href="#procedures">Procedures</a><ul>
-<li><a href="#pass">Pass by&nbsp;Reference</a></li>
+<li><a href="#pass">Pass by Reference</a></li>
 <li><a href="#functions">Functions</a></li>
 <li><a href="#subroutines">Subroutines</a></li>
 </ul>
 </li>
-<li><a href="#array">Array&nbsp;Syntax</a></li>
-<li><a href="#compiling">Compiling and Running Your&nbsp;Program</a></li>
-<li><a href="#packaging">Packaging Your&nbsp;Procedures</a></li>
-<li><a href="#summing">Summing&nbsp;Up</a></li>
-<li><a href="#resources">Useful&nbsp;Resources</a></li>
+<li><a href="#array">Array Syntax</a></li>
+<li><a href="#compiling">Compiling and Running Your Program</a></li>
+<li><a href="#packaging">Packaging Your Procedures</a></li>
+<li><a href="#summing">Summing Up</a></li>
+<li><a href="#resources">Useful Resources</a></li>
 </ul>
 <p><a name="problem"></a></p>
-<h3>The&nbsp;Problem</h3>
-<p>Say we&#8217;ve measure the electric potentials at various points in one dimension.
+<h3>The Problem</h3>
+<p>Say we’ve measure the electric potentials at various points in one dimension.
 We have recorded the location at which the measurement was taken and the value
 of the potential in a file on our computer. We now want to calculate the
 electric field that exists at each point where we took a measurement. These
 results will be printed to a second text file on the computer. The program
-should also find the average electric field and the standard&nbsp;deviation.</p>
+should also find the average electric field and the standard deviation.</p>
 <p><a name="method"></a></p>
-<h4>The Numerical&nbsp;Method</h4>
-<p>To do this, we need to recall&nbsp;that
+<h4>The Numerical Method</h4>
+<p>To do this, we need to recall that
 </p>
 <div class="math">$$ \mathbf{E} = -\nabla V. $$</div>
 <p>
-In our simple, one dimensional case, this&nbsp;becomes
+In our simple, one dimensional case, this becomes
 </p>
 <div class="math">$$ E = -\frac{dV}{dx}. $$</div>
 <p>
-However, we don&#8217;t actually know the function <span class="math">\(V(x)\)</span>, only the value of <span class="math">\(V\)</span> at
+However, we don’t actually know the function <span class="math">\(V(x)\)</span>, only the value of <span class="math">\(V\)</span> at
 particular values of <span class="math">\(x\)</span>. So, how do we calculate the derivative? In reality,
-we&#8217;ll have to estimate it. The limit definition of the derivative&nbsp;says
+we’ll have to estimate it. The limit definition of the derivative says
 </p>
 <div class="math">$$ \frac{dV}{dx} = \lim_{h \to 0} \frac{V(x + h) - V(x)}{h}, $$</div>
 <p>
-so you might be tempted to&nbsp;use
+so you might be tempted to use
 </p>
 <div class="math">$$ \frac{dV_{i}}{dx} \approx \frac{V_{i+1} - V_{i}}{x_{i+1} - x_{i}}. $$</div>
 <p>
 However, that is only accounting for the rate of change on one side of your
-data-point, <span class="math">\(i\)</span>. Thus, it would be better to&nbsp;use
+data-point, <span class="math">\(i\)</span>. Thus, it would be better to use
 </p>
 <div class="math">$$ \frac{dV_{i}}{dx} \approx \frac{V_{i+1} - V_{i-1}}{x_{i+1} - x_{i-1}}. $$</div>
 <p>
-Of course, this won&#8217;t work at two ends of the data set, so in those cases we&#8217;ll
+Of course, this won’t work at two ends of the data set, so in those cases we’ll
 simply have to make do with half of the information and use something along
-the lines of our first guess of how to take the&nbsp;derivative.</p>
+the lines of our first guess of how to take the derivative.</p>
 <p><a name="stats"></a></p>
 <h4>Statistics</h4>
-<p>As I hope everyone will know, the average value of some data is given&nbsp;by
+<p>As I hope everyone will know, the average value of some data is given by
 </p>
 <div class="math">$$ \overline{x} = \frac{1}{N}\sum_{i=1}^{N} x_i~. $$</div>
 <p>
-As a reminder, the standard deviation of a data-set&nbsp;is
+As a reminder, the standard deviation of a data-set is
 </p>
 <div class="math">$$ \sigma = \sqrt{\frac{1}{N-1} \sum_{i=1}^N (x_i - \overline{x})^2}.$$</div>
 <p><a name="algorithm"></a></p>
-<h3>The&nbsp;Algorithm</h3>
-<p>The basic structure of our program will be as&nbsp;follows</p>
+<h3>The Algorithm</h3>
+<p>The basic structure of our program will be as follows</p>
 <ol>
-<li>Determine the files from which to read and to which to write&nbsp;data.</li>
-<li>Read the data from the input&nbsp;file.</li>
-<li>Take the derivative of the data and multiply by negative&nbsp;one.</li>
-<li>Write the processed data to the output&nbsp;file.</li>
-<li>Calculate the mean and standard deviation of the processed&nbsp;data.</li>
-<li>Print these statistical values to the&nbsp;screen.</li>
+<li>Determine the files from which to read and to which to write data.</li>
+<li>Read the data from the input file.</li>
+<li>Take the derivative of the data and multiply by negative one.</li>
+<li>Write the processed data to the output file.</li>
+<li>Calculate the mean and standard deviation of the processed data.</li>
+<li>Print these statistical values to the screen.</li>
 </ol>
 <p>The calculations in steps 3 and 5 are to be done using the techniques and
-equations discussed in the previous&nbsp;section.</p>
-<h3>A Note on&nbsp;Style</h3>
+equations discussed in the previous section.</p>
+<h3>A Note on Style</h3>
 <p><a name="style"></a>
-Fortran, as a language, is case-insensitive. This means that  &#8220;<span class="caps">HELLO</span>&#8221;,
-&#8220;hello&#8221;, and &#8220;hElLo&#8221; are equivalent. The original standard style for programming
+Fortran, as a language, is case-insensitive. This means that  “<span class="caps">HELLO</span>”,
+“hello”, and “hElLo” are equivalent. The original standard style for programming
 in Fortran was to use all upper-case letters. Personally, I find this hard to
 read. Many people, today, will use entirely lower-case letters, and some will
 use a mixture of both. I have read that the standard now is to use
@@ -206,15 +206,15 @@ upper-case letters for anything that is intrinsic to the language, and
 lower-case letters for everything else. Although it is debatable how many
 people actually stick to this, I will be using this style throughout this
 tutorial. Note that case-insensitivity does not apply to the contents
-of&nbsp;strings.</p>
+of strings.</p>
 <p><a name="comments"></a></p>
-<h3>Comments and&nbsp;White-Space</h3>
+<h3>Comments and White-Space</h3>
 <p>From Fortran 90 onward, comments are designated by an exclamation mark.
 Anything on a line following an exclamation mark (assuming that the
-exclamation mark isn&#8217;t inside a string) will be ignored by the
-compiler. Comments should be used to document your code. I&#8217;d recommend
+exclamation mark isn’t inside a string) will be ignored by the
+compiler. Comments should be used to document your code. I’d recommend
 having a standard template that you use at the top of each program
-explaining what it does. An example of the format I use is provided&nbsp;below.</p>
+explaining what it does. An example of the format I use is provided below.</p>
 <div class="highlight"><pre><span></span><span class="c">!==============================================================================!</span>
 <span class="c">!                         B E G I N    P R O G R A M :                         !</span>
 <span class="c">!                        P O T E N T I A L _ F I E L D                         !</span>
@@ -229,8 +229,8 @@ explaining what it does. An example of the format I use is provided&nbsp;below.<
 <span class="c">!                   consist of two columns of data, separated by spaces. The   !</span>
 <span class="c">!                   first column should be a position and the second should be !</span>
 <span class="c">!                   the potential at that position. All values should be in SI !</span>
-<span class="c">!                   units. The default input file is &#39;in.dat&#39; and the default  !</span>
-<span class="c">!                   output file is &#39;out.dat&#39;. Optionally, these may be         !</span>
+<span class="c">!                   units. The default input file is 'in.dat' and the default  !</span>
+<span class="c">!                   output file is 'out.dat'. Optionally, these may be         !</span>
 <span class="c">!                   overridden by providing these two file names as arguments  !</span>
 <span class="c">!                   when executing the program.                                !</span>
 <span class="c">!                                                                              !</span>
@@ -240,8 +240,6 @@ explaining what it does. An example of the format I use is provided&nbsp;below.<
 <span class="c">!                                                                              !</span>
 <span class="c">!------------------------------------------------------------------------------!</span>
 </pre></div>
-
-
 <p>The Fortran 90
 standard saw the adoption of free-form programming. This means that you
 can insert any number of blank lines that you like between successive lines
@@ -249,18 +247,18 @@ of code and that there can be as many spaces as you like within a line of code.
 Note, however, that most compilers will place a limit on the number of
 characters that you may have in a line; often this is 132 characters. In
 any case, it is bad style, in my opinion, to have lines longer than about
-80&nbsp;characters.</p>
+80 characters.</p>
 <p><a name="basics"></a></p>
-<h3>Fortran&nbsp;Basics</h3>
+<h3>Fortran Basics</h3>
 <p>Before we fully begin, there are a few more things I want to discuss. These are
-some of the fundamental concepts seen in every programming language. I&#8217;m going
+some of the fundamental concepts seen in every programming language. I’m going
 to assume that you are familiar with these principles and will just show
-how they are applied in&nbsp;Fortran.</p>
+how they are applied in Fortran.</p>
 <p><a name="structure"></a></p>
-<h4>Basic Program&nbsp;Structure</h4>
+<h4>Basic Program Structure</h4>
 <p>The great advantage of Fortran is the fairly obvious meaning of all of its
-syntax&#8212;something which can emphatically <em>not</em> be said for C. The
-basic structure of our program will&nbsp;be:</p>
+syntax—something which can emphatically <em>not</em> be said for C. The
+basic structure of our program will be:</p>
 <div class="highlight"><pre><span></span><span class="k">PROGRAM </span><span class="n">potential_field</span>
     <span class="k">IMPLICIT NONE</span>
 
@@ -274,42 +272,40 @@ basic structure of our program will&nbsp;be:</p>
     <span class="k">STOP</span>
 <span class="k">END PROGRAM </span><span class="n">potential_field</span>
 </pre></div>
-
-
 <p>The first line says that you are writing a stand-alone program (as opposed to,
-say, a subroutine) called &#8220;potential_field&#8221;. <code>IMPLICIT NONE</code> instructs the
+say, a subroutine) called “potential_field”. <code>IMPLICIT NONE</code> instructs the
 compiler to give an error message if it
-encounters any variables which haven&#8217;t been declared. This should always be put
+encounters any variables which haven’t been declared. This should always be put
 at the start of programs in order to prevent bugs occurring due to typos in
 variable names. After this we would declare our variables and then would come
 the program itself. <code>STOP</code> stops the
 execution of the program and the final line designates the end of the program
 within your text file. You are then free to write any procedures you want
 below that. Unlike many other programming languages, Fortran does not allow
-anything in your source file to fall outside of a program unit&#8212;that is, outside
-of a program, subroutine, function, or module (more on the latter three&nbsp;later).</p>
+anything in your source file to fall outside of a program unit—that is, outside
+of a program, subroutine, function, or module (more on the latter three later).</p>
 <p><a name="variables"></a></p>
 <h4>Variables</h4>
-<p>Fortran has five fundamental&nbsp;data-types:</p>
+<p>Fortran has five fundamental data-types:</p>
 <ul>
-<li><code>INTEGER</code>s are integer values, which can be represented exactly by the&nbsp;computer.</li>
+<li><code>INTEGER</code>s are integer values, which can be represented exactly by the computer.</li>
 <li><code>REAL</code>s are floating point numbers, representing real numbers. They are not
-  exact representations of real numbers, having only a finite number of decimal&nbsp;places.</li>
+  exact representations of real numbers, having only a finite number of decimal places.</li>
 <li><code>COMPLEX</code> variables are effectively just two real variables, one storing
   the real component of a number, the other storing the imaginary component.
-  These don&#8217;t need to be used very&nbsp;often.</li>
+  These don’t need to be used very often.</li>
 <li><code>CHARACTER</code>s are text characters, usually encoded as <span class="caps">ASCII</span>. Character
-  variables can be given a length, allowing them to be used as&nbsp;strings.</li>
+  variables can be given a length, allowing them to be used as strings.</li>
 <li><code>LOGICAL</code>s are boolean variables, which can store a value of either
   <code>.TRUE.</code> or <code>.FALSE.</code></li>
 </ul>
-<p>You can also define &#8220;derived types,&#8221; which are the equivalents to structs in
+<p>You can also define “derived types,” which are the equivalents to structs in
 C or objects/classes in other languages. These are only really needed in
 larger programs, where they can provide a useful way of organizing
-data and&nbsp;code.</p>
-<p>A sample of the variable declarions in our code are given&nbsp;below.</p>
-<div class="highlight"><pre><span></span><span class="kt">CHARACTER</span><span class="p">(</span><span class="nb">LEN</span><span class="o">=</span><span class="mi">32</span><span class="p">)</span>               <span class="kd">::</span>  <span class="n">infile</span>  <span class="o">=</span> <span class="s1">&#39;in.dat&#39;</span><span class="p">,</span>                    <span class="p">&amp;</span>
-                                    <span class="n">outfile</span> <span class="o">=</span> <span class="s1">&#39;out.dat&#39;</span>
+data and code.</p>
+<p>A sample of the variable declarions in our code are given below.</p>
+<div class="highlight"><pre><span></span><span class="kt">CHARACTER</span><span class="p">(</span><span class="nb">LEN</span><span class="o">=</span><span class="mi">32</span><span class="p">)</span>               <span class="kd">::</span>  <span class="n">infile</span>  <span class="o">=</span> <span class="s1">'in.dat'</span><span class="p">,</span>                    <span class="p">&amp;</span>
+                                    <span class="n">outfile</span> <span class="o">=</span> <span class="s1">'out.dat'</span>
 <span class="kt">INTEGER</span><span class="p">,</span> <span class="k">PARAMETER</span>              <span class="kd">::</span>  <span class="n">data_max</span> <span class="o">=</span> <span class="mi">1012</span>
 <span class="kt">INTEGER</span>                         <span class="kd">::</span>  <span class="n">i</span><span class="p">,</span>                                     <span class="p">&amp;</span>
                                     <span class="n">ioval</span><span class="p">,</span>                                 <span class="p">&amp;</span>
@@ -321,9 +317,7 @@ data and&nbsp;code.</p>
                                     <span class="n">postn</span><span class="p">,</span>                                 <span class="p">&amp;</span>
                                     <span class="n">potntl</span>
 </pre></div>
-
-
-<p>The ampersands indicate line&nbsp;continuation.</p>
+<p>The ampersands indicate line continuation.</p>
 <p><code>CHARACTER(LEN=32)</code> means that these variables are strings containing 32
 characters. The <code>PARAMETER</code> attribute means that the variable is a constant,
 whose value is set at declaration. <code>REAL(8)</code> means that this is an 8-byte real
@@ -337,14 +331,12 @@ indexed starting at 1, unlike most other languages. On a technical note,
 they are stored in column major order rather than the more typical
 <a href="http://en.wikipedia.org/wiki/Row-major_order">row major order</a>.</p>
 <p><a name="conditional"></a></p>
-<h4>Conditional&nbsp;Statements</h4>
+<h4>Conditional Statements</h4>
 <p>If you want a single line to be executed only if <code>&lt;condition&gt;</code> is true, you
-would use the following&nbsp;syntax:</p>
+would use the following syntax:</p>
 <div class="highlight"><pre><span></span><span class="k">IF</span> <span class="p">(</span> <span class="o">&lt;</span><span class="n">condition</span><span class="o">&gt;</span> <span class="p">)</span> <span class="o">&lt;</span><span class="n">statements</span><span class="o">&gt;</span>
 </pre></div>
-
-
-<p>The general form for an if-statement&nbsp;is</p>
+<p>The general form for an if-statement is</p>
 <div class="highlight"><pre><span></span><span class="k">IF</span> <span class="p">(</span> <span class="o">&lt;</span><span class="n">condition</span><span class="o">&gt;</span> <span class="p">)</span> <span class="k">THEN</span>
     <span class="o">&lt;</span><span class="n">statemtents</span><span class="o">&gt;</span>
 <span class="k">ELSE IF</span> <span class="p">(</span> <span class="o">&lt;</span><span class="n">condition2</span><span class="o">&gt;</span> <span class="p">)</span> <span class="k">THEN</span>
@@ -355,63 +347,53 @@ would use the following&nbsp;syntax:</p>
     <span class="o">&lt;</span><span class="n">statemtents</span><span class="o">&gt;</span>
 <span class="k">END IF</span>
 </pre></div>
-
-
 <p>There can be an arbitrary number of <code>ELSE IF</code>s, including zero. The <code>ELSE</code>
-statement is optional, but if it is used then it must come at the&nbsp;end.</p>
+statement is optional, but if it is used then it must come at the end.</p>
 <p><code>&lt;condition&gt;</code> is a <code>LOGICAL</code> variable or a logical test. The logical
 operators in Fortran are <code>==</code>, <code>/=</code>, <code>&gt;</code>, <code>&lt;</code>, <code>&gt;=</code>,
 <code>&lt;=</code>, <code>.NOT.</code>, <code>.AND.</code>, <code>.OR.</code>, and <code>.XOR.</code>. The meaning of all of
 these is what
-you would expect, except possibly for <code>/=</code>, which corresponds to &#8220;not equal
-to.&#8221; Fortran can not use <code>!=</code> because the exclamation mark is the symbol for
-a&nbsp;comment.</p>
+you would expect, except possibly for <code>/=</code>, which corresponds to “not equal
+to.” Fortran can not use <code>!=</code> because the exclamation mark is the symbol for
+a comment.</p>
 <p><a name="loops"></a></p>
 <h4>Loops</h4>
-<p>The main type of loop which you&#8217;ll use in Fortran is a &#8220;do-loop,&#8221; the equivalent
-of a for-loop. This takes the&nbsp;form</p>
+<p>The main type of loop which you’ll use in Fortran is a “do-loop,” the equivalent
+of a for-loop. This takes the form</p>
 <div class="highlight"><pre><span></span><span class="k">DO </span><span class="nb">index</span> <span class="o">=</span> <span class="n">lower</span><span class="p">,</span> <span class="n">upper</span><span class="p">[,</span> <span class="n">step_size</span><span class="p">]</span>
     <span class="o">&lt;</span><span class="n">statements</span><span class="o">&gt;</span>
 <span class="k">END DO</span>
 </pre></div>
-
-
 <p>where <code>index</code> is the counter variable in the loop, <code>lower</code> is the
 lower bound, <code>upper</code> is the upper bound, and <code>step_size</code> is the increment
-by which to increase the index. The upper and lower bounds are&nbsp;inclusive.</p>
-<p>There are also while loops, which have the&nbsp;syntax</p>
+by which to increase the index. The upper and lower bounds are inclusive.</p>
+<p>There are also while loops, which have the syntax</p>
 <div class="highlight"><pre><span></span><span class="k">DO WHILE</span><span class="p">(</span> <span class="o">&lt;</span><span class="n">condition</span><span class="o">&gt;</span> <span class="p">)</span>
     <span class="o">&lt;</span><span class="n">statements</span><span class="o">&gt;</span>
 <span class="k">END DO</span>
 </pre></div>
-
-
 <p>You can exit a loop with the command <code>EXIT</code>, or skip to the next iteration
-with the command <code>CYCLE</code>. The <code>EXIT</code> command allows us to use the loop&nbsp;structure</p>
+with the command <code>CYCLE</code>. The <code>EXIT</code> command allows us to use the loop structure</p>
 <div class="highlight"><pre><span></span><span class="k">DO</span>
     <span class="o">&lt;</span><span class="n">statements</span><span class="o">&gt;</span>
 <span class="k">END DO</span>
 </pre></div>
-
-
-<p>which would otherwise be an infinite&nbsp;loop.</p>
+<p>which would otherwise be an infinite loop.</p>
 <p><a name="instructions"></a></p>
-<h3>Getting Instructions from the&nbsp;User</h3>
+<h3>Getting Instructions from the User</h3>
 <p>We need our program to read in data provided by the user. The best way to do
-this is to read it from a text file. We could simply &#8220;hardcode&#8221; into the
+this is to read it from a text file. We could simply “hardcode” into the
 program the name of the file in which the data is to be placed. However,
 it would be preferable if the user were to be able to over-ride this default.
 The same applies for the file to which we want our results to be written.
 We could simply ask the user for the file names when the program is running,
 but this is rather ungainly. A far nicer solution is for the user to, if they
 desire, specify the file names as command-line arguments. To accomplish this
-we use the following bit of&nbsp;code:</p>
+we use the following bit of code:</p>
 <div class="highlight"><pre><span></span><span class="n">num_args</span> <span class="o">=</span> <span class="nb">COMMAND_ARGUMENT_COUNT</span><span class="p">()</span>
 <span class="k">IF</span> <span class="p">(</span> <span class="n">num_args</span> <span class="o">&gt;=</span> <span class="mi">1</span> <span class="p">)</span> <span class="k">CALL </span><span class="nb">GET_COMMAND_ARGUMENT</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="n">infile</span><span class="p">)</span>
 <span class="k">IF</span> <span class="p">(</span> <span class="n">num_args</span> <span class="o">&gt;=</span> <span class="mi">2</span> <span class="p">)</span> <span class="k">CALL </span><span class="nb">GET_COMMAND_ARGUMENT</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="n">outfile</span><span class="p">)</span>
 </pre></div>
-
-
 <p>The first line here asks for the number of command-line arguments which
 have been provided. If any have been then the first will be the file
 containing the data to be read in and we will place that data in the
@@ -419,56 +401,54 @@ appropriate string variable (<code>infile</code>). If there is also a second arg
 then it will
 be the name of the file to which to output the data, and it will also
 be placed in the appropriate variable (<code>outfile</code>). The default input
-and output file names were assigned when <code>infile</code> and <code>outfile</code> were&nbsp;declared.</p>
-<p>In this snippet of code there are a few things worth&nbsp;noting.</p>
+and output file names were assigned when <code>infile</code> and <code>outfile</code> were declared.</p>
+<p>In this snippet of code there are a few things worth noting.</p>
 <ol>
 <li>I make use of two intrinsic procedures: the function
 <code>COMMAND_ARGUMENT_COUNT</code> and the subroutine <code>GET_COMMAND_ARGUMENT</code>. I will
 explain subroutines and functions in more detail soon. These two procedures
 happen to be part of the Fortran 2008 standard. Most compilers featured
 equivalent functions prior to the 2008 standard, but there was never any
-guarantee that they would be the same between&nbsp;compilers.</li>
+guarantee that they would be the same between compilers.</li>
 <li>We encounter variable assignment in the first line. This is unremarkable
 and just like every other high-level programming language. Values are
 also assigned in second and third line, but to the arguments of a subroutine.
-More on that in a&nbsp;bit.</li>
+More on that in a bit.</li>
 </ol>
 <p><a name="reading"></a></p>
-<h3>Reading and Writing&nbsp;Data</h3>
+<h3>Reading and Writing Data</h3>
 <p>Now that we know the names of the input and output files, we want to write
 the code needed to actually perform input and output. If there was one
 thing that I could change about Fortran, it would be how it does <span class="caps">IO</span>; the
-technique it uses is old-fashioned and extremely&nbsp;clunky.</p>
+technique it uses is old-fashioned and extremely clunky.</p>
 <p>First, we must open a file. To do this, we use the command
 <code>OPEN(unit, FILE='&lt;filename&gt;'[, &lt;other options&gt;])</code>. The unit is an integer,
-specifying which <span class="caps">IO</span> &#8220;stream&#8221; we want to use. There are a few which are reserved:
+specifying which <span class="caps">IO</span> “stream” we want to use. There are a few which are reserved:
 0 for standard-error, 5 for standard-in, and 6 for standard-out. You should
 use a positive integer less than 100. Perhaps the most important of the
 other options which may be used when opening a file is <code>STATUS="..."</code>. The
-string may be set to &#8220;unknown,&#8221; indicating that we don&#8217;t know whether or not
-the file already exists, &#8220;new,&#8221; indicating that the file should <em>not</em> already
-exist, or &#8220;old,&#8221; indicating that the file <em>should</em> already exist. You may
+string may be set to “unknown,” indicating that we don’t know whether or not
+the file already exists, “new,” indicating that the file should <em>not</em> already
+exist, or “old,” indicating that the file <em>should</em> already exist. You may
 also use the option <code>IOSTAT=variable</code>, where <code>variable</code> should be an
 integer. If, after the operation has been completed, <code>variable</code> is equal to
 zero, then it was successful. Otherwise, it indicates that there was an error
-of some sort. Without specifying an <code>IOSTAT</code> the program would crash on&nbsp;you.</p>
-<p>To open our input file, we use the&nbsp;code</p>
+of some sort. Without specifying an <code>IOSTAT</code> the program would crash on you.</p>
+<p>To open our input file, we use the code</p>
 <div class="highlight"><pre><span></span><span class="c">! Read in data from the input file</span>
-<span class="k">OPEN</span><span class="p">(</span><span class="n">UNIT</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="k">FILE</span><span class="o">=</span><span class="n">infile</span><span class="p">,</span> <span class="n">IOSTAT</span><span class="o">=</span><span class="n">ioval</span><span class="p">,</span> <span class="n">STATUS</span><span class="o">=</span><span class="s1">&#39;old&#39;</span><span class="p">)</span>
+<span class="k">OPEN</span><span class="p">(</span><span class="n">UNIT</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="k">FILE</span><span class="o">=</span><span class="n">infile</span><span class="p">,</span> <span class="n">IOSTAT</span><span class="o">=</span><span class="n">ioval</span><span class="p">,</span> <span class="n">STATUS</span><span class="o">=</span><span class="s1">'old'</span><span class="p">)</span>
 <span class="k">IF</span> <span class="p">(</span> <span class="n">ioval</span> <span class="o">/=</span> <span class="mi">0</span> <span class="p">)</span> <span class="k">THEN</span> <span class="c">! Make sure file exists</span>
     <span class="k">WRITE</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">filedne</span><span class="p">)</span> <span class="nb">TRIM</span><span class="p">(</span><span class="n">infile</span><span class="p">)</span>
     <span class="k">STOP</span>
 <span class="k">END IF</span>
 </pre></div>
-
-
 <p>The statements within the if-statement will write an error message and then
 stop the program if there was some problem opening the file.
 We see here our first example of actual <span class="caps">IO</span>. This is done by the <code>WRITE</code>
 statement, which is writing a message to standard error. The next argument,
 <code>filedne</code> is a format
-string. I won&#8217;t go into detail about how these work&#8212;you can Google it if
-you&#8217;re interested. Essentially, all that they do is specify how to format the
+string. I won’t go into detail about how these work—you can Google it if
+you’re interested. Essentially, all that they do is specify how to format the
 output of any variables provided. In this case that
 variable is <code>TRIM(infile)</code>, where <code>TRIM()</code> is a built-in function which
 strips any trailing spaces from the string. Instead of using a format string,
@@ -476,8 +456,8 @@ you can just replace the variable name with an asterisk, causing Fortran to
 automatically format your output for you. This is often sufficient and we
 will see examples of it below. The general form for output statements is
 <code>WRITE(&lt;unit&gt;,&lt;format-string&gt;) &lt;variables...&gt;</code>. Here, <code>&lt;variables...&gt;</code>
-are the variables whose values are to be&nbsp;outputted.</p>
-<p>Next we&#8217;ll read in the data. Input statements are very similar to output
+are the variables whose values are to be outputted.</p>
+<p>Next we’ll read in the data. Input statements are very similar to output
 statements, except that <code>WRITE</code> is replaced with <code>READ</code>. The general form
 is <code>READ(&lt;unit&gt;,&lt;format-string&gt;) &lt;variables...&gt;</code>. In this case, the input
 data will be placed into the variables we specify in <code>&lt;variables&gt;</code>. Input
@@ -485,70 +465,64 @@ is done line-by-line with as many variables filled as possible, given the
 amount of data on the line. For input you should almost always use an asterisk
 instead of a format string. An additional argument which can be provided for
 <code>READ</code> statements is an <code>IOSTAT</code>. This works in exactly the same way as
-in the <code>OPEN</code> statement and can be useful to know when you&#8217;ve read to the
-end of a&nbsp;file.</p>
+in the <code>OPEN</code> statement and can be useful to know when you’ve read to the
+end of a file.</p>
 <div class="highlight"><pre><span></span><span class="k">DO </span><span class="n">i</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span><span class="n">data_max</span> <span class="c">! Read until end of file or reach maximum amount of data</span>
     <span class="k">READ</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="o">*</span><span class="p">,</span><span class="n">IOSTAT</span><span class="o">=</span><span class="n">ioval</span><span class="p">)</span> <span class="n">postn</span><span class="p">(</span><span class="n">i</span><span class="p">),</span> <span class="n">potntl</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
     <span class="k">IF</span> <span class="p">(</span> <span class="n">ioval</span> <span class="o">/=</span> <span class="mi">0</span> <span class="p">)</span> <span class="k">THEN</span>
 <span class="k">        </span><span class="n">data_size</span> <span class="o">=</span> <span class="n">i</span> <span class="o">-</span> <span class="mi">1</span>
         <span class="k">EXIT</span>
 <span class="k">    END IF</span>
-<span class="k">    IF</span> <span class="p">(</span> <span class="n">i</span> <span class="o">==</span> <span class="n">data_max</span> <span class="p">)</span> <span class="k">WRITE</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span><span class="o">*</span><span class="p">)</span> <span class="s1">&#39;POTENTIAL_FIELD: Could not read &#39;</span><span class="o">//</span>   <span class="p">&amp;</span>
-        <span class="s1">&#39;all input data. Truncated after &#39;</span><span class="p">,</span> <span class="n">data_max</span><span class="p">,</span> <span class="s1">&#39; elements.&#39;</span>
+<span class="k">    IF</span> <span class="p">(</span> <span class="n">i</span> <span class="o">==</span> <span class="n">data_max</span> <span class="p">)</span> <span class="k">WRITE</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span><span class="o">*</span><span class="p">)</span> <span class="s1">'POTENTIAL_FIELD: Could not read '</span><span class="o">//</span>   <span class="p">&amp;</span>
+        <span class="s1">'all input data. Truncated after '</span><span class="p">,</span> <span class="n">data_max</span><span class="p">,</span> <span class="s1">' elements.'</span>
 <span class="k">END DO</span>
 </pre></div>
-
-
 <p>This bit of code will read in as much data from the file as we have room for in
 our arrays, storing it in the arrays <code>postn</code> and <code>potntl</code>. If it reaches
 the end of the file then it will remember the amount of data read in and exit
 the loop. If it reaches the end of the array then it will print a warning
 message saying that some of the data may have been truncated. The two slashses
-that you see in the <code>WRITE</code> statement are the concatenation&nbsp;operator.</p>
-<p>Now that we&#8217;re done with the input file, we&#8217;ll close it using the command
+that you see in the <code>WRITE</code> statement are the concatenation operator.</p>
+<p>Now that we’re done with the input file, we’ll close it using the command
 <code>CLOSE(&lt;unit&gt;)</code>. In this case we simply add the line <code>CLOSE(10)</code>.</p>
 <p>After all of this, outputting our results will seem easy. This is done
 with the following code fragment which will go after the actual calculations
-in our&nbsp;program</p>
+in our program</p>
 <div class="highlight"><pre><span></span><span class="c">! Send the data to the output file</span>
-<span class="k">OPEN</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="k">FILE</span><span class="o">=</span><span class="n">outfile</span><span class="p">,</span> <span class="n">STATUS</span><span class="o">=</span><span class="s1">&#39;unknown&#39;</span><span class="p">)</span>
-<span class="k">WRITE</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="o">*</span><span class="p">)</span> <span class="s1">&#39;#Position                   Field Strength&#39;</span>
+<span class="k">OPEN</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="k">FILE</span><span class="o">=</span><span class="n">outfile</span><span class="p">,</span> <span class="n">STATUS</span><span class="o">=</span><span class="s1">'unknown'</span><span class="p">)</span>
+<span class="k">WRITE</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="o">*</span><span class="p">)</span> <span class="s1">'#Position                   Field Strength'</span>
 <span class="k">DO </span><span class="n">i</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">data_size</span>
     <span class="k">WRITE</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="o">*</span><span class="p">)</span> <span class="n">postn</span><span class="p">(</span><span class="n">i</span><span class="p">),</span> <span class="n">field</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
 <span class="k">END DO</span>
 <span class="k">CLOSE</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
 </pre></div>
-
-
 <p>There is little to remark upon here, except to note that the first line
-we write to the file&nbsp;is</p>
+we write to the file is</p>
 <div class="highlight"><pre><span></span>#Position                   Field Strength
 </pre></div>
-
-
 <p>This provides a header for the file. Most pieces of plotting software know to
 ignore lines beginning with a hash-sign. Thus, this provides a way to remind
 yourself what the data in your file are, without getting in the way if you want
 to make a graph from it. I consider it to be good style to put such a header
-at the top of all of your data&nbsp;files.</p>
+at the top of all of your data files.</p>
 <p><a name="procedures"></a></p>
 <h3>Procedures</h3>
 <p>When writing a program, it is often useful to place some of your code into
-subprograms. There are two main reasons for&nbsp;this.</p>
+subprograms. There are two main reasons for this.</p>
 <ol>
 <li>It allows the code to be executed multiple times without having to be
-   rewritten each&nbsp;time.</li>
-<li>It allows the code to be reused in future&nbsp;programs.</li>
+   rewritten each time.</li>
+<li>It allows the code to be reused in future programs.</li>
 </ol>
-<p>In Fortran we call these &#8220;procedures.&#8221; In most languages they are called
-&#8220;methods.&#8221; Fortran has two types of procedures: functions and subroutines.
+<p>In Fortran we call these “procedures.” In most languages they are called
+“methods.” Fortran has two types of procedures: functions and subroutines.
 Functions produce a value and are akin to the methods that you see in
 other languages. Subroutines do not produce a value and are similar to void
-methods in other&nbsp;languages.</p>
+methods in other languages.</p>
 <p>It is best to place any procedures at the end of your program. Just below
 where your program ends (after the <code>STOP</code> command) type a line containing only
 the word <code>CONTAINS</code>. Place your procedures below that and before the end of
-the&nbsp;program.</p>
+the program.</p>
 <div class="highlight"><pre><span></span><span class="k">PROGRAM </span><span class="n">potential_field</span>
     <span class="k">IMPLICIT NONE</span>
 
@@ -566,28 +540,26 @@ the&nbsp;program.</p>
 
 <span class="k">END PROGRAM </span><span class="n">potential_field</span>
 </pre></div>
-
-
-<p>There is another way to package procedures, using &#8220;modules.&#8221; I&#8217;ll
+<p>There is another way to package procedures, using “modules.” I’ll
 explain those later. I should also mention that it is possible to place your
 procedures entirely outside of any program or module and in older versions of
 Fortran this was the only option. However, unless you need to do this in order
 to work with some legacy code, this is not a practice that I would
 recommend.<sup id="fnref:3"><a class="footnote-ref" href="#fn:3" rel="footnote">3</a></sup>
-When procedures are stored in this way, the compiler won&#8217;t be able to check
+When procedures are stored in this way, the compiler won’t be able to check
 that you have passed the correct number and types of arguments and these bugs
-are, in my experience, immensely frustrating to&nbsp;catch.</p>
+are, in my experience, immensely frustrating to catch.</p>
 <p><a name="pass"></a></p>
-<h4>Pass by&nbsp;Reference</h4>
+<h4>Pass by Reference</h4>
 <p>In most programming languages, when you pass a variable to a method as an
 argument, a new
 copy of that variable is created for the method to use. This variable will
 then be deleted once the method has finished executing. This technique is call
-&#8220;pass by value.&#8221; Fortran, however, works differently. Instead of creating
+“pass by value.” Fortran, however, works differently. Instead of creating
 a copy of the passed variable, the procedure will be told where the original
 variable is located and will then access the original whenever the variable
-is used. This is called &#8220;pass by&nbsp;reference.&#8221;</p>
-<p>If you are only using the variable&#8217;s value as input then this is irrelevant to
+is used. This is called “pass by reference.”</p>
+<p>If you are only using the variable’s value as input then this is irrelevant to
 the end user. However, if you modify the value of an argument in the procedure,
 then that modification will be reflected in the  calling
 program once the procedure has finished executing. At the end of the day, what
@@ -597,11 +569,11 @@ is entirely a matter of taste. Typically, I will use a function if I only
 want to return a single value. They are particularly useful for representing
 mathematical functions in numerical routines such as root-finders, integrators,
 <span class="caps">ODE</span> solvers, etc. I use a subroutine if I know that I want to return multiple
-variables. You will see an example of each in the program we are writing&nbsp;today.</p>
+variables. You will see an example of each in the program we are writing today.</p>
 <p><a name="functions"></a></p>
 <h4>Functions</h4>
 <p>I wrote a function to calculate derivatives. The basic syntax
-for such a function&nbsp;is</p>
+for such a function is</p>
 <div class="highlight"><pre><span></span><span class="k">FUNCTION </span><span class="n">differentiate</span> <span class="p">(</span> <span class="n">independent</span><span class="p">,</span> <span class="n">dependent</span> <span class="p">)</span>
     <span class="k">IMPLICIT NONE</span>
     <span class="c">! Argument declarations</span>
@@ -616,17 +588,13 @@ for such a function&nbsp;is</p>
     <span class="k">RETURN</span>
 <span class="k">END FUNCTION </span><span class="n">differentiate</span>
 </pre></div>
-
-
 <p>We see that this function is called <code>differentiate</code> and takes two arguments:
 <code>independent</code> and <code>dependent</code>. While programs are ended with the keyword
 <code>STOP</code>, functions (and subroutines) are ended with the keyword <code>RETURN</code>.
-We call the function&nbsp;with</p>
+We call the function with</p>
 <div class="highlight"><pre><span></span><span class="n">field</span><span class="p">(</span><span class="mi">1</span><span class="p">:</span><span class="n">data_size</span><span class="p">)</span> <span class="o">=</span> <span class="n">differentiate</span><span class="p">(</span><span class="n">postn</span><span class="p">(</span><span class="mi">1</span><span class="p">:</span><span class="n">data_size</span><span class="p">),</span> <span class="n">potntl</span><span class="p">(</span><span class="mi">1</span><span class="p">:</span><span class="n">data_size</span><span class="p">))</span>
 </pre></div>
-
-
-<p>The <code>(1:data_size)</code> is an example of &#8220;array-slice notation.&#8221; More on that&nbsp;later.</p>
+<p>The <code>(1:data_size)</code> is an example of “array-slice notation.” More on that later.</p>
 <p>Unlike languages based on C, arguments are not declared in the argument list
 but in the body of the procedure alongside the local variables. You also need
 to declare the return variable, which, by default, has the same name as the
@@ -646,9 +614,9 @@ with <code>INTENT(OUT)</code>.</p>
 with <code>DIMENSION(:)</code>. This syntax can be used for procedure arguments to
 indicate that the size of the array is not known in advance. The size will be
 set to be however large the array passed to the procedure is. A similar
-notation is used for our return value, but that&#8217;s because it is an
-<code>ALLOCATABLE</code> array. More on that in the sidebar&nbsp;below.</p>
-<p>The full code for this function is provided&nbsp;below.</p>
+notation is used for our return value, but that’s because it is an
+<code>ALLOCATABLE</code> array. More on that in the sidebar below.</p>
+<p>The full code for this function is provided below.</p>
 <div class="highlight"><pre><span></span><span class="k">FUNCTION </span><span class="n">differentiate</span> <span class="p">(</span> <span class="n">independent</span><span class="p">,</span> <span class="n">dependent</span> <span class="p">)</span>
     <span class="k">IMPLICIT NONE</span>
 
@@ -682,13 +650,11 @@ notation is used for our return value, but that&#8217;s because it is an
     <span class="k">RETURN</span>
 <span class="k">END FUNCTION </span><span class="n">differentiate</span>
 </pre></div>
-
-
 <p>I should mention that Fortran comes with a number of built-in functions. In
-particular, it has all of the mathematical functions that you&#8217;d expect. We
+particular, it has all of the mathematical functions that you’d expect. We
 also so the <code>MIN()</code> and <code>SIZE()</code> intrinsic functions. The first returns
 the smallest value in a list of arguments or in an array. The second returns
-the number of elements in an&nbsp;array.</p>
+the number of elements in an array.</p>
 <p><strong>Sidebar:</strong> You may notice that our return-variable here is declared with
 the attribute <code>ALLOCATABLE</code>. By default, Fortran arrays are static, meaning
 that they have a fixed length determined at compile-time. However, sometimes
@@ -698,18 +664,16 @@ In that case, you use
 an allocatable array. When first declared, these arrays have no determined size,
 although you do have to specify their rank by using colons in the <code>DIMENSION</code>
 attribute. For example, a 3D array would be declared with <code>DIMENSION(:,:,:)</code>.
-Once you know they size you want, you allocate them as&nbsp;follows</p>
+Once you know they size you want, you allocate them as follows</p>
 <div class="highlight"><pre><span></span><span class="k">ALLOCATE</span><span class="p">(</span><span class="k">array</span><span class="p">(</span><span class="n">lower</span><span class="p">:</span><span class="n">upper</span><span class="p">))</span>
 </pre></div>
-
-
 <p>where <code>lower</code> is the index which you want the array to start at while
 <code>upper</code> is the index that you want it to end at. These bounds are inclusive.
 Once you are done with the array, you can deallocate it with
 <code>DEALLOCATE(array)</code>. You can then reallocate
 it again (potentially to a different size) if you wish. When a procedure
-exits, all local allocatable arrays are automatically&nbsp;deallocated.</p>
-<p><strong>Sidebar 2:</strong> Another new feature which I&#8217;ve introduced here is the <code>FORALL</code>
+exits, all local allocatable arrays are automatically deallocated.</p>
+<p><strong>Sidebar 2:</strong> Another new feature which I’ve introduced here is the <code>FORALL</code>
 construct. This structure is used for array assignment and manipulation. It
 behaves similarly to a loop, but there are some important
 differences. From the old array, it will calculate values for the new array
@@ -722,7 +686,7 @@ expressions. You can learn more <a href="http://en.wikipedia.org/wiki/Fortran_95
 <p><a name="subroutines"></a></p>
 <h4>Subroutines</h4>
 <p>In our programming exercise, I used a subroutine to calculate
-some statistical information. The basic syntax for such a subroutine is given&nbsp;below.</p>
+some statistical information. The basic syntax for such a subroutine is given below.</p>
 <div class="highlight"><pre><span></span><span class="k">SUBROUTINE </span><span class="n">stats</span> <span class="p">(</span> <span class="k">array</span><span class="p">,</span> <span class="n">mean</span><span class="p">,</span> <span class="n">stdev</span> <span class="p">)</span>
     <span class="k">IMPLICIT NONE</span>
     <span class="c">! Argument declarations</span>
@@ -737,11 +701,9 @@ some statistical information. The basic syntax for such a subroutine is given&nb
     <span class="k">RETURN</span>
 <span class="k">END SUBROUTINE </span><span class="n">stats</span>
 </pre></div>
-
-
-<p>Other than the fact that you don&#8217;t need to declare a return value, there isn&#8217;t
-much to say about subroutines which wasn&#8217;t covered in the discussion about
-functions.  The full code for the subroutine&nbsp;is</p>
+<p>Other than the fact that you don’t need to declare a return value, there isn’t
+much to say about subroutines which wasn’t covered in the discussion about
+functions.  The full code for the subroutine is</p>
 <div class="highlight"><pre><span></span><span class="k">SUBROUTINE </span><span class="n">stats</span> <span class="p">(</span> <span class="k">array</span><span class="p">,</span> <span class="n">mean</span><span class="p">,</span> <span class="n">stdev</span> <span class="p">)</span>
     <span class="k">IMPLICIT NONE</span>
 
@@ -769,10 +731,8 @@ functions.  The full code for the subroutine&nbsp;is</p>
     <span class="k">RETURN</span>
 <span class="k">END SUBROUTINE </span><span class="n">stats</span>
 </pre></div>
-
-
 <p><a name="array"></a></p>
-<h3>Array&nbsp;Syntax</h3>
+<h3>Array Syntax</h3>
 <p>Fortran features powerful array syntax, similar to what is available in
 Python. The simplest bit of this syntax is if you want an array which,
 element by element, is the sum of two other arrays of the same size. You
@@ -783,7 +743,7 @@ scalars:
 <code>array1 = array2 + scalar</code>. In this case <code>scalar</code> will be treated as though
 it were an array of the same size as <code>array1</code> and <code>array2</code> where every
 element had the same value as <code>scalar</code>. With the right keywords, you can even
-apply your own functions and subroutines to arrays in this&nbsp;way.</p>
+apply your own functions and subroutines to arrays in this way.</p>
 <p>More advanced results can be achieved using array-slice notation. This allows
 you to work with only a portion of an array. The syntax is
 <code>array([lower]:[upper][:stride])</code>. This returns an array containing every
@@ -796,45 +756,43 @@ The slice syntax can be used in multidimensional arrays too,
 with any mix you please of array-slices and specific indices in the different
 directions. For example, if we had a 3D array with 100 elements in each
 dimension we could specify <code>array3d(:,1:25,50)</code> would give you the a 2D array
-with dimensions 100 by&nbsp;25.</p>
+with dimensions 100 by 25.</p>
 <p>I used array slices a few times in our program. One example is when the program
-calculates the electric&nbsp;field:</p>
+calculates the electric field:</p>
 <div class="highlight"><pre><span></span><span class="n">field</span><span class="p">(</span><span class="mi">1</span><span class="p">:</span><span class="n">data_size</span><span class="p">)</span> <span class="o">=</span> <span class="n">differentiate</span><span class="p">(</span><span class="n">postn</span><span class="p">(</span><span class="mi">1</span><span class="p">:</span><span class="n">data_size</span><span class="p">),</span> <span class="n">potntl</span><span class="p">(</span><span class="mi">1</span><span class="p">:</span><span class="n">data_size</span><span class="p">))</span>
 <span class="n">field</span><span class="p">(</span><span class="mi">1</span><span class="p">:</span><span class="n">data_size</span><span class="p">)</span> <span class="o">=</span> <span class="o">-</span><span class="mf">1.0</span> <span class="o">*</span> <span class="n">field</span><span class="p">(</span><span class="mi">1</span><span class="p">:</span><span class="n">data_size</span><span class="p">)</span>
 </pre></div>
-
-
 <p>The first line here calculates the derivative of the data in the arrays
 <code>postn</code> and <code>potntl</code> up to the <code>data_size</code><sup>th</sup> element, storing
 the results in <code>field</code>. The second line multiplies the elements of <code>field</code>
 containing useful data by -1. These were very simple uses of array-slices and
-shows only some of their&nbsp;power.</p>
+shows only some of their power.</p>
 <p><a name="compiling"></a></p>
-<h3>Compiling and Running Your&nbsp;Program</h3>
+<h3>Compiling and Running Your Program</h3>
 <p>We now have a working program. As a reminder, you can
 <a href="https://politicalphysicist.github.io/attachments/fortran/potential_field.f90">download it here</a>.
-It&#8217;s time to compile it and see if it works! The Fortran compiler which you
+It’s time to compile it and see if it works! The Fortran compiler which you
 will use most often is <code>gfortran</code>. This is a decent compiler<sup id="fnref:4"><a class="footnote-ref" href="#fn:4" rel="footnote">4</a></sup> and has the
 advantage of being free software.<sup id="fnref:5"><a class="footnote-ref" href="#fn:5" rel="footnote">5</a></sup> If you are running Linux then you can
-install it using <code>sudo apt-get install gfortran</code> (assuming it&#8217;s
-Debian, Ubuntu, Mint, or one of their derivatives&#8212;I don&#8217;t know how to use other
-distro&#8217;s package managers). Otherwise you can
+install it using <code>sudo apt-get install gfortran</code> (assuming it’s
+Debian, Ubuntu, Mint, or one of their derivatives—I don’t know how to use other
+distro’s package managers). Otherwise you can
 <a href="https://gcc.gnu.org/wiki/GFortranBinaries">download it here</a>.</p>
 <p>Compiling and running a simple program like this is very easy; just type
 <code>gfortran ./potential_field.f90</code> at the command line in the directory where
-you&#8217;ve kept your source code. This will produce the executable file called
+you’ve kept your source code. This will produce the executable file called
 <code>a.out</code>. To run the program, type <code>./a.out</code>. Before running it, make
 sure that you have a file containing your data on the electrical potential
-called &#8220;in.dat&#8221;. If you use the <a href="https://politicalphysicist.github.io/attachments/fortran/in.dat">in.dat</a>
-file provided here then you should get the following&nbsp;output:</p>
-<p><img alt="What you should see in your terminal when you run with the input data provided here." src="https://politicalphysicist.github.io/images/fortran/output.png" style="float:none;display:block;margin-left:auto;margin-right:auto" /></p>
+called “in.dat”. If you use the <a href="https://politicalphysicist.github.io/attachments/fortran/in.dat">in.dat</a>
+file provided here then you should get the following output:</p>
+<p><img alt="What you should see in your terminal when you run with the input data provided here." src="https://politicalphysicist.github.io/images/fortran/output.png" style="float:none;display:block;margin-left:auto;margin-right:auto"/></p>
 <p>The output file <code>out.dat</code> should match <a href="https://politicalphysicist.github.io/attachments/fortran/out.dat">this one</a>.
 You should see an
-electric field that rounds to 20 <span class="caps">NC</span><sup>-1</sup> everywhere. Don&#8217;t worry if
+electric field that rounds to 20 <span class="caps">NC</span><sup>-1</sup> everywhere. Don’t worry if
 your numbers vary from mine in the last few decimal places.
 The last decimal places of floating point values often vary from computer to
 computer and from compiler to compiler because of the finite levels of
-precision with which floating point numbers can be&nbsp;stored.</p>
+precision with which floating point numbers can be stored.</p>
 <p>If your input data is contained in some file other than <code>in.dat</code> then you
 can run the
 program using the command <code>./a.out infile</code>. If you want your output
@@ -845,23 +803,23 @@ command <code>./a.out infile outfile</code>.</p>
 executable called <code>potential_field</code>. Had a different argument been placed
 after the <code>-o</code> flag then that would have been the name of the executable.
 The program would now be run using the command <code>./potential_field</code>. Once
-again, you can optionally extra arguments specifying the input and output&nbsp;files.</p>
+again, you can optionally extra arguments specifying the input and output files.</p>
 <p><a name="packaging"></a></p>
-<h3>Packaging Your&nbsp;Procedures</h3>
+<h3>Packaging Your Procedures</h3>
 <p>For a small, simple program like this it is easiest to keep everything in one
 file. However, as your program becomes larger, it will become desirable to
 put certain things into separate files. This prevents files from becoming
 overwhelmingly huge.<sup id="fnref:6"><a class="footnote-ref" href="#fn:6" rel="footnote">6</a></sup> It also means that if you want to reuse some of your
 procedures in other programs, it will be a lot easier to transfer them over.
-If you compile them correctly (not something we&#8217;ll get into here) then you
-won&#8217;t even need to transfer them&#8212;you can use the same &#8220;library&#8221; file for
-multiple&nbsp;programs.</p>
-<p>In order to retain the compiler&#8217;s ability to know whether we are passing the
-correct arguments to a procedure we need to place that procedures in a &#8220;module&#8221;.
+If you compile them correctly (not something we’ll get into here) then you
+won’t even need to transfer them—you can use the same “library” file for
+multiple programs.</p>
+<p>In order to retain the compiler’s ability to know whether we are passing the
+correct arguments to a procedure we need to place that procedures in a “module”.
 Modules are a bit like programs, containing both variables and
-procedures (also &#8220;derived types,&#8221; in case you ever want to use them). However,
+procedures (also “derived types,” in case you ever want to use them). However,
 unlike programs, they can not be run on their own; they just contain code to
-be used by other modules and programs. The basic syntax for our module&nbsp;is</p>
+be used by other modules and programs. The basic syntax for our module is</p>
 <div class="highlight"><pre><span></span><span class="k">MODULE </span><span class="n">tools</span>
     <span class="k">IMPLICIT NONE</span>
 
@@ -874,104 +832,98 @@ be used by other modules and programs. The basic syntax for our module&nbsp;is</
 
 <span class="k">END MODULE </span><span class="n">tools</span>
 </pre></div>
-
-
 <p>If your module does not contain any procedures then omit the <code>CONTAINS</code>
 statement.</p>
-<p>To make a module&#8217;s contents available to a program (or another module) you
+<p>To make a module’s contents available to a program (or another module) you
 place a <code>USE</code> statement followed by the module name at the very start of your
-program&#8212;before even the
-<code>IMPLICIT NONE</code> statement. In our case this means that our program starts&nbsp;with</p>
+program—before even the
+<code>IMPLICIT NONE</code> statement. In our case this means that our program starts with</p>
 <div class="highlight"><pre><span></span><span class="k">PROGRAM </span><span class="n">potential_field</span>
     <span class="k">USE </span><span class="n">tools</span>
     <span class="k">IMPLICIT NONE</span>
     <span class="c">! ...</span>
 </pre></div>
-
-
 <p>If you need to load multiple modules then you place additional <code>USE</code>
 statements at the start of the program, each on its own line. Take a look at
 the <a href="https://politicalphysicist.github.io/attachments/fortran/tools_mod.f90">module</a> and
 <a href="https://politicalphysicist.github.io/attachments/fortran/potential_field2.f90">modified program</a> to
-see what changes were&nbsp;made.</p>
-<p>The main disadvantage of using modules (although it&#8217;s one that can be
+see what changes were made.</p>
+<p>The main disadvantage of using modules (although it’s one that can be
 overcome with sufficient
 organization and/or appropriate software tools) is that it
 makes the compile process more
 complicated. It is important that module files are compiled <em>before</em> any
 files which use them. This is because, upon compiling the module into an
-&#8220;object file,&#8221; the compiler will produce a file ending in the extension
+“object file,” the compiler will produce a file ending in the extension
 <code>.mod</code>. This file contains information for the compiler about the contents of
 the module and which will need to read as it compiles anything that
 uses the module. Needless to say, if you have modules using other modules then
-things can get&nbsp;complicated.</p>
-<p>In this case we can compile like&nbsp;so:</p>
+things can get complicated.</p>
+<p>In this case we can compile like so:</p>
 <div class="highlight"><pre><span></span>gfortran -c tools_mod.f90
 gfortran -c potential_field2.f90
 gfortran -o potential_field2 tools_mod.o potential_field2.o
 </pre></div>
-
-
 <p>Aside from the change in the name of the executable, the program can be run
-just as&nbsp;before.</p>
-<p><img alt="What you should see in your terminal when you compile and run our rewritten version of the program." src="https://politicalphysicist.github.io/images/fortran/output2.png" style="float:none;display:block;margin-left:auto;margin-right:auto" /></p>
+just as before.</p>
+<p><img alt="What you should see in your terminal when you compile and run our rewritten version of the program." src="https://politicalphysicist.github.io/images/fortran/output2.png" style="float:none;display:block;margin-left:auto;margin-right:auto"/></p>
 <p><a name="summing"></a></p>
-<h3>Summing&nbsp;Up</h3>
-<p>There you have it. You&#8217;ve now seen how various features in Fortran work and
+<h3>Summing Up</h3>
+<p>There you have it. You’ve now seen how various features in Fortran work and
 seen an example of a working program. Although this was a lot of information
-all at once, Fortran really isn&#8217;t a hard language to learn. The syntax is
+all at once, Fortran really isn’t a hard language to learn. The syntax is
 intuitive and the modern version comes with enough features to be useful but
-not so many as be overwhelming. Don&#8217;t feel bad if you&#8217;ve forgotten some of the
-syntax that I&#8217;ve gone over&#8212;even experienced programmers will occasionally have
-to look something up. Hopefully now you&#8217;ll feel ready to try writing a program
-of your own in Fortran and begin learning the language&#8217;s capabilities and
-limitations in the best way possible: through&nbsp;experience.</p>
+not so many as be overwhelming. Don’t feel bad if you’ve forgotten some of the
+syntax that I’ve gone over—even experienced programmers will occasionally have
+to look something up. Hopefully now you’ll feel ready to try writing a program
+of your own in Fortran and begin learning the language’s capabilities and
+limitations in the best way possible: through experience.</p>
 <p><a name="resources"></a></p>
-<h3>Useful&nbsp;Resources</h3>
+<h3>Useful Resources</h3>
 <p>There are plenty of features in Fortran which I have not mentioned. If you want
-to learn more about them, some useful links are given&nbsp;below:</p>
+to learn more about them, some useful links are given below:</p>
 <ul>
 <li><strong><a href="http://en.wikipedia.org/wiki/Fortran_95_language_features">Fortran 95 language features</a>:</strong>
 A Wikipedia article which gives a good overview of the various capabilities of
-Fortran 95. I regularly use this as a reference when I forget some&nbsp;syntax.</li>
+Fortran 95. I regularly use this as a reference when I forget some syntax.</li>
 <li><strong><a href="http://www.cs.rpi.edu/~szymansk/OOF90/bugs.html">Mistakes in Fortran 90 Programs that Might Surprise You</a>:</strong>
-A webpage describing some of the more obscure behaviour of Fortran. It&#8217;s good to be familiar with what these are. If your program
-is behaving strangely, these are all good things to check&nbsp;for.</li>
+A webpage describing some of the more obscure behaviour of Fortran. It’s good to be familiar with what these are. If your program
+is behaving strangely, these are all good things to check for.</li>
 <li><strong><a href="http://www.cs.mtu.edu/~shene/COURSES/cs201/NOTES/chap05/format.html">Fortran Formats</a>:</strong>
 Some information on how format strings can be used to specify output (and,
-in principle, input) in&nbsp;Fortran.</li>
+in principle, input) in Fortran.</li>
 <li><strong><a href="https://gcc.gnu.org/onlinedocs/gfortran/">The <span class="caps">GNU</span> Fortran Compiler</a>:</strong>
 The manual for gfortran, the main free compiler. In my opinion it is the best
 documented compiler out there. Particularly useful is its list of intrinsic
 functions and subroutines, which comes with information and, usually, an example
-for each&nbsp;one.</li>
+for each one.</li>
 <li><strong><a href="ftp://ftp.nag.co.uk/sc22wg5/n1551-n1600/n1579.pdf">The New Features of Fortran 2003</a>:</strong>
-A <span class="caps">PDF</span> providing an introduction to what&#8217;s new in the Fortran 2003 standard.
-Note that not all features are yet supported by all&nbsp;compilers.</li>
+A <span class="caps">PDF</span> providing an introduction to what’s new in the Fortran 2003 standard.
+Note that not all features are yet supported by all compilers.</li>
 <li><strong><a href="ftp://ftp.nag.co.uk/sc22wg5/n1801-n1850/n1828.pdf">The New Features of Fortran 2008</a>:</strong>
-A <span class="caps">PDF</span> providing an introduction to what&#8217;s new in the Fortran 2008 standard.
-Note that not all features are yet supported by all&nbsp;compilers.</li>
+A <span class="caps">PDF</span> providing an introduction to what’s new in the Fortran 2008 standard.
+Note that not all features are yet supported by all compilers.</li>
 </ul>
 <div class="footnote">
-<hr />
+<hr/>
 <ol>
 <li id="fn:1">
-<p>Others including C and C++, when high efficiency is desired, and <span class="caps">MATLAB</span> and Python for data processing.&#160;<a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+<p>Others including C and C++, when high efficiency is desired, and <span class="caps">MATLAB</span> and Python for data processing. <a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text">↩</a></p>
 </li>
 <li id="fn:2">
-<p>For the most part we&#8217;ll be sticking to the 1995 standard. The 2003 and 2008 standards, which contain many powerful new features such as object-oriented programming, are still not entirely supported by compilers. You can see their current statuses <a href="http://fortranwiki.org/fortran/show/Fortran+2003+status">here</a> and <a href="http://fortranwiki.org/fortran/show/Fortran+2008+status">here</a>. That said, enough has been implemented that you can now write object-oriented code in Fortran if you are using a relatively up-to-date compiler.&#160;<a class="footnote-backref" href="#fnref:2" rev="footnote" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+<p>For the most part we’ll be sticking to the 1995 standard. The 2003 and 2008 standards, which contain many powerful new features such as object-oriented programming, are still not entirely supported by compilers. You can see their current statuses <a href="http://fortranwiki.org/fortran/show/Fortran+2003+status">here</a> and <a href="http://fortranwiki.org/fortran/show/Fortran+2008+status">here</a>. That said, enough has been implemented that you can now write object-oriented code in Fortran if you are using a relatively up-to-date compiler. <a class="footnote-backref" href="#fnref:2" rev="footnote" title="Jump back to footnote 2 in the text">↩</a></p>
 </li>
 <li id="fn:3">
-<p>Even when working with legacy code, you can often use what&#8217;s called an interface to manually tell the compiler what arguments are required. While these are a bit tedious to write, and thus shouldn&#8217;t be used with new code, they are worth your while if you can&#8217;t package your procedures in a more modern way.&#160;<a class="footnote-backref" href="#fnref:3" rev="footnote" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+<p>Even when working with legacy code, you can often use what’s called an interface to manually tell the compiler what arguments are required. While these are a bit tedious to write, and thus shouldn’t be used with new code, they are worth your while if you can’t package your procedures in a more modern way. <a class="footnote-backref" href="#fnref:3" rev="footnote" title="Jump back to footnote 3 in the text">↩</a></p>
 </li>
 <li id="fn:4">
-<p>However, for actual computational physics, you will likely end up using <code>ifort</code> or <code>pgfortran</code>, which produce faster programs. Their major disadvantage is that the licenses are extremely expensive. They are also proprietary software.&#160;<a class="footnote-backref" href="#fnref:4" rev="footnote" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+<p>However, for actual computational physics, you will likely end up using <code>ifort</code> or <code>pgfortran</code>, which produce faster programs. Their major disadvantage is that the licenses are extremely expensive. They are also proprietary software. <a class="footnote-backref" href="#fnref:4" rev="footnote" title="Jump back to footnote 4 in the text">↩</a></p>
 </li>
 <li id="fn:5">
-<p>That&#8217;s free as in &#8220;free beer&#8221; and free as in &#8220;free speech&#8221;. Another way to say this is that GFortran is open source. However, some&#8212;including the <span class="caps">GNU</span> Project, which makes GFortran&#8212;object to that term and think &#8220;free software&#8221; is better. It&#8217;s one of those <a href="https://www.youtube.com/watch?v=9foi342LXQE">People&#8217;s Front of Judea vs. Judean People&#8217;s Front</a> sort of things.&#160;<a class="footnote-backref" href="#fnref:5" rev="footnote" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+<p>That’s free as in “free beer” and free as in “free speech”. Another way to say this is that GFortran is open source. However, some—including the <span class="caps">GNU</span> Project, which makes GFortran—object to that term and think “free software” is better. It’s one of those <a href="https://www.youtube.com/watch?v=9foi342LXQE">People’s Front of Judea vs. Judean People’s Front</a> sort of things. <a class="footnote-backref" href="#fnref:5" rev="footnote" title="Jump back to footnote 5 in the text">↩</a></p>
 </li>
 <li id="fn:6">
-<p>I know of one case where the developer refuses to split up the code, resulting in a file that is about 130 thousand lines long. It is not my favourite file to have to deal with.&#160;<a class="footnote-backref" href="#fnref:6" rev="footnote" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+<p>I know of one case where the developer refuses to split up the code, resulting in a file that is about 130 thousand lines long. It is not my favourite file to have to deal with. <a class="footnote-backref" href="#fnref:6" rev="footnote" title="Jump back to footnote 6 in the text">↩</a></p>
 </li>
 </ol>
 </div>
@@ -1072,21 +1024,21 @@ Note that not all features are yet supported by all&nbsp;compilers.</li>
 <div class="small-12 medium-6 medium-pull-3 columns text-center">
     <p class="tag-cloud">
         <a href="https://politicalphysicist.github.io/tags.html"><i class="fa fa-tags"></i>&nbsp;Tags:</a>&nbsp;&nbsp;
-        <a href="https://politicalphysicist.github.io/tag/pelican.html"><span class="label">Pelican</span></a>
-        <a href="https://politicalphysicist.github.io/tag/blogging.html"><span class="label">Blogging</span></a>
-        <a href="https://politicalphysicist.github.io/tag/personal.html"><span class="label">Personal</span></a>
-        <a href="https://politicalphysicist.github.io/tag/uk.html"><span class="label">UK</span></a>
-        <a href="https://politicalphysicist.github.io/tag/university.html"><span class="label">University</span></a>
-        <a href="https://politicalphysicist.github.io/tag/programming.html"><span class="label">Programming</span></a>
+        <a href="https://politicalphysicist.github.io/tag/climate-change.html"><span class="label">Climate Change</span></a>
         <a href="https://politicalphysicist.github.io/tag/austerity.html"><span class="label">Austerity</span></a>
-        <a href="https://politicalphysicist.github.io/tag/fortran.html"><span class="label">Fortran</span></a>
-        <a href="https://politicalphysicist.github.io/tag/socialism.html"><span class="label">Socialism</span></a>
-        <a href="https://politicalphysicist.github.io/tag/software.html"><span class="label">Software</span></a>
-        <a href="https://politicalphysicist.github.io/tag/british-politics.html"><span class="label">British Politics</span></a>
-        <a href="https://politicalphysicist.github.io/tag/syriza.html"><span class="label">SYRIZA</span></a>
-        <a href="https://politicalphysicist.github.io/tag/mathematics.html"><span class="label">Mathematics</span></a>
+        <a href="https://politicalphysicist.github.io/tag/uk.html"><span class="label">UK</span></a>
         <a href="https://politicalphysicist.github.io/tag/europe.html"><span class="label">Europe</span></a>
+        <a href="https://politicalphysicist.github.io/tag/personal.html"><span class="label">Personal</span></a>
+        <a href="https://politicalphysicist.github.io/tag/energy.html"><span class="label">Energy</span></a>
+        <a href="https://politicalphysicist.github.io/tag/socialism.html"><span class="label">Socialism</span></a>
+        <a href="https://politicalphysicist.github.io/tag/british-politics.html"><span class="label">British Politics</span></a>
+        <a href="https://politicalphysicist.github.io/tag/programming.html"><span class="label">Programming</span></a>
+        <a href="https://politicalphysicist.github.io/tag/software.html"><span class="label">Software</span></a>
+        <a href="https://politicalphysicist.github.io/tag/nuclear-power.html"><span class="label">Nuclear Power</span></a>
         <a href="https://politicalphysicist.github.io/tag/python.html"><span class="label">Python</span></a>
+        <a href="https://politicalphysicist.github.io/tag/syriza.html"><span class="label">SYRIZA</span></a>
+        <a href="https://politicalphysicist.github.io/tag/fortran.html"><span class="label">Fortran</span></a>
+        <a href="https://politicalphysicist.github.io/tag/blogging.html"><span class="label">Blogging</span></a>
         &nbsp;&hellip;
     </p>
 </div>
@@ -1094,7 +1046,7 @@ Note that not all features are yet supported by all&nbsp;compilers.</li>
     <hr>
     <div class="small-12 medium-6 columns">
         <p class="small-text-center medium-text-left">
-            &copy; 2016 C. MacMackin <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+            &copy; 2017 C. MacMackin <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
             <!-- <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="cc.png" /></a>-->
         </p>
     </div>
@@ -1145,7 +1097,6 @@ Note that not all features are yet supported by all&nbsp;compilers.</li>
                             <li><a href="http://degenerateconic.com/">Degenerate Conic</a></li>
                             <li><a href="http://rabble.ca/taxonomy/term/19493/0">Michael Laxer</a></li>
                             <li><a href="http://www.socialistproject.ca">Socialist Project</a></li>
-                            <li><a href="http://leftunity.org/">Left Unity</a></li>
                             <li><a href="http://www.smbc-comics.com/">SMBC</a></li>
                             <li><a href="http://xkcd.com/">XKCD</a></li>
                             <li><a href="http://www2.physics.ox.ac.uk/research/atmospheric-oceanic-and-planetary-physics">AOPP Subdepartment</a></li>
@@ -1173,21 +1124,21 @@ Note that not all features are yet supported by all&nbsp;compilers.</li>
 <div class="small-12 medium-6 medium-pull-3 columns text-center">
     <p class="tag-cloud">
         <a href="https://politicalphysicist.github.io/tags.html"><i class="fa fa-tags"></i>&nbsp;Tags:</a>&nbsp;&nbsp;
-        <a href="https://politicalphysicist.github.io/tag/pelican.html"><span class="label">Pelican</span></a>
-        <a href="https://politicalphysicist.github.io/tag/blogging.html"><span class="label">Blogging</span></a>
-        <a href="https://politicalphysicist.github.io/tag/personal.html"><span class="label">Personal</span></a>
-        <a href="https://politicalphysicist.github.io/tag/uk.html"><span class="label">UK</span></a>
-        <a href="https://politicalphysicist.github.io/tag/university.html"><span class="label">University</span></a>
-        <a href="https://politicalphysicist.github.io/tag/programming.html"><span class="label">Programming</span></a>
+        <a href="https://politicalphysicist.github.io/tag/climate-change.html"><span class="label">Climate Change</span></a>
         <a href="https://politicalphysicist.github.io/tag/austerity.html"><span class="label">Austerity</span></a>
-        <a href="https://politicalphysicist.github.io/tag/fortran.html"><span class="label">Fortran</span></a>
-        <a href="https://politicalphysicist.github.io/tag/socialism.html"><span class="label">Socialism</span></a>
-        <a href="https://politicalphysicist.github.io/tag/software.html"><span class="label">Software</span></a>
-        <a href="https://politicalphysicist.github.io/tag/british-politics.html"><span class="label">British Politics</span></a>
-        <a href="https://politicalphysicist.github.io/tag/syriza.html"><span class="label">SYRIZA</span></a>
-        <a href="https://politicalphysicist.github.io/tag/mathematics.html"><span class="label">Mathematics</span></a>
+        <a href="https://politicalphysicist.github.io/tag/uk.html"><span class="label">UK</span></a>
         <a href="https://politicalphysicist.github.io/tag/europe.html"><span class="label">Europe</span></a>
+        <a href="https://politicalphysicist.github.io/tag/personal.html"><span class="label">Personal</span></a>
+        <a href="https://politicalphysicist.github.io/tag/energy.html"><span class="label">Energy</span></a>
+        <a href="https://politicalphysicist.github.io/tag/socialism.html"><span class="label">Socialism</span></a>
+        <a href="https://politicalphysicist.github.io/tag/british-politics.html"><span class="label">British Politics</span></a>
+        <a href="https://politicalphysicist.github.io/tag/programming.html"><span class="label">Programming</span></a>
+        <a href="https://politicalphysicist.github.io/tag/software.html"><span class="label">Software</span></a>
+        <a href="https://politicalphysicist.github.io/tag/nuclear-power.html"><span class="label">Nuclear Power</span></a>
         <a href="https://politicalphysicist.github.io/tag/python.html"><span class="label">Python</span></a>
+        <a href="https://politicalphysicist.github.io/tag/syriza.html"><span class="label">SYRIZA</span></a>
+        <a href="https://politicalphysicist.github.io/tag/fortran.html"><span class="label">Fortran</span></a>
+        <a href="https://politicalphysicist.github.io/tag/blogging.html"><span class="label">Blogging</span></a>
         &nbsp;&hellip;
     </p>
 </div>
@@ -1195,7 +1146,7 @@ Note that not all features are yet supported by all&nbsp;compilers.</li>
     <hr>
     <div class="small-12 medium-6 columns">
         <p class="small-text-center medium-text-left">
-            &copy; 2016 C. MacMackin <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+            &copy; 2017 C. MacMackin <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
             <!-- <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="cc.png" /></a>-->
         </p>
     </div>

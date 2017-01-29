@@ -87,24 +87,25 @@
     </div>
 </div>
         <section class="article">
-            <p><em>If you are impatient and don&#8217;t want to read my no doubt fascinating
+            <p><em>If you are impatient and don’t want to read my no doubt fascinating
 account of the inspiration for and development process of the 
-software I&#8217;ve designed, you can skip down to <a href="#software">here</a> to read what
-it does and how to install&nbsp;it.</em></p>
-<p><img alt="Conetroller icon" src="https://politicalphysicist.github.io/images/conetroller-icon.svg" /></p>
+software I’ve designed, you can skip down to <a href="#software">here</a> to read what
+it does and how to install it.</em></p>
+<figure><img alt="Conetroller icon" src="https://politicalphysicist.github.io/images/conetroller-icon.svg"/><figcaption>Conetroller icon</figcaption>
+</figure>
 <p>One of the many great things about Christmas time is the lack of homework.
 It means that I finally have the chance to work on some of the little
-personal projects that I&#8217;ve been wanting to do. One such project, of course,
-is writing some blog posts. The other major project is the subject of this&nbsp;post.</p>
+personal projects that I’ve been wanting to do. One such project, of course,
+is writing some blog posts. The other major project is the subject of this post.</p>
 <p>Thanks to the wonders of the Internet I now watch almost all movies and <span class="caps">TV</span>
 shows on my computer. (And no, I am not downloading them illegally.) Well,
 I say on my computer: actually <em>via</em> my computer would be more accurate, as
 I use an <span class="caps">HDMI</span> cable to play them on my television set. The problem with this arrangement is that it prevents me from using my computer for anything
-else while the video is playing&nbsp;because:</p>
+else while the video is playing because:</p>
 <ol>
-<li>The two monitor display features on my computer leave something to be&nbsp;desired.</li>
+<li>The two monitor display features on my computer leave something to be desired.</li>
 <li>My computer has to stay on my desk, connected to the <span class="caps">HDMI</span> cable, which
-is a terribly angle to actually see the <span class="caps">TV</span>&nbsp;from.</li>
+is a terribly angle to actually see the <span class="caps">TV</span> from.</li>
 </ol>
 <p>However, it so happens that I have a spare <a href="http://www.raspberrypi.org/">Raspberry Pi</a> 
 (a cheap mini-computer, one of which hosts this blog) and a spare <span class="caps">HDMI</span>
@@ -116,18 +117,18 @@ tech-savvy, Telnet is an old piece of software that can be used to
 remotely log onto computers in the command line. It long ago fell out of
 favour due to security issues and has been replaced by software called 
 <span class="caps">SSH</span>. However, as
-I will only be accessing the Pi over my local network, security isn&#8217;t much
-of an issue and Telnet will be&nbsp;fine.</p>
+I will only be accessing the Pi over my local network, security isn’t much
+of an issue and Telnet will be fine.</p>
 <p>Now, I could simply log into <span class="caps">VLC</span> over Telnet and control it via the 
-command line. This actually wouldn&#8217;t be so bad, but I felt like there were
+command line. This actually wouldn’t be so bad, but I felt like there were
 nicer, tidier alternatives. So instead I set to work writing a program
 in <a href="http://www.python.org/">Python</a> which could provide a graphical user
 interface (<span class="caps">GUI</span>) for the Telnet controls. This was actually quite a new
 experience for me, as almost all of my previous programming experience
 has been in writing little scripts to process data and which have, at
 most, a command line interface (although more often than not I just 
-program my specifications directly into the code itself&#8212;so-called 
-&#8220;hard-coding&#8221;). What little experience I have with GUIs has all been
+program my specifications directly into the code itself—so-called 
+“hard-coding”). What little experience I have with GUIs has all been
 for Windows, using a framework not available on Linux. So I had to 
 learn how to work with a set of software libraries called <span class="caps">GTK</span>+ 3. 
 <a href="http://www.gtk.org/"><span class="caps">GTK</span>+</a> is
@@ -137,66 +138,65 @@ being <a href="http://qt-project.org/"><span class="caps">QT</span></a>.</p>
 called <a href="https://glade.gnome.org/">Glade</a> which allows you to design <span class="caps">GTK</span>
 interfaces visually and
 then import them into your code (rather than have to create the whole
-interface using code only). It&#8217;s a bit rough around the edges, but 
-certainly better than having to create the interface&nbsp;manually.</p>
+interface using code only). It’s a bit rough around the edges, but 
+certainly better than having to create the interface manually.</p>
 <p><a name="software"></a></p>
-<p><img alt="Conetroller interface" src="https://politicalphysicist.github.io/images/ConetrollerInterface.png" /></p>
+<figure><img alt="Conetroller interface" src="https://politicalphysicist.github.io/images/ConetrollerInterface.png"/><figcaption>Conetroller interface</figcaption>
+</figure>
 <p>And so, I now have a working piece of software that will allow you to
 control a remote instance of <span class="caps">VLC</span>. So far I have only been able to test
 it on an instance running on my own computer, but I see no reason why it
 would work any differently if <span class="caps">VLC</span> is on a different machine. And thus,
-I present to you: Conetroller&nbsp;v0.2.*</p>
+I present to you: Conetroller v0.2.*</p>
 <p>I am posting the code <a href="https://politicalphysicist.github.io/attachments/conetroller-0-2.tar.gz">for download here</a>
 , if anyone is interested. 
-Currently it is only able to run on Linux (there&#8217;s a good chance it
-would work on Mac <span class="caps">OSX</span> too), although it shouldn&#8217;t be too difficult to 
+Currently it is only able to run on Linux (there’s a good chance it
+would work on Mac <span class="caps">OSX</span> too), although it shouldn’t be too difficult to 
 port it to Windows, if you want to. It can be installed by executing
-the following in a&nbsp;terminal:</p>
+the following in a terminal:</p>
 <div class="highlight"><pre><span></span><span class="go">wget redshadesofgreen.raspctl.com/attachments/conetroller-0-2.tar.gz</span>
 <span class="go">tar -zxvf conetroller-0-2.tar.gz</span>
 <span class="go">cd v0.2/</span>
 <span class="go">sudo ./install.sh</span>
 </pre></div>
-
-
 <p>This installation technique is known to work in Linux Mint Debian 
-Edition, and has not been tested anywhere else. However, I didn&#8217;t do anything too exotic
+Edition, and has not been tested anywhere else. However, I didn’t do anything too exotic
 in terms of directory layout, so it should work with most Linux distributions,
 and certainly most Debian-based distros (eg: Ubuntu). Make sure to take
 a look at the <span class="caps">README</span> file. No other documentation is
 provided, but the interface is pretty simple and you should be able to
 figure it out. If you have any question or problems, post them in the 
-comments section&nbsp;below.</p>
-<p>Current features&nbsp;include:</p>
+comments section below.</p>
+<p>Current features include:</p>
 <ul>
-<li>Adding items to the playlist (using a <span class="caps">URL</span> or&nbsp;filepath)</li>
-<li>Clearing the playlist of&nbsp;items</li>
-<li>Play, pause, stop, skip forwards, and skip backwards&nbsp;buttons</li>
-<li>Displaying items currently on&nbsp;playlist</li>
-<li>Ability to scroll through&nbsp;video</li>
+<li>Adding items to the playlist (using a <span class="caps">URL</span> or filepath)</li>
+<li>Clearing the playlist of items</li>
+<li>Play, pause, stop, skip forwards, and skip backwards buttons</li>
+<li>Displaying items currently on playlist</li>
+<li>Ability to scroll through video</li>
 <li>Recalling the most recent <span class="caps">VLC</span> instance logged into at the beginning of 
-each&nbsp;session</li>
+each session</li>
 </ul>
-<p>Bugs, missing features, and other&nbsp;short-comings:</p>
+<p>Bugs, missing features, and other short-comings:</p>
 <ul>
 <li>No indication is given as to which playlist item is currently being 
-played (it is unclear if this can be added while using the Telnet&nbsp;interface)</li>
+played (it is unclear if this can be added while using the Telnet interface)</li>
 <li>No ability to select an item from the playlist (likely will be added
-in future&nbsp;versions)</li>
+in future versions)</li>
 <li>No ability to remember passwords (it would be insecure to store these
 unencrypted in a plain text file, as was done with other login 
 information). Future versions may include integration with Gnome Keyring
-to overcome&nbsp;this.</li>
-<li>No comments included in the source code&#8212;I&#8217;ll fix this sooner or later,
-although I think it should be fairly easy to follow even without&nbsp;them</li>
+to overcome this.</li>
+<li>No comments included in the source code—I’ll fix this sooner or later,
+although I think it should be fairly easy to follow even without them</li>
 <li>Possible overuse of global variables in the code, rather than passing
-them to the relevant functions&#8212;this may be fixed in future, although
-I blame some of the peculiarities of Glade for&nbsp;this</li>
+them to the relevant functions—this may be fixed in future, although
+I blame some of the peculiarities of Glade for this</li>
 </ul>
 <p>Flaws aside, I am confident that Conetroller will prove useful to me,
-and hope it can be useful to others as&nbsp;well.</p>
+and hope it can be useful to others as well.</p>
 <p>*For those that are unaware, the logo for <span class="caps">VLC</span> is a traffic cone. Since my
-program controls <span class="caps">VLC</span>, Conetroller seemed like the only reasonable name for&nbsp;it.</p>    
+program controls <span class="caps">VLC</span>, Conetroller seemed like the only reasonable name for it.</p>    
         </section>
         <hr>
         <div id="disqus_thread"></div>
@@ -237,21 +237,21 @@ program controls <span class="caps">VLC</span>, Conetroller seemed like the only
 <div class="small-12 medium-6 medium-pull-3 columns text-center">
     <p class="tag-cloud">
         <a href="https://politicalphysicist.github.io/tags.html"><i class="fa fa-tags"></i>&nbsp;Tags:</a>&nbsp;&nbsp;
-        <a href="https://politicalphysicist.github.io/tag/pelican.html"><span class="label">Pelican</span></a>
-        <a href="https://politicalphysicist.github.io/tag/blogging.html"><span class="label">Blogging</span></a>
-        <a href="https://politicalphysicist.github.io/tag/personal.html"><span class="label">Personal</span></a>
-        <a href="https://politicalphysicist.github.io/tag/uk.html"><span class="label">UK</span></a>
-        <a href="https://politicalphysicist.github.io/tag/university.html"><span class="label">University</span></a>
-        <a href="https://politicalphysicist.github.io/tag/programming.html"><span class="label">Programming</span></a>
+        <a href="https://politicalphysicist.github.io/tag/climate-change.html"><span class="label">Climate Change</span></a>
         <a href="https://politicalphysicist.github.io/tag/austerity.html"><span class="label">Austerity</span></a>
-        <a href="https://politicalphysicist.github.io/tag/fortran.html"><span class="label">Fortran</span></a>
-        <a href="https://politicalphysicist.github.io/tag/socialism.html"><span class="label">Socialism</span></a>
-        <a href="https://politicalphysicist.github.io/tag/software.html"><span class="label">Software</span></a>
-        <a href="https://politicalphysicist.github.io/tag/british-politics.html"><span class="label">British Politics</span></a>
-        <a href="https://politicalphysicist.github.io/tag/syriza.html"><span class="label">SYRIZA</span></a>
-        <a href="https://politicalphysicist.github.io/tag/mathematics.html"><span class="label">Mathematics</span></a>
+        <a href="https://politicalphysicist.github.io/tag/uk.html"><span class="label">UK</span></a>
         <a href="https://politicalphysicist.github.io/tag/europe.html"><span class="label">Europe</span></a>
+        <a href="https://politicalphysicist.github.io/tag/personal.html"><span class="label">Personal</span></a>
+        <a href="https://politicalphysicist.github.io/tag/energy.html"><span class="label">Energy</span></a>
+        <a href="https://politicalphysicist.github.io/tag/socialism.html"><span class="label">Socialism</span></a>
+        <a href="https://politicalphysicist.github.io/tag/british-politics.html"><span class="label">British Politics</span></a>
+        <a href="https://politicalphysicist.github.io/tag/programming.html"><span class="label">Programming</span></a>
+        <a href="https://politicalphysicist.github.io/tag/software.html"><span class="label">Software</span></a>
+        <a href="https://politicalphysicist.github.io/tag/nuclear-power.html"><span class="label">Nuclear Power</span></a>
         <a href="https://politicalphysicist.github.io/tag/python.html"><span class="label">Python</span></a>
+        <a href="https://politicalphysicist.github.io/tag/syriza.html"><span class="label">SYRIZA</span></a>
+        <a href="https://politicalphysicist.github.io/tag/fortran.html"><span class="label">Fortran</span></a>
+        <a href="https://politicalphysicist.github.io/tag/blogging.html"><span class="label">Blogging</span></a>
         &nbsp;&hellip;
     </p>
 </div>
@@ -259,7 +259,7 @@ program controls <span class="caps">VLC</span>, Conetroller seemed like the only
     <hr>
     <div class="small-12 medium-6 columns">
         <p class="small-text-center medium-text-left">
-            &copy; 2016 C. MacMackin <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+            &copy; 2017 C. MacMackin <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
             <!-- <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="cc.png" /></a>-->
         </p>
     </div>
@@ -310,7 +310,6 @@ program controls <span class="caps">VLC</span>, Conetroller seemed like the only
                             <li><a href="http://degenerateconic.com/">Degenerate Conic</a></li>
                             <li><a href="http://rabble.ca/taxonomy/term/19493/0">Michael Laxer</a></li>
                             <li><a href="http://www.socialistproject.ca">Socialist Project</a></li>
-                            <li><a href="http://leftunity.org/">Left Unity</a></li>
                             <li><a href="http://www.smbc-comics.com/">SMBC</a></li>
                             <li><a href="http://xkcd.com/">XKCD</a></li>
                             <li><a href="http://www2.physics.ox.ac.uk/research/atmospheric-oceanic-and-planetary-physics">AOPP Subdepartment</a></li>
@@ -338,21 +337,21 @@ program controls <span class="caps">VLC</span>, Conetroller seemed like the only
 <div class="small-12 medium-6 medium-pull-3 columns text-center">
     <p class="tag-cloud">
         <a href="https://politicalphysicist.github.io/tags.html"><i class="fa fa-tags"></i>&nbsp;Tags:</a>&nbsp;&nbsp;
-        <a href="https://politicalphysicist.github.io/tag/pelican.html"><span class="label">Pelican</span></a>
-        <a href="https://politicalphysicist.github.io/tag/blogging.html"><span class="label">Blogging</span></a>
-        <a href="https://politicalphysicist.github.io/tag/personal.html"><span class="label">Personal</span></a>
-        <a href="https://politicalphysicist.github.io/tag/uk.html"><span class="label">UK</span></a>
-        <a href="https://politicalphysicist.github.io/tag/university.html"><span class="label">University</span></a>
-        <a href="https://politicalphysicist.github.io/tag/programming.html"><span class="label">Programming</span></a>
+        <a href="https://politicalphysicist.github.io/tag/climate-change.html"><span class="label">Climate Change</span></a>
         <a href="https://politicalphysicist.github.io/tag/austerity.html"><span class="label">Austerity</span></a>
-        <a href="https://politicalphysicist.github.io/tag/fortran.html"><span class="label">Fortran</span></a>
-        <a href="https://politicalphysicist.github.io/tag/socialism.html"><span class="label">Socialism</span></a>
-        <a href="https://politicalphysicist.github.io/tag/software.html"><span class="label">Software</span></a>
-        <a href="https://politicalphysicist.github.io/tag/british-politics.html"><span class="label">British Politics</span></a>
-        <a href="https://politicalphysicist.github.io/tag/syriza.html"><span class="label">SYRIZA</span></a>
-        <a href="https://politicalphysicist.github.io/tag/mathematics.html"><span class="label">Mathematics</span></a>
+        <a href="https://politicalphysicist.github.io/tag/uk.html"><span class="label">UK</span></a>
         <a href="https://politicalphysicist.github.io/tag/europe.html"><span class="label">Europe</span></a>
+        <a href="https://politicalphysicist.github.io/tag/personal.html"><span class="label">Personal</span></a>
+        <a href="https://politicalphysicist.github.io/tag/energy.html"><span class="label">Energy</span></a>
+        <a href="https://politicalphysicist.github.io/tag/socialism.html"><span class="label">Socialism</span></a>
+        <a href="https://politicalphysicist.github.io/tag/british-politics.html"><span class="label">British Politics</span></a>
+        <a href="https://politicalphysicist.github.io/tag/programming.html"><span class="label">Programming</span></a>
+        <a href="https://politicalphysicist.github.io/tag/software.html"><span class="label">Software</span></a>
+        <a href="https://politicalphysicist.github.io/tag/nuclear-power.html"><span class="label">Nuclear Power</span></a>
         <a href="https://politicalphysicist.github.io/tag/python.html"><span class="label">Python</span></a>
+        <a href="https://politicalphysicist.github.io/tag/syriza.html"><span class="label">SYRIZA</span></a>
+        <a href="https://politicalphysicist.github.io/tag/fortran.html"><span class="label">Fortran</span></a>
+        <a href="https://politicalphysicist.github.io/tag/blogging.html"><span class="label">Blogging</span></a>
         &nbsp;&hellip;
     </p>
 </div>
@@ -360,7 +359,7 @@ program controls <span class="caps">VLC</span>, Conetroller seemed like the only
     <hr>
     <div class="small-12 medium-6 columns">
         <p class="small-text-center medium-text-left">
-            &copy; 2016 C. MacMackin <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+            &copy; 2017 C. MacMackin <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
             <!-- <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="cc.png" /></a>-->
         </p>
     </div>

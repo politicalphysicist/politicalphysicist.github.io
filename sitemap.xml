@@ -5,51 +5,79 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://politicalphysicist.github.io/</loc>
-<lastmod>2016-09-27T01:47:41-00:00</lastmod>
+<lastmod>2017-01-29T02:52:50-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://politicalphysicist.github.io/archives.html</loc>
-<lastmod>2016-09-27T01:47:41-00:00</lastmod>
+<lastmod>2017-01-29T02:52:50-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://politicalphysicist.github.io/tags.html</loc>
-<lastmod>2016-09-27T01:47:41-00:00</lastmod>
+<lastmod>2017-01-29T02:52:50-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://politicalphysicist.github.io/categories.html</loc>
-<lastmod>2016-09-27T01:47:41-00:00</lastmod>
+<lastmod>2017-01-29T02:52:50-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://politicalphysicist.github.io/pages/about.html</loc>
-<lastmod>2016-09-27T01:47:41-00:00</lastmod>
+<lastmod>2017-01-29T02:52:50-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.3</priority>
 </url>
 
 <url>
 <loc>https://politicalphysicist.github.io/pages/software.html</loc>
-<lastmod>2016-09-27T01:47:41-00:00</lastmod>
+<lastmod>2017-01-29T02:52:50-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.3</priority>
 </url>
 
 <url>
 <loc>https://politicalphysicist.github.io/pages/technical.html</loc>
-<lastmod>2016-09-27T01:47:41-00:00</lastmod>
+<lastmod>2017-01-29T02:52:50-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.3</priority>
+</url>
+
+<url>
+<loc>https://politicalphysicist.github.io/a-21st-century-energy-policy-part-4-the-institutions-to-make-it-happen.html</loc>
+<lastmod>2017-01-29T09:03:00+00:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://politicalphysicist.github.io/a-21st-century-energy-policy-part-3-the-technology-of-the-future.html</loc>
+<lastmod>2017-01-29T09:02:00+00:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://politicalphysicist.github.io/a-21st-century-energy-policy-part-2-nuclear-powered-socialism.html</loc>
+<lastmod>2017-01-29T09:01:00+00:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://politicalphysicist.github.io/a-21st-century-energy-policy-part-1-all-thats-wrong-with-renewables.html</loc>
+<lastmod>2017-01-29T09:00:00+00:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
 </url>
 
 <url>
@@ -200,13 +228,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://politicalphysicist.github.io/science-for-socialists-introduction.html</loc>
-<lastmod>2013-08-16T20:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.7</priority>
-</url>
-
-<url>
 <loc>https://politicalphysicist.github.io/new-computer-new-linux-distribution.html</loc>
 <lastmod>2013-07-30T15:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
@@ -242,13 +263,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://politicalphysicist.github.io/markov-chains-and-gay-dating.html</loc>
-<lastmod>2013-07-02T13:30:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.7</priority>
-</url>
-
-<url>
 <loc>https://politicalphysicist.github.io/the-mathematics-of-protest.html</loc>
 <lastmod>2013-06-30T18:16:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
@@ -271,14 +285,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://politicalphysicist.github.io/category/politics.html</loc>
-<lastmod>2016-09-27T01:00:00-00:01</lastmod>
+<lastmod>2017-01-29T09:03:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://politicalphysicist.github.io/category/science.html</loc>
-<lastmod>2013-08-16T20:00:00-00:01</lastmod>
+<lastmod>2013-06-30T18:16:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -326,22 +340,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://politicalphysicist.github.io/tag/mathematical-models.html</loc>
-<lastmod>2013-07-02T13:30:00-00:01</lastmod>
+<loc>https://politicalphysicist.github.io/tag/tony-benn.html</loc>
+<lastmod>2013-07-09T10:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://politicalphysicist.github.io/tag/austerity.html</loc>
-<lastmod>2015-07-10T23:30:00-00:01</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://politicalphysicist.github.io/tag/personal.html</loc>
-<lastmod>2014-11-09T11:20:00-00:01</lastmod>
+<loc>https://politicalphysicist.github.io/tag/electricity.html</loc>
+<lastmod>2017-01-29T09:03:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -361,8 +368,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://politicalphysicist.github.io/tag/html.html</loc>
-<lastmod>2015-05-17T10:30:00-00:01</lastmod>
+<loc>https://politicalphysicist.github.io/tag/labour.html</loc>
+<lastmod>2016-09-27T01:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -370,20 +377,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://politicalphysicist.github.io/tag/charity.html</loc>
 <lastmod>2015-01-28T14:15:00-00:01</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://politicalphysicist.github.io/tag/alternative-medicine.html</loc>
-<lastmod>2013-08-16T20:00:00-00:01</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://politicalphysicist.github.io/tag/gmos.html</loc>
-<lastmod>2013-08-16T20:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -424,8 +417,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://politicalphysicist.github.io/tag/tony-benn.html</loc>
-<lastmod>2013-07-09T10:30:00-00:01</lastmod>
+<loc>https://politicalphysicist.github.io/tag/austerity.html</loc>
+<lastmod>2015-07-10T23:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -446,7 +439,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://politicalphysicist.github.io/tag/british-politics.html</loc>
-<lastmod>2016-09-27T01:00:00-00:01</lastmod>
+<lastmod>2017-01-29T09:03:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -481,7 +474,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://politicalphysicist.github.io/tag/climate-change.html</loc>
-<lastmod>2013-08-16T20:00:00-00:01</lastmod>
+<lastmod>2017-01-29T09:02:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -494,8 +487,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://politicalphysicist.github.io/tag/foundation.html</loc>
-<lastmod>2015-05-17T10:30:00-00:01</lastmod>
+<loc>https://politicalphysicist.github.io/tag/energy.html</loc>
+<lastmod>2017-01-29T09:03:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -515,8 +508,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://politicalphysicist.github.io/tag/canada-post.html</loc>
-<lastmod>2013-12-23T12:00:00-00:01</lastmod>
+<loc>https://politicalphysicist.github.io/tag/transport.html</loc>
+<lastmod>2017-01-29T09:02:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -550,13 +543,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://politicalphysicist.github.io/tag/dating.html</loc>
-<lastmod>2013-07-02T13:30:00-00:01</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>https://politicalphysicist.github.io/tag/plotting.html</loc>
 <lastmod>2014-04-15T11:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
@@ -571,8 +557,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://politicalphysicist.github.io/tag/science-for-socialists.html</loc>
-<lastmod>2013-08-16T20:00:00-00:01</lastmod>
+<loc>https://politicalphysicist.github.io/tag/foundation.html</loc>
+<lastmod>2015-05-17T10:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -594,6 +580,20 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://politicalphysicist.github.io/tag/programming.html</loc>
 <lastmod>2015-01-05T00:15:00-00:01</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://politicalphysicist.github.io/tag/heating.html</loc>
+<lastmod>2017-01-29T09:02:00-00:01</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://politicalphysicist.github.io/tag/personal.html</loc>
+<lastmod>2014-11-09T11:20:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -649,7 +649,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://politicalphysicist.github.io/tag/nuclear-power.html</loc>
-<lastmod>2013-08-16T20:00:00-00:01</lastmod>
+<lastmod>2017-01-29T09:03:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -676,13 +676,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://politicalphysicist.github.io/tag/markov-chains.html</loc>
-<lastmod>2013-07-02T13:30:00-00:01</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>https://politicalphysicist.github.io/tag/tina.html</loc>
 <lastmod>2013-07-09T10:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
@@ -692,6 +685,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://politicalphysicist.github.io/tag/astrophysics.html</loc>
 <lastmod>2013-09-03T18:00:00-00:01</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://politicalphysicist.github.io/tag/renewables.html</loc>
+<lastmod>2017-01-29T09:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -809,13 +809,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://politicalphysicist.github.io/tag/fracking.html</loc>
-<lastmod>2013-08-16T20:00:00-00:01</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>https://politicalphysicist.github.io/tag/high-performance-computing.html</loc>
 <lastmod>2014-10-31T23:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
@@ -830,8 +823,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://politicalphysicist.github.io/tag/labour.html</loc>
-<lastmod>2016-09-27T01:00:00-00:01</lastmod>
+<loc>https://politicalphysicist.github.io/tag/html.html</loc>
+<lastmod>2015-05-17T10:30:00-00:01</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://politicalphysicist.github.io/tag/canada-post.html</loc>
+<lastmod>2013-12-23T12:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -867,6 +867,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://politicalphysicist.github.io/tag/noam-chomsky.html</loc>
 <lastmod>2013-12-28T01:30:00-00:01</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://politicalphysicist.github.io/tag/nationalisation.html</loc>
+<lastmod>2017-01-29T09:03:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -936,7 +943,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://politicalphysicist.github.io/author/c-macmackin.html</loc>
-<lastmod>2016-09-27T01:00:00-00:01</lastmod>
+<lastmod>2017-01-29T09:03:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>

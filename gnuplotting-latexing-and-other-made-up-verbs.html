@@ -91,12 +91,12 @@
 physics knows that my preferred graphing software is Gnuplot.<sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup> 
 This is a piece
 of command-line plotting software capable of producing nearly every sort of graph
-imaginable. In fact, it&#8217;s results have appeared on this blog before, and can 
+imaginable. In fact, it’s results have appeared on this blog before, and can 
 be found in my <a href="https://politicalphysicist.github.io/on-the-abuse-of-exponentiation-in-colloquial-communication.html">perfectly reasonable and not at all neurotic rant about exponential growth.</a> 
 It is capable of plotting data and
 functions in any number of ways. Most importantly, in my mind, Gnuplot scripts can
-be written which make it easy to produce many similar plots (batch&nbsp;processing).</p>
-<p>The only place where I&#8217;ve every really had a problem with Gnuplot is when it 
+be written which make it easy to produce many similar plots (batch processing).</p>
+<p>The only place where I’ve every really had a problem with Gnuplot is when it 
 comes to including special characters and math in axis labels. Most frustrating of
 all, if you are an astronomer, is the near impossibility of getting Gnuplot to 
 produce the little symbol used for the sun (<span class="math">\(\odot\)</span>). All of this forces 
@@ -108,8 +108,9 @@ a label such as <span class="math">\(4\pi r^{2}~\[R_{\odot}\]\)</span> can be pr
 as <code>4\pi r^{2}~[M_{\odot}]</code>. While one of the formats that Gnuplot can output
 is LaTeX, the quality of the resulting plot is terrible. Just look at the
 figure below (a plot of some data and curves fit to that data from a recent
-lab&nbsp;report).</p>
-<p><img alt="LaTeX Gnuplot terminal in all of its ugly glory." src="https://politicalphysicist.github.io/images/gnuplotLatexBad.png" /></p>
+lab report).</p>
+<figure><img alt="LaTeX Gnuplot terminal in all of its ugly glory." src="https://politicalphysicist.github.io/images/gnuplotLatexBad.png"/><figcaption>LaTeX Gnuplot terminal in all of its ugly glory.</figcaption>
+</figure>
 <p>However, there is another choice of output: the cairolatex terminal. This 
 terminal, which is related to the pdfcairo terminal, actually produces two files.
 One of these is a <span class="caps">PDF</span> or <span class="caps">EPS</span> file with the axes, data, and functions of the plot.
@@ -117,21 +118,22 @@ The other is a LaTeX
 file which contains the information necessary to place labels on said plot.
 The actual plot in this case is of far better quality, while labels are still
 in LaTeX and can thus contain math, special characters, etc. Producing the
-same plot as above using this terminal, we get a much better&nbsp;result.</p>
-<p><img alt="cairolatex Gnuplot terminal." src="https://politicalphysicist.github.io/images/gnuplotLatex.png" /></p>
+same plot as above using this terminal, we get a much better result.</p>
+<figure><img alt="cairolatex Gnuplot terminal." src="https://politicalphysicist.github.io/images/gnuplotLatex.png"/><figcaption>cairolatex Gnuplot terminal.</figcaption>
+</figure>
 <p>The main disadvantage of this approach is that the LaTeX file must be compiled
 before you can see the actual result. However, with the right settings and
 a call to a LaTeX compiler at the end of your script, this problem is easily
-surmountable. In order to make this easy, I&#8217;ve written myself a 
+surmountable. In order to make this easy, I’ve written myself a 
 <a href="https://politicalphysicist.github.io/attachments/Plot.gp">little template</a>
 Gnuplot script, with these features built in. Simply change the name of the output
 file (without including any extension) on line nine and add the various setting
-and plot commands that you&nbsp;need.</p>
+and plot commands that you need.</p>
 <div class="footnote">
-<hr />
+<hr/>
 <ol>
 <li id="fn:1">
-<p>Interestingly (or not), despite it&#8217;s name, Gnuplot has no affiliation with the <a href="http://www.gnu.org/"><span class="caps">GNU</span></a> project whatsoever.  It is actually released under a more restrictive license than the <span class="caps">GNU</span> <a href="http://www.gnu.org/licenses/gpl.html"><span class="caps">GPL</span></a>.&#160;<a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+<p>Interestingly (or not), despite it’s name, Gnuplot has no affiliation with the <a href="http://www.gnu.org/"><span class="caps">GNU</span></a> project whatsoever.  It is actually released under a more restrictive license than the <span class="caps">GNU</span> <a href="http://www.gnu.org/licenses/gpl.html"><span class="caps">GPL</span></a>. <a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text">↩</a></p>
 </li>
 </ol>
 </div>
@@ -232,21 +234,21 @@ and plot commands that you&nbsp;need.</p>
 <div class="small-12 medium-6 medium-pull-3 columns text-center">
     <p class="tag-cloud">
         <a href="https://politicalphysicist.github.io/tags.html"><i class="fa fa-tags"></i>&nbsp;Tags:</a>&nbsp;&nbsp;
-        <a href="https://politicalphysicist.github.io/tag/pelican.html"><span class="label">Pelican</span></a>
-        <a href="https://politicalphysicist.github.io/tag/blogging.html"><span class="label">Blogging</span></a>
-        <a href="https://politicalphysicist.github.io/tag/personal.html"><span class="label">Personal</span></a>
-        <a href="https://politicalphysicist.github.io/tag/uk.html"><span class="label">UK</span></a>
-        <a href="https://politicalphysicist.github.io/tag/university.html"><span class="label">University</span></a>
-        <a href="https://politicalphysicist.github.io/tag/programming.html"><span class="label">Programming</span></a>
+        <a href="https://politicalphysicist.github.io/tag/climate-change.html"><span class="label">Climate Change</span></a>
         <a href="https://politicalphysicist.github.io/tag/austerity.html"><span class="label">Austerity</span></a>
-        <a href="https://politicalphysicist.github.io/tag/fortran.html"><span class="label">Fortran</span></a>
-        <a href="https://politicalphysicist.github.io/tag/socialism.html"><span class="label">Socialism</span></a>
-        <a href="https://politicalphysicist.github.io/tag/software.html"><span class="label">Software</span></a>
-        <a href="https://politicalphysicist.github.io/tag/british-politics.html"><span class="label">British Politics</span></a>
-        <a href="https://politicalphysicist.github.io/tag/syriza.html"><span class="label">SYRIZA</span></a>
-        <a href="https://politicalphysicist.github.io/tag/mathematics.html"><span class="label">Mathematics</span></a>
+        <a href="https://politicalphysicist.github.io/tag/uk.html"><span class="label">UK</span></a>
         <a href="https://politicalphysicist.github.io/tag/europe.html"><span class="label">Europe</span></a>
+        <a href="https://politicalphysicist.github.io/tag/personal.html"><span class="label">Personal</span></a>
+        <a href="https://politicalphysicist.github.io/tag/energy.html"><span class="label">Energy</span></a>
+        <a href="https://politicalphysicist.github.io/tag/socialism.html"><span class="label">Socialism</span></a>
+        <a href="https://politicalphysicist.github.io/tag/british-politics.html"><span class="label">British Politics</span></a>
+        <a href="https://politicalphysicist.github.io/tag/programming.html"><span class="label">Programming</span></a>
+        <a href="https://politicalphysicist.github.io/tag/software.html"><span class="label">Software</span></a>
+        <a href="https://politicalphysicist.github.io/tag/nuclear-power.html"><span class="label">Nuclear Power</span></a>
         <a href="https://politicalphysicist.github.io/tag/python.html"><span class="label">Python</span></a>
+        <a href="https://politicalphysicist.github.io/tag/syriza.html"><span class="label">SYRIZA</span></a>
+        <a href="https://politicalphysicist.github.io/tag/fortran.html"><span class="label">Fortran</span></a>
+        <a href="https://politicalphysicist.github.io/tag/blogging.html"><span class="label">Blogging</span></a>
         &nbsp;&hellip;
     </p>
 </div>
@@ -254,7 +256,7 @@ and plot commands that you&nbsp;need.</p>
     <hr>
     <div class="small-12 medium-6 columns">
         <p class="small-text-center medium-text-left">
-            &copy; 2016 C. MacMackin <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+            &copy; 2017 C. MacMackin <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
             <!-- <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="cc.png" /></a>-->
         </p>
     </div>
@@ -305,7 +307,6 @@ and plot commands that you&nbsp;need.</p>
                             <li><a href="http://degenerateconic.com/">Degenerate Conic</a></li>
                             <li><a href="http://rabble.ca/taxonomy/term/19493/0">Michael Laxer</a></li>
                             <li><a href="http://www.socialistproject.ca">Socialist Project</a></li>
-                            <li><a href="http://leftunity.org/">Left Unity</a></li>
                             <li><a href="http://www.smbc-comics.com/">SMBC</a></li>
                             <li><a href="http://xkcd.com/">XKCD</a></li>
                             <li><a href="http://www2.physics.ox.ac.uk/research/atmospheric-oceanic-and-planetary-physics">AOPP Subdepartment</a></li>
@@ -333,21 +334,21 @@ and plot commands that you&nbsp;need.</p>
 <div class="small-12 medium-6 medium-pull-3 columns text-center">
     <p class="tag-cloud">
         <a href="https://politicalphysicist.github.io/tags.html"><i class="fa fa-tags"></i>&nbsp;Tags:</a>&nbsp;&nbsp;
-        <a href="https://politicalphysicist.github.io/tag/pelican.html"><span class="label">Pelican</span></a>
-        <a href="https://politicalphysicist.github.io/tag/blogging.html"><span class="label">Blogging</span></a>
-        <a href="https://politicalphysicist.github.io/tag/personal.html"><span class="label">Personal</span></a>
-        <a href="https://politicalphysicist.github.io/tag/uk.html"><span class="label">UK</span></a>
-        <a href="https://politicalphysicist.github.io/tag/university.html"><span class="label">University</span></a>
-        <a href="https://politicalphysicist.github.io/tag/programming.html"><span class="label">Programming</span></a>
+        <a href="https://politicalphysicist.github.io/tag/climate-change.html"><span class="label">Climate Change</span></a>
         <a href="https://politicalphysicist.github.io/tag/austerity.html"><span class="label">Austerity</span></a>
-        <a href="https://politicalphysicist.github.io/tag/fortran.html"><span class="label">Fortran</span></a>
-        <a href="https://politicalphysicist.github.io/tag/socialism.html"><span class="label">Socialism</span></a>
-        <a href="https://politicalphysicist.github.io/tag/software.html"><span class="label">Software</span></a>
-        <a href="https://politicalphysicist.github.io/tag/british-politics.html"><span class="label">British Politics</span></a>
-        <a href="https://politicalphysicist.github.io/tag/syriza.html"><span class="label">SYRIZA</span></a>
-        <a href="https://politicalphysicist.github.io/tag/mathematics.html"><span class="label">Mathematics</span></a>
+        <a href="https://politicalphysicist.github.io/tag/uk.html"><span class="label">UK</span></a>
         <a href="https://politicalphysicist.github.io/tag/europe.html"><span class="label">Europe</span></a>
+        <a href="https://politicalphysicist.github.io/tag/personal.html"><span class="label">Personal</span></a>
+        <a href="https://politicalphysicist.github.io/tag/energy.html"><span class="label">Energy</span></a>
+        <a href="https://politicalphysicist.github.io/tag/socialism.html"><span class="label">Socialism</span></a>
+        <a href="https://politicalphysicist.github.io/tag/british-politics.html"><span class="label">British Politics</span></a>
+        <a href="https://politicalphysicist.github.io/tag/programming.html"><span class="label">Programming</span></a>
+        <a href="https://politicalphysicist.github.io/tag/software.html"><span class="label">Software</span></a>
+        <a href="https://politicalphysicist.github.io/tag/nuclear-power.html"><span class="label">Nuclear Power</span></a>
         <a href="https://politicalphysicist.github.io/tag/python.html"><span class="label">Python</span></a>
+        <a href="https://politicalphysicist.github.io/tag/syriza.html"><span class="label">SYRIZA</span></a>
+        <a href="https://politicalphysicist.github.io/tag/fortran.html"><span class="label">Fortran</span></a>
+        <a href="https://politicalphysicist.github.io/tag/blogging.html"><span class="label">Blogging</span></a>
         &nbsp;&hellip;
     </p>
 </div>
@@ -355,7 +356,7 @@ and plot commands that you&nbsp;need.</p>
     <hr>
     <div class="small-12 medium-6 columns">
         <p class="small-text-center medium-text-left">
-            &copy; 2016 C. MacMackin <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+            &copy; 2017 C. MacMackin <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
             <!-- <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="cc.png" /></a>-->
         </p>
     </div>
