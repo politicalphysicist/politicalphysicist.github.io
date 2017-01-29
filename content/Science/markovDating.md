@@ -2,10 +2,11 @@ Title: Markov Chains and Gay Dating
 Date: 2013-07-02 13:30
 Tags: Dating, Markov Chains, Mathematics, Mathematical Models
 Summary: When you're gay and want a serious relationship, you have to deal with the fact that a lot of guys out there just want casual sex. Some days it feels like I must be the only gay guy in the city who actually wants commitment. However, it has been pointed out to me that because those who want serious relationships will tend to find each other and drop out of the dating pool, it will appear that a much greater portion of gay men want only casual sex than is actually the case. Digging out my old Linear Algebra textbook, I realized that there exists a useful tool to analyze this trend: Markov Chains.
+Status: Draft
 
 So, in case you didn't realize, dating when you're gay is *hard*. Not to say 
 it's easy for straight people, but at least you know that, when you talk to
-someone, the odds are that they at least have a compatible sexuality. Not to mention that  
+someone, the odds are that they at least have a compatible sexuality. Not to mention that
 when you're gay and want something serious you have to deal with the fact that
 a lot of guys out there just want casual sex. This, it seems, is especially true
 online and in gay bars. Some days it feels like I must be the only

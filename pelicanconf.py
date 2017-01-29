@@ -31,7 +31,6 @@ LINKS =  (('Linux Mint', 'http://linuxmint.com/'),
           ('Degenerate Conic','http://degenerateconic.com/'),
           ('Michael Laxer','http://rabble.ca/taxonomy/term/19493/0'),
           ('Socialist Project', 'http://www.socialistproject.ca'),
-          ('Left Unity', 'http://leftunity.org/'),
           ('SMBC', 'http://www.smbc-comics.com/'),
           ('XKCD', 'http://xkcd.com/'),
           ('AOPP Subdepartment','http://www2.physics.ox.ac.uk/research/atmospheric-oceanic-and-planetary-physics'),)
@@ -50,8 +49,9 @@ THEME = "./backdrop"
 STATIC_PATHS = ['images','attachments']
 
 PLUGIN_PATHS = ['../../Code/pelican-plugins-local',]
-PLUGINS = ['sitemap', 'render_math', 'representative_image', 'tipue_search', 'tag_cloud']#, 'github_activity']
+PLUGINS = ['sitemap', 'render_math', 'representative_image', 'tipue_search', 'tag_cloud', 'figure-ref']#, 'github_activity']
 #GITHUB_ACTIVITY_MAX_ENTRIES = 5
+MD_EXTENSIONS = ['codehilite(css_class=highlight)','extra','figureAltCaption']
 TYPOGRIFY = True
 SITEMAP = {
     'format': 'xml',

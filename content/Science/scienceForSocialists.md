@@ -2,6 +2,7 @@ Title: Science for Socialists: Introduction
 Date: 2013-08-16 20:00
 Tags: Science for Socialists, Nuclear Power, GMOs, Alternative Medicine, Climate Change, Fracking
 Summary: As you may know, my background is in the physical sciences. Well, I'm doing my undergrad in astrophysics, at any rate. As you may also know, my politics essentially correspond to socialism. So something I find quite upsetting is when I see these two interests coming into conflict. The thing is, many socialists are rather selective in their use of scientific evidence.
+Status: draft
 
 As you may know, my background is in the physical sciences. Well, I'm 
 doing my undergrad in astrophysics, at any rate. As you may also 
