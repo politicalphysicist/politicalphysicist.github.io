@@ -40,7 +40,7 @@ book
 was the plan which he deemed to be the most economical of those he
 proposed.
 
-![**Sustainable Energy--Without the Hot Air**, by David MacKay, offers an extremely detailed examination of how energy is used, how it can be conserved, and how it can be produced.]({filename}/images/energyPolicy/withoutHotAir.jpg)
+![*Sustainable Energy--Without the Hot Air*, by David MacKay, offers an extremely detailed examination of how energy is used, how it can be conserved, and how it can be produced.]({filename}/images/energyPolicy/withoutHotAir.jpg)
 
 To improve cost effectiveness, new nuclear reactors should be built to
 a standard design, perhaps initially an established one with known
@@ -165,7 +165,7 @@ decarbonisation, but the government should look to develop
 similar to the nuclear powered aircraft carriers, submarines, and ice
 breakers which already exist.
 
-![The NS Savannah, the first nuclear powered merchant vessel. It was largely experimental and suffered design issues unrelated to its engine. Source: US Government [NARA](http://arcweb.archives.gov) (Public domain), via Wikimedia Commons]({filename}/images/energyPolicy/NSsavannah-1962.jpg)
+![The NS Savannah, the first nuclear powered merchant vessel. It was largely experimental and suffered design issues unrelated to its engine. Source: US Government [NARA](http://arcweb.archives.gov) (Public domain), via Wikimedia Commons.]({filename}/images/energyPolicy/NSsavannah-1962.jpg)
 
 As a final note, there are also various non-energy related sources of
 greenhouse gases. Particular culprits are

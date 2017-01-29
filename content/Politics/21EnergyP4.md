@@ -1,7 +1,7 @@
 Title: A 21<sup>st</sup> Century Energy Policy, Part 4: The Institutions to Make it Happen
 Date: 2017-01-29 09:03
 Tags: Energy, British Politics, Nationalisation, Electricity, Nuclear Power
-Image: {filename}/images/energyPolicy/nationalGrid.png
+Image: {filename}/images/energyPolicy/nationalGrid.jpg
 Summary: As discussed in Part 3, transition to a low-carbon economy is a massive task which will require extensive government intervention. A great deal of work will be needed to develop the capacities for the state to make such investments and the proposals made thus far by Jeremy Corbyn are wholly inadequate. What is needed is a nationalised, vertically integrated electricity sector.
 
 *I have written a series of four articles discussing Britain's energy
