@@ -161,7 +161,9 @@ fuel cycles, examining issues around waste, etc. Initially, it would
 be formed out of the existing
 [Nuclear Decommissioning Authority](https://www.gov.uk/government/organisations/nuclear-decommissioning-authority),
 with all outsourced operations brought back in-house, and the
-[National Nuclear Laboratory](http://www.nnl.co.uk/).
+[National Nuclear Laboratory](http://www.nnl.co.uk/). The Office for
+Nuclear Regulation ("Ofnuke") would remain strictly independent from
+both this enterprise and the PGB.
 
 Given that the cost of government borrowing is lower than the returns
 expected by private (even co-operative) electricity producers, it would

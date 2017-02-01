@@ -120,7 +120,7 @@ design. In the future,
 could potentially be mass-produced, bringing prices down
 further. While no clean energy source is cheap, nuclear is likely to
 be the cheapest option for countries without hydroelectric or
-geothermal capacity.
+geothermal capacity. 
 
 ![Hunterston B nuclear power plant in Scotland. Nuclear power plants take up minimal space and are much less of an imposition on the landscape than windmills. Source: Jonathonchampton at English Wikipedia [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0), via Wikimedia Commons.]({filename}/images/energyPolicy/hunterstonB.jpg)
 
