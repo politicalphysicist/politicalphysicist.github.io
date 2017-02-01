@@ -40,7 +40,7 @@ of the matter is that the extra radiation experienced by people living
 near a nuclear power plant is insignificant in comparison to
 background radiation, as can be seen in the chart below.
 
-![Radiation doses experienced from every-day activity, compared to those from nuclear accident and doses which are actually dangerous. Source: Randall Munroe, [XKCD](https://xkcd.com/radiation/) (click for larger image).]({filename}/images/energyPolicy/radiation.png)
+![Radiation doses experienced from every-day activity, compared to those from nuclear accident and doses which are actually dangerous. Source: Randall Munroe, [XKCD](https://xkcd.com/radiation/) (follow link for larger image).]({filename}/images/energyPolicy/radiation.png)
 
 The threat of accidents has also been greatly overblown. The major
 accidents which are cited are Three Mile Island, Chernobyl, and
@@ -49,9 +49,7 @@ Fukushima. The
 is that the Three Mile Island accident led to few or no deaths. The
 [causes of the accident](https://www.nrc.gov/reading-rm/doc-collections/fact-sheets/3mile-isle.html)
 have been thoroughly investigated and reactor design and operating
-procedures have been improved as a result. It did not result in any
-deaths and at most one person experienced an early death due to
-cancer.  Chernobyl, far and away the worst of these incidents,
+procedures have been improved as a result. Chernobyl, far and away the worst of these incidents,
 [was the fault of](http://www-pub.iaea.org/MTCD/publications/PDF/Pub913e_web.pdf)
 a uniquely bad reactor design and a poorly executed experiment. RBMK
 reactors, such as the one at Chernobyl, are known to be unstable, had
@@ -106,12 +104,12 @@ expensive. New reactor designs have been known to go over-budget. On
 the other hand, while results of studies examining energy costs vary
 greatly
 ([see the Wikipedia article](https://en.wikipedia.org/wiki/Cost_of_electricity_by_source)),
-they tend to show that overall nuclear is of comparable cost to
-existing technologies. In recent years it can appear that renewable
-energy is cheaper, but these studies do not seem to take into account
-requirements for excess capacity and storage. Nuclear power plants
-have large capital costs and low operating costs, which means that
-building them in the private sector requires expensive
+they tend to show that overall nuclear is of comparable cost to other
+energy sources. In recent years it can appear that renewable energy is
+cheaper, but these studies do not seem to take into account
+requirements for storage and changes to the electricity grid. Nuclear
+power plants have large capital costs and low operating costs, which
+means that building them in the private sector requires expensive
 subsidies. Nuclear-dependent France has
 [middling](http://ec.europa.eu/eurostat/statistics-explained/index.php/File:Electricity_prices_for_household_consumers,_second_half_2015_(¹)_(EUR_per_kWh)_YB16.png)
 to [low](http://www.bbc.co.uk/news/business-25200808) electricity
@@ -140,4 +138,4 @@ equitable distribution of misery, our socialism must be nuclear
 powered.
 
 
-[^1]: Carbon capture and storage (CCS) technology is sometimes invoked as a way for us to continue using fossil fuels. The issue with it is how we go about ensuring that the captured CO<sub>2</sub> *stays where we put it*. Usually it is suggested that it be stored underground, but were it to leak then it would undo all of our work capturing it in the first place. In many ways this is a more concerning problem even than nuclear waste, since the latter is solid and much easier to contain than a gas.
+[^1]: Carbon capture and storage (CCS) technology is sometimes invoked as a way for us to continue using fossil fuels. The issue with it is how we go about ensuring that the captured CO<sub>2</sub> *stays where we put it*. Usually it is suggested that it be stored underground, but were it to leak then it would undo all of our work capturing it in the first place. In many ways this is a more concerning problem even than nuclear waste, since the latter is solid--making it much easier to contain than a gas--and needs to be stored for only a finite time.

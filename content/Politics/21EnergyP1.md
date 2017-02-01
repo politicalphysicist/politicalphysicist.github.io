@@ -153,6 +153,16 @@ to be renewable by 2050. On the other hand, France was able to move a
 similar proportion of its electricity production to low-carbon sources
 [in a decade](http://www.iea.org/stats/WebGraphs/FRANCE2.pdf).
 
+Most damming of all, there simply
+[are not enough](http://www.withouthotair.com/c18/page_103.shtml)
+renewable energy sources in Britain to meet our needs. To come close
+would require using every available technology (many of which are
+unproven or expensive) and massive amounts of land. There would be
+essentially no remaining wilderness and generating capacity would need
+to intrude massively upon living areas. More realistic estimates
+suggest that renewables can provide just a fraction of
+Britain's power.
+
 All of this makes renewables insufficient if our goal is to
 decarbonise our energy production. The problem becomes even worse when
 considering that currently
