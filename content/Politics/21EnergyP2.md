@@ -61,9 +61,10 @@ reactors used in the West.
 
 Fukushima is the most recent of these and has resulted in a renewed
 backlash against nuclear power. It is important to remember that this
-event was initiated by an earthquake and a tsunami, neither of which
-are events which can strike Britain. Furthermore, the private operator
-TEPCO
+event was initiated by an a 13m-15m tsunami resulting from a magnitude
+9 earthquake,
+[neither of which are events which can strike Britain](http://earthquakes.bgs.ac.uk/research/events/tohoku/BritishTsunami.html). Furthermore,
+the private operator TEPCO
 [had been](https://web.archive.org/web/20141006070548/http://www.nytimes.com/2012/10/13/world/asia/tepco-admits-failure-in-acknowledging-risks-at-nuclear-plant.html?_r=0)
 [cutting corners](https://web.archive.org/web/20131005004918/http://www.boston.com/news/world/asia/2012/10/12/japan-utility-admits-nuke-crisis-avoidable-says-feared-consequences-new-safety-measures/NK3yENYHgVPQZ76POvbBLL/story.html)
 in terms of disaster preparedness. Clearly, strong independent
@@ -80,7 +81,7 @@ is a bigger threat to the effected population.
 Obviously every death is tragic, but
 [no energy source is without risks](https://www.theguardian.com/commentisfree/2011/mar/21/pro-nuclear-japan-fukushima).
 Despite its scary reputation, nuclear power has the
-[lowest number of deaths per gigawatt-hour](http://www.nextbigfuture.com/2011/03/deaths-per-twh-by-energy-source.html)
+[lowest or second lowest number of deaths per gigawatt-hour](http://www.withouthotair.com/c24/page_168.shtml)
 of any energy source. When things go wrong, they tend to do so in a
 big, scary way, which misleads people as to the threat. New reactor
 designs (and, indeed, some older ones such as the
@@ -90,11 +91,20 @@ intervention, making accidents like those at Three Mile Island,
 Chernobyl, and Fukushima physically impossible.
 
 The other big argument against nuclear power is what to do with the
-waste. The fact of the matter is that we already have nuclear waste
-which will need to be stored and this problem will not go away even if
-we were to shut down all nuclear power plants tomorrow. It seems
-unlikely that the marginal cost (or marginal risk) of storing extra
-waste would be very large. Furthermore,
+waste. It is important to keep this problem in perspective. Currently,
+only
+[25ml of high level nuclear waste](http://www.withouthotair.com/c24/page_170.shtml)
+(the stuff which needs to be stored for thousands of years) is
+produced per person, per year in Britain. Even if all of the UK’s
+present energy demands were met by nuclear, it would produce about a
+pint of high level waste per person, per year. This is a small volume
+to deal with when compared to other forms of waste. We can keep the
+waste in [dry cask storage](http://www.pntl.co.uk/safety/packages/)
+indefinitely as we look for longer-term solutions, so unlike GHG
+emissions this is not a pressing issue. Ultimately,
+[burying nuclear waste](https://ec.europa.eu/research/energy/pdf/waste_disposal_en.pdf)
+deep in dry, geologically stable regions looks to be a viable
+solution. Furthermore,
 [Generation IV](https://www.gen-4.org/gif/jcms/c_59461/generation-iv-systems)
 reactor designs promise to be able to use existing nuclear waste as
 fuel and produce much lower volumes of their own waste.

@@ -18,7 +18,7 @@ electrify heat and transport are discussed in
 framework capable of building the electricity infrastructure needed.*
 
 ![National Grid transmission lines in the over water meadows owned by the Oxford Preservation Trust. Source: Marion Phillips [CC BY-SA 2.0](http://creativecommons.org/licenses/by-sa/2.0), via Wikimedia Commons.]({filename}/images/energyPolicy/nationalGrid.jpg)
-As discussed in Part 3, transition to a low-carbon economy is a
+As discussed in Part 3, the transition to a low-carbon economy is a
 massive task which will require extensive government
 intervention. During the most recent leadership campaign, Jeremy
 Corbyn promised to “promote the growth of over 200 'local energy
@@ -130,7 +130,7 @@ produce energy cleanly, reliably, and as cheaply as possible. A Labour
 government must act to ensure rapid decarbonisation of the electricity
 supply, while at the same time increasing electricity production and
 ensuring that the lights remain on. As all low-carbon sources of
-energy are capital-intensive and have slow return on investment, the
+electricity are capital-intensive and have slow return on investment, the
 only way to make the private sector build it is to provide generous
 fixed prices for the electricity. This is expensive, so it makes far
 more sense to build these projects in the public sector, especially
@@ -163,11 +163,14 @@ be formed out of the existing
 with all outsourced operations brought back in-house, and the
 [National Nuclear Laboratory](http://www.nnl.co.uk/). The Office for
 Nuclear Regulation ("Ofnuke") would remain strictly independent from
-both this enterprise and the PGB.
+both this enterprise and the PGB. Britain should support international
+cooperation and research in the nuclear sector and, contrary to
+current Conservative plans, remain a member of
+[Euratom](http://ec.europa.eu/research/energy/euratom/index_en.cfm).
 
 Given that the cost of government borrowing is lower than the returns
 expected by private (even co-operative) electricity producers, it would
-also make sense to nationalise existing renewable infrastructure. As in
+also make sense to nationalise the existing renewable infrastructure. As in
 the case of nationalising nuclear reactors, this has the further
 advantaging of bringing expertise into the public sector. On the other
 hand, given that fossil fuel assets are to be phased out as rapidly as
@@ -226,24 +229,24 @@ full-market rates and that overseas assets would also be purchased.
 [Another report](http://www.psiru.org/sites/default/files/2016-04-E-UK-public.pdf)
 argued that compensation could be provided only at the value of a
 company’s equity, making nationalising Britain’s electricity
-transmission and distribution infrastructure cost £8.4 billion[^1] (gas
-distribution would cost and additional £6.4 billion). Nationalising
-all of the Big 6 would cost £44.4 billion. However, there is no need
-to expropriate their supply businesses--these would simply become
-obsolete with the introduction of publicly-owned ones. As stated
-above, fossil fuel power plants would be left in the private sector--at
-least initially. Given that all of these companies have diverse energy
-portfolios, the cost of nationalising just nuclear and renewable
-generation can only be estimated. The Big 6 make up
+transmission and distribution infrastructure cost £8.4
+billion[^1]. Nationalising all of the Big 6 would cost £44.4
+billion. However, there is no need to expropriate their supply
+businesses--these would simply become obsolete with the introduction
+of publicly-owned ones. As stated above, fossil fuel power plants
+would be left in the private sector--at least initially. Given that
+all of these companies have diverse energy portfolios, the cost of
+nationalising just nuclear and renewable generation can only be
+estimated. The Big 6 make up
 [about 70%](https://www.ofgem.gov.uk/chart/wholesale-electricity-generation-market-shares-company-2015-gb)
 of the UK generation market. If all of their equity is in this portion
 of of their business, then the equity-value of the entire generation
 sector is about £63.4 billion. Nuclear and renewable sources supply
 [about 45%](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/513244/Press_Notice_March_2016.pdf)
 of Britain’s electricity, so the cost of nationalising this
-infrastructure should be about £30 billion. It must be
-stressed that this is an extremely pessimistic number, as it assumes
-all equity is tied up in generation infrastructure.
+infrastructure should be about £30 billion. It must be stressed that
+this is an extremely pessimistic number, as it assumes all equity is
+tied up in generation infrastructure.
 
 As gas should be phased out and replaced with electricity, there is
 little point in nationalising this side of the energy industry. Should
@@ -303,18 +306,19 @@ must be willing to violate EU rules on state aid.
 
 ###Conclusion
 
-Energy policy is a highly technical matter involving economics,
-engineering, fundamental physics, and law. Books can, and have, been
-written on these matters, so this series of articles can only provide an
-overview of the issues. As has been seen, transition to a low carbon
-economy will not be easy and will not be possible using only (or even
-mainly) renewable energy. Nuclear power must play a role. The sort of
-transition described here will require not only active state
-intervention in the energy sector, but in many other parts of the
-economy as well. A Labour government intent on protecting the
-environment must be prepared for the magnitude of the task and be
-willing to violate EU directives in order to achieve it. To paraphrase a
-cliché, the choice before us is clear: socialism or environmental disaster.
+Energy policy is a highly technical matter involving politics,
+economics, engineering, fundamental physics, and law. Books can, and
+have, been written on these matters, so this series of articles can
+only provide an overview of the issues. As has been seen, transition
+to a low carbon economy will not be easy and will not be possible
+using only (or even mainly) renewable energy. Nuclear power must play
+a role. The sort of transition described here will require not only
+active state intervention in the energy sector, but in many other
+parts of the economy as well. A Labour government intent on protecting
+the environment must be prepared for the magnitude of the task and be
+willing to violate EU directives in order to achieve it. To paraphrase
+a cliché, the choice before us is clear: socialism or environmental
+disaster.
 
 
 [^1]: The lower value of £7.5 billion quoted in the report seemed to assume that money would _be paid to the government_ when nationalising those distribution companies with negative equity. This seems unlikely--the best we could hope for in those cases is not to have to pay any compensation.

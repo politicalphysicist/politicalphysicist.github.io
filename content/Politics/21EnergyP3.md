@@ -27,13 +27,10 @@ energy policy, but a
 
 For reasons discussed in Part 1, decarbonisation is not achievable
 using only renewable sources. Investments should certainly be made in
-wind, and (where feasible) hydroelectric and geothermal power, but
-even combined these are unlikely to provide more than half of the
-current supply. Solar is a terrible energy source for a cloudy country
-like Britain, and tidal energy is of
-[dubious value](https://carboncounter.wordpress.com/2015/03/02/should-britain-bother-with-tidal-lagoons/).
-The remainder must be made up by nuclear power. This is broadly in
-line with what energy analyst David MacKay proposed as
+wind, and (where feasible) hydroelectric, tidal, and geothermal power,
+but even combined these are unlikely to provide more than half of the
+current supply. The remainder must be made up by nuclear power. This
+is broadly in line with what energy analyst David MacKay proposed as
 "[Plan E](http://www.withouthotair.com/c27/page_211.shtml)” in his
 book
 [*Sustainable Energy--Without the Hot Air*](http://www.withouthotair.com/Contents.html). This
@@ -60,17 +57,14 @@ of the rest. Gas and petrol will need to be phased out, as they can
 not be decarbonised. When faced with these numbers, the scale of the
 task ahead becomes apparent; not only must the majority of the
 existing electricity supply be replaced, but it must be expanded
-multiple times over. Fortunately, there is much which can be done to
-improve efficiency, meaning that it will not be necessary to actually
-quintuple electricity production.
+several times over. Fortunately, there is much which can be done to
+improve efficiency, somewhat reducing the amount of new capacity needed.
 
 Measures such as insulation could realistically result in a
 [reduction of 15%](https://www.theccc.org.uk/wp-content/uploads/2016/10/Next-steps-for-UK-heat-policy-Committee-on-Climate-Change-October-2016.pdf)
 in energy used for heating existing buildings by 2030. Obviously, new
 buildings should be required to meet high efficiency standards.
-Efficiency gains can also be made by replacing old boilers, although
-given that gas must ultimately be phased out it is worth considering
-whether this is a worthwhile action. The question then emerges as to
+Old and inefficient boilers could be replaced, although the phasing out of gas might mean that this is not worthwhile. The question then emerges as to
 how to achieve the upgrading of old buildings. The Green Party has, in
 the past, proposed that households should simply be given the
 insulation for free. However, this amounts to little more than a gift
@@ -100,7 +94,8 @@ heating but have very high up-front costs. Mass producing heat pumps,
 in order to bring down the price, should be one aim of national
 industrial policy and the government should also offer to finance
 their installation or allow customers to rent them from the power
-company.
+company. [Solar thermal](http://www.energysavingtrust.org.uk/renewable-energy/heat/solar-water-heating)
+panels can be coupled with these systems to help provide hot water.
 
 In areas with sufficiently high population density, district heating
 should likely play a substantial role. Where practical, this should
@@ -123,10 +118,8 @@ program to purchase older white-goods, similar to Obama’s
 “[cash for clunkers](https://en.wikipedia.org/wiki/Car_Allowance_Rebate_System)”
 program, could be used to incentivise upgrading to more
 energy-efficient models. A similar approach could be taken with other
-goods such a televisions and light-bulbs. In particular, incandescent
-bulbs should be replaced with LEDs, the latter of which should become
-the new standard.  At some point, the sale of gas ovens and hobs will
-need to be banned.
+goods such a televisions and light-bulbs. Gas ovens and hobs will
+eventually become obsolete and need to be replaced.
 
 A concerted effort should be made to shift people out of cars and onto
 public transit. One step in this direction would be
@@ -135,16 +128,16 @@ charges, pedestrian zones, road tolls, and reduced speed limits can
 all be used to discourage car use. Cycling routes and infrastructure
 should be improved. 100% electrification should be a goal for railways
 and some of the routes closed under the
-[Beeching Axe](https://en.wikipedia.org/wiki/Beeching_cuts) should be
-considered for reopening. The current bus fleet should be gradually
-replaced by trolleys, trolley-buses, and battery-powered buses. This
-will be more difficult for long-distance buses, as batteries have
-limited range and it may be impractical to run wires over the long
-stretches of highway.  To the extent that private vehicles continue to
-be used, they will have to be electric and government action will be
-needed to develop the charging infrastructure. Long-distance freight
-should increasingly be transported by rail and local freight by
-electric trucks.
+[Beeching Axe](https://en.wikipedia.org/wiki/Beeching_cuts) of the
+1960s should be considered for reopening. The current bus fleet should
+be gradually replaced by trolleys, trolley-buses, and battery-powered
+buses. This will be more difficult for long-distance buses, as
+batteries have limited range and it may be impractical to run wires
+over the long stretches of highway.  To the extent that private
+vehicles continue to be used, they will have to be electric and
+government action will be needed to develop the charging
+infrastructure. Long-distance freight should increasingly be
+transported by rail and local freight by electric trucks.
 
 Long distance travel by air or sea is more difficult as there are no
 nearby electrical wires to power it. The energy density of batteries
@@ -153,17 +146,17 @@ is
 making it impossible to fit enough of them on a ship or plane to power
 a voyage. Alternatives such as biofuels or hydrogen are still decades
 away and, in the case of the former, there are concerns about them
-displacing essential food production. In the meantime, the government
-should move ban commercial flights within Britain and reduce other
-short-haul aviation. Various
+displacing essential food production. In the meantime, rail should
+start to replace short-haul aviation, particularly for domestic
+flights. Various
 [incremental improvements](http://www.vox.com/2016/5/6/11569202/aviation-emissions-solar-plane)
 can be made to reduce energy use by planes. Research into alternatives
 to jet fuel should be continued and expanded. Shipping remains quite
 energy efficient and thus is not an initial priority for
-decarbonisation, but the government should look to develop
+decarbonisation but, in addition to developing biofuels, the government could look to develop
 [nuclear powered freighters](https://en.wikipedia.org/wiki/Nuclear_marine_propulsion)
 similar to the nuclear powered aircraft carriers, submarines, and ice
-breakers which already exist.
+breakers which already exist. Some of the same safety measures could be used as when [transporting nuclear waste by ship](http://www.pntl.co.uk/safety/).
 
 ![The NS Savannah, the first nuclear powered merchant vessel. It was largely experimental and suffered design issues unrelated to its engine. Source: US Government [NARA](http://arcweb.archives.gov) (Public domain), via Wikimedia Commons.]({filename}/images/energyPolicy/NSsavannah-1962.jpg)
 
@@ -171,7 +164,7 @@ As a final note, there are also various non-energy related sources of
 greenhouse gases. Particular culprits are
 [agriculture](http://www.withouthotair.com/c13/page_76.shtml) and the
 [manufacture of steel and cement](https://carboncounter.wordpress.com/2015/06/11/can-you-make-a-wind-turbine-without-fossil-fuels-2/).
-These issues are beyond the scope of this article, but it should be
+These issues are beyond the scope of these articles, but it should be
 noted that they are not easy to solve. Furthermore, at present the
 greenhouse gases emitted in the production of Britain’s imports
 [are almost equal](http://www.withouthotair.com/c15/page_93.shtml) to

@@ -70,7 +70,7 @@ needs](http://www.r-e-a.net/news/deep-geothermal-resource-has-potential-to-produ
 and be used very effectively to heat homes, while others have suggested
 that it is an [impractical power
 source](http://www.withouthotair.com/c16/page_98.shtml) for Britain.
-Either way, it still does not come close to meeting all energy needs.
+Even in the former case, however, other energy sources will be needed.
 Biomass power (largely consisting of burning wood-chips) is expensive
 and of dubious environmental benefit. While it is claimed to be “carbon
 neutral”, [this is
@@ -79,7 +79,8 @@ on the time scales relevant to mitigating global warming. In fact, it
 can release more GHGs than fossil fuels.
 
 That leaves solar power and wind. Given the relatively high latitude
-of the UK and the general cloudiness,
+of the UK, general cloudiness, and fact that energy consumption is
+highest at the times of day and year with the least sunlight,
 [solar panels are massively unfit](https://www.theguardian.com/commentisfree/2010/mar/01/solar-panel-feed-in-tariff)
 as an energy source in this country. Furthermore, solar and wind are
 known as *intermittent* energy sources, as their output varies, often
