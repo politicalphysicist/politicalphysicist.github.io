@@ -5,51 +5,58 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://politicalphysicist.github.io/</loc>
-<lastmod>2017-02-26T01:36:07-00:00</lastmod>
+<lastmod>2017-04-11T10:34:17-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://politicalphysicist.github.io/archives.html</loc>
-<lastmod>2017-02-26T01:36:07-00:00</lastmod>
+<lastmod>2017-04-11T10:34:17-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://politicalphysicist.github.io/tags.html</loc>
-<lastmod>2017-02-26T01:36:07-00:00</lastmod>
+<lastmod>2017-04-11T10:34:17-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://politicalphysicist.github.io/categories.html</loc>
-<lastmod>2017-02-26T01:36:07-00:00</lastmod>
+<lastmod>2017-04-11T10:34:17-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://politicalphysicist.github.io/pages/about.html</loc>
-<lastmod>2017-02-26T01:36:07-00:00</lastmod>
+<lastmod>2017-04-11T10:34:17-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.3</priority>
 </url>
 
 <url>
 <loc>https://politicalphysicist.github.io/pages/software.html</loc>
-<lastmod>2017-02-26T01:36:07-00:00</lastmod>
+<lastmod>2017-04-11T10:34:17-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.3</priority>
 </url>
 
 <url>
 <loc>https://politicalphysicist.github.io/pages/technical.html</loc>
-<lastmod>2017-02-26T01:36:07-00:00</lastmod>
+<lastmod>2017-04-11T10:34:17-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.3</priority>
+</url>
+
+<url>
+<loc>https://politicalphysicist.github.io/labour-policy-responses-environment-energy-and-transport.html</loc>
+<lastmod>2017-04-11T11:00:00+01:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
 </url>
 
 <url>
@@ -285,7 +292,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://politicalphysicist.github.io/category/politics.html</loc>
-<lastmod>2017-01-29T09:03:00-00:01</lastmod>
+<lastmod>2017-04-11T11:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -439,7 +446,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://politicalphysicist.github.io/tag/british-politics.html</loc>
-<lastmod>2017-01-29T09:03:00-00:01</lastmod>
+<lastmod>2017-04-11T11:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -474,7 +481,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://politicalphysicist.github.io/tag/climate-change.html</loc>
-<lastmod>2017-01-29T09:02:00-00:01</lastmod>
+<lastmod>2017-04-11T11:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -488,7 +495,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://politicalphysicist.github.io/tag/energy.html</loc>
-<lastmod>2017-01-29T09:03:00-00:01</lastmod>
+<lastmod>2017-04-11T11:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -509,7 +516,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://politicalphysicist.github.io/tag/transport.html</loc>
-<lastmod>2017-01-29T09:02:00-00:01</lastmod>
+<lastmod>2017-04-11T11:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -629,6 +636,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://politicalphysicist.github.io/tag/conetroller.html</loc>
 <lastmod>2013-12-21T02:00:00-00:01</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://politicalphysicist.github.io/tag/labour-party.html</loc>
+<lastmod>2017-04-11T11:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -943,7 +957,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://politicalphysicist.github.io/author/c-macmackin.html</loc>
-<lastmod>2017-01-29T09:03:00-00:01</lastmod>
+<lastmod>2017-04-11T11:00:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
