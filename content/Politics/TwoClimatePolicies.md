@@ -20,12 +20,11 @@ on
 Rather than argue for a rationally planned, publicly owned electricity
 system, he has pandered to the current "progressive" fad of an energy
 market made up of many small, competing renewable energy
-suppliers. Instead of replacing the private energy suppliers, he has
-opted to merely compete against them and to leave generation
-completely in the private sector. While nuclear energy is not
-rejected, it is clearly seen as secondary to renewable energy and will
-also remain in the private sector. I have argued in the past why
-renewable energy
+generators. Instead of replacing the private energy suppliers, he has
+opted to merely to add a public supplier to the market. While nuclear
+energy is not rejected, it is clearly seen as secondary to renewable
+energy and will also remain in the private sector. I have argued in
+the past why renewable energy
 [will not be sufficient]({filename}/Politics/21EnergyP1.md) to power
 Britain and why a [competitive energy market](21EnergyP4.md) is an
 obstacle to addressing climate change.
@@ -91,7 +90,7 @@ This exactly the sort of approach needed for decarbonisation. Just as
 importantly, it reintroduces the idea of public ownership not simply
 to run what is unprofitable, but for the purpose of economic
 development and innovation. This pledge is honestly one of the most
-exciting proposals I have ever seen from a politician.
+exciting proposals I have seen from a politician in my lifetime.
 
 The other exciting aspect of Ashton's proposals are the Green Canada
 Advisory Boards. Four such boards would be created, working in
@@ -108,7 +107,7 @@ corporations in the past. While Corbyn has paid lip-service to this
 goal, Ashton has done more to spell out what it could look like.
 
 Ashton's pledges are a bit weaker when it comes to non-electric forms
-of greenhouse gas (GHG) emissions. Indeed, they currently lack
+of greenhouse gas (GHG) emissions. Indeed, she currently lacks
 a clear schedule for reductions, although a promise is made to convene
 a group of experts for this purpose. Presumably the Green Canada
 Advisory Boards for agriculture and forestry would be responsible for
@@ -121,10 +120,10 @@ they fit well with Ashton's emphasis on collective ownership.
 Electric vehicles are mentioned with a laudable emphasis on building
 charging infrastructure, particularly on federal property such as post
 offices. Unfortunately, no commitment is made to electrify the
-government fleet of vehicles, which would create a large initial
-market for them, although this may have been an oversight.
+government fleet of vehicles--creating a large initial
+market for them--although this may have been an oversight.
 Electrifying local public transit is another important issue which she
-addresses. However, the goal of phasing out the sale of internal
+addresses. However, her goal of phasing out the sale of internal
 combustion engines by 2040 is not ambitious enough. She also does not
 address transport over longer distances, particularly of freight. We
 need to electrify Canada's railways and move goods off of roads and
@@ -191,6 +190,6 @@ if _any_ country can provide a continuous, reliable electricity supply
 using only renewable sources without massive hydro and geothermal
 capacity.
 
-[^4]: The division of engineering firm SNC Lavalin formed when the
+[^4]: The division of engineering firm SNC Lavalin formed when they
 bought the reactor-design portion of crown corporation Atomic Energy
 Canad Limited.
