@@ -62,14 +62,15 @@ is the sort of approach which will motivate people to take action.
 ![Niki Ashton campaign material calling for public sustainable energy sources.]({filename}/images/ashton-climate/publicEnergy.jpg)
 Unlike many liberal environmentalists, such as those in the Green
 Party of Canada and its provincial affiliates, Ashton recognises the
-role which the public sector must play in fighting climate
-change. Rather than the usual emphasis on feed-in-tariffs and
-independent electricity producers, she stresses that new energy
-infrastructure will be public. Like Corbyn she calls for a public
-investment bank to fund projects, but she goes further and proposes an
-additional crown corporation[^1] called Green Canada[^2]. This entity
-would not only assist in basic research in green technology, but
-commercialise and manufacture it. It would
+role which the public sector must play in fighting climate change;
+collective solutions are favoured over individual actions. Rather than
+the usual emphasis on feed-in-tariffs and independent electricity
+producers, she stresses that new energy infrastructure will be
+public. Like Corbyn she calls for a public investment bank to fund
+projects, but she goes further and proposes an additional crown
+corporation[^1] called Green Canada[^2]. This entity would not only
+assist in basic research in green technology, but commercialise and
+manufacture it. It would
 >Accelerate pollution-fighting technology by funding open-source
 >research into solutions for the climate change challenges we face and
 >invest in public sector clean energy innovation. Every scenario for
