@@ -4,12 +4,11 @@ Tags: Democracy, Socialism, Corbyn, Venezuela
 Summary: The struggle for socialism is international and the success or failure of left-wing governments in other countries affect what happens here. As such, the ongoing degeneration of the Chavez's Bolivarian Revolution in Venezuela have been deeply disheartening and given the right yet another trope with which to attack the Labour left.
 Status: Draft
 
-The struggle for socialism is international and
-the success or failure of left-wing governments in other countries
-affect what happens here. As such, the ongoing degeneration of the
-Chavez's Bolivarian Revolution in Venezuela have been deeply
-disheartening and given the right yet another trope with which to
-attack the Labour left.
+The struggle for socialism is international and the success or failure
+of left-wing governments in other countries affect what happens
+here. As such, the ongoing degeneration of the Chavez's Bolivarian
+Revolution in Venezuela have been deeply disheartening and give the
+right yet another narrative with which to attack the Labour left.
 
 Comparisons of Corbyn with Chavez and Maduro are silly. The policies
 in Labour's manifesto were similar to those of Germany or Scandinavia,
@@ -20,7 +19,7 @@ unworkable system of fixed exchange rates, a massive over-reliance on
 the oil sector, and food prices regulated in a way that cause
 shortages and the emergence of a black market. This is coupled with
 massive corruption in both the public and private sector. If Maduro
-were not an idiot then he could easily begin to address at least some
+were remotely competent then he could easily begin to address at least some
 of these problems.
 
 Venezuela is currently an awkward mix of socialism and
@@ -81,16 +80,16 @@ of the president.
 Of course, for party democracy to work there does have to be critical
 thinking and engagement beyond just supporting the leader. This was
 often not the case in Venezuela under Chavez, whose personality cult
-was deliberate strategy; it is easier to rally people around a messiah
-than an abstract concept. Too many Labour members do give uncritical
-support to Corbyn, but there are also plenty who do not. Even within
-Momentum you will find activists who differ with the leadership on
-issues such as Britain's relationship to the EU or free movement. This
-website, owned by one of the men behind Corbyn's leadership campaign,
-has published material critical of his policies in areas such
-economics and energy. It is paramount that we build on these glimmers
-of critical engagement within the party if we want the leadership to
-be accountable.
+was at least partially a deliberate strategy; it is easier to rally
+people around a messiah than an abstract concept. Too many Labour
+members give uncritical support to Corbyn, but there are also
+plenty who do not. Even within Momentum you will find activists who
+differ with the leadership on issues such as Britain's relationship to
+the EU or free movement. This website, owned by one of the men behind
+Corbyn's leadership campaign, has published material critical of his
+policies in areas such economics and energy. It is paramount that we
+build on these glimmers of critical engagement within the party if we
+want the leadership to be accountable.
 
 Even if we fail in this, we have to ask ourselves whether Britons would allow
 the slide into authoritarianism seen in Venezuela. The institutions and
