@@ -5,51 +5,58 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://politicalphysicist.github.io/</loc>
-<lastmod>2017-08-08T14:07:46-00:00</lastmod>
+<lastmod>2017-12-26T16:11:18-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://politicalphysicist.github.io/archives.html</loc>
-<lastmod>2017-08-08T14:07:46-00:00</lastmod>
+<lastmod>2017-12-26T16:11:18-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://politicalphysicist.github.io/tags.html</loc>
-<lastmod>2017-08-08T14:07:46-00:00</lastmod>
+<lastmod>2017-12-26T16:11:18-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://politicalphysicist.github.io/categories.html</loc>
-<lastmod>2017-08-08T14:07:46-00:00</lastmod>
+<lastmod>2017-12-26T16:11:18-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://politicalphysicist.github.io/pages/about.html</loc>
-<lastmod>2017-08-08T14:07:46-00:00</lastmod>
+<lastmod>2017-12-26T16:11:18-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.3</priority>
 </url>
 
 <url>
 <loc>https://politicalphysicist.github.io/pages/software.html</loc>
-<lastmod>2017-08-08T14:07:46-00:00</lastmod>
+<lastmod>2017-12-26T16:11:18-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.3</priority>
 </url>
 
 <url>
 <loc>https://politicalphysicist.github.io/pages/technical.html</loc>
-<lastmod>2017-08-08T14:07:46-00:00</lastmod>
+<lastmod>2017-12-26T16:11:18-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.3</priority>
+</url>
+
+<url>
+<loc>https://politicalphysicist.github.io/inequality-is-in-the-air.html</loc>
+<lastmod>2017-12-16T17:40:00+00:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
 </url>
 
 <url>
@@ -313,7 +320,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://politicalphysicist.github.io/category/thoughts.html</loc>
-<lastmod>2015-07-10T23:30:00-00:01</lastmod>
+<lastmod>2017-12-16T17:40:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -482,6 +489,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://politicalphysicist.github.io/tag/pacifism.html</loc>
 <lastmod>2014-11-09T11:20:00-00:01</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://politicalphysicist.github.io/tag/inequality.html</loc>
+<lastmod>2017-12-16T17:40:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -690,8 +704,22 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://politicalphysicist.github.io/tag/flying.html</loc>
+<lastmod>2017-12-16T17:40:00-00:01</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>https://politicalphysicist.github.io/tag/bbc.html</loc>
 <lastmod>2013-07-10T13:40:00-00:01</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://politicalphysicist.github.io/tag/airlines.html</loc>
+<lastmod>2017-12-16T17:40:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -817,7 +845,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://politicalphysicist.github.io/tag/politics.html</loc>
-<lastmod>2014-06-15T09:40:00-00:01</lastmod>
+<lastmod>2017-12-16T17:40:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -978,7 +1006,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://politicalphysicist.github.io/author/c-macmackin.html</loc>
-<lastmod>2017-07-29T11:00:00-00:01</lastmod>
+<lastmod>2017-12-16T17:40:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
