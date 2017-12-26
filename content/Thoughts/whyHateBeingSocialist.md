@@ -3,6 +3,9 @@ Date: 2014-06-15 09:40
 Tags: Personal, Politics, Socialism
 Summary: As you might have gathered from my blog posts here, I am pretty left wing. You know you're pretty radical when you have to preface any explanation of your beliefs with "Well, I would *not* consider myself a communist." And, while I am quite confidant in the validity of my beliefs, there are days when I really wish that I didn't have them. So, without further ado, here are the top 10 reasons I wish I wasn't a socialist.
 
+_This was slightly edited in December 2017 to reflect a slightly more
+sophisticated approach to politics and, well, changes in my facial hair._
+
 As you might have gathered from my blog posts here, I am pretty left wing.
 You know you're pretty radical when you have to preface any explanation of
 your beliefs with "Well, I would *not* consider myself a communist."
@@ -11,14 +14,16 @@ when I really wish that I didn't have them. So, without further ado, here
 are the top 10 reasons I wish I wasn't a socialist.
 
 ###1. The exhaustion of trying to stick to the moral high-ground.###
-No one would ever be a socialist in the West if they didn't believe that
-there was a moral force behind it. Not only does socialism mean that you end
-up fighting a thankless, apparently losing battle, but also that you're trying
-to live by a set of principles that can seem impossible under our current
-system. For example, how am I supposed to find clothes that I know weren't made
-in sweatshops? How do you live an environmentally-friendly lifestyle in cities
-designed around the car? How do you fight patriarchy when even your friends
-sometimes say derogatory things about women?
+No one would ever be a socialist in the West if they didn't believe
+that there was a moral force behind it, backed up by a material
+analysis of society. Not only does socialism mean that you end up
+fighting a thankless, apparently losing battle, but also that you're
+trying to live by a set of principles that can seem impossible under
+our current system. For example, how am I supposed to find clothes
+that I know weren't made in sweatshops? How do you live an
+environmentally-friendly lifestyle in cities designed around the car?
+How do you fight patriarchy when even your friends sometimes say
+derogatory things about women?
 
 On the more abstract level, it's exhausting trying to explain all of this to
 friends. And what do you do about that slight feeling of disapproval when they
@@ -80,11 +85,11 @@ more difficult because there is less common ground between us.
 ###6. The difficulty introduced when trying to date.###
 Of course, none of this makes meeting people any easier. It can make things
 awkward enough among friends. But when you're trying to date it makes things
-harder still. Politics, after all, does not make a great thing to discuss on
+harder still. Politics, after all, are not make a great thing to discuss on
 a date, especially when your politics are rather unusual. But there's also the
 fact that if I'm in a relationship I'd like it to be with someone who broadly
 shares the same values that I do. I don't think this is unreasonable, surely?
-The problem is, most people are either unpolitical (in which case one of my
+The problem is, most people are either apolitical (in which case one of my
 major interests is off the table to talk about) or have considerably more
 moderate views than mine. Oh well, probably someday I'll meet a nice liberal
 or social democrat who can put up with my radicalism. Because that seems
@@ -92,47 +97,46 @@ considerably more likely than my finding another socialist that I'd get along
 with well enough to want to date.[^2] Which leads on to my next point...
 
 ###7. Having to put up with other socialists.###
-Well, there's a whole article's worth of stuff I could say about this one.
-There's the fact that most socialists seem to end up taking irrational views
-on things like nuclear energy, genetically modified foods, and any number
-of other things. Similarly, there's the general lack of knowledge about
-science and critical thinking, the consequent inability to come to informed
-conclusions, and the stupidity that results when dealing with many contemporary
-issues (although, in fairness, I think that most ideological groups are
-guilty of this). There's the sectarianism which means that, in many countries,
-you have nearly as many socialist parties as there are socialists. And finally
-there is the bohemian weirdness and alternative lifestyle BS that seems so
-pervasive. You know what? I don't particularly want to live in a commune! I
-admit that I'm sexually repressed and I don't have a problem with that!
-I'm happy being constrained to a monogamistic paradigm within relationships!
-I don't think that marriage is inherently patriarchal and, yes, I would even
-like to get married myself some day!
-I don't feel the need to take mind-altering drugs, smoke pot, dye my hair a
-funny colour, grow a beard, eschew going to the barber's shop, get piercings,
-or have sex with anyone I find remotely attractive! I know that not all
-socialists correspond to the straw-man that I've constructed, but enough of
-them do for me to find it off-putting.
+
+Well, there's a whole article's worth of stuff I could say about this
+one.  There's the fact that most socialists seem to end up taking
+irrational views on things like nuclear energy, genetically modified
+foods, and any number of other topics. Similarly, there's the general
+lack of knowledge about science and critical thinking, the consequent
+inability to come to informed conclusions, and the stupidity that
+results when dealing with many contemporary issues (although, in
+fairness, I think that most ideological groups are guilty of
+this). There's the sectarianism which means that, in many countries,
+you have nearly as many socialist parties as there are socialists. And
+finally there is the bohemian weirdness and alternative lifestyle BS
+that seems so pervasive. You know what? I don't particularly want to
+live in a commune! I admit that I'm sexually repressed and I don't
+have a problem with that!  I'm happy being constrained to a
+monogamistic paradigm within relationships!  I don't think that
+marriage is has to be inherently patriarchal and, yes, I would even
+like to get married myself some day!  I don't feel the need to take
+mind-altering drugs, smoke pot, dye my hair a funny colour, grow a
+scraggly beard, eschew going to the barber's shop, get piercings, or
+have sex with anyone I find remotely attractive! I know that not all
+socialists correspond to the straw-man that I've constructed, but
+enough of them do for me to find it off-putting.
 
 I guess my feelings can be summed up quite well by something that
-Orwell[^3] wrote in *The Road to Wigan Pier*: "As with the
-Christian religion, the worst advertisement for Socialism is its adherents."
-
-###8. Feeling faintly embarrassed of my beliefs.###
-Because there are so many socialists that display the (in my mind)
-disreputable qualities listed above, I find myself feeling embarrassed to be
-associated with them. How can socialism ever be taken seriously if these are
-the sorts of people representing it? Once again, I think Orwell says it best
-when he wrote that
-
+Orwell[^3] wrote in *The Road to Wigan Pier*:
 > In addition to this there is the horrible--the really
 > disquieting--prevalence of cranks wherever Socialists are gathered together.
 > One sometimes gets the impression that the mere words "Socialism" and
 > "Communism" draw towards them with magnetic force every fruit-juice drinker,
-> nudist, sandal-wearer, sex-maniac, Quaker, "Nature Cure" quack, pacifist,
-> and feminist in England.
+> nudist, sandal-wearer, sex-maniac, . . . [and] "Nature Cure" quack
+> . . . in England.
 
-Although I want to make it absolutely clear that I think it is totally unfair
-to lump feminists, pacifists, and even Quakers into the same group as the rest.
+###8. Feeling faintly embarrassed of my beliefs.###
+Because there are so many socialists that display the (in my mind)
+disreputable qualities listed above, I find myself feeling embarrassed
+to be associated with them. How can socialism ever be taken seriously
+if these are the sorts of people representing it? Once again, I think
+Orwell says it best when he wrote that "As with the Christian
+religion, the worst advertisement for Socialism is its adherents."
 
 ###9. Not being politically "out" to my family.###
 Nowhere is this embarrassment more apparent than when it comes to my family.
