@@ -26,7 +26,8 @@ energy is not rejected, it is clearly seen as secondary to renewable
 energy and will also remain in the private sector. I have argued in
 the past why renewable energy
 [will not be sufficient]({filename}/Politics/21EnergyP1.md) to power
-Britain and why a [competitive energy market](21EnergyP4.md) is an
+Britain and why a
+[competitive energy market]({filename}/Politics/21EnergyP4.md) is an
 obstacle to addressing climate change.
 
 Meanwhile, very little concrete is said by Labour about tackling
