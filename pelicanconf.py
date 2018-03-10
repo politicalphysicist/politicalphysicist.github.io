@@ -46,7 +46,7 @@ SOCIAL=[('Facebook','https://www.facebook.com/cmacmackin'),
 EMAIL='politicalphysicist@gmail.com'
 
 THEME = "./backdrop"
-STATIC_PATHS = ['images','attachments']
+STATIC_PATHS = ['images','attachments','Politics/Meetings']
 
 PLUGIN_PATHS = ['../../Code/pelican-plugins-local',]
 PLUGINS = ['sitemap', 'render_math', 'representative_image', 'tipue_search', 'tag_cloud', 'figure-ref']#, 'github_activity']
