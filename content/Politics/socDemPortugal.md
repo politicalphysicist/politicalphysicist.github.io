@@ -1,4 +1,4 @@
-Title: The Implication of Portugal for a Renewal of Social Democracy
+Title: The Implications of Portugal for a Renewal of Social Democracy
 Date: 2018-03-18 02:30
 Tags: Austerity, Europe, Bloco de Esquerda, Socialism
 Summary: For some time I've been curious about what's been happening with of the Left-supported social democratic government in Portugal. It struck me as the best argument against my suspicion that there isn't room for a classical social democratic policy anymore. I recently read two reports on the experience of government there: an enthusiastic one written by a social democratic think-tank, and a more critical one from an activist with the radical left Bloco de Esquerda which is supporting the minority government there.
