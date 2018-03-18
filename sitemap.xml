@@ -5,51 +5,58 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://politicalphysicist.github.io/</loc>
-<lastmod>2018-03-10T16:24:06-00:00</lastmod>
+<lastmod>2018-03-18T02:29:30-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://politicalphysicist.github.io/archives.html</loc>
-<lastmod>2018-03-10T16:24:06-00:00</lastmod>
+<lastmod>2018-03-18T02:29:30-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://politicalphysicist.github.io/tags.html</loc>
-<lastmod>2018-03-10T16:24:06-00:00</lastmod>
+<lastmod>2018-03-18T02:29:30-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://politicalphysicist.github.io/categories.html</loc>
-<lastmod>2018-03-10T16:24:06-00:00</lastmod>
+<lastmod>2018-03-18T02:29:30-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://politicalphysicist.github.io/pages/about.html</loc>
-<lastmod>2018-03-10T16:24:06-00:00</lastmod>
+<lastmod>2018-03-18T02:29:30-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.3</priority>
 </url>
 
 <url>
 <loc>https://politicalphysicist.github.io/pages/software.html</loc>
-<lastmod>2018-03-10T16:24:06-00:00</lastmod>
+<lastmod>2018-03-18T02:29:30-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.3</priority>
 </url>
 
 <url>
 <loc>https://politicalphysicist.github.io/pages/technical.html</loc>
-<lastmod>2018-03-10T16:24:06-00:00</lastmod>
+<lastmod>2018-03-18T02:29:30-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.3</priority>
+</url>
+
+<url>
+<loc>https://politicalphysicist.github.io/the-implication-of-portugal-for-a-renewal-of-social-democracy.html</loc>
+<lastmod>2018-03-18T02:30:00+00:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
 </url>
 
 <url>
@@ -334,7 +341,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://politicalphysicist.github.io/category/politics.html</loc>
-<lastmod>2018-03-09T23:00:00-00:01</lastmod>
+<lastmod>2018-03-18T02:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -481,7 +488,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://politicalphysicist.github.io/tag/austerity.html</loc>
-<lastmod>2015-07-10T23:30:00-00:01</lastmod>
+<lastmod>2018-03-18T02:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -621,7 +628,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://politicalphysicist.github.io/tag/europe.html</loc>
-<lastmod>2016-06-25T00:30:00-00:01</lastmod>
+<lastmod>2018-03-18T02:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -636,6 +643,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://politicalphysicist.github.io/tag/remembrance-day.html</loc>
 <lastmod>2014-11-09T11:20:00-00:01</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://politicalphysicist.github.io/tag/bloco-de-esquerda.html</loc>
+<lastmod>2018-03-18T02:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -845,7 +859,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://politicalphysicist.github.io/tag/socialism.html</loc>
-<lastmod>2015-06-23T01:30:00-00:01</lastmod>
+<lastmod>2018-03-18T02:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1041,7 +1055,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://politicalphysicist.github.io/author/c-macmackin.html</loc>
-<lastmod>2018-03-09T23:00:00-00:01</lastmod>
+<lastmod>2018-03-18T02:30:00-00:01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
