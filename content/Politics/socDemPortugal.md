@@ -17,7 +17,7 @@ model provided by the Socialist Party government in Portugal and
 suggesting this shows "that there is a way for these parties to
 reaffirm a left-wing agenda within the EU".
 
-![Catarina Martins and prime minister António Costa, leaders of the radical leftPortuguese party Bloco de Esquerda and the social democratic Socialist Party, respectively.]({filename}/images/Catarina-Martins-e-António-Costa.jpg)
+![Catarina Martins and prime minister António Costa, leaders of the Portuguese radical left party Bloco de Esquerda and the social democratic Socialist Party, respectively.]({filename}/images/Catarina-Martins-e-António-Costa.jpg)
 
 The document explains how in 2015 the right wing government which had
 been pursuing fierce austerity lost its overall majority in parliament

@@ -99,7 +99,7 @@ in a larger number of countries we'll have to wait. I remain
 unconvinced by this argument, but I'll put that aside for
 now. Alternatively, perhaps it is felt that you will only be able to
 get popular support for a left social democracy and not for
-socialism. This, unfortunately, is convincing.
+socialism. This, unfortunately, is more convincing.
 
 Jacobin Magazine is one of the most prominent champions of this
 approach (or at least the editorial team is--contributors are varied
