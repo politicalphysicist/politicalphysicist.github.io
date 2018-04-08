@@ -29,7 +29,7 @@ TRANSLATION_FEED_ATOM = None
 LINKS =  (('Linux Mint', 'http://linuxmint.com/'),
           ('New Scientist', 'http://newscientist.com'),
           ('Degenerate Conic','http://degenerateconic.com/'),
-          ('Michael Laxer','http://rabble.ca/taxonomy/term/19493/0'),
+          ('New Socialist', 'https://newsocialist.org.uk/'),
           ('Socialist Project', 'http://www.socialistproject.ca'),
           ('SMBC', 'http://www.smbc-comics.com/'),
           ('XKCD', 'http://xkcd.com/'),
