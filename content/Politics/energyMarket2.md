@@ -31,15 +31,15 @@ boards and then sold on to customers. Scotland has a separate
 electricity company which handled all of generation, transmission,
 distribution, and sales in that jurisdiction.
 
-During this time similar vertically integrated models were used for
+During this time, similar vertically integrated models were used for
 electricity across the world, whether publicly or privately owned. It
-was thought that the task of matching electricity
-production at all times could only be done by a central authority and that the
-sector was therefore a natural monopoly. While early neoliberal
-governments in Latin America began to challenge this view, it was
-Margaret Thatcher who definitively showed that much of the electricity
-sector could be made to operate in a competitive environment while
-still maintaining the integrity of the whole system.
+was thought that the task of matching electricity production to
+consumption at all times could only be done by a central authority and
+that the sector was therefore a natural monopoly. While early
+neoliberal governments in Latin America began to challenge this view,
+it was Margaret Thatcher who definitively showed that much of the
+electricity sector could be made to operate in a competitive
+environment while still maintaining the integrity of the whole system.
 
 Thatcher split the CEGB into the national grid and three generating
 companies.  These were sold off over a few years, along with the area
@@ -53,15 +53,15 @@ operation of the distribution grid from the supply of electricity.
 
 ###States and Markets
 
-The details of such a system are considerably more complex than what
-existed with the CEGB. It was not trivial to devise a wholesale market
-for a good which could not be stored and the supply of which must
-_always_ meeting demand. What was once a technical exercise now looks
-more like the trading floor of the stock exchange. Yet even that is
-not sufficient to make the grid function properly, because generators
-and suppliers only trade with each other to cover half-hour
-intervals. Demand varies on considerably shorter time scales than this,
-so there must also be a "capacity market" by which the national
+The details of such a "liberalised" system are considerably more
+complex than what existed with the CEGB. It was not trivial to devise
+a wholesale market for a good which could not be stored and the supply
+of which must _always_ meet demand. What was once a technical exercise
+now looks more like the trading floor of the stock exchange. Yet even
+that is not sufficient to make the grid function properly, because
+generators and suppliers only trade with each other to cover half-hour
+intervals. Demand varies on considerably shorter time scales than
+this, so there must also be a "capacity market" by which the national
 "system operator" (National Grid Electricity Transmission plc) pay
 generators to stay on standby and turn production up and down as
 needed. Similar markets exist for other "ancillary services" such as
@@ -104,7 +104,7 @@ serious problem for the government's attempts to incentivise green
 energy and can result in some very inefficient
 decisions. Fortunately, researchers at Imperial College have developed
 a model which can determine the cheapest combination of energy sources
-to achieve this effect. In
+to achieve this "system integration". In
 [a report](https://www.theccc.org.uk/publication/system-integration-costs-for-alternative-low-carbon-generation-technologies-policy-implications/)
 commissioned by the Committee on Climate Change, we are told that
 
@@ -115,13 +115,13 @@ commissioned by the Committee on Climate Change, we are told that
 >close as possible to the theoretical ideal prescribed by Imperial’s
 >modelling.
 
-What this is saying is that the government is trying to construct the
+What is being said is that the government is trying to construct the
 market so that it will choose what we already know to be the optimal
 outcome. The absurdity of this should be apparent.
 
 The only solution is to start to move away from markets. To
-an extent this is acknowledged in a
-[proposed set of reforms](https://www.gov.uk/government/publications/cost-of-energy-independent-review). In
+an extent this is acknowledged in an independent report to the government
+[proposing a set of reforms](https://www.gov.uk/government/publications/cost-of-energy-independent-review). In
 simple terms, these would see the national transmission grid operator
 putting contracts out to tender for new generating capacity, with the
 requirement that the winner be able to meet certain levels of demand
@@ -136,7 +136,7 @@ unaccountable private firms. The piecemeal nature also prevents
 economies of scale, leading to more expensive electricity. Similarly,
 it is likely that by planning the grid as a whole we could arrive at a
 more optimal solution than planning it as many small units
-([as critics have noted](https://www.carbonbrief.org/reaction-dieter-helms-least-cost-ideas-for-meeting-the-uk-climate-targets)).
+([as critics of the report have noted](https://www.carbonbrief.org/reaction-dieter-helms-least-cost-ideas-for-meeting-the-uk-climate-targets)).
 
 ###Labour's Unfocused Vision
 
@@ -172,7 +172,7 @@ choice in the market.
 Strikingly, absolutely nothing is said about electricity
 _generation_. No commitments are made to buy out existing
 infrastructure and only vague statements are given on ownership of new
-infrastructure. We are told that Labour is supports new projects
+infrastructure. We are told that Labour supports new projects
 such as carbon capture and storage, renewables, and
 nuclear, but not who will own them. The accompanying
 [report on industrial strategy](http://labour.org.uk/wp-content/uploads/2017/10/Richer-Britain-Richer-Lives-Labours-Industrial-Strategy.pdf)
@@ -187,17 +187,18 @@ especially considering no one is particularly "local" to an offshore
 wind farm.
 
 Labour has also spoken about encouraging the installation of solar
-panels on houses. This idea is both technically, socially, and
+panels on houses. This idea is technically, socially, and
 ideologically unsound. As
 [George Monbiot explains](https://www.theguardian.com/commentisfree/2010/mar/01/solar-panel-feed-in-tariff),
 it is technically unsound because solar panels produce the most
-electricity in the summer and the middle of the day, when it is least
-needed. It is socially unsound because it means that those people
-sufficiently well-off to own a house are given generous subsidies for
-solar panels, at the expense of higher energy bills for everyone
-else. And it is ideologically unsound because it represents a
-petty-bourgeois, individualised vision of addressing climate change,
-in which power production becomes a literal cottage industry.
+electricity in the summer and the middle of the day, and little or
+none at periods of peak demand. It is socially unsound because it
+means that those people sufficiently well-off to own a house are given
+generous subsidies for solar panels, paid for by higher energy
+bills for everyone else. And it is ideologically unsound because it
+represents a petty-bourgeois, individualised vision of addressing
+climate change, in which power production becomes a literal cottage
+industry for which households must take personal responsibility.
 
 Being charitable, it sounds like Labour wants to support the
 development of cooperative and local-authority owned renewable energy
@@ -231,8 +232,8 @@ to switch suppliers.
 However, what I find truly bizarre about these proposals is that
 Left-wing people are advocating for energy co-ops.  In most sectors, a
 co-operative is owned by its employees or its customers. In rural
-parts of North America there do exist electricity supply co-operatives
-owned by customers, but this is not what people are talking about
+parts of North America there do exist electricity supply consumer
+co-operatives, but this is not what people are talking about
 here. Instead, locals would become members of the co-operative by
 paying to finance new energy projects. Given how energy is regulated,
 it is impossible for them to then buy their power from the co-op, so
@@ -248,8 +249,9 @@ democracy” than with socialism. We should be seeking to sell energy at
 cost, rather than use energy bills as a way to pay a low-risk,
 comfortable rate of return to middle class people looking for a
 feel-good investment. We certainly should not make participation in
-decision-making around energy contingent on being able to pay £300 to buy
-shares (the minimum purchase for the Brighton Energy Co-operative).
+decision-making around energy contingent on being able to pay £300 to
+buy shares (the minimum purchase for the Brighton Energy
+Co-operative).
 
 ###The Localist Fantasy
 
@@ -274,7 +276,7 @@ considering that
 [only 6% of the UK is "built upon"](https://www.sheffield.ac.uk/news/nr/land-cover-atlas-uk-1.744440),
 the scale of the task quickly becomes apparent. Most people live in
 cities, where there is simply not enough room for much energy
-generation to be "local".
+generation to be "local" to them.
 
 It gets worse. Those who are against tackling climate change often ask
 "what happens when the wind isn't blowing?" Though arguing in bad
@@ -302,8 +304,8 @@ inherently non-local for most people. There are suggestions about a
 "smart-grid" which can adjust demand to meet supply, but this could
 only be a part of the solution and would therefore have to work on the
 (supra-)national scale. Maybe we could make everything work if
-different renewable energy sources and storage technologies are
-carefully selected to compliment each other, but who is going to
+different renewable energy and storage infrastructure is carefully
+selected and sited to compliment each other, but who is going to
 coordinate this in a decentralised system? We'd be back to the current
 problem of trying to plan the market.
 
@@ -315,7 +317,7 @@ much as happens between the Big 6 now. However, we're quickly losing
 any semblance of local control and accountability, with electricity
 coming from the National Grid, purchased on a contract with who-knows
 which generating company, who may well have subcontracted to another
-company. The gaps would be filled by hedging and buying on the spot
+company. Gaps would be filled by hedging and buying on the spot
 market. The local supply companies would only be able to choose from
 what is available on the market and generating companies would only be
 able to build what they think they could sell. This market mediation
@@ -323,7 +325,7 @@ would seriously encumber democratic decision making.
 
 ###"Local" is not a Synonym for "Democracy"
 
-I do not see any way to have significant local control ownership of
+I do not see any way to have significant local ownership of
 energy production without a national electricity market and all of the
 insanity that entails. It would be much more transparent and easier to
 understand if we were to develop a national plan for energy (with
