@@ -379,7 +379,7 @@ move towards renewable energy):
 >associated with a value-laden cause, rather than representing a
 >coherent argument.
 
-One can see similar parallels and inconsistencies in this country.
+One can see parallels and similar inconsistencies in this country.
 For example, the Left favours national management of the NHS, feeling
 this to be more accountable and thus "democratic". Yet, for some
 reason, a fragmented and competitive system is viewed as "democratic"
@@ -393,7 +393,7 @@ must be dealt with on that scale. Energy is one example of this.
 
 Desire to cut oneself off from other people and be totally
 self-sufficient is a hallmark of the lunatic fringe of the
-Right. Human beings are inherently social creatures who depend upon
+Right. Human beings are social creatures who depend upon
 each other for survival. As socialists we acknowledge and embrace
 this, fighting for the system managing these inter-dependencies to be
 fair, transparent, and democratic. If we want a democratic energy
