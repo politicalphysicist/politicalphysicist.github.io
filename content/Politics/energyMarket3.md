@@ -8,8 +8,31 @@ Status: draft
 One of the most popular elements of Labour's 2017 manifesto was the
 pledge to
 [return energy to public ownership](https://www.theguardian.com/business/2017/oct/01/jeremy-corbyn-nationalisation-plans-voters-tired-free-markets).
+At last year's conference John McDonnell said "Rail, water, energy,
+Royal Mail--we’re taking them back". This makes it sound like he's
+pledging to renationalise energy, but examining Labour's manifesto
+policies it quickly becomes clear that he is either being deliberately
+misleading or displaying a stunning lack of understanding of how the
+energy sector functions in this country. Below, I will explain how
+electricity was structured when it was publicly owned and how Margaret
+Thatcher went about privatising it. I will then examine the technical
+and democratic shortcomings of the electricity market which she
+created. (While electricity only makes up
+[20% of the UK's energy use](https://www.gov.uk/government/statistics/energy-consumption-in-the-uk),
+electrifying the remaining 80% will form a key part of addressing
+climate change, so I will use the terms interchangeably throughout
+this article and have chosen not to look at gas and petrol markets.)
+I go on to analyse exactly what Labour has promised and lay out why
+their plan to move to a decentralised energy system is
+implausible. Finally, I will argue that we should embrace the need for
+national planning of the electricity sector and the centralised
+ownership that entails.
+
+
+##Nationalisation and Privatisation
+
 Nationalised electricity was once the norm across much of the world
-and Britain's structuring of the industry was fairly typical.
+and how Britain structured the industry was fairly typical.
 The Central Electricity Generating Board (CEGB) owned all power plants
 and the national grid. The distribution infrastructure (wires leading
 into people’s homes) was owned by 14 area electricity boards. The CEGB
@@ -53,24 +76,6 @@ climbed so high that the market had to be suspended, to be replaced by
 an even stranger quasi-liberalised system. A much more serious case was the
 Enron scandal in California, where companies manipulated the market to
 boost profits, causing blackouts.
-
-At last year's conference John McDonnell said "Rail, water, energy,
-Royal Mail--we’re taking them back". This makes it sound like he's
-pledging to renationalise energy, but examining Labour's manifesto
-policies it quickly becomes clear that he is either being deliberately
-misleading or displaying a stunning lack of understanding of how the
-energy sector functions in this country. Below, I will explain the
-technical and democratic shortcomings of the electricity
-market. (While electricity only makes up
-[20% of the UK's energy use](https://www.gov.uk/government/statistics/energy-consumption-in-the-uk),
-electrifying the remaining 80% will form a key part of addressing
-climate change, so I will use the terms interchangeably throughout
-this article and have chosen not to look at gas and petrol markets.)
-I will then analyse exactly what Labour has promised an energy and
-explain why their plan to move towards a decentralised energy system
-is implausible. Instead I will argue that we should embrace the
-need for national planning of the electricity sector and return to
-something more like the old CEGB.
 
 
 ###The Inevitability of Planning
@@ -247,6 +252,7 @@ decision-making around energy contingent on being able to pay £300 to
 buy shares (the minimum purchase for the Brighton Energy
 Co-operative).
 
+
 ###The Localist Fantasy
 
 Even leaving co-ops of this sort aside and assuming that local
@@ -316,6 +322,7 @@ market. The local supply companies would only be able to choose from
 what is available on the market and generating companies would only be
 able to build what they think they could sell. This market mediation
 would seriously encumber democratic decision making.
+
 
 ###"Local" is not a Synonym for "Democracy"
 
