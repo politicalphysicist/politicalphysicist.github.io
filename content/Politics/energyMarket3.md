@@ -29,7 +29,7 @@ national planning of the electricity sector and the centralised
 ownership that entails.
 
 
-##Nationalisation and Privatisation
+###Nationalisation and Privatisation
 
 Nationalised electricity was once the norm across much of the world
 and how Britain structured the industry was fairly typical.
