@@ -5,67 +5,41 @@ Tags: Energy, Electricity, British Politics, Nationalisation, Planning
 Summary: Most people believe that Labour plans to renationalise the energy companies. In this Labour is either being deliberately misleading or displaying a stunning lack of understanding of how the energy sector functions in this country. The fragmented energy system they propose would fail to address the key problems with privatisation as it would leave the electricity market in place.
 Status: draft
 
-Most people believe that Labour plans to renationalise the energy
-companies. John McDonnell himself has given that impression, saying at
-last year's conference: "Rail, water, energy, Royal Mail--we’re taking
-them back". However, in this he is either being deliberately
-misleading or displaying a stunning lack of understanding of how the
-energy sector functions in this country.
+One of the most popular elements of Labour's 2017 manifesto was the
+pledge to
+[return energy to public ownership](https://www.theguardian.com/business/2017/oct/01/jeremy-corbyn-nationalisation-plans-voters-tired-free-markets).
+Nationalised electricity was once the norm across much of the world
+and Britain's structuring of the industry was fairly typical.
+The Central Electricity Generating Board (CEGB) owned all power plants
+and the national grid. The distribution infrastructure (wires leading
+into people’s homes) was owned by 14 area electricity boards. The CEGB
+was responsible for ensuring that there was always sufficient
+electricity supply for the country, which was bought by the area
+electricity boards and then sold on to customers. Scotland had a
+separate electricity company which handled all of generation,
+transmission, distribution, and sales in that jurisdiction.
 
-###Some History
-
-McDonnell's words invoke images of the post-War nationalised
-electricity sector. (Electricity only makes up
-[20% of the UK's energy use](https://www.gov.uk/government/statistics/energy-consumption-in-the-uk),
-but as electrifying the remaining 80% will form a key part of
-addressing climate change I will use the terms interchangeably
-throughout this article and have chosen not to look at gas and petrol
-markets.) The exact structure of this changed somewhat under different
-governments, but it was broadly as follows. The Central Electricity
-Generating Board (CEGB) owned all power plants and the national
-grid. The distribution infrastructure (wires leading into people’s
-homes) was owned by 14 area electricity boards. The CEGB was
-responsible for ensuring that there was always sufficient electricity
-supply for the country, which was bought by the area electricity
-boards and then sold on to customers. Scotland has a separate
-electricity company which handled all of generation, transmission,
-distribution, and sales in that jurisdiction.
-
-During this time, similar vertically integrated models were used for
-electricity across the world, whether publicly or privately owned. It
-was thought that the task of matching electricity production to
-consumption at all times could only be done by a central authority and
-that the sector was therefore a natural monopoly. While early
-neoliberal governments in Latin America began to challenge this view,
-it was Margaret Thatcher who definitively showed that much of the
-electricity sector could be made to operate in a competitive
-environment while still maintaining the integrity of the whole system.
-
-Thatcher split the CEGB into the national grid and three generating
-companies.  These were sold off over a few years, along with the area
-electricity boards. A system was introduced by which the electricity
-boards purchased electricity from the generators on a national
-wholesale market. This was achieved through a combination of bilateral
-contracts, real-time bidding, and a futures market. After a transition
-period, retail companies were allowed into the market to compete
-against the area electricity boards, the latter being required to separate
-operation of the distribution grid from the supply of electricity.
-
-###States and Markets
-
-The details of such a "liberalised" system are considerably more
-complex than what existed with the CEGB. It was not trivial to devise
-a wholesale market for a good which could not be stored and the supply
-of which must _always_ meet demand. What was once a technical exercise
-now looks more like the trading floor of the stock exchange. Yet even
-that is not sufficient to make the grid function properly, because
-generators and suppliers only trade with each other to cover half-hour
-intervals. Demand varies on considerably shorter time scales than
-this, so there must also be a "capacity market" by which the national
-"system operator" (National Grid Electricity Transmission plc) pay
+It was once thought that electricity was a natural monopoly, but
+Margaret Thatcher showed much of the sector could be "liberalised" to
+operate in a competitive environment. She split the CEGB into the
+national grid and three generating companies. These were sold off over
+a few years, along with the area electricity boards. A system was
+introduced by which the electricity boards purchased electricity from
+the generators on a national wholesale market. This was achieved
+through a combination of bilateral contracts, real-time bidding, and a
+futures market. After a transition period, retail companies were
+allowed into the market to compete against the area electricity
+boards, the latter being required to separate operation of the
+distribution grid from the supply of electricity. Matching electricity
+production to demand has gone from a technical exercise to something
+more like the trading floor of the stock exchange. Yet even that is
+not sufficient to make the grid function properly, because generators
+and suppliers only trade with each other to cover half-hour
+intervals. Demand varies on considerably shorter time scales so there
+must also be a "capacity market" through which National Grid plc pays
 generators to stay on standby and turn production up and down as
 needed. Similar markets exist for other "ancillary services" such as
-maintaining the correct voltage and frequency.
+maintaining the correct voltage.
 
 If ever you need an example of the role of the state in constructing
 and maintaining markets, electricity is where you should look. None of
@@ -79,6 +53,25 @@ climbed so high that the market had to be suspended, to be replaced by
 an even stranger quasi-liberalised system. A much more serious case was the
 Enron scandal in California, where companies manipulated the market to
 boost profits, causing blackouts.
+
+At last year's conference John McDonnell said "Rail, water, energy,
+Royal Mail--we’re taking them back". This makes it sound like he's
+pledging to renationalise energy, but examining Labour's manifesto
+policies it quickly becomes clear that he is either being deliberately
+misleading or displaying a stunning lack of understanding of how the
+energy sector functions in this country. Below, I will explain the
+technical and democratic shortcomings of the electricity
+market. (While electricity only makes up
+[20% of the UK's energy use](https://www.gov.uk/government/statistics/energy-consumption-in-the-uk),
+electrifying the remaining 80% will form a key part of addressing
+climate change, so I will use the terms interchangeably throughout
+this article and have chosen not to look at gas and petrol markets.)
+I will then analyse exactly what Labour has promised an energy and
+explain why their plan to move towards a decentralised energy system
+is implausible. Instead I will argue that we should embrace the
+need for national planning of the electricity sector and return to
+something more like the old CEGB.
+
 
 ###The Inevitability of Planning
 
@@ -137,6 +130,7 @@ economies of scale, leading to more expensive electricity. Similarly,
 it is likely that by planning the grid as a whole we could arrive at a
 more optimal solution than planning it as many small units
 ([as critics of the report have noted](https://www.carbonbrief.org/reaction-dieter-helms-least-cost-ideas-for-meeting-the-uk-climate-targets)).
+
 
 ###Labour's Unfocused Vision
 
@@ -260,14 +254,14 @@ authorities will own the generators, there are evident problems with
 Labour's policies. The market is never mentioned here and no proposals
 are made for reforms.  We are not told how these new democratic energy
 companies will interact with each other and with the existing private
-components on the market. It is implied that energy will increasingly
+components of the market. It is implied that energy will increasingly
 be generated locally, allowing for easy democratic control and
 bypassing the market. To the extent that energy needs to be imported
 from elsewhere, we are forced to conclude it will be sourced from the
 energy market more-or-less as it exists now.
 
 This is a problem. Few places in the UK will ever be self-sufficient
-in energy. To generate on average 50GW of electricity from wind (this
+in energy. To generate, on average, 50GW of electricity from wind (this
 being roughly equal to current peak demand, which will only grow as we
 phase out gas and petrol) would require
 [covering about 10% of the country](http://www.withouthotair.com/c4/page_33.shtml)
@@ -282,7 +276,7 @@ It gets worse. Those who are against tackling climate change often ask
 "what happens when the wind isn't blowing?" Though arguing in bad
 faith, they make a valid point. There is an issue of "intermittency"
 in wind, solar, wave, and (to a lesser extent) tidal power. When these
-sources are simply one of many then other power plants can easily
+sources are part of a broader mix then other power plants can easily
 adjust their output to take the load. However, what happens if half of
 your power comes from intermittent sources? What if it's 100%?  What's
 left to take the load?  In countries without massive hydroelectric
