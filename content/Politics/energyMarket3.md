@@ -1,9 +1,12 @@
 Title: Ownership and Markets in Energy
-Date: 2018-04-08 22:00
+Date: 2018-12-08 22:00
 Author: C MacMackin
 Tags: Energy, Electricity, British Politics, Nationalisation, Planning
-Summary: Most people believe that Labour plans to renationalise the energy companies. In this Labour is either being deliberately misleading or displaying a stunning lack of understanding of how the energy sector functions in this country. The fragmented energy system they propose would fail to address the key problems with privatisation as it would leave the electricity market in place.
-Status: draft
+Summary: One of the most popular elements of Labour's 2017 manifesto was the pledge to return energy to public ownership. At last year's conference John McDonnell said "Rail, water, energy, Royal Mail--we’re taking them back". This makes it sound like he's pledging to renationalise energy, but examining Labour's manifesto policies it quickly becomes clear that he is either being deliberately misleading or displaying a stunning lack of understanding of how the energy sector functions in this country. The fragmented energy system Labour propose would fail to address the key problems with privatisation as it would leave the electricity market in place.
+
+_I wrote this article for the_ New Socialist _website, where
+[it appeared](https://newsocialist.org.uk/ownership-and-markets-energy/)
+on 16 April 2018 with a few changes._
 
 One of the most popular elements of Labour's 2017 manifesto was the
 pledge to
@@ -170,7 +173,7 @@ choice in the market.
 
 Strikingly, absolutely nothing is said about electricity
 _generation_. No commitments are made to buy out existing
-infrastructure and only vague statements are given on ownership of new
+power plants and only vague statements are given on ownership of new
 infrastructure. We are told that Labour supports new projects
 such as carbon capture and storage, renewables, and
 nuclear, but not who will own them. The accompanying
@@ -285,8 +288,9 @@ in wind, solar, wave, and (to a lesser extent) tidal power. When these
 sources are part of a broader mix then other power plants can easily
 adjust their output to take the load. However, what happens if half of
 your power comes from intermittent sources? What if it's 100%?  What's
-left to take the load?  In countries without massive hydroelectric
-resources it's not clear that 100% renewable energy is even possible.
+left to take the load?  In countries without massive hydroelectric or
+geothermal resources it's not clear that 100% renewable energy is even
+possible.
 
 One of the answers put forward to address this is the "European
 super-grid", connecting renewable resources in different countries so,
@@ -348,7 +352,7 @@ democratic approach.
 
 Indeed, conflation of "democratic" with "local" is something we should
 be suspicious of. Certainly local control has its place, but that does
-not mean it is the best choice in all cases. Indeed, we need to
+not mean it is the best choice in all cases. We need to
 examine what we mean when we say something is "democratic", as was
 argued in
 [an article](https://bravenewclimate.com/2014/06/11/germany-energiewende-oz-critical-review/)
