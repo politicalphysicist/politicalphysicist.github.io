@@ -34,4 +34,3 @@ websites. You are welcome to use and/or modify the theme for any of your own
 projects.
 
 All blog content is published under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_GB).
-                
