@@ -1,7 +1,7 @@
 Title: You Don't Have to Like Brexit, But You do Have to Live With it
 Date: 2016-06-25 00:30
 Tags: UK, EU, British Politics, Europe, Brexit
-Summary: Well, the vote was for Brexit. I can't say I'm a fan of the EU, but I take no join in this outcome. With its narrative of out-of-control immigration, the interfering outsiders, and Britain no longer being Great thanks to the burdens of the EU. It was not a pleasant campaign for those of us on the Left. However, the vote happened. We don't have to like it or agree with it, but we have to accept it.
+Summary: Well, the vote was for Brexit. I can't say I'm a fan of the EU, but I take no joy in this outcome. With its narrative of out-of-control immigration, the interfering outsiders, and Britain no longer being Great thanks to the burdens of the EU. It was not a pleasant campaign for those of us on the Left. However, the vote happened. We don't have to like it or agree with it, but we have to accept it.
 
 Well, the vote was for Brexit. I am stating this as a fact, not meaning to
 place any particular mourning or celebration in it. I can't say I'm a fan of
@@ -17,7 +17,7 @@ pleasant campaign for those of us on the Left.
 Let me be clear: I am a believer in democratic
 European federalism. However, I have serious doubts that the EU can
 ever become such a system, given its extreme democratic deficit. At
-best, I think that a set of countries, which would like need to be
+best, I think that a set of countries, which would likely need to be
 lead by Leftist governments, would essentially secede from the EU at
 once to form some other institution.  More likely,
 any such government would be forced out of the EU if it tried to
