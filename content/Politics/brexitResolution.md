@@ -131,9 +131,9 @@ Troubles (although I'm inclined to doubt they would). Assuming they
 wouldn't, these choices could be put to the Northern Irish people in a
 ranked-choice referendum.
 
-The UK would then get to work establishing negotiating a framework to
+The UK would then get to work establishing  a framework to
 leave the Single Market. This wouldn't happen immediately and would
-require at least a couple years of transition period, during which the
+require _at least_ a couple years of transition period, during which the
 UK is outside of the EU but inside the Single Market. This would
 provide time to negotiate the agreements necessary for a hard Brexit
 to work. These would not necessarily be free trade agreements in the
@@ -192,8 +192,8 @@ Single Market rules (including all of the neoliberal ones) without
 having any say over them, at least until the backstop is over. The
 attached (non-binding) political declaration indicates a desire for
 any future agreement negotiated by the Tories to do much the same
-around issues of state aid and competition.As such, not only
-Remainers object to the current settlement, but most Leavers
+around issues of state aid and competition. As such, not only
+Remainers object to the current settlement, but most left-Leavers
 too. However, Chris Bickerton (a left-Leaver and European scholar who
 wrote
 _[The European Union: A Citizen's Guide](https://www.penguin.co.uk/books/293/293941/the-european-union--a-citizen-s-guide/9780141983097.html)_)
@@ -246,8 +246,8 @@ should permit.
 The Labour Party is divided on the prospect of a second referendum (in
 Oxford, a motion calling on the leadership to call for one and
 campaign for remain passed by only a few votes). As a solution, it
-comes with an awful lot of practical problems of its own. There are
-questions of what exactly the question would be and what options would
+comes with an awful lot of practical problems of its own. There is
+the issue of what exactly the question would be and what options would
 be available. May's deal and no deal? May's deal and remain? All
 three? It would also almost certainly be impossible to pass the
 requisite legislation and hold the legally-required campaign prior to
@@ -284,7 +284,7 @@ required. I've yet to see a serious strategy for how to go about
 achieving reforms, given the massive democratic deficit inherent in EU
 bodies and the lack of any European demos.[^10] If we are to pursue
 this approach then it seems to me that the only practical policy is
-"Remain and _Rebel_", knowingly and wilfully violating neoliberal EU
+“Remain and _Rebel_”, knowingly and wilfully violating neoliberal EU
 directives and refusing to obey ECJ rulings against the UK. We'd have
 to hope this would expose the EU for the neoliberal machine it is and
 create a movement for reform, before any retaliatory sanctions become
@@ -300,9 +300,9 @@ it continues this dangerous and undemocratic history. This despite the
 fact that the arguments for a second referendum in this case are far
 better than those in previous ones. I'm not saying this is a strong
 argument on my part, but it is there in the back of my mind
-nonetheless. More importantly that this would perpetuate the whole
+nonetheless. More important is that this would perpetuate the whole
 narrative that There Is No Alternative to the EU. I'm deeply
-uncomfortable with the precedent this would create indicating leaving
+uncomfortable with creating a precedent which suggests leaving
 the EU is impossible.
 
 
@@ -324,7 +324,7 @@ amendments I would like to see. At present I can think of a few:
   open to in the past
 - If that proves possible, add a referendum in Northern Ireland as a
   way of ending the backstop
-- Removal of commitments in the political declaration (detailing plans
+- Removal of commitments in the political declaration (which details plans
   for negotiation future agreements) dealing with maintaining EU rules
   on state aid, competition, etc. If the Tories won't agree to that,
   then ask them to leave these in as only a _possible_ path.
@@ -340,9 +340,9 @@ election immediately afterwords_. The first of these would, of course,
 alienate the Democratic Unionists and a good number of Tories, but
 hopefully Labour would be able to marshal sufficient numbers in
 parliament that this would not be a problem. Should May then try to
-renege on holding a general election, the Unionists would almost
-certainly give a vote of no confidence against her, bring the
-government down anyway.
+renege on holding a general election, the Unionists could almost
+certainly be relied upon to give a vote of no confidence against her,
+bringing the government down anyway.
 
 Of course, the EU probably won't agree to all demands. They're
 insisting that the deal is now closed. The first demand
@@ -388,7 +388,7 @@ coherant policy. Although I hope I'm wrong, at this point it is
 starting to feel inevitable that there will be another
 referendum. Though I think there is little prospect of it being
 adopted, I hope something like my strategy might provide a way to keep
-Labour relatively united, avoid alienating to many voters on either
+Labour relatively united, avoid alienating too many voters on either
 side, and prevent any serious economic damage. At the same time, it
 would keep open the possibility of negotiating a permanent deal which
 would allow a Left government to begin to challenge capitalism in the
@@ -407,9 +407,10 @@ _The Full Brexit_, Lee Jones.
 Brexit"](http://www.eureferendum.com/documents/BrexitMonograph002.pdf)_,
 The Leave Alliance, 29 July 2016.
 
-[^4]: [Peers, 2013](http://eulawanalysis.blogspot.com/2018/11/the-brexit-withdrawal-agreement.html),
-indicates that the EU think it is legally impossible
-to negotiate binding agreements with the UK until Brexit occurs.
+[^4]: Apparently the EU maintains that it is legally impossible for it
+to negotiate binding treaties with the UK until after Brexit Day:
+["To Boldy Go? Analysis and annotation of the EU/UK Future Relationship declaration"](http://eulawanalysis.blogspot.com/2018/12/to-boldly-go-euuk-future-relationship.html),
+_EU Law Analysis_, Steve Peers, 8 December 2018.
 
 [^5]:
 ["Why We Should Accept the Withdrawal Agreement"](https://www.thefullbrexit.com/wa-accept),
