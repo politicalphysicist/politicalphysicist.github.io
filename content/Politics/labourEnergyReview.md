@@ -149,11 +149,13 @@ actually achieve 100% clean energy. Otherwise we could lock ourselves
 into dependence on fossil fuels in the medium term.
 
 No explanation is given of what will provide the 44% renewable
-heat. Indeed, the term itself is not clear and is never
-defined. Electricity and hydrogen are mentioned. However, all existing
-and proposed renewable installations will be needed to meet targets
-for existing electricity demand. Hydrogen takes energy to produce and
-this is not budgeted for either.
+heat. Indeed, the term itself is never defined
+(although in the energy literature it is often taken to mean solar,
+geothermal, and biomass heating). Electricity and hydrogen are
+mentioned. However, all existing and proposed renewable installations
+will be needed to meet targets for existing electricity
+demand. Hydrogen takes energy to produce and this is not budgeted for
+either.
 
 There are a number of other issues I could also challenge this paper
 on, but I will end here for reasons of space. As the authors say, we

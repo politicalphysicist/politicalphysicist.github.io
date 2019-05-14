@@ -118,7 +118,7 @@ together people from all of the sectors which will be most affected by
 decarbonisation plans, such as electricity, gas, construction, rail,
 haulage, aviation, shipping, agriculture, and heavy industry. Clearly
 the NDC would be very large (practically a parliament in itself) and
-would have to contain a number of sub-committees.
+would have to contain a number of subcommittees.
 
 The role of the NDC would be to develop and implement a binding plan
 for the complete decarbonisation of Britain, starting now and
