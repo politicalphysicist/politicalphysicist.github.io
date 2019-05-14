@@ -3,40 +3,43 @@ Date: 2019-04-28 22:00
 Author: C MacMackin
 Tags: Energy, Electricity, British Politics, Labour Party
 
-During this year's conference, the Labour Party
+During last year's conference, the Labour Party
 [made headlines](https://www.theguardian.com/business/2018/sep/24/labour-wants-green-energy-to-power-most-uk-homes-by-2030-greenhouse-gas-emissions)
 with its seemingly bold promises on energy and climate change. These
 included a massive build-out of wind turbines, solar panels, and a
-housing retrofit program. We were promised that these pledges would be
-elaborated on in a report to be released that weekend. However, said
-report proved to be woefully inadequate in terms of what we need to
-tackle climate change, as will be revealed in the summary and
-discussion below. Despite the apparent magnitude of its program,
-Labour still has not truly grasped the scale of the task of
-confronting climate change.
+housing retrofit programme. We were promised that these pledges would
+be elaborated on in a report to be released that weekend. However,
+[said report](https://www.labour.org.uk/wp-content/uploads/2018/09/Achieving-6025-by-2030-final-version.pdf)
+proved to be woefully inadequate in terms of what we need to tackle
+climate change, as will be revealed in the summary and discussion
+below. Despite the apparent magnitude of its programme, Labour still
+has not truly grasped the scale of the task of confronting climate
+change.
 
 ### What's in the Report
 
 The report opens with a one-page overview explaining that it sets out
 key findings of research into how to achieve Labour’s 2017 commitment
 to get 60% of the UK’s electricity and heat from renewable and
-low-carbon sources. This research focuses on “the scale and scope of
-technologies required for Labour to meet the 60% target”. Future work
-will consider the concrete actions needed to achieve it. It states
-that this work is merely to provide information and “does not
+low-carbon sources. (Note that the exact relationship between these
+two types of energy is not made clear in this paper; much heating is
+powered by electricity.) This research focuses on “the scale and scope
+of technologies required for Labour to meet the 60% target”. Future
+work will consider the concrete actions needed to achieve it. It
+states that this work is merely to provide information and “does not
 represent Labour Party policy”. A number of “industry professionals
 and experts ... from right across the energy sector” who contributed
 to the document are listed.
 
 Rebecca Long-Bailey (Shadow Secretary for Business, Energy, and
-Industrial Strategy) provides a forward. Most of this is fairly
-vacuous, simply indicating that Labour is determined to address
-climate change in an equitable manner. She reaffirms Labour’s policy
-of net zero emissions by 2050 and pledges Labour will ensure “60 per
-cent of the UK’s energy comes from renewable and low carbon sources
-within twelve years of coming to power.” This contradicts statements
-made elsewhere which said the 60% target applied only to electricity
-and heat.
+Industrial Strategy) provides a foreword. This does not go beyond
+indicating that Labour is determined to address climate change in an
+equitable manner. She reaffirms Labour’s policy of net zero emissions
+by 2050 and pledges Labour will ensure “60 per cent of the UK’s energy
+comes from renewable and low carbon sources within twelve years of
+coming to power.” This contradicts statements made elsewhere in the
+document which said the 60% target applied only to electricity and
+heat.
 
 The single longest portion of the report is the introduction, which
 makes it clear that this document is only a “briefing note”. A “full
@@ -44,13 +47,13 @@ report, to be published later in the year ... will set out our
 intended pathways for upgrading the whole energy system, including
 other electricity generation technologies, UK heating and our approach
 for non-domestic buildings”. To date the full paper still does not
-appear to have been published, although Labour is so poor at
-publicising policy documents that it is difficult to know for
-certain. The introduction goes on to claim that “Britain has the best
-opportunities for renewable energy of almost any country in the world”
-and explains that the current paper will look at “four key elements”
-of Labour’s plans: energy efficiency, offshore wind, onshore wind, and
-solar power.
+appear to have been published, but given Labour's haphazard way of
+publishing and publicising its own policy documents it is difficult to
+know for certain. The introduction goes on to claim that “Britain has
+the best opportunities for renewable energy of almost any country in
+the world” and explains that the current paper will look at “four key
+elements” of Labour’s plans: energy efficiency, offshore wind, onshore
+wind, and solar power.
 
 Many short-term benefits of such a policy are described: eliminating
 fuel poverty (and improved well-being that results), cleaner air,
@@ -95,37 +98,42 @@ this policy will improve energy poverty and quality of
 life. Efficiency is noted as being vital to meet the 60% target, given
 the large amount of heating currently used and difficulty in shifting
 to renewable heat. This project will “require a scale of investment,
-supply chain capacity building and innovation as yet unseen in
-post-war Britain” and would create 160,000 jobs.
+supply chain capacity building and innovation __as yet unseen in
+post-war Britain__” (emphasis added) and would create 160,000 jobs.
 
 ### Problems
 
 Though described as a summary, the above is a fairly complete
 reproduction of the actual content present in this 14 page report. No
-citations or arguments were given for any of the claims made. I am
-left wondering what the point of this document was, given how little
-information it actually contained.
+citations or arguments were given for any of the claims made. Given
+how little information the document contained, it is unclear what it
+was intended to achieve.
 
-The first issue we must address is what sectors the 60% clean energy
+It is essential that we are told what sectors the 60% clean energy
 target applies to. The manifesto simply pledged to “ensure that 60 per
 cent of the UK’s energy comes from zero-carbon or renewable sources by
 2030”, but this document (except the comments made by Rebecca
 Long-Bailey) claims this referred only to electricity and
 heating. However, together these make up less than half of current UK
-energy consumption. This represents a massive retreat by Labour.
+energy consumption. If this is current policy then it represents a
+massive retreat by Labour.
 
 The relationship between “zero carbon” and “renewable” sources is also
 unclear. The plans presented in this document are for 60% renewable
-(electric and heating) energy by 2030. Are we to take “zero carbon” to
-just be a synonym for “renewable”, then? If so, what do we make of
-biomass which, while renewable, even the most generous estimates show
-emitting some greenhouse gases. Jeremy Corbyn  has indicated that
-nuclear will also make up part of the zero-carbon energy mix. Even
-existing reactors are not shown in this paper’s plans for 2030 (let
-alone the new ones Labour supposedly supports). Do the authors not
-think we need them? Whatever one’s stance on nuclear energy, Labour
-members deserve a frank and forthright discussion of how it fits into
-climate change plans.
+(electric and heating) energy by 2030. Is it intended that we should
+take “zero carbon” to just be a synonym for “renewable”? If so, what
+do we make of biomass which, while renewable, even the most generous
+estimates show emitting some greenhouse gases.
+([The IPPC](https://www.ipcc.ch/site/assets/uploads/2018/02/ipcc_wg3_ar5_annex-iii.pdf)
+estimates 230gCO<sub>2</sub>/kWh, about 1/3 those from gas, but
+[under certain circumstances](https://www.newscientist.com/article/2114993-europes-green-energy-policy-is-a-disaster-for-the-environment/)
+it may be even worse than fossil fuels.) Jeremy Corbyn has indicated
+that nuclear will also make up part of the zero-carbon energy
+mix. Even existing reactors are not shown in this paper’s plans for
+2030 (let alone the new ones Labour supposedly supports). Do the
+authors not think we need them? Whatever one’s stance on nuclear
+energy, Labour members deserve to know how it fits into climate change
+plans.
 
 If existing hydro and biomass capacity is included, then the proposed
 new wind and solar installations would produce the promised amount of
@@ -133,7 +141,7 @@ renewable electricity. However, that’s only a small part of the
 battle. The real challenge will be to achieve “system integration”,
 allowing the lights to remain on when the wind isn’t blowing. These
 problems are dismissed as easily solved, with no explanation of
-how it would be done. It would likely be possible to do this for 60%
+how it would be done. It would probably be possible to do this for 60%
 renewable electricity, but gas plants would be needed for
 backup. Rather than just looking at the requirements for 60% renewable
 energy, as this paper claims to do, we need to think about how we’ll
@@ -141,7 +149,8 @@ actually achieve 100% clean energy. Otherwise we could lock ourselves
 into dependence on fossil fuels in the medium term.
 
 No explanation is given of what will provide the 44% renewable
-heat. Electricity and hydrogen are mentioned. However, all existing
+heat. Indeed, the term itself is not clear and is never
+defined. Electricity and hydrogen are mentioned. However, all existing
 and proposed renewable installations will be needed to meet targets
 for existing electricity demand. Hydrogen takes energy to produce and
 this is not budgeted for either.
@@ -151,10 +160,10 @@ on, but I will end here for reasons of space. As the authors say, we
 urgently need a plan to address climate change. It is a shame,
 therefore, that they have not provided us with one. Hopefully they
 will do so in the full report (if it is ever published) but, if so, I
-don’t see why this rather pointless document was released.
+don’t see why this lightweight document was released.
 
 Finally, we need to consider the way in which this report was
-written. Of the 10 authors, Googling revealed details on 8 of
+written. Of the 10 authors, Internet searching revealed details on 8 of
 them. One of these is an academic researcher, another is a policy
 analyst at Ofgem, and the rest are energy or climate change
 consultants. All of the consultants work for the same company
@@ -212,28 +221,28 @@ a system often acknowledge the need to abolish the energy market and provide
 some sort of national guidance. Yet we have been given no indication
 of what form this might take, by Labour or anyone else.
 
-Probably the closest this paper comes to truly considering the
-political implications of its proposals is when it says about its
+Probably the closest this Labour document comes to truly considering
+the political implications of its proposals is when it says about its
 energy efficiency measures that "This level of ambition represents an
 unprecedented transformation of the UK’s housing stock and will
 require a scale of investment, supply chain capacity building and
 innovation as yet unseen in post-war Britain". This is a fair
 assessment, with the task becoming all the more massive when
-considering the myriad other policies needed to address climate change. In
-short, it would require something on the scale of war-time economic
-planning. The problem is that, during the World Wars, the government
-could rely on an alliance with business. While capital might not have
-liked submitting to government control, it acknowledged that this was
-necessary in order to win the war. As national capital would not have
-fared well had Britain lost, they had a fairly immediate interest in
-cooperating.
+considering the myriad other policies needed to address climate
+change. In short, it would require something on the scale of war-time
+economic planning. The problem is that, during the World Wars, the
+government could rely on an alliance with business. While capital
+might not have liked submitting to government control, it acknowledged
+that this was necessary in order to win the war. As national capital
+would not have fared well had Britain been on the losing side, they
+had a fairly immediate interest in cooperating.
 
 Unfortunately, the effects of climate change are sufficiently distant
 and diffuse (not to mention, concentrated in the Global South) that
 business is unlikely to see the need for such cooperation with public
 planners today. This represents a formidable obstacle which, as far as
 I'm aware, no one has really considered. I can not confidently propose
-a solution to this, other than to say that clearly an incredibly
+a solution to this, other than to say that clearly a
 powerful working class movement, dedicated to an environmental
 transition in the economy, will be necessary. Only such a popular
 force can scare capital into acquiescence or (as I think will likely prove
