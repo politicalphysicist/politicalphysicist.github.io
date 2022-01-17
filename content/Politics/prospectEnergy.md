@@ -9,9 +9,9 @@ Sector Conference. In December Prospect released a report on the
 failing of the energy retail market along with suggestions of how to
 fix it. Below I summarise the report and then provide my own analysis.
 
-## Report Contents
+### Report Contents
 
-### The Problem
+#### The Problem
 
 The report details the massive reduction in the number of energy
 retailers seen over the past year. It notes that this has eroded
@@ -57,7 +57,7 @@ competition in this market. Finally, lack of success in deploying
 energy saving measures and smart meters in the drive for Net Zero is
 criticised.
 
-### Proposed Solutions
+#### Proposed Solutions
 
 This report offers two policy measures. The first, and most dramatic,
 is to place the supply of energy in "local public ownership". It is
@@ -93,7 +93,7 @@ funded either by government or cross-subsidisation from other people's
 bills. Few details are given on how this would be implemented, but a
 goal of keeping energy below 5% of household spending is suggested.
 
-## Response
+### Response
 
 This report has the unusual characteristic of being strong on many of
 the specifics but weak on the overall message. They seem quite
@@ -111,7 +111,7 @@ following criticisms.
 - The private energy suppliers have contributed to failing to achieve
   Net Zero goals.
   
-### Considering the Objections
+#### Considering the Objections
 
 I will take each of these in turn. First, nowhere are we told what
 constitutes a "fair" price for energy. It would appear to be one which
@@ -159,7 +159,7 @@ this transition (for reasons I have detailed elsewhere) but the report
 is not looking at this and, in fact, seems to propose that it would
 continue in more-or-less its current form.
 
-### Evaluating the Proposals
+#### Evaluating the Proposals
 
 The policy recommendations made in this paper would doubtless
 represent an improvement on the status quo and I support any move that
@@ -292,7 +292,7 @@ out of general taxation (thus paid progressively based on income) or
 making initial units of energy available at low cost but then stepping
 up the cost for high users.
 
-## Alternatives
+### Alternatives
 
 This report, like much talk about energy policy in the past several
 years, has been focused almost entirely on the supply sector, despite
@@ -351,7 +351,7 @@ remaining for second homes and commercial customers). As already
 mentioned, some sort of progressive tariff (with costs per unit of
 energy rising with use) could also be worth considering.
 
-## Conclusion
+### Conclusion
 
 As the part of the energy sector which is most visible to consumers,
 the energy retail companies receive a disproportionate amount of

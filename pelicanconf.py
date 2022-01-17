@@ -5,17 +5,17 @@ from datetime import date
 
 AUTHOR = u'C. MacMackin'
 SITENAME = u'The Political Physicist'
-SITESUBTITLE = u'&nbspThe ramblings of a left-wing grad student&hellip;'# in the city of dreaming spires&hellip;'
+SITESUBTITLE = u'&nbspThe ramblings of a left-wing research software engineer&hellip;'# in the city of dreaming spires&hellip;'
 SITEURL = 'https://politicalphysicist.github.io'
 PROFILE_IMAGE = '{filename}/images/subfusc.jpg'
 FAVICON = '{filename}/images/favicon.png'
 BACKDROP_IMAGE = '{filename}/images/oxford.jpg'
 BLOGKEYWORDS = ('Socialism','Physics','Mathematics','Politics',
     'Environment','Computers','Linux','Open Source','Climate')
-SITE_DESCRIPTION = "I am a DPhil student at Oxford studying Atmospheric, "\
-                   "Oceanic and Planetary Physics. Outside of my studies, "\
-                   "I am interested in computer programming and "\
-                   "left-wing politics. "
+SITE_DESCRIPTION = "I am a research software engineer, writing "\
+                   "code for scientists working on fusion energy. "\
+                   "I am also an active member of the Prospect "\
+                   "trade union."
 
 TIMEZONE = 'Europe/London'
 DEFAULT_LANG = u'en'
@@ -26,14 +26,14 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll
-LINKS =  (('Linux Mint', 'http://linuxmint.com/'),
-          ('New Scientist', 'http://newscientist.com'),
-          ('Degenerate Conic','http://degenerateconic.com/'),
-          ('New Socialist', 'https://newsocialist.org.uk/'),
-          ('Socialist Project', 'http://www.socialistproject.ca'),
-          ('SMBC', 'http://www.smbc-comics.com/'),
-          ('XKCD', 'http://xkcd.com/'),
-          ('AOPP Subdepartment','http://www2.physics.ox.ac.uk/research/atmospheric-oceanic-and-planetary-physics'),)
+# LINKS =  (('Linux Mint', 'http://linuxmint.com/'),
+#           ('New Scientist', 'http://newscientist.com'),
+#           ('Degenerate Conic','http://degenerateconic.com/'),
+#           ('New Socialist', 'https://newsocialist.org.uk/'),
+#           ('Socialist Project', 'http://www.socialistproject.ca'),
+#           ('SMBC', 'http://www.smbc-comics.com/'),
+#           ('XKCD', 'http://xkcd.com/'),
+#           ('AOPP Subdepartment','http://www2.physics.ox.ac.uk/research/atmospheric-oceanic-and-planetary-physics'),)
 
 DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'archives', 'search'))
 
