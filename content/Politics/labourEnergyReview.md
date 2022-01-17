@@ -204,11 +204,11 @@ has largely been well-off property owners, who've received a subsidy
 paid for by other electricity consumers. Labour seems to want solar
 panels to also be placed on rental property, which begs the question
 of who will own them. It's hard to imagine how the tenant could be the
-one to finance the panels, but if it's the landlord who's paying for them
-then presumably it would also be the landlord receiving the government
-subsidy (either directly or through increased rent). We thus see how
-politics can very quickly infringe upon technical plans. Rather than
-examine these issues, the paper ignores them.
+ones to finance the panels, but if it's the landlord who iss paying
+for them then presumably it would also be the landlord receiving the
+government subsidy (either directly or through increased rent). We
+thus see how politics can very quickly infringe upon technical
+plans. Rather than examine these issues, the paper ignores them.
 
 As Labour continues its work on energy policy, it is vital that it
 considers exactly how it wishes to organise ownership of the
